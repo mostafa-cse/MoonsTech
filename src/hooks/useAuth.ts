@@ -1,0 +1,40 @@
+import { trpc } from "@/providers/trpc";
+import { useCallback, useMemo } from "react";
+
+export function useAuth() {
+  const utils = trpc.useUtils();
+
+  const {
+    data: user,
+    isLoading,
+    error,
+    refetch,
+  } = trpc.auth.me.useQuery(undefined, {
+    staleTime: 1000 * 60 * 5,
+    retry: false,
+  });
+
+  const logoutMutation = trpc.auth.logout.useMutation({
+    onSuccess: async () => {
+      await utils.invalidate();
+      window.location.reload();
+    },
+  });
+
+  const logout = useCallback(() => logoutMutation.mutate(), [logoutMutation]);
+
+  return useMemo(
+    () => ({
+      user: user ?? null,
+      isAuthenticated: !!user,
+      isAdmin: user?.role === "admin" || user?.role === "super_admin",
+      isBuyer: user?.role === "buyer" || user?.role === "admin" || user?.role === "super_admin",
+      isDeliveryMan: user?.role === "delivery_man",
+      isLoading: isLoading || logoutMutation.isPending,
+      error,
+      logout,
+      refresh: refetch,
+    }),
+    [user, isLoading, logoutMutation.isPending, error, logout, refetch],
+  );
+}

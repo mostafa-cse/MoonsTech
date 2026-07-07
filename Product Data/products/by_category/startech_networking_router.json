@@ -1,0 +1,2670 @@
+[
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys MW325R 300Mbps Wifi Router",
+    "url": "https://www.startech.com.bd/mercusys-mw325r",
+    "slug": "mercusys-mw325r",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/mw325r/mw325r-0001-228x228.webp",
+    "specifications": {
+      "Speed": "up to 300Mbps",
+      "Interface": "1x WAN, 4 x LAN",
+      "Frequency": "2.4 - 2.5GHz",
+      "Antenna": "4 x 5dBi antennas"
+    },
+    "price": 1290,
+    "price_text": "1,290৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda F3 300mbps Wireless Router",
+    "url": "https://www.startech.com.bd/tenda-f3",
+    "slug": "tenda-f3",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/tenda-f3/tenda-f3-01-228x228.webp",
+    "specifications": {
+      "Frequency": "2.4 GHz",
+      "spec_1": "3*5dBi external antennas",
+      "spec_2": "3 x LAN, 1 x WAN Port",
+      "spec_3": "Support WISP, Universal Repeater, AP Mode"
+    },
+    "price": 1375,
+    "price_text": "1,375৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Zyxel NBG-418N V2 300 Mbps Wireless Router",
+    "url": "https://www.startech.com.bd/zyxel-nbg-418n-v2-router",
+    "slug": "zyxel-nbg-418n-v2-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/zyxel/nbg-418n/nbg-418n-228x228.jpg",
+    "specifications": {
+      "spec_0": "Stable, reliable wireless connectivity",
+      "Transmit": "300 Mbps",
+      "spec_2": "Compliant with 802.11n",
+      "spec_3": "Two Omni 5 dBi antennas"
+    },
+    "price": 10501400,
+    "price_text": "1,050৳1,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys MR20 AC750 Dual-Band WiFi Router",
+    "url": "https://www.startech.com.bd/mercusys-mr20-dual-band-router",
+    "slug": "mercusys-mr20-dual-band-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/mr20/mr20-01-228x228.webp",
+    "specifications": {
+      "Antenna Type": "2× 5 dBi Fixed Omni-Directional",
+      "Interface": "1× 10/100Mbps WAN, 2× 10/100Mbps LAN",
+      "WiFi Speed": "300 Mbps (2.4 GHz), 433 Mbps (5 GHz)",
+      "Multi-Mode": "Router, Access Point, Range Extender"
+    },
+    "price": 1449,
+    "price_text": "1,449৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys MW330HP 300Mbps WiFi Router",
+    "url": "https://www.startech.com.bd/mercusys-mw330hp-wireless-n-router",
+    "slug": "mercusys-mw330hp-wireless-n-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/mw330hp/mw330hp-1-228x228.jpg",
+    "specifications": {
+      "spec_0": "300Mbps wireless speed",
+      "spec_1": "Turbo Button and PA Chip",
+      "spec_2": "High gain 3 x 7dBi Antennas",
+      "External Power Supply": "9V/0.6A"
+    },
+    "price": 1549,
+    "price_text": "1,549৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Netis WF2409E 300Mbps Wireless N Router",
+    "url": "https://www.startech.com.bd/netis-wf409e-router",
+    "slug": "netis-wf409e-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router1/Netis/w2631/ne-1-228x228.jpg",
+    "specifications": {
+      "Interface": "1xWAN, 4xLAN",
+      "Antennas": "3 * 5dBi Fixed Antenna",
+      "Frequency": "2.4-2.4835GHz",
+      "Signal Rate": "Up to 300Mbps"
+    },
+    "price": 14881550,
+    "price_text": "1,488৳1,550৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda F6 300Mbps WiFi Router",
+    "url": "https://www.startech.com.bd/tenda-f6-300mbps-n300-wifi-router",
+    "slug": "tenda-f6-300mbps-n300-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/f6-300-mbps-n300/tenda-f6-01-228x228.webp",
+    "specifications": {
+      "Frequency": "2.4 GHz",
+      "spec_1": "4*5dBi external antennas",
+      "spec_2": "3 x LAN, 1 x WAN Port",
+      "spec_3": "Support WISP, Universal Repeater, AP Mode"
+    },
+    "price": 1550,
+    "price_text": "1,550৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link TL-WR841N 300Mbps Wireless Router",
+    "url": "https://www.startech.com.bd/tp-link-tl-wr841n-300mbps-wireless-router",
+    "slug": "tp-link-tl-wr841n-300mbps-wireless-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/tl-wr841n/tl-wr841n-001-228x228.webp",
+    "specifications": {
+      "Speed": "Up to 300Mbps",
+      "Frequency": "2.4 Ghz",
+      "Interface": "1 x WAN & 4 x LAN ports",
+      "Features": "WISP Mode, AP Mode, Range Extender Mode"
+    },
+    "price": 1629,
+    "price_text": "1,629৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys AC10 AC1200 Dual Band WiFi Router",
+    "url": "https://www.startech.com.bd/mercusys-ac10-ac1200-dual-band-wifi-router",
+    "slug": "mercusys-ac10-ac1200-dual-band-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/ac10/ac10-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Speeds up to 1167 Mbps (300 Mbps on 2.4 GHz band & 867 Mbps on 5 GHz band)",
+      "Mode": "Access Point, Range Extender, and Router",
+      "spec_2": "4 High-Gain External Antennas",
+      "spec_3": "IPTV and IPv6 Supported"
+    },
+    "price": 1690,
+    "price_text": "1,690৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy WR300S 300mbps WiFi Router",
+    "url": "https://www.startech.com.bd/cudy-wr300s-wifi-router",
+    "slug": "cudy-wr300s-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/wr300s/wr300s-01-228x228.webp",
+    "specifications": {
+      "spec_0": "No of Ports. 5 x 10/100 Mbps Ethernet Ports",
+      "spec_1": "Wi-Fi Speed up to 300 Mbps",
+      "spec_2": "4 x Fixed Antennas",
+      "Coverage": "Upto 1500-2000 Sqr ft."
+    },
+    "price": 1700,
+    "price_text": "1,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda AC3 AC750 Dual-Band Wi-Fi Router",
+    "url": "https://www.startech.com.bd/tenda-ac3-ac750-router",
+    "slug": "tenda-ac3-ac750-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/ac3-ac750/ac3-ac750-228x228.webp",
+    "specifications": {
+      "Antenna Type": "3 x 5dBi external omnidirectional antennas",
+      "Data Rate": "750Mbps (300Mbps @2.4GHz + 433Mbps @5GHz)",
+      "Ports": "4 x 10/100Mbps LAN/WAN ports",
+      "spec_3": "Dual-core 1GHz CPU with 64MB RAM"
+    },
+    "price": 16631750,
+    "price_text": "1,663৳1,750৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys AC12 AC1200 Dual Band WiFi Router",
+    "url": "https://www.startech.com.bd/mercusys-ac12-1200mbps-dual-band-router",
+    "slug": "mercusys-ac12-1200mbps-dual-band-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/ac12/ac12-1-228x228.jpg",
+    "specifications": {
+      "spec_0": "Concurrent Dual Band Connections",
+      "Speed": "up to 1200Mbps",
+      "spec_2": "Superior Online Experience",
+      "spec_3": "Strong Signal, Great Coverage"
+    },
+    "price": 1949,
+    "price_text": "1,949৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer C24 AC750 Dual-Band WiFi Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-c24-ac750-dual-band-wi-fi-router",
+    "slug": "tp-link-archer-c24-ac750-dual-band-wi-fi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c24/archer-c24-01-228x228.webp",
+    "specifications": {
+      "WiFi Speed": "300Mbps (2.4Ghz), 433Mbps (5Ghz)",
+      "Number of Antennas": "4 x Fixed Antennas",
+      "Number of Ports": "1x WAN, 4x LAN (10/100 Mbps)",
+      "Features": "Access Point Mode, Range Extender Mode"
+    },
+    "price": 1949,
+    "price_text": "1,949৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "BDCOM WAP2100-WR1200G Dual-Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/bdcom-wap2100-wr1200g-router",
+    "slug": "bdcom-wap2100-wr1200g-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/bdcom/wap2100/wap2100-228x228.webp",
+    "specifications": {
+      "Wireless Standards": "IEEE802.11b/g/n, IEEE802.11a/n/ac",
+      "Signal Rate": "2.4GHz Up to 300Mbps, 5GHz Up to 867Mbps",
+      "Antenna": "4",
+      "Interface": "1x GE TX, 3x GE TX"
+    },
+    "price": 18331950,
+    "price_text": "1,833৳1,950৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda AC5 AC1200 Dual-Band WiFi Router",
+    "url": "https://www.startech.com.bd/tenda-ac5-router",
+    "slug": "tenda-ac5-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/ac5/ac5-001-228x228.png",
+    "specifications": {
+      "spec_0": "4x 6dBi external high-gain antennas",
+      "spec_1": "Frequency 2.4 GHz & 5 GHz",
+      "spec_2": "Smart Sleeping Mode",
+      "spec_3": "Smart LED on/off"
+    },
+    "price": 19352050,
+    "price_text": "1,935৳2,050৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Hikvision DS-3WR12C AC1200 1200Mbps Dual Band WiFi Router",
+    "url": "https://www.startech.com.bd/hikvision-ds-3wr12c-dual-band-router",
+    "slug": "hikvision-ds-3wr12c-dual-band-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/hikvision/ds-3wr12c/ds-3wr12c-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Four 5-dBi Amplified Antennas",
+      "Data Rate": "2.4 GHz: 300 Mbps, 5 GHz: 867 Mbps",
+      "Frequency": "Dual Band (2.4 GHz, 5 GHz)",
+      "Ports": "1x 10/100Mbps WAN, 3x 10/100Mbps LAN"
+    },
+    "price": 19572060,
+    "price_text": "1,957৳2,060৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Netis NC21 AC1200 Dual Band Router",
+    "url": "https://www.startech.com.bd/netis-nc21-router",
+    "slug": "netis-nc21-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/netis/nc21/nc21-01-228x228.webp",
+    "specifications": {
+      "Antenna": "4* Fixed High-Performance Antennas",
+      "Signal Rate": "Up to 300Mbps 2.4GHz & 867Mbps 5GHz",
+      "spec_2": "MU-MIMO, Beamforming Technology, EASY MESH",
+      "Interface": "1x Fast WAN, 3x Fast LAN ports"
+    },
+    "price": 19572150,
+    "price_text": "1,957৳2,150৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer C54 AC1200 Dual Band Wi-Fi Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-c54-ac1200-dual-band-mu-mimo-beamforming-wi-fi-router",
+    "slug": "tp-link-archer-c54-ac1200-dual-band-mu-mimo-beamforming-wi-fi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c54/archer-c54-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Multi-Mode 3-in-1, Compact and Mountable",
+      "spec_1": "4x antennas & Beamforming delivers",
+      "spec_2": "IPv6 Supported, Parental Controls",
+      "Coverage Area": "Maximum 1200 sq ft to 1500 sq ft Area"
+    },
+    "price": 2249,
+    "price_text": "2,249৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys MR30G AC1200 Dual Band Gigabit Router",
+    "url": "https://www.startech.com.bd/mercusys-mr30g-ac1200-wireless-dual-band-gigabit-router",
+    "slug": "mercusys-mr30g-ac1200-wireless-dual-band-gigabit-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/mr30g/mr30g-01-228x228.jpg",
+    "specifications": {
+      "Speed": "Up to 1.2 Gbps (867 Mbps on 5 GHz + 300 Mbps on 2.4 GHz)",
+      "spec_1": "4× 5 dBi Omni-Directional Antennas with Beamforming",
+      "spec_2": "1× Gigabit WAN Port + 2× Gigabit LAN Ports",
+      "spec_3": "MU-MIMO Technology"
+    },
+    "price": 2249,
+    "price_text": "2,249৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Ruijie RG-EW300 Pro 300Mbps Smart WiFi Router",
+    "url": "https://www.startech.com.bd/ruijie-rg-ew300-pro-wifi-router",
+    "slug": "ruijie-rg-ew300-pro-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/ruijie/rg-ew300-pro/rg-ew300-pro-228x228.webp",
+    "specifications": {
+      "Transmission Rate": "300Mbps",
+      "Frequency": "2.4 GH",
+      "Antenna": "4",
+      "Port": "1x WAN, 3x LAN"
+    },
+    "price": 22002250,
+    "price_text": "2,200৳2,250৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS RT-N12+ 300Mbps Wifi Router",
+    "url": "https://www.startech.com.bd/asus-rt-n12-plus-router",
+    "slug": "asus-rt-n12-plus-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/rt-n12-plus/rt-n12-plus-228x228.jpg",
+    "specifications": {
+      "Frequency": "2.4 GHz",
+      "Antenna": "Fixed antenna x 2",
+      "Data Rate": "up to 300 Mbps"
+    },
+    "price": 22502300,
+    "price_text": "2,250৳2,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda AC7 AC1200 Dual-Band Wi-Fi Router",
+    "url": "https://www.startech.com.bd/tenda-ac7-ac1200-router",
+    "slug": "tenda-ac7-ac1200-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/ac7/ac7-01-228x228.webp",
+    "specifications": {
+      "Antenna Type": "5*5 dBi External Antennas",
+      "Data Rate": "867 Mbps (5 GHz) + 300 Mbps (2.4 GHz)",
+      "Ports": "3x 10/100Mbps LAN, 1x 10/100Mbps WAN ports",
+      "spec_3": "600 MHz CPU, MU-MIMO Technology, Up to 2500 sq. ft. Area Coverage"
+    },
+    "price": 2300,
+    "price_text": "2,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer C50 AC1200 Dual Band Wi-Fi Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-c50-wifi-router",
+    "slug": "tp-link-archer-c50-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c50/archer-c50-black-228x228.webp",
+    "specifications": {
+      "Antenna": "4 x External Antennas",
+      "Coverage Area": "Maximum 1200 sq ft to 1500 sq ft Area",
+      "Frequency": "Dual Band (5Ghz & 2.4Ghz)",
+      "WiFi Speeds": "5 GHz: 867Mbps, 2.4GHz: 300 Mbps"
+    },
+    "price": 22322349,
+    "price_text": "2,232৳2,349৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Totolink A302R Dual Band Gigabit Router",
+    "url": "https://www.startech.com.bd/totolink-a302r-router",
+    "slug": "totolink-a302r-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/totolink/a302r/a302r-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "Up to 300Mbps (2.4GHz), Up to 867Mbps (5Ghz)",
+      "Number of Antenna": "2 x 2.4GHz, 2 x 5GHz (5dBi)",
+      "Interface": "4x LAN, 1x WAN",
+      "spec_3": "IPV6 Support, MU-MIMO, Beamforming Technology"
+    },
+    "price": 21752390,
+    "price_text": "2,175৳2,390৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda HG6 N300 Wi-Fi GPON ONT Router",
+    "url": "https://www.startech.com.bd/tenda-hg6-n300-wifi-router",
+    "slug": "tenda-hg6-n300-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router1/Tenda/Tenda HG6/tenda-hg6-n300-wifi-router-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "2 x 6 dBi high gain antennas",
+      "spec_1": "IPv6 supported",
+      "spec_2": "IPv6 supported",
+      "spec_3": "Ideal solution for FTTH solution"
+    },
+    "price": 23002400,
+    "price_text": "2,300৳2,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MW3 AC1200 Dual Band Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/tenda-nova-mw3-mesh-router",
+    "slug": "tenda-nova-mw3-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/nova-mw3/nova-mw3-01-228x228.webp",
+    "specifications": {
+      "Antenna": "2 x Internal antenna",
+      "Data Rate": "2.4GHz: 300Mbps, 5GHz: 867Mbps",
+      "Interface": "2 x 10/100Mbps RJ45 ports per node",
+      "Coverage Area": "Up to 1200 to 1500 Square Feet"
+    },
+    "price": 22542450,
+    "price_text": "2,254৳2,450৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys AC12G AC1300 1300Mbps Dual Band Gigabit Router",
+    "url": "https://www.startech.com.bd/mercusys-ac12g-router",
+    "slug": "mercusys-ac12g-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/ac12g/ac12g-01-228x228.webp",
+    "specifications": {
+      "Antenna Type": "4x 5 dBi Fixed Omni-Directional Antennas",
+      "Interface": "1× Gigabit WAN Port, 3× Gigabit LAN Ports",
+      "WiFi Speed": "400 Mbps at 2.4GHz, 867 Mbps at 5 GHz",
+      "Features": "IPTV and IPv6 supported, MU-MIMO technology"
+    },
+    "price": 2490,
+    "price_text": "2,490৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "VSOL HG3610AC-1G3F(VC-12) AC1200 Dual-Band Gigabit WiFi 5 Router",
+    "url": "https://www.startech.com.bd/vsol-hg3610ac-1g3f-router",
+    "slug": "vsol-hg3610ac-1g3f-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/vsol/hg3610ac-1g3f/hg3610ac-1g3f-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "5GHz: 867Mbps, 2.4GHz: 300Mbps",
+      "Ports": "1*10/100/1000Mbps and 3*10/100Mbps RJ45",
+      "Maximum number of connected devices": "96",
+      "Coverage Area": "Up to 2200 square feet"
+    },
+    "price": 23502500,
+    "price_text": "2,350৳2,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1200 AC1200 Dual Band Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1200-ac1200-whole-home-mesh-wifi-router",
+    "slug": "cudy-m1200-ac1200-whole-home-mesh-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1200/m1200-1-pack-228x228.webp",
+    "specifications": {
+      "spec_0": "867Mbps on 5GHz and 300Mbps on 2.4GHz",
+      "spec_1": "Seamless Roaming, Whole Home Coverage",
+      "spec_2": "10/100Mbps Ethernet Ports + 2 Internal Antennas",
+      "Coverage": "Up to 1500 square feet"
+    },
+    "price": 24742550,
+    "price_text": "2,474৳2,550৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Dahua DH-AC12 AC1200 Mbps Gigabit Dual-Band Wi-Fi Router",
+    "url": "https://www.startech.com.bd/dahua-ac12-router",
+    "slug": "dahua-ac12-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/dahua/ac12/ac12-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "2.4 GHz: 300 Mbps, 5 GHz: 867 Mbps",
+      "spec_1": "Beamforming for better Coverage",
+      "spec_2": "Bi-directional MU-MIMO",
+      "spec_3": "Area Coverage Up to 1500stf - 2000stf"
+    },
+    "price": 25652700,
+    "price_text": "2,565৳2,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Huawei WA8021V5 AC1200 Mbps Gigabit Dual-Band Wi-Fi Mesh Router",
+    "url": "https://www.startech.com.bd/huawei-wa8021v5-gigabit-router",
+    "slug": "huawei-wa8021v5-gigabit-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/huawei/wa8021v5/wa8021v5-01-228x228.webp",
+    "specifications": {
+      "WiFi Speed": "300 Mbps (2.4GHz), 867 Mbps (5GHz)",
+      "Number of Antennas": "4 x Internal Antenna",
+      "Number of Ports": "1x WAN, 2x LAN (10/100/1000 Mbps)",
+      "spec_3": "Remote Management and Maintenance, Mesh Network"
+    },
+    "price": 26132750,
+    "price_text": "2,613৳2,750৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda AC8 AC1200 Dual-Band Gigabit Wi-Fi Router",
+    "url": "https://www.startech.com.bd/tenda-ac8-ac1200-router",
+    "slug": "tenda-ac8-ac1200-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/ac8-ac1200/ac8-ac1200-228x228.png",
+    "specifications": {
+      "spec_0": "Support MU-MIMO",
+      "Dual-Band": "2.4 & 5GHz",
+      "spec_2": "Support Wi-Fi Schedule",
+      "spec_3": "4* 6dBi External Antennas"
+    },
+    "price": 26042800,
+    "price_text": "2,604৳2,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco E4 AC1200 Dual-band Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-e4-dual-band-router",
+    "slug": "tp-link-deco-e4-dual-band-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router1/TP-Link/deco-e4/deco-e4-228x228.jpg",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 1500 square feet",
+      "spec_1": "connect up to 100 devices",
+      "Frequency": "2.4 GHz, 5 GHz",
+      "spec_3": "Speed up to 1167 Mbps"
+    },
+    "price": 2849,
+    "price_text": "2,849৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Netis NC65 AC1200 Dual Band Gigabit Router",
+    "url": "https://www.startech.com.bd/netis-nc65-router",
+    "slug": "netis-nc65-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/netis/nc65/nc65-01-228x228.webp",
+    "specifications": {
+      "Antenna": "4* Fixed High-Performance Antennas",
+      "Signal Rate": "Up to 300Mbps 2.4GHz & 867Mbps 5GHz",
+      "spec_2": "MU-MIMO, Beamforming Technology, EASY MESH",
+      "Interface": "1x Gigabit WAN, 3x Gigabit LAN ports"
+    },
+    "price": 2850,
+    "price_text": "2,850৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Netis NC63 AC1200 Dual Band Gigabit Router",
+    "url": "https://www.startech.com.bd/netis-nc63-router",
+    "slug": "netis-nc63-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/netis/nc63/nc63-01-228x228.webp",
+    "specifications": {
+      "Antenna": "6* External Fixed 5dBi Antenna",
+      "Signal Rate": "Up to 300Mbps 2.4GHz & 867Mbps 5GHz",
+      "spec_2": "MU-MIMO, Beamforming Technology, EASY MESH",
+      "Interface": "1x Gigabit WAN, 3x Gigabit LAN ports"
+    },
+    "price": 29953120,
+    "price_text": "2,995৳3,120৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer C64 AC1200 Dual-Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-c64-ac1200-wifi-router",
+    "slug": "tp-link-archer-c64-ac1200-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c64/archer-c64-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "MU-MIMO achieves 2X efficiency",
+      "spec_1": "Beamforming technology",
+      "spec_2": "802.11ac Wave2 WiFi",
+      "spec_3": "4 external antennas"
+    },
+    "price": 3149,
+    "price_text": "3,149৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Zyxel NBG6604 AC1200 Dual-Band WiFi Router",
+    "url": "https://www.startech.com.bd/zyxel-nbg6604-ac1200-dual-band-wireless-router",
+    "slug": "zyxel-nbg6604-ac1200-dual-band-wireless-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/zyxel/nbg6604/nbg6604-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Simple, app-based setup",
+      "spec_1": "Delivers lightning-fast wireless speed",
+      "spec_2": "Connect up to four networking devices",
+      "spec_3": "Improved coverage and performance for multiple WiFi devices"
+    },
+    "price": 16593199,
+    "price_text": "1,659৳3,199৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda AC10 AC1200 Dual Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/tenda-ac10-ac1200-smart-dual-band-router",
+    "slug": "tenda-ac10-ac1200-smart-dual-band-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/ac10 ac1200/b_201801191149275889-228x228.jpg",
+    "specifications": {
+      "spec_0": "4*6dBi External Dual-Band Antennas",
+      "5GHz": "Up to 867Mbps",
+      "2.4GHz": "Up to 300Mbps",
+      "spec_3": "1 x Wan + 3 x Lan full gigabit ports"
+    },
+    "price": 31503200,
+    "price_text": "3,150৳3,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1300-ac1200-gigabit-whole-home-mesh-wifi-router",
+    "slug": "cudy-m1300-ac1200-gigabit-whole-home-mesh-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1300/m1300-01-228x228.webp",
+    "specifications": {
+      "spec_0": "867Mbps on 5GHz and 300Mbps on 2.4GHz",
+      "spec_1": "1 × 1000/100/10 Mbps WAN Port",
+      "spec_2": "1 × 1000/100/10 Mbps LAN Port",
+      "Coverage": "Up to 1600 square feet"
+    },
+    "price": 30083200,
+    "price_text": "3,008৳3,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy WR1500 AX1500 Dual Band WiFi 6 Router",
+    "url": "https://www.startech.com.bd/cudy-wr1500-ax1500-wi-fi-6-mesh-router",
+    "slug": "cudy-wr1500-ax1500-wi-fi-6-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/wr1500/WR1500-01-228x228.webp",
+    "specifications": {
+      "spec_0": "3 × 10/100/1000 Mbps LAN Ports",
+      "spec_1": "4× Fixed Omni-Directional Antennas",
+      "spec_2": "OFDMA, MU-MIMO, Beamforming",
+      "spec_3": "Compatible with 802.11a/b/g/n/ac/ax Wi-Fi standards"
+    },
+    "price": 3200,
+    "price_text": "3,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/tenda-nova-mx3-mesh-router",
+    "slug": "tenda-nova-mx3-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/nova-mx3/nova-mx3-01-228x228.webp",
+    "specifications": {
+      "Antenna": "2x 3dBi Internal Antenna, Wi-Fi 6",
+      "Data Rate": "2.4GHz: 300Mbps, 5GHz: 1201Mbps",
+      "Interface": "1x Gigabit RJ45 WAN, 1x Gigabit RJ45 LAN",
+      "Coverage Area": "Up to 1000 to 1200 Square Feet"
+    },
+    "price": 30403200,
+    "price_text": "3,040৳3,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Totolink A3002R V4 AC1200 Dual Band Gigabit Router",
+    "url": "https://www.startech.com.bd/totolink-a3002r-v4-router",
+    "slug": "totolink-a3002r-v4-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/totolink/a3002r-v4/a3002r-v4-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "Up to 300Mbps (2.4GHz), Up to 867Mbps (5Ghz)",
+      "Number of Antenna": "2 x 2.4GHz, 2 x 5GHz (5dBi)",
+      "Interface": "3x LAN, 1x WAN",
+      "spec_3": "IPV6 Support, MU-MIMO, Beamforming Technology"
+    },
+    "price": 29943290,
+    "price_text": "2,994৳3,290৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Prolink PRC3801 AC1200 Dual Band Gigabit Router",
+    "url": "https://www.startech.com.bd/prolink-prc3801-dual-band-gigabit-router",
+    "slug": "prolink-prc3801-dual-band-gigabit-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/prolink/prc3801/prc3801-01-228x228.webp",
+    "specifications": {
+      "Number of Antenna": "4 x 5dBi",
+      "spec_1": "MU-MIMO Technology Supported",
+      "Data Rate": "2.4GHz: Up to 300Mbps, 5GHz: Up to 867Mbps",
+      "Number of Ports": "WAN x 1, LAN x 4"
+    },
+    "price": 3300,
+    "price_text": "3,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Dahua DH-AX15M AX1500 Dual Band Gigabit WiFi 6 Router",
+    "url": "https://www.startech.com.bd/dahua-ax15m-router",
+    "slug": "dahua-ax15m-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/dahua/ax15m/ax15m-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "2.4 GHz: 300 Mbps, 5 GHz: 1201 Mbps",
+      "spec_1": "OFDMA and 1024-QAM, Bi-directional MU-MIMO",
+      "spec_2": "WiFi protected Access(WPA/WPA2/WPA3)",
+      "spec_3": "Area Coverage Up to 2000stf - 2600stf"
+    },
+    "price": 30693300,
+    "price_text": "3,069৳3,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link XC220-G3 AC1200 Wireless XPON Router",
+    "url": "https://www.startech.com.bd/tp-link-xc220-g3-xpon-router",
+    "slug": "tp-link-xc220-g3-xpon-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/xc220-g3/xc220-g3-01-228x228.webp",
+    "specifications": {
+      "Wireless Frequency": "2.4 GHz and 5 GHz",
+      "Interface": "2x 10/100/1000 Mbps LAN, 1x PON Port",
+      "Downstream Speeds": "2.488 Gbps (GPON), 1.25 Gbps (EPON)",
+      "Upstream Speeds": "1.244 Gbps (GPON), 1.25 Gbps (EPON)"
+    },
+    "price": 3419,
+    "price_text": "3,419৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer C6 AC1200 Gigabit Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-c6-ac1200-gigabit-router",
+    "slug": "tp-link-archer-c6-ac1200-gigabit-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c6-ac1200/archer-c6-ac1200-5-228x228.jpg",
+    "specifications": {
+      "Frequency": "2.4GHz and 5GHz",
+      "spec_1": "Data Transfer Rate (Wifi) - 1200 Mbps",
+      "Power Supply": "12V/1A",
+      "Coverage Area": "1500 to 2000 sq ft (Max)"
+    },
+    "price": 3449,
+    "price_text": "3,449৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda TX2L Pro AX1500 Dual-Band Gigabit Wi-Fi 6 Router",
+    "url": "https://www.startech.com.bd/tenda-tx2l-pro-gigabit-wi-fi-6-router",
+    "slug": "tenda-tx2l-pro-gigabit-wi-fi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/tx2l-pro/tx2l-pro-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "1501Mbps (2.4GHz: 300Mbps, 5GHz: 1201Mbps)",
+      "spec_1": "5x external antennas",
+      "spec_2": "OFDMA+MU-MIMO, Beamforming technology",
+      "Interface": "1x WAN, 3x LAN"
+    },
+    "price": 29003450,
+    "price_text": "2,900৳3,450৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB941-2nD-TC (HAP lite TC) Small Home Router",
+    "url": "https://www.startech.com.bd/mikrotik-rb941-2nd-tc",
+    "slug": "mikrotik-rb941-2nd-tc",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router1/Mikrotik-2/Mikrotik RB941-2nD-TC-228x228.jpg",
+    "specifications": {
+      "Frequency": "650 MHz",
+      "RAM": "32 MB",
+      "CPU": "QCA9533"
+    },
+    "price": 31763500,
+    "price_text": "3,176৳3,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "D-Link COVR-C1202 AC1200 Dual-Band Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/d-link-covr-c1202-ac1200-wi-fi-system",
+    "slug": "d-link-covr-c1202-ac1200-wi-fi-system",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/d-link/covr-c1202-ac1200/covr-c1202-1-228x228.jpg",
+    "specifications": {
+      "Data Rates": "1200Mbps (300 + 866)",
+      "spec_1": "3 x Internal antennas",
+      "spec_2": "128-bit AES Data Encryption",
+      "spec_3": "Wi-Fi MU-MIMO Technology"
+    },
+    "price": 32553500,
+    "price_text": "3,255৳3,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TOTOLINK X2000R AX1500 Dual Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/totolink-x2000r-ax1500-wireless-dual-band-gigabit-router",
+    "slug": "totolink-x2000r-ax1500-wireless-dual-band-gigabit-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/totolink/x2000r/x2000r-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "1201Mbps on 5GHz and 300Mbps on 2.4GHz",
+      "spec_1": "Four External Antennas, Wide Wi-Fi Coverage",
+      "spec_2": "MU-MIMO Technology",
+      "spec_3": "Beamforming technology"
+    },
+    "price": 3590,
+    "price_text": "3,590৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer AX12 AX1500 Dual-Band WiFi Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-ax12-ax1500-router",
+    "slug": "tp-link-archer-ax12-ax1500-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-ax12/archer-ax12-01-228x228.webp",
+    "specifications": {
+      "5 GHz": "1201Mbps, 2.4 GHz: 300Mbps",
+      "spec_1": "Supports MU-MIMO and OFDMA",
+      "spec_2": "1× Gigabit WAN Port, 3× Gigabit LAN Ports",
+      "spec_3": "Beamforming, High-Power FEM, 4T4R"
+    },
+    "price": 3590,
+    "price_text": "3,590৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Hikvision DS-3WR15X 1500Mbps Dual Band WiFi 6 Router",
+    "url": "https://www.startech.com.bd/hikvision-ds-3wr15x-wifi-6-router",
+    "slug": "hikvision-ds-3wr15x-wifi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/hikvision/ds-3wr15x/ds-3wr15x-01-228x228.webp",
+    "specifications": {
+      "Antenna": "4 high gain antennas",
+      "Data Rate": "5GHz: 1201Mbps, 2.4GHz: 300Mbps",
+      "Frequency": "Dual Band (2.4 GHz, 5 GHz)",
+      "Ports": "1x Gb Adaptive WAN, 3x Gb Adaptive LAN"
+    },
+    "price": 33843600,
+    "price_text": "3,384৳3,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Ruijie RG-EW1300G 1300M Dual-Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/ruijie-rg-ew1300g-1300mbps-dual-band-mesh-router",
+    "slug": "ruijie-rg-ew1300g-1300mbps-dual-band-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/ruijie/rg-ew1300g/rg-ew1300g-01-228x228.webp",
+    "specifications": {
+      "Wi-Fi Standard": "Wi-Fi 5 (802.11ac)",
+      "Dual-Band Speeds": "2.4GHz (400 Mbps), 5GHz (867 Mbps)",
+      "Antennas": "5 external antennas",
+      "Coverage": "Up to 2500 sq. ft."
+    },
+    "price": 3650,
+    "price_text": "3,650৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB941-2nD hAP-Lite Small Home Wifi Router With Access Point",
+    "url": "https://www.startech.com.bd/mikrotik-rb941-2nd-hap-lite-small-home-wifi-router",
+    "slug": "mikrotik-rb941-2nd-hap-lite-small-home-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/rb941-2nd-hap-lite/rb941-2nd-hap-lite-01-228x228.webp",
+    "specifications": {
+      "Chip Model": "QCA9533",
+      "CPU Nominal Frequency": "650 MHz",
+      "Standard Wireless": "2.4 GHz 802.11b/g/n",
+      "Capacity": "Up to 27Mbps Bandwidth Controller"
+    },
+    "price": 35003700,
+    "price_text": "3,500৳3,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco M4 AC1200 Dual-Band Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/tplink-deco-m4-router",
+    "slug": "tplink-deco-m4-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/tp-link/deco-m4/1-pack/1-pack-1-228x228.jpg",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 2,000 square feet",
+      "spec_1": "connect up to 100 devices",
+      "Frequency": "2.4 GHz, 5 GHz",
+      "spec_3": "Speed up to 1200 Mbps"
+    },
+    "price": 3749,
+    "price_text": "3,749৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Netis NX10 AX1500 Dual Band Gigabit WiFi 6 Router",
+    "url": "https://www.startech.com.bd/netis-nx10-wifi-6-router",
+    "slug": "netis-nx10-wifi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/netis/nx10/nx10-01-228x228.webp",
+    "specifications": {
+      "Antenna": "4x Fixed High-Performance Antennas",
+      "Signal Rate": "Up to 300Mbps 2.4GHz & 1201Mbps 5GHz",
+      "spec_2": "OFDMA+MU-MIMO, Easy-Mesh, Area Coverage Up to 2000-2500sqft",
+      "Interface": "1x Gigabit WAN, 3x Gigabit LAN ports"
+    },
+    "price": 36013790,
+    "price_text": "3,601৳3,790৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Wavlink WL-WN570HA1 AERIAL HD2 AC600 Dual-Band Outdoor Wi-Fi Range Extender",
+    "url": "https://www.startech.com.bd/wavlink-wn570ha1-aerial-hd2-ac600-wireless-router",
+    "slug": "wavlink-wn570ha1-aerial-hd2-ac600-wireless-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/wavlink/aerial/wn570ha1-228x228.jpg",
+    "specifications": {
+      "spec_0": "Super-fast Wireless AC Performance",
+      "spec_1": "High Gain Dual-Polarized Antenna",
+      "spec_2": "Design for Harsh Outdoor Environment",
+      "spec_3": "Power Over Ethernet"
+    },
+    "price": 3800,
+    "price_text": "3,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "VSOL HG5020-AX15-3G AX1500 Dual-Band Gigabit WiFi 6 Mesh Router",
+    "url": "https://www.startech.com.bd/vsol-hg5020-ax15-3g-mesh-router",
+    "slug": "vsol-hg5020-ax15-3g-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/vsol/hg5020-ax15-3g/hg5020-ax15-3g-01-228x228.webp",
+    "specifications": {
+      "Antennas": "4*4dBi Internal Antenna",
+      "Data Rate": "1200Mbps on 5GHz and 300Mbps on 2.4GHz",
+      "spec_2": "Support IPv4, IPv6 and IPv4/IPv6 Dual Stack",
+      "Interface": "3*10/100/1000Mbps RJ45, 1x USB 2.0"
+    },
+    "price": 3900,
+    "price_text": "3,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys MR80X AX3000 Dual Band Gigabit WiFi 6 Router",
+    "url": "https://www.startech.com.bd/mercusys-mr80x-router",
+    "slug": "mercusys-mr80x-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/mr80x/mr80x-01-228x228.webp",
+    "specifications": {
+      "Antenna Type": "4× 5 dBi Fixed Omni-Directional Antennas",
+      "WiFi Speeds": "2402 Mbps (5 GHz) + 574 Mbps (2.4 GHz)",
+      "spec_2": "Compatible with 802.11ax/ac/a/b/g/n Wi-Fi standards",
+      "Interfaces": "1× Gigabit WAN Port + 3× Gigabit LAN Ports"
+    },
+    "price": 3990,
+    "price_text": "3,990৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy LT400E 4G 300 Mbps Sim Supported Wireless Router",
+    "url": "https://www.startech.com.bd/cudy-lt400e-4g-router",
+    "slug": "cudy-lt400e-4g-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/lt400e-4g/lt400e-4g-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Up to 150 / 50Mbps LTE speed",
+      "Wireless": "Up to 300 Mbps",
+      "Antenna": "2× Internal",
+      "No Of Ports": "4 (1× RJ45 port is WAN/LAN)"
+    },
+    "price": 4000,
+    "price_text": "4,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer C80 AC1900 Dual-Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-c80-ac1900-gigabit-mu-mimo-router",
+    "slug": "tp-link-archer-c80-ac1900-gigabit-mu-mimo-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-c80-ac1900/archer-c80-ac1900-1-228x228.jpg",
+    "specifications": {
+      "spec_0": "4× Fixed High-Performance Antennas",
+      "spec_1": "802.11ac Wave2 Wi-Fi, 1900Mbps",
+      "spec_2": "3×3 MU-MIMO Technology",
+      "Data Transfer Rates": "1900Mbps (WiFi)"
+    },
+    "price": 38864090,
+    "price_text": "3,886৳4,090৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda TX12 Pro v2.0 AX3000 Dual Band Gigabit Wi-Fi 6 Router",
+    "url": "https://www.startech.com.bd/tenda-tx12-pro-v2-0-dual-band-gigabit-wi-fi-6-router",
+    "slug": "tenda-tx12-pro-v2-0-dual-band-gigabit-wi-fi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/tx12-pro-white/tx12-pro-white-228x228.webp",
+    "specifications": {
+      "Data Rate": "5 GHz: 2402 Mbps, 2.4 GHz: 574 Mbps",
+      "Frequency": "Dual Band (2.4GHz & 5GHz)",
+      "Antenna": "5x 6dbi external antennas",
+      "Interfaces": "1× Gigabit WAN, 3× Gigabit LAN"
+    },
+    "price": 39364100,
+    "price_text": "3,936৳4,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link M7000 150Mbps 4G LTE Mobile Wi-Fi Router",
+    "url": "https://www.startech.com.bd/tp-link-m7000-4g-lte-mobile-wi-fi-router",
+    "slug": "tp-link-m7000-4g-lte-mobile-wi-fi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/m7000/m7000-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Share internet access for up to 10 devices simultaneously",
+      "spec_1": "Supports the latest generation 4G FDD/TDD-LTE",
+      "spec_2": "Internal 2000 mAh Rechargeable Battery",
+      "spec_3": "Wireless Speeds up to 300 Mbps"
+    },
+    "price": 4190,
+    "price_text": "4,190৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Dahua DH-AX30 AX3000 Dual Band Gigabit Wi-Fi 6 Router",
+    "url": "https://www.startech.com.bd/dahua-dh-ax30-ax3000-wi-fi-6-router",
+    "slug": "dahua-dh-ax30-ax3000-wi-fi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/dahua/dh-ax30/dh-ax30-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "2.4 GHz: 574 Mbps, 5 GHz: 2402 Mbps",
+      "spec_1": "OFDMA and 1024-QAM, Bi-directional MU-MIMO",
+      "spec_2": "WiFi protected Access(WPA/WPA2/WPA3)",
+      "spec_3": "Coverage Area-Upto 2500sq.ft, 6th Gen Wireless, Beamforming Technology"
+    },
+    "price": 39904200,
+    "price_text": "3,990৳4,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda TX3000 Pro AX3000 Dual Band Gigabit Wi-Fi 6 Router",
+    "url": "https://www.startech.com.bd/tenda-tx3000-pro-dual-band-gigabit-wi-fi-6-router",
+    "slug": "tenda-tx3000-pro-dual-band-gigabit-wi-fi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/tx3000-pro/tx3000-pro-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "5 GHz: 2402 Mbps, 2.4 GHz: 574 Mbps",
+      "Frequency": "Dual Band (2.4GHz & 5GHz)",
+      "Antenna": "6x 6dbi external antennas",
+      "Interfaces": "1× Gigabit WAN, 3× Gigabit LAN"
+    },
+    "price": 41284300,
+    "price_text": "4,128৳4,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1500 AX1500 Dual Band Wi-Fi 6 Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1500-ax1500-router",
+    "slug": "cudy-m1500-ax1500-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1500/m1500-01-228x228.webp",
+    "specifications": {
+      "Speed": "1201 Mbps + 300 Mbps",
+      "spec_1": "1 GHz Single-Core CPU, 2× Internal Antennas",
+      "spec_2": "3× Gigabit Ports, Connect 60 Devices",
+      "Coverage": "Up to 1600 square feet"
+    },
+    "price": 40004300,
+    "price_text": "4,000৳4,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy LT400 4G 300 Mbps Sim Supported Wireless Router",
+    "url": "https://www.startech.com.bd/cudy-lt400-300mbps-wireless-n-4g-lte-router",
+    "slug": "cudy-lt400-300mbps-wireless-n-4g-lte-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/lt400/lt400-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Up to 150 / 50Mbps LTE speed",
+      "spec_1": "300Mbps Wi-Fi for smoother experience",
+      "spec_2": "4 x High gain antennas expand coverage",
+      "spec_3": "Flexible WAN/LAN port for dual connectivity"
+    },
+    "price": 41764450,
+    "price_text": "4,176৳4,450৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "VSOL HG5033-AX30-4G(VX-30 Pro) AX3000 Dual-Band Gigabit WiFi 6 Router",
+    "url": "https://www.startech.com.bd/vsol-hg5033-ax30-4g-router",
+    "slug": "vsol-hg5033-ax30-4g-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/vsol/hg5033-ax30-4g/hg5033-ax30-02-228x228.webp",
+    "specifications": {
+      "Data Rate": "5GHz: 867Mbps, 2.4GHz: 300Mbps",
+      "Ports": "4*10/100/1000Mbps Ethernet",
+      "Maximum number of connected devices": "128",
+      "Coverage Area": "Up to 2500 square feet"
+    },
+    "price": 4500,
+    "price_text": "4,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco S7 AC1900 Dual Band Mesh Router (1-Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-s7-dual-band-mesh-router",
+    "slug": "tp-link-deco-s7-dual-band-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-s7/deco-s7-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi Area up to 2,100 square feet",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "WiFi Speeds": "Up to 1900 Mbps, TP-Link Mesh Technology",
+      "Interfaces": "3× Gigabit Ports, 3× Internal Antennas"
+    },
+    "price": 4509,
+    "price_text": "4,509৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X10 AX1500 Dual-Band Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x10-wifi-6-mesh-router",
+    "slug": "tp-link-deco-x10-wifi-6-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x10/deco-x10-01-228x228.webp",
+    "specifications": {
+      "Area Coverage": "Up to 2100ft",
+      "Device Connect": "Up to 120 device",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "Ports": "2x Gigabit Ports, Wi-Fi Dead Zone Killer"
+    },
+    "price": 4790,
+    "price_text": "4,790৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy WR3000 AX3000 Gigabit Dual Band Smart Wi-Fi 6 Router",
+    "url": "https://www.startech.com.bd/cudy-wr3000-ax3000-gigabit-wi-fi-6-router",
+    "slug": "cudy-wr3000-ax3000-gigabit-wi-fi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/wr3000/wr3000-01-228x228.webp",
+    "specifications": {
+      "spec_0": "1.3 GHz Dual-Core Cortex-A53 CPU",
+      "spec_1": "4× 10/100/1000Mbps Ethernet Ports",
+      "spec_2": "160 MHz Channel Width",
+      "spec_3": "DL/UL OFDMA and DL/UL MU-MIMO"
+    },
+    "price": 46064900,
+    "price_text": "4,606৳4,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TOTOLINK X30 SE AX3000 Dual Band WiFi 6 Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/totolink-x30-se-mesh-router",
+    "slug": "totolink-x30-se-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/totolink/x30-se/x30-se-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "Up to 574Mbps (2.4GHz), Up to 2402Mbps (5Ghz)",
+      "Number of Antenna": "2 x Internal Antennas",
+      "Interface": "1x LAN, 1x WAN",
+      "spec_3": "IPV6 Support, Beamforming Technology"
+    },
+    "price": 46414990,
+    "price_text": "4,641৳4,990৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1200 AC1200 Dual Band Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1200-ac1200-whole-home-mesh-wifi-router-2-pack",
+    "slug": "cudy-m1200-ac1200-whole-home-mesh-wifi-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1200/m1200-2-pack-228x228.webp",
+    "specifications": {
+      "spec_0": "867Mbps on 5GHz and 300Mbps on 2.4GHz",
+      "spec_1": "Seamless Roaming, Whole Home Coverage",
+      "spec_2": "10/100Mbps Ethernet Ports + 2 Internal Antennas",
+      "Coverage": "Up to 3000 square feet"
+    },
+    "price": 47005000,
+    "price_text": "4,700৳5,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy WR3000S AX3000 Dual Band Gigabit Wi-Fi 6 Mesh Router",
+    "url": "https://www.startech.com.bd/cudy-wr3000s-dual-band-gigabit-mesh-router",
+    "slug": "cudy-wr3000s-dual-band-gigabit-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/wr3000s/wr3000s-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual Band 2.4 GHz & 5 GHz",
+      "Wi-Fi Speed": "5GHz 2402 Mbps, 2.4GHz 574 Mbps",
+      "Ports": "5× Gigabit Ethernet Ports, Cudy Mesh, VPN Server and Client",
+      "Device Connect": "Up to 200 , Area Covers Up to 130 m² (1,400 ft²)"
+    },
+    "price": 5000,
+    "price_text": "5,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MW3 AC1200 Dual Band Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/tenda-nova-mw3-ac1200-wifi-system",
+    "slug": "tenda-nova-mw3-ac1200-wifi-system",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/access-point/tenda/nova-mw3-ac1200/nova-mw3-ac1200-228x228.jpg",
+    "specifications": {
+      "spec_0": "Easy and fast setup",
+      "spec_1": "Management with Tenda WiFi App",
+      "spec_2": "Hassle free gaming and streaming",
+      "spec_3": "Gigabit speed for smooth 4K videos"
+    },
+    "price": 40405050,
+    "price_text": "4,040৳5,050৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/tenda-nova-mx12-mesh-router",
+    "slug": "tenda-nova-mx12-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/nova-mx12/nova-mx12-01-228x228.webp",
+    "specifications": {
+      "Antenna": "4x 3dBi Internal Antenna, Wi-Fi 6",
+      "Data Rate": "2.4GHz: 574Mbps, 5GHz: 2402Mbps",
+      "Interface": "3 x 10/100/1000Mbps RJ45 Ports",
+      "Coverage Area": "Up to 1200 to 1500 Square Feet"
+    },
+    "price": 5200,
+    "price_text": "5,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys Halo H30G AC1300 Dual Band Gigabit Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/mercusys-halo-h30g-ac1300-dual-band-mesh-router",
+    "slug": "mercusys-halo-h30g-ac1300-dual-band-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/halo-h30g/halo-h30g-01-228x228.webp",
+    "specifications": {
+      "Wireless Frequencies": "Dual Band (2.4Ghz & 5Ghz)",
+      "WiFi Speeds": "867 Mbps on 5 GHz, 400 Mbps on 2.4 GHz",
+      "Interfaces": "2× Gigabit Ports per Halo Unit",
+      "spec_3": "Covers up to 2,800 square feet; connects up to 100 Devices"
+    },
+    "price": 5390,
+    "price_text": "5,390৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik Hex lite RB750R2 Plastic Body Router",
+    "url": "https://www.startech.com.bd/mikrotik-rb750r2",
+    "slug": "mikrotik-rb750r2",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router1/Mikrotik-2/RB750r2-228x228.jpg",
+    "specifications": {
+      "Frequency": "850 MHz",
+      "DIM": "113 x 89 x 28 mm.",
+      "RAM": "64 MB"
+    },
+    "price": 51305400,
+    "price_text": "5,130৳5,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TOTOLINK X6000R AX3000 Dual Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/totolink-x6000r-ax3000-dual-band-gigabit-router",
+    "slug": "totolink-x6000r-ax3000-dual-band-gigabit-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/totolink/x6000r/x6000r-01-228x228.webp",
+    "specifications": {
+      "Data Rate": "2402Mbps on 5GHz and 574Mbps on 2.4GHz",
+      "spec_1": "Four External Antennas, Wide Wi-Fi Coverage",
+      "spec_2": "MU-MIMO Technology",
+      "spec_3": "Beamforming technology"
+    },
+    "price": 5490,
+    "price_text": "5,490৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer AX53 AX3000 Dual Band Gigabit Wi-Fi Router",
+    "url": "https://www.startech.com.bd/tp-link-Archer-ax53-ax3000-dual-band-gigabit-wi-fi-6-router",
+    "slug": "tp-link-Archer-ax53-ax3000-dual-band-gigabit-wi-fi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/Archer-ax53/Archer-ax53-01-228x228.webp",
+    "specifications": {
+      "Frequency": "2.4GHz and 5GHz",
+      "spec_1": "4x external fixed 5dBi antennas",
+      "spec_2": "Dual-core CPU",
+      "OFDMA Technology, Coverage": "2500sft"
+    },
+    "price": 52725549,
+    "price_text": "5,272৳5,549৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m3000-ax3000-wi-fi-6-mesh-router",
+    "slug": "cudy-m3000-ax3000-wi-fi-6-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m3000/m3000-white-01-228x228.webp",
+    "specifications": {
+      "Speed": "2402Mbps (5GHz), 574Mbps (2.4GHz)",
+      "spec_1": "1.3GHz Dual Core Cortex-A53 Processor",
+      "spec_2": "5 × Internal Omnidirectional Antennas",
+      "Coverage": "Up to 2500 square feet"
+    },
+    "price": 53205600,
+    "price_text": "5,320৳5,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco E4 AC1200 Dual-band Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/tplink-deco-e4-2-pack-router",
+    "slug": "tplink-deco-e4-2-pack-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/tp-link/deco-m4/2-pack/2-pack-1-228x228.jpg",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 2,800 square feet",
+      "spec_1": "connect up to 100 devices",
+      "Frequency": "2.4 GHz, 5 GHz",
+      "spec_3": "Speed up to 1167 Mbps"
+    },
+    "price": 5649,
+    "price_text": "5,649৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/tenda-nova-mx3-mesh-router-2-pack",
+    "slug": "tenda-nova-mx3-mesh-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/nova-mx3/nova-mx3-04-228x228.webp",
+    "specifications": {
+      "Antenna": "2x 3dBi Internal Antenna, Wi-Fi 6",
+      "Data Rate": "2.4GHz: 300Mbps, 5GHz: 1201Mbps",
+      "Interface": "1x Gigabit RJ45 WAN, 1x Gigabit RJ45 LAN",
+      "Coverage Area": "Up to 2000 to 2500 Square Feet"
+    },
+    "price": 57505775,
+    "price_text": "5,750৳5,775৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy LT400 Outdoor 300Mbps 4G WiFi Router (SIM Supported)",
+    "url": "https://www.startech.com.bd/cudy-lt400-outdoor-router",
+    "slug": "cudy-lt400-outdoor-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/lt400-outdoor/lt400-outdoor-01-228x228.webp",
+    "specifications": {
+      "Band": "2.4GHz, Data Speed: 300Mbps",
+      "Interface": "1× 10/100Mbps WAN/LAN RJ45 Port",
+      "Protection": "IP65, -40~65°C (-40~149°F), 4kV Surge",
+      "Coverage": "Up to 1,800 sq ft (Open Space)"
+    },
+    "price": 5800,
+    "price_text": "5,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X20 AX1800 Dual-Band Wi-Fi 6 Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x20-ax1800-mesh-router",
+    "slug": "tp-link-deco-x20-ax1800-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/tp-link/deco-x20-ax1800/deco-x20-ax1800-001-228x228.webp",
+    "specifications": {
+      "Speed": "574 Mbps at 2.4 GHz + 1201 Mbps at 5 GHz",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "Ports": "2x Gigabit Ports, Wi-Fi Dead Zone Killer",
+      "spec_3": "OFDMA and MU-MIMO Technology, Wi-Fi 6"
+    },
+    "price": 5949,
+    "price_text": "5,949৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS RT-AX52 AX1800 Dual Band WiFi Router",
+    "url": "https://www.startech.com.bd/asus-rt-ax52-ax1800-dual-band-aimesh-router",
+    "slug": "asus-rt-ax52-ax1800-dual-band-aimesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/rt-ax52-ax1800/rt-ax52-ax1800-01-228x228.webp",
+    "specifications": {
+      "AX1800 Ultimate AX Performance": "1201 Mbps+ 574 Mbps",
+      "Coverage Area": "Up to 2,500 square feet (in open space)",
+      "Working Mode": "Access Point, AiMesh Node, Repeater, Router",
+      "Features": "Instant Guard, Built-in VPN, AiMesh Compatible"
+    },
+    "price": 6000,
+    "price_text": "6,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda TX9 Pro AX3000 Dual-band Gigabit Wi-Fi 6 Router",
+    "url": "https://www.startech.com.bd/tenda-tx9-pro-ax3000-gigabit-wi-fi-6-router",
+    "slug": "tenda-tx9-pro-ax3000-gigabit-wi-fi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/tx9-pro/tx9-pro-02-228x228.jpg",
+    "specifications": {
+      "Speed": "574Mbps on 2.4GHz band &  2402Mbps on 5GHz band",
+      "spec_1": "1.6GHz high-performance Dual-core processor",
+      "spec_2": "OFDMA + MU-MIMO, 802.11ax technology",
+      "spec_3": "4x 6dBi external antennas"
+    },
+    "price": 60276150,
+    "price_text": "6,027৳6,150৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda RX9 Pro AX3000 Dual Band Gigabit Wi-Fi 6 Router",
+    "url": "https://www.startech.com.bd/tenda-rx9-pro-ax3000-dual-band-router",
+    "slug": "tenda-rx9-pro-ax3000-dual-band-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/rx9-pro/rx9-pro-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Gigabit SFP slots up to 2000 Mbps full-wire speed",
+      "Power Input": "100-240V AC 50/60Hz",
+      "Packet forwarding Rate": "35.60Mpps",
+      "Lightning protection for uplink ports": "6KV"
+    },
+    "price": 6150,
+    "price_text": "6,150৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1300-ac1200-gigabit-whole-home-mesh-wifi-router-2-pack",
+    "slug": "cudy-m1300-ac1200-gigabit-whole-home-mesh-wifi-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1300/m1300-2-pack-01-228x228.webp",
+    "specifications": {
+      "spec_0": "867Mbps on 5GHz and 300Mbps on 2.4GHz",
+      "spec_1": "Seamless Roaming, Whole Home Coverage",
+      "spec_2": "10/100/1000 Mbps Ethernet Ports + 2 Internal Antennas",
+      "Coverage": "Up to 3200 square feet"
+    },
+    "price": 56676160,
+    "price_text": "5,667৳6,160৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy LT500E AC1200 1200Mbps Dual Band SIM Router",
+    "url": "https://www.startech.com.bd/cudy-lt500e-sim-router",
+    "slug": "cudy-lt500e-sim-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/lt500e/lt500e-01-228x228.webp",
+    "specifications": {
+      "spec_0": "4G Cat. 4 with Max 150 Mbps DL",
+      "spec_1": "4-Stream Dual-Band Wi-Fi 5",
+      "Data Rate": "867 Mbps + 300 Mbps Wi-Fi",
+      "Interface": "4× Fast Ethernet Ports, 1× Nano SIM Slot"
+    },
+    "price": 62576450,
+    "price_text": "6,257৳6,450৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X50 AX3000 Dual Band Mesh Router (1-Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x50-dual-band-wi-fi-6-mesh-router",
+    "slug": "tp-link-deco-x50-dual-band-wi-fi-6-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x50-/deco-x50-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 2,500 square feet",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "WiFi Speeds": "Up to 3000 Mbps, AI-Driven Mesh",
+      "Interfaces": "3× Gigabit Ports, 2×  Internal Antennas"
+    },
+    "price": 63606490,
+    "price_text": "6,360৳6,490৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Grandstream GWN7052 1270Mbps Dual Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/grandstream-gwn7052-dual-band-router",
+    "slug": "grandstream-gwn7052-dual-band-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/grandstream/gwn7052/gwn7052-01-228x228.webp",
+    "specifications": {
+      "Antennas": "4 Individual External Antennas",
+      "spec_1": "Up to 1.27Gbps Aggregate Wireless Throughput",
+      "Dual-band 2x2": "2 MU-MIMO, Built-in VPN Support",
+      "Ports": "1x Gigabit WAN, 4x Gigabit Ethernet LAN ports"
+    },
+    "price": 7000,
+    "price_text": "7,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Zyxel NBG7510 AX1800 Dual-Band WiFi Gigabit Router",
+    "url": "https://www.startech.com.bd/zyxel-nbg7510-ax1800-dual-band-wifi-6-gigabit-router",
+    "slug": "zyxel-nbg7510-ax1800-dual-band-wifi-6-gigabit-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/zyxel/nbg7510/nbg7510-01-228x228.jpg",
+    "specifications": {
+      "Wireless Speed": "AX1800 (600+1200Mbps)",
+      "spec_1": "1x WAN 10/100/1000 Mbps Port",
+      "spec_2": "3x LAN 10/100/1000 Mbps Ports",
+      "spec_3": "4x External Antennas"
+    },
+    "price": 7200,
+    "price_text": "7,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy LT500 AC1200 Dual Band 4G WiFi Router With Sim Supported",
+    "url": "https://www.startech.com.bd/cudy-lt500-router",
+    "slug": "cudy-lt500-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/lt500/lt500-01-228x228.webp",
+    "specifications": {
+      "spec_0": "4-Stream Dual-Band Wi-Fi 5, 867 Mbps + 300 Mbps Wi-Fi",
+      "spec_1": "4G Cat. 4 with Max 150 Mbps DL",
+      "spec_2": "4× Fast Ethernet Ports, 1× Nano SIM Slot",
+      "Coverage": "Up to 2000 square feet"
+    },
+    "price": 7200,
+    "price_text": "7,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco M4 AC1200 Dual-Band Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/tplink-deco-m4-2-pack-router",
+    "slug": "tplink-deco-m4-2-pack-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/tp-link/deco-m4/2-pack/2-pack-1-228x228.jpg",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 2,800 square feet",
+      "spec_1": "connect up to 100 devices",
+      "Frequency": "2.4 GHz, 5 GHz",
+      "spec_3": "Speed up to 1200 Mbps"
+    },
+    "price": 7390,
+    "price_text": "7,390৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS RT-AX53U AX1800 Dual-Band WiFi Router",
+    "url": "https://www.startech.com.bd/asus-rt-ax53u-ax1800-dual-band-wifi-router",
+    "slug": "asus-rt-ax53u-ax1800-dual-band-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/rt-ax53u/rt-ax53u-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Supports MU-MIMO and OFDMA technology",
+      "spec_1": "Total networking speed of about 1800Mbps",
+      "spec_2": "1x Gigabit WAN port & 3x Gigabit LAN ports",
+      "spec_3": "AiProtection and  Parental Controls"
+    },
+    "price": 66007500,
+    "price_text": "6,600৳7,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1200 AC1200 Dual Band Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1200-ac1200-whole-home-mesh-wifi-router-3-pack",
+    "slug": "cudy-m1200-ac1200-whole-home-mesh-wifi-router-3-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1200/m1200-3-pack-228x228.webp",
+    "specifications": {
+      "spec_0": "867Mbps on 5GHz and 300Mbps on 2.4GHz",
+      "spec_1": "Seamless Roaming, Whole Home Coverage",
+      "spec_2": "10/100Mbps Ethernet Ports + 2 Internal Antennas",
+      "Coverage": "Up to 4000 square feet"
+    },
+    "price": 69007500,
+    "price_text": "6,900৳7,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M3600 BE3600 Dual Band Wi-Fi 7 Mesh Router (1 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m3600-router",
+    "slug": "cudy-m3600-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m3600/m3600-01-228x228.webp",
+    "specifications": {
+      "Speed": "2882 Mbps + 688 Mbps Wi-Fi",
+      "spec_1": "2.0 GHz Quad-Core, ARM Cortex-A7",
+      "spec_2": "4× Internal Antennas, 3× Gigabit Ports",
+      "spec_3": "Connect 200 Devices, Up to 1900 sq ft Coverage"
+    },
+    "price": 70507500,
+    "price_text": "7,050৳7,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda AC15 AC1900 Dual-Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/tenda-ac15-router",
+    "slug": "tenda-ac15-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/tenda/ac15-228x228.jpg",
+    "specifications": {
+      "Dimension": "8.9 x 7.07 x 3.02 in",
+      "Frequency": "2.4G and 5G",
+      "Antenna": "3 x 3dBi dual brand",
+      "Data Transfer": "5GHz: Up to 1300Mbps, 2.4GHz: Up to 600Mbps"
+    },
+    "price": 75507700,
+    "price_text": "7,550৳7,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Grandstream GWN7001 6-Port WAN Gigabit VPN Router",
+    "url": "https://www.startech.com.bd/grandstream-gwn7001-vpn-router",
+    "slug": "grandstream-gwn7001-vpn-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/grandstream/gwn7001/gwn7001-228x228.webp",
+    "specifications": {
+      "Interfaces": "6x WAN/LAN Gigabit Ethernet ports",
+      "spec_1": "VPN Support 50 Tunnels",
+      "spec_2": "VPN Throughput 530Mbps",
+      "NET Routing": "2.2Gbps NAT Routing"
+    },
+    "price": 7800,
+    "price_text": "7,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy WR3600E BE3600 Gigabit Wi-Fi 7 Router",
+    "url": "https://www.startech.com.bd/cudy-wr3600e-wifi-7-router",
+    "slug": "cudy-wr3600e-wifi-7-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/wr3600-be-3600/wr3600-be-3600-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual Band 2.4 GHz & 5 GHz",
+      "Wi-Fi Speed": "5GHz 2882 Mbps, 2.4GHz 688 Mbps",
+      "Ports": "4× Gigabit Ethernet Ports, Cudy Mesh, VPN Server and Client",
+      "Device Connect": "Up to 512, Area Covers Up to 130 m² (1,400 ft²)"
+    },
+    "price": 74107899,
+    "price_text": "7,410৳7,899৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy WR3600 BE3600 Gigabit Wi-Fi 7 Router",
+    "url": "https://www.startech.com.bd/cudy-wr3600-be3600-router",
+    "slug": "cudy-wr3600-be3600-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/wr3600-be3600/wr3600-be3600-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual Band 2.4 GHz & 5 GHz",
+      "Wi-Fi Speed": "5GHz 2882 Mbps, 2.4GHz 688 Mbps",
+      "Ports": "5× Gigabit Ethernet Ports, Cudy Mesh, Wi-Fi 7",
+      "Coverage": "up to130 m² (1,400 ft²) , Cudy App, Cloud Control"
+    },
+    "price": 75997999,
+    "price_text": "7,599৳7,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB951Ui-2HnD Wireless SOHO Access Point Router Board",
+    "url": "https://www.startech.com.bd/mikrotik-rb951ui-2nd-router",
+    "slug": "mikrotik-rb951ui-2nd-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/mikrotik/rb951ui-2nd/rb951ui-2nd-1-228x228.jpg",
+    "specifications": {
+      "spec_0": "2.4GHz AP",
+      "spec_1": "Five Ethernet ports",
+      "spec_2": "PoE-out on port 5",
+      "spec_3": "USB for 3G/4G support"
+    },
+    "price": 8000,
+    "price_text": "8,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco E4 AC1200 Dual-band Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/tplink-deco-e4-3-pack-router",
+    "slug": "tplink-deco-e4-3-pack-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/tp-link/deco-m4/3-pack/3-pack-2-228x228.jpg",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 4000 square feet",
+      "spec_1": "connect up to 100 devices",
+      "Frequency": "2.4 GHz, 5 GHz",
+      "spec_3": "Speed up to 1200 Mbps"
+    },
+    "price": 8390,
+    "price_text": "8,390৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1500 AX1500 Dual Band Wi-Fi 6 Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1500-ax1500-mesh-router",
+    "slug": "cudy-m1500-ax1500-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1500/m1500-03-228x228.webp",
+    "specifications": {
+      "Speed": "1201 Mbps + 300 Mbps",
+      "spec_1": "1 GHz Single-Core CPU, 2× Internal Antennas",
+      "spec_2": "3× Gigabit Ports, Connect 60 Devices",
+      "Coverage": "Up to 3200 square feet"
+    },
+    "price": 78968400,
+    "price_text": "7,896৳8,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco S7 AC1900 Dual Band Mesh Router (2-Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-s7-2-pack-dual-band-mesh-router",
+    "slug": "tp-link-deco-s7-2-pack-dual-band-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-s7/deco-s7-2-pack-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi Area up to 3,900 square feet",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "WiFi Speeds": "Up to 1900 Mbps, TP-Link Mesh Technology",
+      "Interfaces": "3× Gigabit Ports, 3× Internal Antennas"
+    },
+    "price": 8809,
+    "price_text": "8,809৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1300 AC1200 Dual Band Gigabit Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1300-ac1200-gigabit-whole-home-mesh-wifi-router-3-pack",
+    "slug": "cudy-m1300-ac1200-gigabit-whole-home-mesh-wifi-router-3-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1300/m1300-3-pack-01-228x228.webp",
+    "specifications": {
+      "spec_0": "867Mbps on 5GHz and 300Mbps on 2.4GHz",
+      "spec_1": "Seamless Roaming, Whole Home Coverage",
+      "spec_2": "10/100Mbps Ethernet Ports + 2 Internal Antennas",
+      "Coverage": "Up to 4500 square feet"
+    },
+    "price": 83089130,
+    "price_text": "8,308৳9,130৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MX3 AX1500 Dual Band WiFi 6 Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/tenda-nova-mx3-mesh-router-3-pack",
+    "slug": "tenda-nova-mx3-mesh-router-3-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/nova-mx3/nova-mx3-05-228x228.webp",
+    "specifications": {
+      "Antenna": "2x 3dBi Internal Antenna, Wi-Fi 6",
+      "Data Rate": "2.4GHz: 300Mbps, 5GHz: 1201Mbps",
+      "Interface": "1x Gigabit RJ45 WAN, 1x Gigabit RJ45 LAN",
+      "Coverage Area": "Up to 3000 to 3500 Square Feet"
+    },
+    "price": 89829356,
+    "price_text": "8,982৳9,356৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X10 AX1500 Dual-Band Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x10-wifi-6-mesh-router-2-pack",
+    "slug": "tp-link-deco-x10-wifi-6-mesh-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x10/deco-x10-2-pack-228x228.webp",
+    "specifications": {
+      "Area Coverage": "Up to 3900ft",
+      "Device Connect": "Up to 120 device",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "Ports": "2x Gigabit Ports, Wi-Fi Dead Zone Killer"
+    },
+    "price": 9490,
+    "price_text": "9,490৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1800 AX1800 Dual Band Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1800-ax1800-whole-home-mesh-wifi-router-2-pack",
+    "slug": "cudy-m1800-ax1800-whole-home-mesh-wifi-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1800/m1800-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "1201Mbps on 5GHz and 574Mbps on 2.4GHz",
+      "spec_1": "Seamless Roaming, Whole Home Coverage",
+      "spec_2": "2 Gigabit Ethernet Ports+ 4 Internal Antennas",
+      "Coverage": "Up to 3900 square feet"
+    },
+    "price": 9500,
+    "price_text": "9,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mercusys Halo H70X AX1800 Dual Band WiFi Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/mercusys-halo-h70x-dual-band-mesh-router",
+    "slug": "mercusys-halo-h70x-dual-band-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mercusys/halo-h70x/halo-h70x-01-228x228.webp",
+    "specifications": {
+      "Wireless Frequencies": "Dual Band (2.4Ghz & 5Ghz)",
+      "WiFi Speeds": "1201 Mbps on 5 GHz, 574 Mbps on 2.4 GHz",
+      "Interfaces": "3× Gigabit Ports per Halo Unit",
+      "spec_3": "Covers up to 4000 square feet; connects up to 150 Devices"
+    },
+    "price": 10490,
+    "price_text": "10,490৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/tenda-nova-mx12-mesh-router-2-pack",
+    "slug": "tenda-nova-mx12-mesh-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/nova-mx12/nova-mx12-04-228x228.webp",
+    "specifications": {
+      "Antenna": "4x 3dBi Internal Antenna, Wi-Fi 6",
+      "Data Rate": "2.4GHz: 574Mbps, 5GHz: 2402Mbps",
+      "Interface": "3 x 10/100/1000Mbps RJ45 Ports Per Node",
+      "Coverage Area": "Up to 2000 to 2500 Square Feet"
+    },
+    "price": 1030010500,
+    "price_text": "10,300৳10,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M3000 AX3000 2.5G Dual Band Wi-Fi 6 Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m3000-ax3000-wi-fi-6-mesh-router-2-pack",
+    "slug": "cudy-m3000-ax3000-wi-fi-6-mesh-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m3000/m3000-2-pack-white-228x228.webp",
+    "specifications": {
+      "Speed": "2402Mbps (5GHz), 574Mbps (2.4GHz)",
+      "spec_1": "1.3GHz Dual Core Cortex-A53 Processor",
+      "spec_2": "5 × Internal Omnidirectional Antennas",
+      "Coverage": "Up to 4800 square feet"
+    },
+    "price": 990011000,
+    "price_text": "9,900৳11,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco M4 AC1200 Dual-Band Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/tplink-deco-m4-3-pack-router",
+    "slug": "tplink-deco-m4-3-pack-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/tp-link/deco-m4/3-pack/3-pack-2-228x228.jpg",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 4,000 square feet",
+      "spec_1": "connect up to 100 devices",
+      "Frequency": "2.4 GHz, 5 GHz",
+      "spec_3": "Speed up to 1200 Mbps"
+    },
+    "price": 11049,
+    "price_text": "11,049৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X60 AX5400 Dual-Band Mesh Router (1-pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x60-ax5400-mesh-router",
+    "slug": "tp-link-deco-x60-ax5400-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/tp-link/deco-x60-ax5400/deco-x60-ax5400-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual Band (5Ghz & 2.4Ghz)",
+      "WiFi Speeds": "5 GHz 4804 Mbps, 2.4 GHz 574 Mbps",
+      "Ethernet Ports": "2× Gigabit Ports",
+      "Wi-Fi Coverage": "2200sft Area"
+    },
+    "price": 11049,
+    "price_text": "11,049৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer BE230 BE3600 Dual-Band WiFi 7 Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-be230-dual-band-wi-fi-7-router",
+    "slug": "tp-link-archer-be230-dual-band-wi-fi-7-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-be230/archer-be230-01-228x228.webp",
+    "specifications": {
+      "Antennas": "4× external antennas",
+      "WiFi Speeds": "5 GHz: 2882Mbps, 2.4GHz: 688Mbps",
+      "Ports": "1× 2.5 Gbps WAN, 1× 2.5 Gbps LAN, 3× 1 Gbps LAN",
+      "Area Coverage": "Up to 2500stf to 3000stf"
+    },
+    "price": 11590,
+    "price_text": "11,590৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X20 AX1800 Dual-Band Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x20-ax1800-router-2-pack",
+    "slug": "tp-link-deco-x20-ax1800-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x20-ax1800-2-pack/deco-x20-ax1800-2-pack-228x228.jpg",
+    "specifications": {
+      "Speed": "574 Mbps at 2.4 GHz + 1201 Mbps at 5 GHz",
+      "spec_1": "4 x Internal Antennas",
+      "spec_2": "Wi-Fi Dead Zone Killer",
+      "spec_3": "Robust Parental Controls"
+    },
+    "price": 11790,
+    "price_text": "11,790৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TOTOLINK X30 AX3000 Dual Band WiFi 6 Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/totolink-x30-mesh-router",
+    "slug": "totolink-x30-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/totolink/x30/x30-2-pack-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Wi-Fi 6 (IEEE 802.11ax) standard, MU-MIMO technology",
+      "Data Rate": "Max. 2402Mbps on 5GHz & 574Mbps on 2.4GHz",
+      "Interface": "1x Gigabit WAN, 4x Gigabit LAN",
+      "Coverage Area": "Up to 3000 Sq ft"
+    },
+    "price": 12490,
+    "price_text": "12,490৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Ruijie RG-EW3200GX PRO 3200Mbps Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/ruijie-rg-ew3200gx-pro-wifi-router",
+    "slug": "ruijie-rg-ew3200gx-pro-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/ruijie/rg-ew3200gx-pro/rg-ew3200gx-pro-01-228x228.webp",
+    "specifications": {
+      "Transmission Rate": "3200Mbps",
+      "Frequency": "2.4 GHz, 5 GHz",
+      "Antenna": "10",
+      "Port": "1x WAN, 4x LAN"
+    },
+    "price": 12500,
+    "price_text": "12,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Grandstream GWN7052F 1270Mbps Dual Band Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/grandstream-gwn7052f-dual-band-router",
+    "slug": "grandstream-gwn7052f-dual-band-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/grandstream/gwn7052/gwn7052-01-228x228.webp",
+    "specifications": {
+      "Antennas": "4 Individual External Antennas",
+      "spec_1": "Up to 1.27Gbps Aggregate Wireless Throughput",
+      "Dual-band 2x2": "2 MU-MIMO, Built-in VPN Support",
+      "Ports": "1x Gigabit SFP WAN, 4x Gigabit Ethernet (WAN/LAN Configurable)"
+    },
+    "price": 12500,
+    "price_text": "12,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB960PGS hEX PoE 5 Port Gigabit Router",
+    "url": "https://www.startech.com.bd/mikrotik-rb960pgs-hex-poe-5-port-router",
+    "slug": "mikrotik-rb960pgs-hex-poe-5-port-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/rb960pgs/rb960pgs-01-228x228.webp",
+    "specifications": {
+      "Ports": "5x 10/100/1000 Ethernet, 1x SFP ports",
+      "CPU": "QCA9557, CPU Frequency: 800MHz",
+      "RAM": "128 MB, Storage: 16 MB",
+      "OS Compatibility": "RouterOS, IP20 Protection"
+    },
+    "price": 1187512500,
+    "price_text": "11,875৳12,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X50 AX3000 Dual Band Mesh Router (2-Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x50-2-pack-dual-band-wi-fi-6-mesh-router",
+    "slug": "tp-link-deco-x50-2-pack-dual-band-wi-fi-6-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x50-/deco-x50-2-pack-228x228.webp",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 4,500 square feet",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "WiFi Speeds": "Up to 3000 Mbps, AI-Driven Mesh",
+      "Interfaces": "3× Gigabit Ports, 2×  Internal Antennas"
+    },
+    "price": 12890,
+    "price_text": "12,890৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco S7 AC1900 Dual Band Mesh Router (3-Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-s7-3-pack-dual-band-mesh-router",
+    "slug": "tp-link-deco-s7-3-pack-dual-band-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-s7/deco-s7-3-pack-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi Area up to 5,600 square feet",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "WiFi Speeds": "Up to 1900 Mbps, TP-Link Mesh Technology",
+      "Interfaces": "3× Gigabit Ports, 3× Internal Antennas"
+    },
+    "price": 13209,
+    "price_text": "13,209৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS RT-AX57 AX3000 Dual Band WiFi Router",
+    "url": "https://www.startech.com.bd/asus-rt-ax57-ax3000-dual-band-wifi-6-router",
+    "slug": "asus-rt-ax57-ax3000-dual-band-wifi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/rt-ax57/rt-ax57-01-228x228.webp",
+    "specifications": {
+      "Speed": "574 Mbps on 2.4GHz and 2402 Mbps on 5GHz band",
+      "spec_1": "Supports MU-MIMO and OFDMA",
+      "spec_2": "Commercial-grade Security Anywhere",
+      "spec_3": "Built-in VPN, AiMesh Compatible"
+    },
+    "price": 1039513500,
+    "price_text": "10,395৳13,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1500 AX1500 Dual Band Wi-Fi 6 Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1500-ax1500-mesh-router-3-pack",
+    "slug": "cudy-m1500-ax1500-mesh-router-3-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1500/m1500-3-pack-228x228.webp",
+    "specifications": {
+      "Speed": "1201 Mbps + 300 Mbps",
+      "spec_1": "1 GHz Single-Core CPU, 2× Internal Antennas",
+      "spec_2": "3× Gigabit Ports, Connect 60 Devices",
+      "Coverage": "Up to 4500 square feet"
+    },
+    "price": 1188013500,
+    "price_text": "11,880৳13,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M1800 AX1800 Dual Band Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m1800-ax1800-whole-home-mesh-wifi-router-3-pack",
+    "slug": "cudy-m1800-ax1800-whole-home-mesh-wifi-router-3-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m1800/m1800-3-pack-228x228.webp",
+    "specifications": {
+      "spec_0": "1201Mbps on 5GHz and 574Mbps on 2.4GHz",
+      "spec_1": "Seamless Roaming, Whole Home Coverage",
+      "spec_2": "2 Gigabit Ethernet Ports+ 4 Internal Antennas",
+      "Coverage": "Up to 5500 square feet"
+    },
+    "price": 1330014000,
+    "price_text": "13,300৳14,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB450GX4 Gigabit Ethernet Router (With Case)",
+    "url": "https://www.startech.com.bd/mikrotik-rb450gx4-gigabit-ethernet-router",
+    "slug": "mikrotik-rb450gx4-gigabit-ethernet-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/rb450gx4/rb450gx4-01-228x228.webp",
+    "specifications": {
+      "spec_0": "5x 10/100/1000 Ethernet ports",
+      "spec_1": "Four-core 716MHz CPU",
+      "RAM": "1 GB, Storage: 512 MB",
+      "spec_3": "PoE out on port no. 5"
+    },
+    "price": 1260014000,
+    "price_text": "12,600৳14,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X10 AX1500 Dual-Band Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x10-wifi-6-mesh-router-3-pack",
+    "slug": "tp-link-deco-x10-wifi-6-mesh-router-3-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x10/deco-x10-03-228x228.webp",
+    "specifications": {
+      "Area Coverage": "Up to 5600ft",
+      "Device Connect": "Up to 120 device",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "Ports": "2x Gigabit Ports, Wi-Fi Dead Zone Killer"
+    },
+    "price": 14090,
+    "price_text": "14,090৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Grandstream GWN7003 9-Port WAN Gigabit VPN Router",
+    "url": "https://www.startech.com.bd/grandstream-gwn7003-vpn-router",
+    "slug": "grandstream-gwn7003-vpn-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/grandstream/gwn7003/gwn7003-228x228.webp",
+    "specifications": {
+      "spec_0": "2x 2.5 Gigabit SFP and 9x Gigabit Ethernet ports",
+      "spec_1": "VPN supports 100 Tunnels",
+      "spec_2": "VPN Throughput 530Mbps",
+      "NAT Throughput": "2.2Gbps NAT Routing"
+    },
+    "price": 14300,
+    "price_text": "14,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer GE230 BE3600 Dual-Band Gigabit Wi-Fi 7 Gaming Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-ge230-router",
+    "slug": "tp-link-archer-ge230-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-ge230/archer-ge230-01-228x228.webp",
+    "specifications": {
+      "spec_0": "4× External Antennas Form Signal-Boosting Array",
+      "Data Rate": "5 GHz: 2882 Mbps, 2.4 GHz: 688 Mbps",
+      "spec_2": "Compatible with EasyMesh, TP-Link HomeShield Security",
+      "Ports": "1× 2.5Gbps WAN, 1× 2.5Gbps LAN, 3× 1Gbps LAN"
+    },
+    "price": 14390,
+    "price_text": "14,390৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS RT-AX59U AX4200 Dual Band WiFi Router",
+    "url": "https://www.startech.com.bd/asus-rt-ax59u-ax4200-wifi-6-aimesh-router",
+    "slug": "asus-rt-ax59u-ax4200-wifi-6-aimesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/rt-ax59u/rt-ax59u-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual Band (2.4GHz & 5GHz)",
+      "Data Rate": "2.4GHz up to 574 Mbps, 5GHz up to 3603 Mbps",
+      "Ports": "1x Gigabyte WAN, 3x Gigabyte LAN",
+      "Wi-Fi Coverage": "Up to 2600 Square Feet Area"
+    },
+    "price": 1377514500,
+    "price_text": "13,775৳14,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MX12 AX3000 Dual Band WiFi 6 Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/tenda-nova-mx12-mesh-router-3-pack",
+    "slug": "tenda-nova-mx12-mesh-router-3-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/nova-mx12/nova-mx12-05-228x228.webp",
+    "specifications": {
+      "Antenna": "4x 3dBi Internal Antenna, Wi-Fi 6",
+      "Data Rate": "2.4GHz: 574Mbps, 5GHz: 2402Mbps",
+      "Interface": "3x 10/100/1000Mbps RJ45 Ports Per Node",
+      "Coverage Area": "Up to 3000 to 3500 Square Feet"
+    },
+    "price": 1440014800,
+    "price_text": "14,400৳14,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik L009UiGS-RM 8 Port PoE Gigabit Router",
+    "url": "https://www.startech.com.bd/mikrotik-l009uigs-rm-router",
+    "slug": "mikrotik-l009uigs-rm-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/l009uigs-rm/l009uigs-rm-01-228x228.webp",
+    "specifications": {
+      "spec_0": "8x 10/100/1000 Ethernet ports",
+      "spec_1": "1x 1G Ethernet ports with PoE-out",
+      "spec_2": "1x SFP Ports (2.5G Supported)",
+      "RAM": "512 MB, Storage: 128 MB NAND"
+    },
+    "price": 14900,
+    "price_text": "14,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Zyxel Armor G1 AC2600 Multi-Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/zyxel-armor-g1-ac2600-multi-gigabit-wifi-router",
+    "slug": "zyxel-armor-g1-ac2600-multi-gigabit-wifi-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/zyxel/armor-g1/armor-g1-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "1 GHz processor, 256MB Flash and 512MB RAM",
+      "Speed": "AC2600 (800+1733 Mbps)",
+      "spec_2": "13 Internal 5 GHz 8x8 Antennas",
+      "spec_3": "MU-MIMO & Guest WiFi"
+    },
+    "price": 14999,
+    "price_text": "14,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cudy M3600 BE3600 Dual Band Wi-Fi 7 Mesh Router (2 Pack)",
+    "url": "https://www.startech.com.bd/cudy-m3600-be3600-router",
+    "slug": "cudy-m3600-be3600-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cudy/m3600/m3600-03-228x228.webp",
+    "specifications": {
+      "Speed": "2882 Mbps + 688 Mbps Wi-Fi",
+      "spec_1": "2.0 GHz Quad-Core, ARM Cortex-A7",
+      "spec_2": "4× Internal Antennas, 3× Gigabit Ports",
+      "spec_3": "Connect 200 Devices, Up to 2100 sq ft Coverage"
+    },
+    "price": 1410015000,
+    "price_text": "14,100৳15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Tenda Nova MW12 AC2100 Tri-band Mesh Router (3 Pack)",
+    "url": "https://www.startech.com.bd/tenda-mw12-3-pack-ac2100-tri-band-mesh-wifi-system",
+    "slug": "tenda-mw12-3-pack-ac2100-tri-band-mesh-wifi-system",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tenda/mw12-3-pack/mw12-3-pack-228x228.webp",
+    "specifications": {
+      "Speed": "2.4GHz: 300Mbps, 5GHz-1: 867Mbps, 5GHz-2: 867Mbps",
+      "Ethernet Interface": "3 x 10/100/1000Mbps RJ45 ports per node",
+      "Antenna": "4 x Internal antenna",
+      "CPU": "Dual-core 900MHz, Memory: 256M DDR3"
+    },
+    "price": 16900,
+    "price_text": "16,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X20 AX1800 Whole Home Mesh Wi-Fi 6 Router (3 Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x20-ax1800-router-3-pack",
+    "slug": "tp-link-deco-x20-ax1800-router-3-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x20-ax1800-3-pack/deco-x20-ax1800-3-pack-228x228.jpg",
+    "specifications": {
+      "Speed": "574 Mbps at 2.4 GHz + 1201 Mbps at 5 GHz",
+      "spec_1": "4Ã— Internal Antennas",
+      "spec_2": "Wi-Fi Dead Zone Killer",
+      "spec_3": "Robust Parental Controls"
+    },
+    "price": 17649,
+    "price_text": "17,649৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer BE400 BE6500 Dual-Band Gigabit Wi-Fi 7 Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-be400-router",
+    "slug": "tp-link-archer-be400-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-be400/archer-be400-01-228x228.webp",
+    "specifications": {
+      "spec_0": "6× High-Performance Antennas with Beamforming",
+      "Data Rate": "5 GHz: 5764 Mbps, 2.4 GHz: 688 Mbps",
+      "spec_2": "Compatible with EasyMesh, TP-Link HomeShield Security",
+      "Ports": "1× 2.5Gbps WAN, 1× 2.5Gbps LAN, 3× 1Gbps LAN"
+    },
+    "price": 1627517690,
+    "price_text": "16,275৳17,690৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS RT-BE58U BE3600 Dual Band WiFi 7 Gaming Router",
+    "url": "https://www.startech.com.bd/asus-rt-be58u-wifi-7-gaming-router",
+    "slug": "asus-rt-be58u-wifi-7-gaming-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/rt-be58u/rt-be58u-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual Band (2.4GHz / 5GHz)",
+      "Processor": "2.0GHz quad-core, Memory: 256MB Flash, 1GB RAM",
+      "Data Rate": "Up to 3600 Mbps, Coverage Area: Up to 2,000 sq. ft.",
+      "Operating Mode": "Router, Access Point, Media Bridge"
+    },
+    "price": 1708818000,
+    "price_text": "17,088৳18,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco BE22 BE3600 Dual-Band WiFi 7 Mesh Router (2-Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-be22-mesh-router-2-pack",
+    "slug": "tp-link-deco-be22-mesh-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-be22/deco-be22-2-pack-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual-Band (2.4GHz & 5GHz), Wi-Fi 7",
+      "WiFi Speeds": "Up to 2882 Mbps (5 GHz), 688 Mbps (2.4 GHz)",
+      "Antennas": "4× High-Performance Antennas (Internal)",
+      "Ports": "2× 1.0 Gbps (WAN/LAN), AI-Driven Mesh, Coverage: Up to 2600 sq.ft"
+    },
+    "price": 18449,
+    "price_text": "18,449৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS RT-AX82U AX5400 Dual-Band WiFi Gaming Router",
+    "url": "https://www.startech.com.bd/asus-rt-ax82u-ax5400-gigabit-gaming-router",
+    "slug": "asus-rt-ax82u-ax5400-gigabit-gaming-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/ax82u/ax82u-001-228x228.jpg",
+    "specifications": {
+      "spec_0": "ASUS Aura RGB lighting effects",
+      "spec_1": "New-generation WiFi 6",
+      "spec_2": "Mobile Game Mode",
+      "spec_3": "ASUS AiMesh support"
+    },
+    "price": 1729019000,
+    "price_text": "17,290৳19,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS TUF Gaming BE3600 Dual Band WiFi 7 Gaming Router",
+    "url": "https://www.startech.com.bd/asus-tuf-gaming-be3600-gaming-router",
+    "slug": "asus-tuf-gaming-be3600-gaming-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/tuf-gaming-be3600/tuf-gaming-be3600-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual Band (2.4GHz / 5GHz), 4 x External Antena",
+      "Processor": "2.0 GHz Quad-core, Memory: 256MB Flash, 1GB RAM",
+      "Data Rate": "Up to 2882 Mbps, Coverage Area: Up to 2500 sq ft",
+      "Operating Mode": "AiMesh Node Mode, Access Point, Media Bridge"
+    },
+    "price": 1843219200,
+    "price_text": "18,432৳19,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X50 AX3000 Dual Band Mesh Router (3-Pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x50-3-pack-dual-band-wi-fi-6-mesh-router",
+    "slug": "tp-link-deco-x50-3-pack-dual-band-wi-fi-6-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x50-/deco-x50-3-pack-228x228.webp",
+    "specifications": {
+      "spec_0": "Deliver Wi-Fi to an area of up to 6,500 square feet",
+      "Frequency": "Dual-Band (2.4GHz & 5GHz)",
+      "WiFi Speeds": "Up to 3000 Mbps, AI-Driven Mesh",
+      "Interfaces": "3× Gigabit Ports, 2×  Internal Antennas"
+    },
+    "price": 19290,
+    "price_text": "19,290৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Archer GXE75 AXE5400 Tri-Band Wi-Fi 6E Gaming Router",
+    "url": "https://www.startech.com.bd/tp-link-archer-gxe75-axe5400-tri-band-gaming-router",
+    "slug": "tp-link-archer-gxe75-axe5400-tri-band-gaming-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-gxe75/archer-gxe75-01-228x228.webp",
+    "specifications": {
+      "6 GHz": "2402 Mbps, 5 GHz: 2402 Mbps, 2.4 GHz: 574 Mbps",
+      "spec_1": "Supports EasyMesh, 4K-QAM Function",
+      "spec_2": "1× 2.5Gbps WAN/LAN, 1× 1Gbps WAN/LAN, 3× Gigabit LAN Ports",
+      "spec_3": "Works with Alexa and Google Assistant"
+    },
+    "price": 20190,
+    "price_text": "20,190৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Asus ZenWiFi XD5 AX3000 Dual Band WiFi 6 Mesh Router (2-Pack)",
+    "url": "https://www.startech.com.bd/asus-zenwifi-xd5-mesh-router",
+    "slug": "asus-zenwifi-xd5-mesh-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/zenwifi-xd5/zenwifi-xd5-02-228x228.webp",
+    "specifications": {
+      "Antenna": "Internal dual-band antenna x 2",
+      "Band": "2.4 GHz , 5 GHz",
+      "Speed": "2402 Mbps+ 574 Mbps",
+      "Coverage": "Up to 2400 Sq. ft"
+    },
+    "price": 2000020500,
+    "price_text": "20,000৳20,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "TP-Link Deco X60 AX5400 Dual-Band Mesh Router (2-pack)",
+    "url": "https://www.startech.com.bd/tp-link-deco-x60-router-2-pack",
+    "slug": "tp-link-deco-x60-router-2-pack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/deco-x60-2-pack/deco-x60-2-pack-228x228.jpg",
+    "specifications": {
+      "Frequency": "Dual Band (5Ghz & 2.4Ghz)",
+      "WiFi Speeds": "5 GHz 4804 Mbps, 2.4 GHz 574 Mbps",
+      "Ethernet Ports": "2× Gigabit Ports",
+      "Wi-Fi Coverage": "5500-6000 Square feet Area"
+    },
+    "price": 21890,
+    "price_text": "21,890৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS TUF Gaming AX6000 Dual Band WiFi Gaming Router",
+    "url": "https://www.startech.com.bd/asus-tuf-gaming-ax6000-dual-band-gaming-router",
+    "slug": "asus-tuf-gaming-ax6000-dual-band-gaming-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/tuf-gaming-ax6000/tuf-gaming-ax6000-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Next-Gen WiFi 6, AiMesh Technology",
+      "Data Speed": "1148+4804 Mbps",
+      "spec_2": "Game Boost / Acceleration",
+      "Area Coverage": "Up to 4600 square Feet"
+    },
+    "price": 2068022000,
+    "price_text": "20,680৳22,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "ASUS TUF Gaming BE6500 Dual Band WiFi 7 Gaming Router",
+    "url": "https://www.startech.com.bd/asus-tuf-gaming-be6500-gaming-router",
+    "slug": "asus-tuf-gaming-be6500-gaming-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/asus/tuf-gaming-be6500/tuf-gaming-be6500-01-228x228.webp",
+    "specifications": {
+      "Frequency": "Dual Band (2.4GHz / 5GHz)",
+      "Processor": "1.5GHz Quad-core, Memory: 256MB Flash, 1GB RAM",
+      "Data Rate": "Up to 5764 Mbps, Coverage Area: Up to 2500 to 3000 sq ft",
+      "Operating Mode": "AiMesh Node Mode, Access Point, Media Bridge, Repeater Mode"
+    },
+    "price": 2254023500,
+    "price_text": "22,540৳23,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Zyxel Armor G5 AX6000 Multi-Gigabit WiFi Router",
+    "url": "https://www.startech.com.bd/zyxel-armor-g5-ax6000-12-stream-multi-gigabit-wifi-6-router",
+    "slug": "zyxel-armor-g5-ax6000-12-stream-multi-gigabit-wifi-6-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/zyxel/armor-g5/armor-g5-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "64-bit 2.2 GHz Quad-Core Processor",
+      "Memory": "4GB Flash/ 1GB RAM",
+      "Speed": "AX6000 (1200+4800 Mbps)",
+      "spec_3": "13 Internal Antennas"
+    },
+    "price": 24500,
+    "price_text": "24,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB3011UiAS-RM Gigabit Ethernet Router",
+    "url": "https://www.startech.com.bd/mikrotik-rb3011uias-rm-router",
+    "slug": "mikrotik-rb3011uias-rm-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/rb3011uias/rb3011uias-228x228.png",
+    "specifications": {
+      "RAM": "1 GB",
+      "CPU core count": "2",
+      "Frequency": "1.4 GHz",
+      "DIM": "443x92x44mm"
+    },
+    "price": 28000,
+    "price_text": "28,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB4011iGS+RM 10xGigabit Ethernet Rackmount Router",
+    "url": "https://www.startech.com.bd/mikrotik-rb4011igs-rm-router",
+    "slug": "mikrotik-rb4011igs-rm-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/rb4011igs/rb4011igs-228x228.jpg",
+    "specifications": {
+      "RAM": "1 GB",
+      "CPU core count": "2",
+      "Frequency": "1.4 GHz",
+      "DIM": "443x92x44mm"
+    },
+    "price": 2910030000,
+    "price_text": "29,100৳30,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB4011iGS+5HACQ2HND-IN 10X Gigabit Ethernet Router",
+    "url": "https://www.startech.com.bd/mikrotik-rb4011igs-5hacq2hnd-in-router",
+    "slug": "mikrotik-rb4011igs-5hacq2hnd-in-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/networking/router/mikrotik/rb4011igs-5hacq2hnd-in/rb4011igs-5hacq2hnd-in-1-228x228.jpg",
+    "specifications": {
+      "spec_0": "Powerful 10xGigabit port",
+      "spec_1": "Quad-core 1.4Ghz CPU +1GB RAM",
+      "spec_2": "dual band 2.4GHz / 5GHz 4x4 MIMO",
+      "spec_3": "SFP+ 10Gbps cage"
+    },
+    "price": 3185035000,
+    "price_text": "31,850৳35,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Huawei eKitEngine S380-L4P1T 4 Port Gigabit PoE Router",
+    "url": "https://www.startech.com.bd/huawei-ekitengine-s380-l4p1t-4-port-poe-router",
+    "slug": "huawei-ekitengine-s380-l4p1t-4-port-poe-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/huawei/s380-l4t1t/s380-l4t1t-01-228x228.webp",
+    "specifications": {
+      "Uplink Ports": "1 x GE WAN Ports",
+      "spec_1": "Downlink Ports\t1 x GE WAN, 4 x GE LAN (50W PoE+)",
+      "Memory": "512MB DDR4, 512MB NAND Flash Memory",
+      "spec_3": "IP20 Ingress Protection Level"
+    },
+    "price": 39500,
+    "price_text": "39,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik RB1100AHX4 (Dude Edition With Sata Port) Rackmount 13X Gigabit Ethernet Router",
+    "url": "https://www.startech.com.bd/mikrotik-rb1100ahx4-router",
+    "slug": "mikrotik-rb1100ahx4-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/rb1100ahx4/rb1100ahx4-228x228.jpg",
+    "specifications": {
+      "RAM": "1 GB",
+      "CPU core count": "4",
+      "Frequency": "1.4 GHz",
+      "DIM": "444 x 148 x 47 mm"
+    },
+    "price": 44500,
+    "price_text": "44,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Huawei eKitEngine S380-S8T2T 8 Port Gigabit Router",
+    "url": "https://www.startech.com.bd/huawei-ekitengine-s380-s8t2t-8-port-router",
+    "slug": "huawei-ekitengine-s380-s8t2t-8-port-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/huawei/s380-s8t2t/s380-s8t2t-01-228x228.webp",
+    "specifications": {
+      "Uplink Ports": "2 x GE WAN Ports",
+      "Downlink Ports": "8 x GE LAN Ports",
+      "Memory": "512MB DDR4, 512MB NAND Flash Memory",
+      "spec_3": "IP20 Ingress Protection Level"
+    },
+    "price": 45000,
+    "price_text": "45,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik CCR2004-16G-2S+ Cloud Core Router",
+    "url": "https://www.startech.com.bd/mikrotik-ccr2004-16g-2s-plus-router",
+    "slug": "mikrotik-ccr2004-16g-2s-plus-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/ccr2004-16g-2s-plus/mikrotik-ccr2004-16g-2s-router-01-228x228.webp",
+    "specifications": {
+      "Frequency": "1700 MHz",
+      "Ram": "4 GB",
+      "Storage size": "128 MB",
+      "Bandwidth Capacity": "538Mbps Bandwidth Capacity"
+    },
+    "price": 5390055000,
+    "price_text": "53,900৳55,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cisco C891F Integrated Service Router",
+    "url": "https://www.startech.com.bd/cisco-c891f-k9-router",
+    "slug": "cisco-c891f-k9-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router1/Cisco/c891f/routers-c891f-228x228.jpg",
+    "specifications": {
+      "Dimensions": "4.6 x 32.3 x 24.9 cm",
+      "Interfaces": "8 RJ-45 10/100/1000",
+      "PoE Ports": "4"
+    },
+    "price": 56500,
+    "price_text": "56,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Huawei eKitEngine S380-S8P2T 8 Port Gigabit PoE Router",
+    "url": "https://www.startech.com.bd/huawei-ekitengine-s380-s8p2t-8-port-poe-router",
+    "slug": "huawei-ekitengine-s380-s8p2t-8-port-poe-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/huawei/s380-s8p2t/s380-s8p2t-01-228x228.webp",
+    "specifications": {
+      "Downlink Ports": "8 x GE LAN (124 W PoE+)",
+      "Uplink Ports": "2 x GE WAN Ports",
+      "Memory": "512MB DDR4, 512MB NAND Flash Memory",
+      "spec_3": "IP20 Ingress Protection Level"
+    },
+    "price": 63000,
+    "price_text": "63,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Huawei eKitEngine S380-H8T3ST 8 Port Gigabit Router",
+    "url": "https://www.startech.com.bd/huawei-ekitengine-s380-h8t3st-8-port-router",
+    "slug": "huawei-ekitengine-s380-h8t3st-8-port-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/huawei/s380-h8t3st/s380-h8t3st-01-228x228.webp",
+    "specifications": {
+      "Uplink Ports": "2x GE WAN, 1x GE (SFP) WAN",
+      "Downlink Ports": "8 x GE LAN Ports",
+      "Memory": "1GB DDR4, 512MB NAND Flash Memory",
+      "spec_3": "IP20 Ingress Protection Level"
+    },
+    "price": 63000,
+    "price_text": "63,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik CCR2004-1G-12S+2XS Ethernet Router",
+    "url": "https://www.startech.com.bd/mikrotik-ccr2004-1g-12s-2xs-ethernet-router",
+    "slug": "mikrotik-ccr2004-1g-12s-2xs-ethernet-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/ccr2004-1g-12s-2xs/ccr2004-1g-12s-2xs-01-228x228.jpg",
+    "specifications": {
+      "Architecture": "ARM 64bit",
+      "CPU": "AL32400, core count: 4",
+      "CPU nominal frequency": "1700 MHz",
+      "RAM": "4 GB, Storage: 128 MB"
+    },
+    "price": 6460068000,
+    "price_text": "64,600৳68,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Huawei NetEngine AR720 8 Port Gigabit Router",
+    "url": "https://www.startech.com.bd/huawei-netengine-ar720-8-port-router",
+    "slug": "huawei-netengine-ar720-8-port-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/huawei/ar720/ar720-001-228x228.webp",
+    "specifications": {
+      "LAN Ports": "8 x GE electrical interfaces",
+      "WAN Ports": "2 x GE combo interfaces",
+      "Forwarding Performance": "9 Mpps to 25 Mpps",
+      "Number of Connected Terminals": "700"
+    },
+    "price": 85000,
+    "price_text": "85,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik CCR2116-12G-4S+ 16 Core ARM CPU 10G Router",
+    "url": "https://www.startech.com.bd/mikrotik-ccr2116-12g-4splus-10g-cloud-core-router",
+    "slug": "mikrotik-ccr2116-12g-4splus-10g-cloud-core-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/ccr2116-12g-4splus/ccr2116-12g-4splus-01-228x228.jpg",
+    "specifications": {
+      "Architecture": "ARM 64bit",
+      "CPU": "AL73400",
+      "Size of RAM": "16 GB",
+      "Storage size": "128 MB, Operating System: RouterOS (v7 only)"
+    },
+    "price": 117000120000,
+    "price_text": "117,000৳120,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Huawei NetEngine AR730 8 Port Gigabit Router",
+    "url": "https://www.startech.com.bd/huawei-netengine-ar730-8-port-router",
+    "slug": "huawei-netengine-ar730-8-port-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/huawei/ar730/ar730-01-228x228.webp",
+    "specifications": {
+      "LAN Ports": "8x GE electrical , 1x GE combo interface",
+      "WAN Ports": "2x GE combo, 1x 10GE optical interface (SFP+)",
+      "Forwarding Performance": "9 Mpps to 25 Mpps",
+      "Number of Connected Terminals": "1200"
+    },
+    "price": 150000,
+    "price_text": "150,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik CCR1036-8G-2S+EM 1U rackmount 8-Port Gigabit Ethernet Router",
+    "url": "https://www.startech.com.bd/mikrotik-ccr1036-8g-2splusem-8-port-gigabit-ethernet-router",
+    "slug": "mikrotik-ccr1036-8g-2splusem-8-port-gigabit-ethernet-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/ccr1036-8g-2splusem/ccr1036-8g-2splusem-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Supports both SFP (1.25G) and SFP+ (10G) modules",
+      "CPU": "Tilera TLR4-03680, 36 core, 1.2 GHz",
+      "RAM": "8 GB, Storage size: 1 GB",
+      "10/100/1000 Ethernet ports": "8"
+    },
+    "price": 158000,
+    "price_text": "158,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cisco C1111-8P Integrated Services Router",
+    "url": "https://www.startech.com.bd/cisco-c1111-8p-integrated-services-router",
+    "slug": "cisco-c1111-8p-integrated-services-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cisco/c1111-8p/c1111-8p-01-228x228.webp",
+    "specifications": {
+      "Interfaces": "RJ-45, USB 3.0 Type A host port",
+      "Input voltage": "Universal 100 to 240 VAC",
+      "Frequency": "50-60 Hz",
+      "spec_3": "10/100/1000 Gigabit Ethernet"
+    },
+    "price": 98000160000,
+    "price_text": "98,000৳160,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Cisco ISR4331/K9 Integrated Service Router With SEC license",
+    "url": "https://www.startech.com.bd/cisco-isr4331-k9-integrated-service-router",
+    "slug": "cisco-isr4331-k9-integrated-service-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/cisco/isr4331/isr4331-228x228.webp",
+    "specifications": {
+      "Interfaces": "3x WAN/LAN, 2x SFP, 2x RJ-45-based ports",
+      "Input voltage": "100 to 240 VAC autoranging",
+      "Default flash memory": "4 GB",
+      "Maximum power with PoE": "530 watts"
+    },
+    "price": 215000230000,
+    "price_text": "215,000৳230,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "networking_router",
+    "name": "Mikrotik CCR2216-1G-12XS-2XQ 16-Port Dual PSU Cloud Core Ethernet Router",
+    "url": "https://www.startech.com.bd/mikrotik-ccr2216-1g-12xs-2xq-ethernet-router",
+    "slug": "mikrotik-ccr2216-1g-12xs-2xq-ethernet-router",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/router/mikrotik/ccr2216-1g-12xs-2xq/ccr2216-1g-12xs-2xq-01-228x228.webp",
+    "specifications": {
+      "spec_0": "1x 10/100/1000 Ethernet ports",
+      "spec_1": "12x 25G SFP28, 2x 100G QSFP28 ports",
+      "RAM": "16GB, Storage: 128MB NAND",
+      "Operating System": "RouterOS v7"
+    },
+    "price": 350000,
+    "price_text": "350,000৳"
+  }
+]

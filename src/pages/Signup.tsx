@@ -1,0 +1,181 @@
+import { useState } from "react";
+import { Link, useNavigate } from "react-router";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { trpc } from "@/providers/trpc";
+import { toast } from "sonner";
+import Layout from "@/components/Layout";
+import { Eye, EyeOff, UserPlus } from "lucide-react";
+
+export default function Signup() {
+  const navigate = useNavigate();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    password: "",
+  });
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+
+  const register = trpc.auth.register.useMutation({
+    onSuccess: () => {
+      toast.success("Account created successfully!");
+      navigate("/");
+      setTimeout(() => window.location.reload(), 100);
+    },
+    onError: (err) => {
+      toast.error(err.message);
+    }
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (formData.password.length < 6) {
+      return toast.error("Password must be at least 6 characters");
+    }
+    if (formData.password !== confirmPassword) {
+      return toast.error("Passwords do not match");
+    }
+    register.mutate(formData);
+  };
+
+  const inputClass = "flex h-12 w-full rounded-xl border border-gray-200/80 bg-white/60 backdrop-blur-sm px-4 py-2 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 hover:bg-white/80";
+
+  return (
+    <Layout>
+      <div className="min-h-[80vh] flex items-center justify-center relative overflow-hidden py-12 px-4">
+        {/* Background decoration */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-indigo-50/50 to-slate-50" />
+        <div className="absolute top-1/4 -right-20 w-72 h-72 bg-indigo-200/30 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 -left-20 w-72 h-72 bg-blue-200/30 rounded-full blur-3xl" />
+
+        <Card className="w-full max-w-md glass border-0 relative z-10 rounded-[2rem] overflow-hidden">
+          <div className="absolute inset-0 bg-white/40" />
+          <CardHeader className="space-y-1 text-center pb-2 pt-10 relative z-20">
+            <div className="w-16 h-16 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl shadow-indigo-200/50">
+              <UserPlus className="w-7 h-7 text-white" />
+            </div>
+            <CardTitle className="text-2xl font-bold tracking-tight text-gray-900">Create an account</CardTitle>
+            <p className="text-sm text-gray-500">
+              Join us and start shopping today
+            </p>
+          </CardHeader>
+          <CardContent className="pb-10 px-8 sm:px-10 relative z-20">
+            <form onSubmit={handleSubmit} className="space-y-5">
+              <div className="space-y-2">
+                <label htmlFor="name" className="text-sm font-semibold text-gray-700">
+                  Full Name
+                </label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Your full name"
+                  required
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  className={inputClass}
+                />
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="email" className="text-sm font-semibold text-gray-700">
+                  Email Address
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  className={inputClass}
+                />
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="phone" className="text-sm font-semibold text-gray-700">
+                  Phone Number
+                </label>
+                <input
+                  id="phone"
+                  type="tel"
+                  placeholder="+8801..."
+                  required
+                  value={formData.phone}
+                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                  className={inputClass}
+                />
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="password" className="text-sm font-semibold text-gray-700">
+                  Password
+                </label>
+                <div className="relative">
+                  <input
+                    id="password"
+                    type={showPassword ? "text" : "password"}
+                    placeholder="Minimum 6 characters"
+                    required
+                    value={formData.password}
+                    onChange={(e) => setFormData({ ...formData, password: e.target.value })}
+                    className={inputClass + " pr-11"}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword(!showPassword)}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors"
+                  >
+                    {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                  </button>
+                </div>
+                {formData.password && formData.password.length < 6 && (
+                  <p className="text-xs text-amber-600">Password must be at least 6 characters</p>
+                )}
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="confirmPassword" className="text-sm font-semibold text-gray-700">
+                  Confirm Password
+                </label>
+                <input
+                  id="confirmPassword"
+                  type={showPassword ? "text" : "password"}
+                  placeholder="Re-enter your password"
+                  required
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                  className={inputClass}
+                />
+                {confirmPassword && confirmPassword !== formData.password && (
+                  <p className="text-xs text-red-600">Passwords do not match</p>
+                )}
+              </div>
+              <Button 
+                type="submit" 
+                className="w-full h-11 rounded-xl bg-indigo-600 hover:bg-indigo-700 shadow-md shadow-indigo-200 font-semibold text-sm transition-all duration-200 mt-2" 
+                size="lg" 
+                disabled={register.isPending}
+              >
+                {register.isPending ? (
+                  <span className="flex items-center gap-2">
+                    <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                    Creating account...
+                  </span>
+                ) : (
+                  <span className="flex items-center gap-2">
+                    <UserPlus className="w-4 h-4" /> Create Account
+                  </span>
+                )}
+              </Button>
+            </form>
+            
+            <div className="mt-6 text-center text-sm text-gray-500">
+              Already have an account?{" "}
+              <Link to="/login" className="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors">
+                Sign in
+              </Link>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </Layout>
+  );
+}

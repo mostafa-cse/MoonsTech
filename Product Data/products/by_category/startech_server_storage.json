@@ -1,0 +1,1378 @@
+[
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "MSI EdgeXpert MS-C931 Personal AI Supercomputer On NVIDIA DGX Spark Platform",
+    "url": "https://www.startech.com.bd/msi-edgexpert-ms-c931-ai-supercomputer",
+    "slug": "msi-edgexpert-ms-c931-ai-supercomputer",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/workstation/msi/edgexpert-ms-c931/edgexpert-ms-c931-01-228x228.webp",
+    "specifications": {
+      "Processor": "20-core Arm, 10 Cortex-X925+10 Cortex-A725 Arm, 1000 AI TOPS",
+      "RAM": "128GB LPDDR5x, Storage: 4TB NVMe M.2 With Self-encryption",
+      "Ports": "4x USB 3.2 Type C, 1x RJ-45 Connector 10 GbE",
+      "Graphics": "NVIDIA Blackwell Architecture, Platform: NVIDIA DGX Spark"
+    },
+    "price": 660000,
+    "price_text": "660,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DateUp 6 Port PDU for Server Rack",
+    "url": "https://www.startech.com.bd/dateup-6-port-pdu",
+    "slug": "dateup-6-port-pdu",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-accessories/pdu/6-port-pdu/6-port-pdu-01-228x228.webp",
+    "specifications": {
+      "Power Distribution Unit (PDU)": "6 Port",
+      "spec_1": "Color - Black",
+      "spec_2": "Universal Sockets, UK Plug",
+      "Feature": "Metal"
+    },
+    "price": 3000,
+    "price_text": "3,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DateUp 8 Port PDU for Server Rack",
+    "url": "https://www.startech.com.bd/dateup-8-port-pdu",
+    "slug": "dateup-8-port-pdu",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-accessories/pdu/8-port-pdu/8-port-pdu-01-228x228.webp",
+    "specifications": {
+      "Power Distribution Unit (PDU)": "8 Port",
+      "spec_1": "Color - Black",
+      "spec_2": "Universal Sockets, UK Plug",
+      "Feature": "Metal"
+    },
+    "price": 3200,
+    "price_text": "3,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DateUp 8 Port PDU With 2 Meter Cable for Server Rack",
+    "url": "https://www.startech.com.bd/dateup-8-port-pdu-2-meter-cable",
+    "slug": "dateup-8-port-pdu-2-meter-cable",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-accessories/pdu/8-port-pdu-2-meter-cable/8-port-pdu-2-meter-cable-01-228x228.webp",
+    "specifications": {
+      "Power Distribution Unit (PDU)": "8 Port",
+      "Color": "Black",
+      "spec_2": "Universal Sockets, C13 Plug",
+      "Length": "2 meters"
+    },
+    "price": 3500,
+    "price_text": "3,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "COTE CPDU-1U-6US-13AMP 6-Port Universal 3 Pin PDU",
+    "url": "https://www.startech.com.bd/cote-cpdu-1u-6us-13amp-pdu",
+    "slug": "cote-cpdu-1u-6us-13amp-pdu",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-accessories/pdu/cote/cpdu-1u-6us-13amp/cpdu-1u-6us-13amp-02-228x228.webp",
+    "specifications": {
+      "AMP": "13",
+      "Power Distribution Unit (PDU)": "6 Port",
+      "spec_2": "Universal Sockets, UK Plug",
+      "spec_3": "1U 2-meter cable with on-doff switch"
+    },
+    "price": 5000,
+    "price_text": "5,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "COTE CPDU-1U-6C13-13AMP 6 Port C13 PDU",
+    "url": "https://www.startech.com.bd/cote-cpdu-1u-6c13-13amp-pdu",
+    "slug": "cote-cpdu-1u-6c13-13amp-pdu",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-accessories/pdu/cote/cpdu-1u-6c13-13amp/cpdu-1u-6c13-13amp-01-228x228.webp",
+    "specifications": {
+      "AMP": "13",
+      "Port": "6-port C13",
+      "spec_2": "UK plug with Breaker",
+      "spec_3": "2-meter cable with on-off switch"
+    },
+    "price": 5000,
+    "price_text": "5,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "COTE CPDU-1U-8US-13AMP 1U 8 Port Universal 3 Pin PDU",
+    "url": "https://www.startech.com.bd/cote-cpdu-1u-8us-13amp-pdu",
+    "slug": "cote-cpdu-1u-8us-13amp-pdu",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-accessories/pdu/cote/cpdu-1u-8us-13amp/cpdu-1u-8us-13amp-02-228x228.webp",
+    "specifications": {
+      "AMP": "13A rated current",
+      "Port": "8-port Universal",
+      "spec_2": "Bracket-supported rack installation",
+      "spec_3": "2-meter cable with on-off switch"
+    },
+    "price": 5500,
+    "price_text": "5,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "COTE CPDU-1U-10C13-13AMP 10 Port Back-to-Back PDU",
+    "url": "https://www.startech.com.bd/cote-cpdu-1u-10c13-13amp-pdu",
+    "slug": "cote-cpdu-1u-10c13-13amp-pdu",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-accessories/pdu/cote/cpdu-1u-10c13-13amp/cpdu-1u-10c13-13amp-02-228x228.webp",
+    "specifications": {
+      "AMP": "13A rated current",
+      "Port": "10 × IEC320 C13 output sockets",
+      "spec_2": "Bracket-supported rack installation",
+      "spec_3": "2-meter cable with on-off switch"
+    },
+    "price": 7000,
+    "price_text": "7,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "COTE CPDU-1U-12(8-C13+4-C19)-16AMP 1U 12 Port Back-to-Back PDU",
+    "url": "https://www.startech.com.bd/cote-cpdu-1u-128-c134-c19-13amp-pdu",
+    "slug": "cote-cpdu-1u-128-c134-c19-13amp-pdu",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-accessories/pdu/cote/cpdu-1u-12/cpdu-1u-12-02-228x228.webp",
+    "specifications": {
+      "AMP": "16A rated current",
+      "Port": "12 Port configuration (8×C13 + 4×C19)",
+      "spec_2": "Master switch with LED indicator",
+      "spec_3": "2-meter cable with on-off switch"
+    },
+    "price": 8000,
+    "price_text": "8,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DATEUP 6U Server Rack (600x450x370)",
+    "url": "https://www.startech.com.bd/dateup-6u-server-rack",
+    "slug": "dateup-6u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/6u-server-rack/6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600x450x370",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6-port universal socket",
+      "spec_3": "Glass Door, Round Lock"
+    },
+    "price": 11000,
+    "price_text": "11,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 6U 600 x 450mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el265-6-6u-server-rack",
+    "slug": "toten-el265-6-6u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el265-6-6u/el265-6-6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 450mm",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 11500,
+    "price_text": "11,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 9U 600 x 450mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el265-9-9u-server-rack",
+    "slug": "toten-el265-9-9u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el265-9-9u/el265-9-9u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 450mm",
+      "Fan": "2 Fans (Low noise)",
+      "Lock": "Round, DU: 6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 12500,
+    "price_text": "12,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DATEUP 9U Server Rack (600x450x501)",
+    "url": "https://www.startech.com.bd/dateup-9u-server-rack",
+    "slug": "dateup-9u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/6u-server-rack/6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600x450x501",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6-port universal socket",
+      "spec_3": "Glass Door, Round Lock"
+    },
+    "price": 12500,
+    "price_text": "12,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 6U 600 x 450mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-6u-server-rack",
+    "slug": "cote-6u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-6u/cote-6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 450mm",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 13000,
+    "price_text": "13,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 6U Wall Mount Network Cabinet with PDU",
+    "url": "https://www.startech.com.bd/safenet-6u-wall-mount-network-cabinet",
+    "slug": "safenet-6u-wall-mount-network-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/snw-series/safenet-snw-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Tempered Glass side with Advanced Swivel Lock",
+      "spec_1": "Adjustable Front and Rear Vertical Rails",
+      "spec_2": "Preinstalled 2-Fans on top and Brush Panel",
+      "Dimension": "600 x 450 x 380 mm"
+    },
+    "price": 13500,
+    "price_text": "13,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DATEUP 9U Server Rack (600x600x501)",
+    "url": "https://www.startech.com.bd/dateup-9u-server-rack-cabinet",
+    "slug": "dateup-9u-server-rack-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/6u-server-rack/6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600x600x501",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6-port universal socket",
+      "spec_3": "Glass Door, Round Lock"
+    },
+    "price": 13500,
+    "price_text": "13,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 12U 600 x 450mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el265-12-12u-server-rack",
+    "slug": "toten-el265-12-12u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el265-12-12u/el265-12-12u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 450mm",
+      "Fan": "2 Fans (Low noise)",
+      "Lock": "Round, DU: 6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 1400014500,
+    "price_text": "14,000৳14,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 6U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-6u-600-600mm-server-rack",
+    "slug": "cote-6u-600-600mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-6u/cote-6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 14500,
+    "price_text": "14,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 9U 600 x 450mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-9u-600-450mm-server-rack",
+    "slug": "cote-9u-600-450mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-6u/cote-6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 450mm",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 14500,
+    "price_text": "14,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 6U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-6u-600-x-600-server-rack",
+    "slug": "toten-6u-600-x-600-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el265-6-6u/el265-6-6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 14500,
+    "price_text": "14,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 9U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el266-9-9u-server-rack",
+    "slug": "toten-el266-9-9u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el266-9-9u/el266-9-9u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "Lock": "Round, DU: 6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 15000,
+    "price_text": "15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 9U Wall Mount Network Cabinet with PDU",
+    "url": "https://www.startech.com.bd/safenet-9u-wall-mount-network-cabinet",
+    "slug": "safenet-9u-wall-mount-network-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/snw-series/safenet-snw-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Tempered Glass side with Advanced Swivel Lock",
+      "spec_1": "Adjustable Front and Rear Vertical Rails",
+      "spec_2": "Preinstalled 2-Fans on top and Brush Panel",
+      "Dimension": "600 x 450 x 500 mm"
+    },
+    "price": 15000,
+    "price_text": "15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 9U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-9u-600-600mm-server-rack",
+    "slug": "cote-9u-600-600mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-6u/cote-6u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 1540015500,
+    "price_text": "15,400৳15,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 12U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el266-12-12u-server-rack",
+    "slug": "toten-el266-12-12u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el265-12-12u/el265-12-12u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "Lock": "Round, DU: 6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 16000,
+    "price_text": "16,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DATEUP 15U Server Rack (600x450x855)",
+    "url": "https://www.startech.com.bd/dateup-15u-server-rack",
+    "slug": "dateup-15u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/15u/15u-01-228x228.png",
+    "specifications": {
+      "Size": "600x450x855",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6-port universal socket",
+      "spec_3": "Glass Door Handle Lock"
+    },
+    "price": 16000,
+    "price_text": "16,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Nexakey NX-9U Wall Mount Server Rack",
+    "url": "https://www.startech.com.bd/nexakey-nx-9u-server-rack",
+    "slug": "nexakey-nx-9u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/nexakey/nx-9u/nx-9u-228x228.webp",
+    "specifications": {
+      "spec_0": "Front Door Tempered Glass with Cam Lock",
+      "spec_1": "2x120mm Fan (Low Noise) on Vented Top Flush Panel",
+      "spec_2": "4 x Panel Mount with Unit Indication",
+      "Dimensions": "600mm (H) x 450mm (W) x 500mm (D)"
+    },
+    "price": 16500,
+    "price_text": "16,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 12U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-12u-600-600mm-server-rack",
+    "slug": "cote-12u-600-600mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-12u/12u-600-600mm-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 17000,
+    "price_text": "17,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DATEUP 15U Server Rack (600x600x855)",
+    "url": "https://www.startech.com.bd/dateup-15u-server-rack-cabinet",
+    "slug": "dateup-15u-server-rack-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/15u/15u-01-228x228.png",
+    "specifications": {
+      "Size": "600x600x855",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6-port universal socket",
+      "spec_3": "Glass Door Handle Lock"
+    },
+    "price": 17000,
+    "price_text": "17,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 12U Wall Mount Network Cabinet with PDU",
+    "url": "https://www.startech.com.bd/safenet-12u-wall-mount-network-cabinet",
+    "slug": "safenet-12u-wall-mount-network-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/snw-series/safenet-snw-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Tempered Glass side with Advanced Swivel Lock",
+      "spec_1": "Adjustable Front and Rear Vertical Rails",
+      "spec_2": "Preinstalled 2-Fans on top and Brush Panel",
+      "Dimension": "600 x 600 x 635 mm"
+    },
+    "price": 18000,
+    "price_text": "18,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 15U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-15u-600-600mm-server-rack",
+    "slug": "cote-15u-600-600mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-12u/12u-600-600mm-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 18000,
+    "price_text": "18,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 15U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el266-15-15u-server-rack",
+    "slug": "toten-el266-15-15u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el266-15-15u/el266-15-15u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "Lock": "Round, DU: 6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 18500,
+    "price_text": "18,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology RKS-02 Sliding Rail Kit for Synology Rackmount Servers",
+    "url": "https://www.startech.com.bd/synology-rks-02-sliding-rail-kit",
+    "slug": "synology-rks-02-sliding-rail-kit",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/rks-02/rks-02-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Synology Rackmount Servers, Provides Easy Access to Servers",
+      "spec_1": "Mount post width must be equal to or greater than 450 mm",
+      "spec_2": "Panel width must be equal to or greater than 480 mm",
+      "Rack mounting depth": "610 mm to 890 mm"
+    },
+    "price": 18500,
+    "price_text": "18,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 15U Wall Mount Network Cabinet with PDU",
+    "url": "https://www.startech.com.bd/safenet-15u-wall-mount-network-cabinet",
+    "slug": "safenet-15u-wall-mount-network-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/snw-series/safenet-snw-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Tempered Glass side with Advanced Swivel Lock",
+      "spec_1": "Adjustable Front and Rear Vertical Rails",
+      "spec_2": "Preinstalled 2-Fans on top and Brush Panel",
+      "Dimension": "600 x 600 x 770 mm"
+    },
+    "price": 1900020500,
+    "price_text": "19,000৳20,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS124 1-Bay NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds124-1-bay-nas-enclosure",
+    "slug": "synology-diskstation-ds124-1-bay-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds124/diskstation-ds124-01-228x228.webp",
+    "specifications": {
+      "Processor": "1.7 GHz Realtek RTD1619B Quad-Core",
+      "RAM": "1 GB DDR4 non-ECC",
+      "HDD Interface": "1 x 3.5/2.5\" SATA III/II",
+      "LAN": "1x Gigabit (RJ-45)"
+    },
+    "price": 27000,
+    "price_text": "27,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 18U Wall Mount Network Cabinet with PDU",
+    "url": "https://www.startech.com.bd/safenet-18u-network-cabinet",
+    "slug": "safenet-18u-network-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/snw-series/safenet-snw-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Tempered Glass side with Advanced Swivel Lock",
+      "spec_1": "Adjustable Front and Rear Vertical Rails",
+      "spec_2": "Preinstalled 2-Fans on top and Brush Panel",
+      "Dimension": "600 x 600 x 1800 mm"
+    },
+    "price": 25500,
+    "price_text": "25,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Asustor DRIVESTOR 2 Lite AS1102T 2-Bays NAS Storage",
+    "url": "https://www.startech.com.bd/asustor-drivestor-2-lite-nas-storage",
+    "slug": "asustor-drivestor-2-lite-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/asustor/drivestor-2-lite/drivestor-2-lite-01-228x228.webp",
+    "specifications": {
+      "Compatible Drive Type": "3.5\" SATA HDD",
+      "spec_1": "Superfast 2.5-Gigabit Ethernet",
+      "spec_2": "Overwhelming 4K experience",
+      "spec_3": "Supports Wake on LAN and Wake on WAN"
+    },
+    "price": 30500,
+    "price_text": "30,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS223j 2-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds223j-2-bay-nas-enclosure",
+    "slug": "synology-diskstation-ds223j-2-bay-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds223j/diskstation-ds223j-01-228x228.webp",
+    "specifications": {
+      "Processor": "1.7 GHz Realtek RTD1619B Quad-Core",
+      "RAM": "1 GB DDR4 non-ECC",
+      "HDD Interface": "2 x 3.5/2.5\" SATA III/II",
+      "LAN": "1x Gigabit (RJ-45)"
+    },
+    "price": 39000,
+    "price_text": "39,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "ORICO MetaBox Pro 2 Bay NAS Storage",
+    "url": "https://www.startech.com.bd/orico-metabox-pro-nas-storage",
+    "slug": "orico-metabox-pro-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas-storage/metabox-pro/metabox-pro-01-228x228.webp",
+    "specifications": {
+      "Compatible Drive Type": "2.5/3.5\" SATA HDD",
+      "Capacity": "44TB, Ram: 4GB DDR4",
+      "CPU": "Intel Celeron N5105 4 Cores 2.0~2.9GHz",
+      "spec_3": "Dual 2.5GbE network ports, SDVN Technology Protection"
+    },
+    "price": 42000,
+    "price_text": "42,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-233 2 Bays NAS Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-233-2-bay-nas-storage",
+    "slug": "qnap-ts-233-2-bay-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/qnap/ts-233/ts-233-01-228x228.webp",
+    "specifications": {
+      "Processor": "ARM 4-core Cortex-A55 2.0GHz processor",
+      "RAM": "2 GB on board (non-expandable)",
+      "Drive Bay": "2x 3.5-inch SATA 6Gb/s, 3Gb/s",
+      "Interface": "1x USB 3.2 Gen 1, 2x USB 2.0"
+    },
+    "price": 44000,
+    "price_text": "44,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 22U 600 x 1000mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el26100-22-22u-server-rack",
+    "slug": "toten-el26100-22-22u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el26100-22-22u/el26100-22-22u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 1000mm",
+      "Fan": "4 Fans (Low noise)",
+      "DU": "6 ports",
+      "spec_3": "Glass front door With Push Lock"
+    },
+    "price": 45000,
+    "price_text": "45,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 32U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-32u-600-600mm-server-rack",
+    "slug": "toten-32u-600-600mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el26100-32-32u/el26100-32-32u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "4 Fans (Low noise)",
+      "PDU": "8 ports",
+      "spec_3": "Glass front door With Push Lock"
+    },
+    "price": 45000,
+    "price_text": "45,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "ORICO MetaCube Pro 5 Bay NAS Storage",
+    "url": "https://www.startech.com.bd/orico-metacube-pro-5-bay-nas-storage",
+    "slug": "orico-metacube-pro-5-bay-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas-storage/metacube-pro-5-bay/metacube-pro-5-bay-001-228x228.webp",
+    "specifications": {
+      "Compatible Drive Type": "2.5/3.5\" SATA HDD/SSD",
+      "Capacity": "100TB, Ram: 2GB DDR4",
+      "CPU": "ARM Quad-Core Cortex-A55 1.7GHz",
+      "Internal Interface": "SATA3.0 6 Gbps x 5"
+    },
+    "price": 47000,
+    "price_text": "47,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Asustor DRIVESTOR 4 Pro AS3304T 4-Bays NAS Storage",
+    "url": "https://www.startech.com.bd/asustor-drivestor-4-pro-as3304t-nas",
+    "slug": "asustor-drivestor-4-pro-as3304t-nas",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/asustor/drivestor-4-pro/drivestor-4-pro-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Realtek RTD1296 Quad-Core 1.4 GHz CPU",
+      "spec_1": "Uses 2 GB DDR4 40% more efficient",
+      "spec_2": "Superfast 2.5-Gigabit Ethernet",
+      "Max Internal Capacity": "72 TB"
+    },
+    "price": 48500,
+    "price_text": "48,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS223 2-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds223-2-bay-nas-enclosure",
+    "slug": "synology-diskstation-ds223-2-bay-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds223/diskstation-ds223-01-228x228.webp",
+    "specifications": {
+      "Processor": "1.7 GHz Realtek RTD1619B Quad-Core",
+      "RAM": "2 GB DDR4 non-ECC",
+      "HDD Interface": "2 x 3.5/2.5\" SATA III/II",
+      "LAN": "1x Gigabit (RJ-45)"
+    },
+    "price": 49888,
+    "price_text": "49,888৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 32U 600 x 1000mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el26100-32-32u-server-rack",
+    "slug": "toten-el26100-32-32u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el26100-32-32u/el26100-32-32u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 1000mm",
+      "Fan": "4 Fans (Low noise)",
+      "PDU": "8 ports",
+      "spec_3": "Glass front door With Push Lock"
+    },
+    "price": 50000,
+    "price_text": "50,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 22U 600 x 1000mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-22u-600-1000mm-server-rack",
+    "slug": "cote-22u-600-1000mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-22u/cote-22u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 1000mm",
+      "Fan": "4PCS with 2.00 M line",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door"
+    },
+    "price": 50000,
+    "price_text": "50,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DateUp 42U Glass Door Server Rack (600x800x2055)",
+    "url": "https://www.startech.com.bd/dateup-42u-server-rack",
+    "slug": "dateup-42u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/42u/42u-01-228x228.webp",
+    "specifications": {
+      "Size": "600x800x2055",
+      "Fan": "4 Fans (Low noise)",
+      "PDU": "8-port universal socket",
+      "spec_3": "Tempered Glass Door, UK Plug, Plastic with switch"
+    },
+    "price": 52500,
+    "price_text": "52,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DateUp 42U Glass Door Server Rack (600x1000x2055)",
+    "url": "https://www.startech.com.bd/dateup-42u-glass-door-server-rack",
+    "slug": "dateup-42u-glass-door-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/42u/42u-01-228x228.webp",
+    "specifications": {
+      "Size": "600x1000x2055",
+      "Fan": "4 Fans (UK Plug)",
+      "PDU": "8-port universal socket",
+      "spec_3": "Tempered Glass Door, Plastic with switch"
+    },
+    "price": 56000,
+    "price_text": "56,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 22U-XL Tempered Glass Door Floor Standing Server Cabinet",
+    "url": "https://www.startech.com.bd/safenet-22u-xl-tempered-glass-door-server-cabinet",
+    "slug": "safenet-22u-xl-tempered-glass-door-server-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/sng-series/safenet-sng-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Tempered Glass front door with Advanced Swivel Lock",
+      "spec_1": "Hex-vented hole rear door to improve cooling efficiency",
+      "spec_2": "Preinstalled 4-Fans on top and Brush Panel",
+      "Dimension": "600 x 1000 x 1166 mm"
+    },
+    "price": 58500,
+    "price_text": "58,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DateUp 42U Mesh Door Server Rack (600x1000x2055)",
+    "url": "https://www.startech.com.bd/dateup-42u-mesh-door-server-rack-cabinet",
+    "slug": "dateup-42u-mesh-door-server-rack-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/42u-mesh-door/42u-mesh-door-01-228x228.webp",
+    "specifications": {
+      "Size": "600x1000x2055",
+      "Fan": "4 Fans (UK Plug)",
+      "PDU": "8-port universal socket",
+      "spec_3": "2x round Lock on side panel"
+    },
+    "price": 59000,
+    "price_text": "59,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "ORICO MetaBox Pro 5 Bay NAS Storage",
+    "url": "https://www.startech.com.bd/orico-metabox-pro-5-bay-nas-storage",
+    "slug": "orico-metabox-pro-5-bay-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas-storage/metabox-pro-5-bay/metabox-pro-5-bay-01-228x228.webp",
+    "specifications": {
+      "Compatible Drive Type": "2.5/3.5\" SATA HDD/M.2 nvmE SSD",
+      "Capacity": "44TB, Ram: 8GB DDR4",
+      "CPU": "Intel Celeron N5105 4 Cores 2.0~2.9GHz",
+      "spec_3": "Dual 2.5GbE network ports, SDVN Technology Protection"
+    },
+    "price": 59500,
+    "price_text": "59,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 32U 600 x 1000mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-32u-600-1000mm-server-rack",
+    "slug": "cote-32u-600-1000mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-32u/cote-32u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 1000mm",
+      "Fan": "4PCS with 2.00 M line",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door, 2 rails open frame"
+    },
+    "price": 60000,
+    "price_text": "60,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DateUp 42U Glass Door Server Rack (800x1000x2055)",
+    "url": "https://www.startech.com.bd/dateup-42u-server-rack-cabinet",
+    "slug": "dateup-42u-server-rack-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/42u/42u-01-228x228.webp",
+    "specifications": {
+      "Size": "800x1000x2055",
+      "Fan": "4 Fans (UK Plug)",
+      "PDU": "8-port universal socket",
+      "spec_3": "Tempered Glass Door, Plastic with switch"
+    },
+    "price": 60000,
+    "price_text": "60,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS225+ 2-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds225plus-2-bay-nas-enclosure",
+    "slug": "synology-diskstation-ds225plus-2-bay-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds224plus/diskstation-ds224plus-01-228x228.webp",
+    "specifications": {
+      "Processor": "2.0 GHz Intel Celeron J4125 Quad-Core",
+      "RAM": "2 GB DDR4 non-ECC",
+      "HDD Interface": "2 x 3.5/2.5\" SATA III/II",
+      "LAN": "2x Gigabit (RJ-45)"
+    },
+    "price": 63000,
+    "price_text": "63,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "DateUp 42U Mesh Door Server Rack (800x1000x2055)",
+    "url": "https://www.startech.com.bd/dateup-42u-mesh-door-server-rack",
+    "slug": "dateup-42u-mesh-door-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/dateup/42u-mesh-door/42u-mesh-door-01-228x228.webp",
+    "specifications": {
+      "Size": "800x1000x2055",
+      "Fan": "4 Fans (UK Plug)",
+      "PDU": "8-port universal socket",
+      "spec_3": "2x round Lock on side panel"
+    },
+    "price": 65000,
+    "price_text": "65,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 42U 600 x 1000mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-el26100-42-42u-server-rack",
+    "slug": "toten-el26100-42-42u-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el26100-42-42u/el26100-42-42u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 1000mm",
+      "Fan": "4 Fans (Low noise)",
+      "PDU": "6 ports",
+      "spec_3": "Glass front door, Perforated Rear Door"
+    },
+    "price": 6799068500,
+    "price_text": "67,990৳68,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 42U Tempered Glass Door Floor Standing Server Cabinet",
+    "url": "https://www.startech.com.bd/safenet-42u-tempered-glass-door-server-cabinet",
+    "slug": "safenet-42u-tempered-glass-door-server-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/sng-series/safenet-sng-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Tempered Glass front door with Advanced Swivel Lock",
+      "spec_1": "Hex-vented hole rear door to improve cooling efficiency",
+      "spec_2": "Preinstalled 4-Fans on top and Brush Panel",
+      "Dimension": "600 x 1000 x 2055 mm"
+    },
+    "price": 73500,
+    "price_text": "73,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Asustor FLASHSTOR 6 FS6706T NAS Storage",
+    "url": "https://www.startech.com.bd/asustor-flashstor-6-fs6706t-nas ",
+    "slug": "asustor-flashstor-6-fs6706t-nas ",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/asustor/flashstor-6/flashstor-6-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Realtek RTD1619B 1.7GHz quad-core processor",
+      "spec_1": "Superfast 2.5-Gigabit Ethernet",
+      "spec_2": "Smooth Transcoding of 4K Videos",
+      "spec_3": "Supports Wake on LAN and Wake on WAN"
+    },
+    "price": 75000,
+    "price_text": "75,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 42U 800 x 1000mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-42u-800-1000mm-server-rack",
+    "slug": "cote-42u-800-1000mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-32u/cote-32u-01-228x228.webp",
+    "specifications": {
+      "Size": "800 x 1000mm",
+      "Fan": "4PCS with 2.00 M line",
+      "PDU": "6 ports",
+      "spec_3": "Glass Door, 2 rails open frame"
+    },
+    "price": 80000,
+    "price_text": "80,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Cote 42U 600 x 1070mm Server Rack",
+    "url": "https://www.startech.com.bd/cote-42u-600-1070mm-server-rack",
+    "slug": "cote-42u-600-1070mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/cote/cote-32u/cote-32u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 1070mm",
+      "Extrusions": "L – type of extrusions,",
+      "Load Rating": "1050 kg",
+      "IP Rating": "IP20, PDU"
+    },
+    "price": 88000,
+    "price_text": "88,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS925+ 4 Bays Desktop NAS Storage",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds925-plus-4-bays-nas-storage",
+    "slug": "synology-diskstation-ds925-plus-4-bays-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds925-plus/diskstation-ds925-plus-01-228x228.webp",
+    "specifications": {
+      "Processor": "AMD Ryzen V1500B Quad Core 2.2GHz",
+      "RAM": "4GB DDR4 ECC SODIMM",
+      "Drive Bays": "4 x SATA3 HDD/SSD 2.5 or 3.5 Disk & M.2 2280 NVMe SSD",
+      "Connectivity": "2 x Gigabit Lan, 2 x USB 3.2 Gen 1 Port"
+    },
+    "price": 108000,
+    "price_text": "108,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 42U Perforated Floor Standing Data Center Cabinet",
+    "url": "https://www.startech.com.bd/safenet-42u-perforated-data-center-cabinet",
+    "slug": "safenet-42u-perforated-data-center-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/snp-series/safenet-snp-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Split Rear Door & either side opening Front Door",
+      "spec_1": "Lockable & Removable Side Panels",
+      "spec_2": "Preinstalled 6-Fans on Top Panel",
+      "Dimension": "600 x 1070 x 1992"
+    },
+    "price": 120000,
+    "price_text": "120,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 42U-XL Tempered Glass Door Floor Standing Server Cabinet",
+    "url": "https://www.startech.com.bd/safenet-42u-xl-tempered-glass-door-server-cabinet",
+    "slug": "safenet-42u-xl-tempered-glass-door-server-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/sng-series/safenet-sng-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Tempered Glass front door with Advanced Swivel Lock",
+      "spec_1": "Hex-vented hole rear door to improve cooling efficiency",
+      "spec_2": "Preinstalled 4-Fans on top and Brush Panel",
+      "Dimension": "800 x 1000 x 2055 mm"
+    },
+    "price": 128000,
+    "price_text": "128,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Safenet 42U-XL Perforated Floor Standing Data Center Cabinet",
+    "url": "https://www.startech.com.bd/safenet-42u-xl-perforated-data-center-cabinet",
+    "slug": "safenet-42u-xl-perforated-data-center-cabinet",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/safenet/snp-series/safenet-snp-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Split Rear Door & either side opening Front Door",
+      "spec_1": "Lockable & Removable Side Panels",
+      "spec_2": "Preinstalled 6-Fans on Top Panel",
+      "Dimension": "800 x 1070 x 1992"
+    },
+    "price": 133500,
+    "price_text": "133,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS1525+ 5-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds1525-plus-5-bay-nas-enclosure",
+    "slug": "synology-diskstation-ds1525-plus-5-bay-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds1525-plus/diskstation-ds1525-plus-01-228x228.webp",
+    "specifications": {
+      "Processor": "2.6 GHz AMD Ryzen R1600 Dual-Core",
+      "RAM": "8GB of DDR4 RAM",
+      "HDD Interface": "5 x 3.5\"/2.5\" SATA Drive Bays",
+      "LAN": "2 x 2.5GbE Ethernet Ports"
+    },
+    "price": 162000,
+    "price_text": "162,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Asustor LOCKERSTOR 6 Gen2 AS6706T 6-Bays NAS Storage",
+    "url": "https://www.startech.com.bd/asustor-lockerstor-6-gen2-as6706t-nas",
+    "slug": "asustor-lockerstor-6-gen2-as6706t-nas",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/asustor/lockerstor-6-gen2-as6706t/lockerstor-6-gen2-as6706t-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Realtek RTD1619B 1.7GHz quad-core processor",
+      "spec_1": "Superfast 2.5-Gigabit Ethernet",
+      "spec_2": "Smooth Transcoding of 4K Videos",
+      "spec_3": "Supports Wake on LAN and Wake on WAN"
+    },
+    "price": 135000,
+    "price_text": "135,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-464-8G 4 Bays NAS Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-464-8g-4-bays-nas-storage",
+    "slug": "qnap-ts-464-8g-4-bays-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/qnap/ts-664-8g-6/ts-664-8g-6-228x228.webp",
+    "specifications": {
+      "Processor": "Intel Celeron N5095 4-core, 2.9 GHz",
+      "RAM": "8 GB",
+      "Drive Bay": "4 x 3.5-inch SATA 6Gb/s",
+      "Interface": "2x USB 2.0, 2x USB Type-A, 1x HDMI"
+    },
+    "price": 142000,
+    "price_text": "142,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS1621+ 6-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds1621-plus-6-bay-nas-enclosure",
+    "slug": "synology-diskstation-ds1621-plus-6-bay-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds1621-plus/diskstation-ds1621-plus-01-228x228.jpg",
+    "specifications": {
+      "Processor": "2.2 GHz AMD Ryzen V1500B Quad-Core",
+      "RAM": "4GB of DDR4 ECC RAM",
+      "HDD Interface": "6 x 3.5\"/2.5\" SATA Drive Bays",
+      "LAN": "4 x Gigabit Ethernet Ports"
+    },
+    "price": 149500,
+    "price_text": "149,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Asustor AS6504RS Lockerstor 4RS 4-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/asustor-as6504rs-lockerstor-4rs-nas-enclosure",
+    "slug": "asustor-as6504rs-lockerstor-4rs-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/as6504rs-lockerstor-4rs/as6504rs-lockerstor-4rs-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Intel Atom C3538 2.1GHz Quad-Core CPU",
+      "spec_1": "8 GB DDR4-2133 - 128 GB maximum",
+      "spec_2": "Supports Wake-on-LAN and Wake-on-WAN",
+      "spec_3": "PCIe slot for 10-Gigabit Ethernet card"
+    },
+    "price": 150000,
+    "price_text": "150,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology RackStation RS822+ 4-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-rackstation-rs822-plus-4-bay-nas-enclosure",
+    "slug": "synology-rackstation-rs822-plus-4-bay-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/rs822rp-plus/rs822rp-plus-21-228x228.webp",
+    "specifications": {
+      "spec_0": "4 x 3.5/2.5\" SATA Drive Bays",
+      "spec_1": "2GB of DDR4 ECC RAM",
+      "spec_2": "2.2 GHz AMD Ryzen V1500B Quad-Core",
+      "spec_3": "4 x Gigabit Ethernet Ports"
+    },
+    "price": 168500,
+    "price_text": "168,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS1825+ 8-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds1825-plus-nas-enclosure",
+    "slug": "synology-diskstation-ds1825-plus-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds1825-plus/diskstation-ds1825-plus-01-228x228.webp",
+    "specifications": {
+      "Processor": "AMD Ryzen V1500B (2.2 GHz, 4 Core, 64-bit Architecture)",
+      "RAM": "8 GB DDR4 ECC SODIMM, Max. Memory Capacity 32 GB",
+      "Bays": "8 x 3.5\" / 2.5\" SATA Drive Bays, 2 x M.2 2280 NVMe SSD Slots",
+      "Ports": "2 x 2.5GbE RJ45, 3 x USB-A 3.2 Gen 1, 2 x USB-C Expansion Ports"
+    },
+    "price": 199999,
+    "price_text": "199,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Asustor LOCKERSTOR 8 AS6508T 8-Bays NAS Storage",
+    "url": "https://www.startech.com.bd/asustor-as6508t-lockerstor-8-storage",
+    "slug": "asustor-as6508t-lockerstor-8-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/asustor/as6508t-lockerstor-8/as6508t-lockerstor-8-228x228.jpg",
+    "specifications": {
+      "spec_0": "Intel ATOM C3538 Quad Core Processor (2.1GHz)",
+      "spec_1": "Dual 10-Gigabit Ports",
+      "spec_2": "Dual M.2 NVMe SSD Ports",
+      "spec_3": "8GB 2133MHz SO-DIMM RAM"
+    },
+    "price": 175000,
+    "price_text": "175,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-932PX-4G 5 Bays Nas Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-932px-4g-5-bay-nas-storage",
+    "slug": "qnap-ts-932px-4g-5-bay-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/qnap/ts-932px-4g/ts-932px-4g-228x228.webp",
+    "specifications": {
+      "Processor": "AnnapurnaLabs Alpine AL324, ARM Cortex-A57 4-core, 1.7GHz",
+      "RAM": "4 GB SODIMM DDR4(1x 4 GB)",
+      "Drive Bay": "5x 3.5-inch+ 4 x 2.5-inch SATA 6Gb/s",
+      "Interface": "3x USB 3.2 Gen 1"
+    },
+    "price": 196000,
+    "price_text": "196,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-432PXU-RP-2G 4 Bays NAS Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-432pxu-rp-2g-4-bays-nas-storage",
+    "slug": "qnap-ts-432pxu-rp-2g-4-bays-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/qnap/ts-432pxu-rp-2g-eu/ts-432pxu-rp-2g-eu-01-228x228.webp",
+    "specifications": {
+      "Processor": "AnnapurnaLabs Alpine AL324 ARM Cortex-A57 4-core 1.7GHz",
+      "RAM": "2 GB UDIMM DDR4 (1x 2 GB)",
+      "Drive Bay": "4x 3.5\" SATA 6Gb/s, 3Gb/s",
+      "Interface": "4x USB 3.2 Gen 1"
+    },
+    "price": 205000,
+    "price_text": "205,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-673A-8G 6 Bays NAS Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-673a-8g-6-bays-nas-storage",
+    "slug": "qnap-ts-673a-8g-6-bays-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas-storage/qnap/ts-673a-8g/ts-673a-8g-01-228x228.webp",
+    "specifications": {
+      "Processor": "AMD Ryzen Embedded V1500B 4-core 2.2GHz",
+      "RAM": "8 GB SODIMM DDR4 (1 x 8 GB)",
+      "Drive Bay": "6 x 3.5-inch SATA 6Gb/s, 3Gb/s",
+      "Interface": "3x USB 3.2 gen2.0, 1x USB 3.1 gen1"
+    },
+    "price": 215000,
+    "price_text": "215,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-873A-8G 8 Bays NAS Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-873a-8g-8-bay-nas-storage",
+    "slug": "qnap-ts-873a-8g-8-bay-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/qnap/ts-873a-8g/ts-873a-8g-228x228.webp",
+    "specifications": {
+      "Processor": "AMD Ryzen Embedded V1500B 4-core, 2.2 GHz",
+      "RAM": "8 GB SODIMM DDR4",
+      "Drive Bay": "8 x 3.5-inch SATA 6Gb/s, 3Gb/s",
+      "Interface": "2x M.2, 3x USB Type-A, 1x Type-C"
+    },
+    "price": 235000,
+    "price_text": "235,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-832PXU-RP-4G 8 Bays Nas Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-832pxu-rp-4g-8-bay-nas-storage",
+    "slug": "qnap-ts-832pxu-rp-4g-8-bay-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server/qnap/ts-832pxu-rp-4g/ts-832pxu-rp-4g-01-228x228.webp",
+    "specifications": {
+      "spec_0": "AnnapurnaLabs Alpine AL324 64-bit ARM Cortex-A57 4-core 1.7GHz Processor",
+      "spec_1": "4 GB UDIMM DDR4 (1 x 4 GB)",
+      "spec_2": "2x 10GbE SFP+ and 2x 2.5GbE RJ45 ports",
+      "spec_3": "Redundant Power Supply"
+    },
+    "price": 270000,
+    "price_text": "270,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Asustor LOCKERSTOR 12RD AS6512RD 12-Bays NAS Storage",
+    "url": "https://www.startech.com.bd/asustor-as6512rd-lockerstor-12rd-nas-storage",
+    "slug": "asustor-as6512rd-lockerstor-12rd-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/as6512rd-lockerstor-12rd/as6512rd-lockerstor-12rd-01-228x228.jpg",
+    "specifications": {
+      "CPU": "Intel Atom C3538 2.1GHz Quad-Core CPU",
+      "spec_1": "Supports ACL and AD for business application",
+      "spec_2": "Supports Wake-on-LAN and Wake-on-WAN",
+      "spec_3": "PCIe slot for 10-Gigabit Ethernet card"
+    },
+    "price": 335000,
+    "price_text": "335,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "HP Z2 SFF G1i Core Ultra 7 265 Workstation",
+    "url": "https://www.startech.com.bd/hp-z2-sff-g1i-workstation",
+    "slug": "hp-z2-sff-g1i-workstation",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/workstation/hp-brand/z2-sff-g1i/z2-sff-g1i-01-228x228.webp",
+    "specifications": {
+      "Processor": "Intel Core Ultra 7 265 (30MB L3 Cache, up to 5.3 GHz)",
+      "RAM": "16GB DDR5 5600MHz, Storage: 1 TB PCIe Gen4 NVMe M.2 SSD",
+      "Graphics": "NVIDIA A400 4GB GDDR6",
+      "spec_3": "HP USB 320K v2 Keyboard, HP Wired 320M Mouse"
+    },
+    "price": 335000,
+    "price_text": "335,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-1232PXU-RP-4G 12 Bays NAS Storage With Rail Kit",
+    "url": "https://www.startech.com.bd/qnap-ts-1232pxu-rp-4g-12-bay-nas-storage",
+    "slug": "qnap-ts-1232pxu-rp-4g-12-bay-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/qnap/ts-1232pxu-rp-4g/ts-1232pxu-rp-4g-228x228.webp",
+    "specifications": {
+      "Processor": "AnnapurnaLabs Alpine AL324, 4-core, 1.7GHz",
+      "RAM": "4 GB UDIMM DDR4",
+      "Drive Bay": "12 x 3.5-inch SATA 6Gb/s, 3Gb/s",
+      "Interface": "4x USB 3.2 Gen 1"
+    },
+    "price": 345000,
+    "price_text": "345,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "HP Z1 Tower G1i Core Ultra 7 265 Workstation",
+    "url": "https://www.startech.com.bd/hp-z1-tower-g1i-workstation",
+    "slug": "hp-z1-tower-g1i-workstation",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/workstation/hp-brand/z1-tower-g1i/z1-tower-g1i-01-228x228.webp",
+    "specifications": {
+      "Processor": "Intel Core Ultra 7 265 (30MB L3 Cache, up to 5.3 GHz)",
+      "RAM": "32GB DDR5 5600MHz, Storage: 1 TB PCIe Gen4 NVMe M.2 SSD",
+      "Graphics": "NVIDIA GeForce RTX 5060 8GB GDDR7",
+      "spec_3": "HP 320K Wired Keyboard, HP Wired 320M Mouse"
+    },
+    "price": 480000,
+    "price_text": "480,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "HP Z2 Tower G1i Core Ultra 9 285K Workstation",
+    "url": "https://www.startech.com.bd/hp-z2-tower-g1i-workstation",
+    "slug": "hp-z2-tower-g1i-workstation",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/workstation/hp-brand/z2-tower-g1i/z2-tower-g1i-001-228x228.webp",
+    "specifications": {
+      "Processor": "Intel Core Ultra 9 285K (36MB L3 Cache, up to 5.7 GHz)",
+      "RAM": "32GB DDR5 5600MHz, Storage: 1 TB PCIe Gen4 NVMe M.2 SSD",
+      "Graphics": "NVIDIA RTX A1000 8GB GDDR6",
+      "spec_3": "HP 320K Wired Keyboard, HP Wired 320M Mouse"
+    },
+    "price": 599000,
+    "price_text": "599,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-h1887XU-RP-E2334-16G 18 Bays NAS Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-h1887xu-rp-e2334-16g-nas-storage",
+    "slug": "qnap-ts-h1887xu-rp-e2334-16g-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/qnap/ts-h1887xu-rp-e2334-16g/ts-h1887xu-rp-e2334-16g-228x228.webp",
+    "specifications": {
+      "Processor": "Intel Xeon E-2334 4C 8T 3.4GHz, up to 4.8GHz",
+      "RAM": "16 GB ECC DDR4 (1 x 16 GB)",
+      "Drive Bay": "18 (12 x 3.5-inch SATA + 6 x 2.5-inch SATA)",
+      "Interface": "4x USB Type-A 3.2 Gen 2"
+    },
+    "price": 940000,
+    "price_text": "940,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "QNAP TS-h2287XU-RP-E2336-32G 12 Bays NAS Storage",
+    "url": "https://www.startech.com.bd/qnap-ts-h2287xu-rp-e2336-32g-nas-storage",
+    "slug": "qnap-ts-h2287xu-rp-e2336-32g-nas-storage",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/nas storage/qnap/ts-h2287xu-rp-e2336-32g/ts-h2287xu-rp-e2336-32g-228x228.webp",
+    "specifications": {
+      "Processor": "Intel Xeon E-2336 6C 12T 2.9GHz, up to 4.8GHz",
+      "RAM": "32 GB ECC DDR4",
+      "Drive Bay": "22 (16x 3.5-inch SATA + 6x 2.5-inch SATA)",
+      "Interface": "4x USB Type-A 3.2 Gen 2"
+    },
+    "price": 1540000,
+    "price_text": "1,540,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Synology DiskStation DS1823xs+ 8-Bays NAS Enclosure",
+    "url": "https://www.startech.com.bd/synology-diskstation-ds1823xs-plus-8-bay-nas-enclosure",
+    "slug": "synology-diskstation-ds1823xs-plus-8-bay-nas-enclosure",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/storage/synology/diskstation-ds1823xs-plus/diskstation-ds1823xs-plus-01-228x228.webp",
+    "specifications": {
+      "Processor": "3.35 GHz AMD Ryzen V1780B 4-Core CPU",
+      "RAM": "8 GB DDR4 ECC SODIMM",
+      "HDD Interface": "8 x 3.5\" / 2.5\" SATA, 2 x M.2 2280 NVMe SSD",
+      "LAN": "1 x 10GbE Port, 3 x 1GbE Ports"
+    },
+    "price": 309999,
+    "price_text": "309,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "server_storage",
+    "name": "Toten 22U 600 x 600mm Server Rack",
+    "url": "https://www.startech.com.bd/toten-22u-600-600mm-server-rack",
+    "slug": "toten-22u-600-600mm-server-rack",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/server-rack/toten/el26100-22-22u/el26100-22-22u-01-228x228.webp",
+    "specifications": {
+      "Size": "600 x 600mm",
+      "Fan": "2 Fans (Low noise)",
+      "DU": "6 ports",
+      "spec_3": "Glass front door With Push Lock"
+    },
+    "price": 31500,
+    "price_text": "31,500৳"
+  }
+]

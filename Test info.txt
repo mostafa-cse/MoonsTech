@@ -1,0 +1,13 @@
+Here are the login credentials for each role:
+
+**Admin**
+- **Username:** `admin@example.com`
+- **Password:** `password123`
+
+**New User (Regular Buyer)**
+- **Username:** `user@example.com`
+- **Password:** `password123`
+
+**Rider Information (Delivery Man)**
+- **Username:** `rider@example.com`
+- **Password:** `password123`

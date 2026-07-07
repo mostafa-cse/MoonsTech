@@ -1,0 +1,665 @@
+[
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Conch 2 Neo White Wired In-ear Earphon ...10.06.870.44",
+    "url": "https://www.ryans.com/oraimo-conch-2-neo-in-ear-earphone",
+    "slug": "oraimo-conch-2-neo-in-ear-earphone",
+    "product_code": "10.06.870.44",
+    "price": 180,
+    "price_text": "Tk 180",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "White"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-conch-2-neo-white-wired-in-ear-earphone-11747659829.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Conch 2 Neo Black Wired In-ear Earphon ...10.06.870.43",
+    "url": "https://www.ryans.com/oraimo-conch-2-neo-wired-in-ear-earphone",
+    "slug": "oraimo-conch-2-neo-wired-in-ear-earphone",
+    "product_code": "10.06.870.43",
+    "price": 180,
+    "price_text": "Tk 180",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-conch-2-neo-black-wired-in-ear-earphone-11747659755.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Half In-Ear Wired 3.5mm Jack Black Ear ...10.06.870.19",
+    "url": "https://www.ryans.com/oraimo-half-in-ear-wired-black-earphone",
+    "slug": "oraimo-half-in-ear-wired-black-earphone",
+    "product_code": "10.06.870.19",
+    "price": 225,
+    "price_text": "Tk 225",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-half-in-ear-wired-black-earphone-11722946653.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Halo 2S In-ear Wired Black Earphone # ...10.06.870.20",
+    "url": "https://www.ryans.com/oraimo-halo-2s-in-ear-wired-black-earphone",
+    "slug": "oraimo-halo-2s-in-ear-wired-black-earphone",
+    "product_code": "10.06.870.20",
+    "price": 295,
+    "price_text": "Tk 295",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-halo-2s-in-ear-wired-black-earphone-11725008595.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Halo 2S In-ear Wired White Earphone # ...10.06.870.03",
+    "url": "https://www.ryans.com/oraimo-halo-2s-in-ear-wired-white-earphone",
+    "slug": "oraimo-halo-2s-in-ear-wired-white-earphone",
+    "product_code": "10.06.870.03",
+    "price": 295,
+    "price_text": "Tk 295",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "White"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-halo-2s-in-ear-wired-white-earphone-11725008359.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "XTRA B75 Pro In-ear Wired Blue Earphone (6 Mo ...10.06.926.12",
+    "url": "https://www.ryans.com/xtra-b75-pro-in-ear-wired-blue-earphone",
+    "slug": "xtra-b75-pro-in-ear-wired-blue-earphone",
+    "product_code": "10.06.926.12",
+    "price": 350,
+    "price_text": "Tk 350",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Color": "Blue"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/xtra-b75-pro-in-ear-wired-blue-earphone-6-month-11691400400.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Conch 2C In-ear Wired Type-C Black Ear ...10.06.870.67",
+    "url": "https://www.ryans.com/oraimo-conch-2c-black-earphone",
+    "slug": "oraimo-conch-2c-black-earphone",
+    "product_code": "10.06.870.67",
+    "price": 365,
+    "price_text": "Tk 365",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-conch-2c-in-ear-wired-type-c-black-11769508050.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Conch 2C In-ear Wired Type-C White Ear ...10.06.870.68",
+    "url": "https://www.ryans.com/oraimo-conch-2c-white-earphone",
+    "slug": "oraimo-conch-2c-white-earphone",
+    "product_code": "10.06.870.68",
+    "price": 365,
+    "price_text": "Tk 365",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "White"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-conch-2c-in-ear-wired-type-c-white-11769508460.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Havit HV-E303P In-Ear Wired Black Earphone10.06.471.122",
+    "url": "https://www.ryans.com/havit-hv-e303p-in-ear-wired-black-earphone",
+    "slug": "havit-hv-e303p-in-ear-wired-black-earphone",
+    "product_code": "10.06.471.122",
+    "price": 400,
+    "price_text": "Tk 400",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/havit-hv-e303p-in-ear-wired-black-11708584383.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Halo Airy In-ear Wired Type-C Black Ea ...10.06.870.13",
+    "url": "https://www.ryans.com/oraimo-halo-airy-in-ear-black-earphone",
+    "slug": "oraimo-halo-airy-in-ear-black-earphone",
+    "product_code": "10.06.870.13",
+    "price": 475,
+    "price_text": "Tk 475",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-halo-airy-in-ear-wired-type-c-black-11722944177.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo Halo Airy In-ear Wired Type-C Blue Ear ...10.06.870.12",
+    "url": "https://www.ryans.com/oraimo-halo-airy-in-ear-blue-earphone",
+    "slug": "oraimo-halo-airy-in-ear-blue-earphone",
+    "product_code": "10.06.870.12",
+    "price": 475,
+    "price_text": "Tk 475",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Blue"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-halo-airy-in-ear-wired-type-c-blue-11722943667.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Havit HV-E303P In-Ear Wired White Earphone10.06.471.364",
+    "url": "https://www.ryans.com/havit-hv-e303p-wired-earphone",
+    "slug": "havit-hv-e303p-wired-earphone",
+    "product_code": "10.06.471.364",
+    "price": 500,
+    "price_text": "Tk 500",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Color": "White"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/havit-hv-e303p-in-ear-wired-white-11781075489.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "WiWU EB317 In-Ear 3.5mm Wired Black Earphone10.06.829.96",
+    "url": "https://www.ryans.com/wiwu-eb317-3.5mm-wired-earphone",
+    "slug": "wiwu-eb317-3.5mm-wired-earphone",
+    "product_code": "10.06.829.96",
+    "price": 550,
+    "price_text": "Tk 550",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "Unmentioned",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/wiwu-eb317-in-ear-35mm-wired-black-11758084223.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Oraimo TRUMPET 3 In-ear Wired Black Earphone ...10.06.870.18",
+    "url": "https://www.ryans.com/oraimo-trumpet-3-in-ear-black-earphone",
+    "slug": "oraimo-trumpet-3-in-ear-black-earphone",
+    "product_code": "10.06.870.18",
+    "price": 560,
+    "price_text": "Tk 560",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/oraimo-trumpet-3-in-ear-wired-black-earphone-11723005940.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "WiWU EB318 In-Ear USB-C Wired Black Earphone10.06.829.97",
+    "url": "https://www.ryans.com/wiwu-eb318-in-ear-usb-c-wired-earphone",
+    "slug": "wiwu-eb318-in-ear-usb-c-wired-earphone",
+    "product_code": "10.06.829.97",
+    "price": 600,
+    "price_text": "Tk 600",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/wiwu-eb318-in-ear-usb-c-wired-black-11758084254.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Xiaomi In-Ear Type-C Black Earphone #BHR8925C ...10.06.714.77",
+    "url": "https://www.ryans.com/xiaomi-bhr8925cn-type-c-earphone",
+    "slug": "xiaomi-bhr8925cn-type-c-earphone",
+    "product_code": "10.06.714.77",
+    "price": 640,
+    "price_text": "Tk 640",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/xiaomi-in-ear-type-c-black-earphone-bhr8925cn-3-11757576328.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "JBL TUNE 110 Wired In-Ear Black Headphone #JB ...10.06.731.161",
+    "url": "https://www.ryans.com/jbl-tune-110-wired-in-ear-black-headphone",
+    "slug": "jbl-tune-110-wired-in-ear-black-headphone",
+    "product_code": "10.06.731.161",
+    "price": 750,
+    "price_text": "Tk 750",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/jbl-tune-110-wired-in-ear-black-headphone-31636443968.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "JBL TUNE 110 Wired In-Ear Blue Earphone (3 Mo ...10.06.731.244",
+    "url": "https://www.ryans.com/jbl-tune-110-wired-in-ear-blue-earphone",
+    "slug": "jbl-tune-110-wired-in-ear-blue-earphone",
+    "product_code": "10.06.731.244",
+    "price": 850,
+    "price_text": "Tk 850",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Color": "Blue"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/jbl-tune-110-wired-in-ear-blue-11664773767.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Edifier P230 White Wired Type-C In-ear Earpho ...10.06.516.346",
+    "url": "https://www.ryans.com/edifier-p230-wired-earphone",
+    "slug": "edifier-p230-wired-earphone",
+    "product_code": "10.06.516.346",
+    "price": 850,
+    "price_text": "Tk 850",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "White"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/edifier-p230-white-wired-type-c-in-ear-11775477272.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Ugreen EP106 (35755) Black Wired 3.5mm Jack I ...10.06.741.108",
+    "url": "https://www.ryans.com/ugreen-ep106-wired-earphone",
+    "slug": "ugreen-ep106-wired-earphone",
+    "product_code": "10.06.741.108",
+    "price": 1000,
+    "price_text": "Tk 1,000",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/ugreen-ep106-35755-black-wired-35mm-jack-11780396735.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Ugreen EP105 Black Wired 3.5mm Jack In-Ear Ea ...10.06.741.109",
+    "url": "https://www.ryans.com/ugreen-ep105-wired-3.5mm-jack-in-ear-earphone",
+    "slug": "ugreen-ep105-wired-3.5mm-jack-in-ear-earphone",
+    "product_code": "10.06.741.109",
+    "price": 1000,
+    "price_text": "Tk 1,000",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/ugreen-ep105-black-wired-35mm-jack-in-ear-11780228950.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "JBL C100SI Black Wired In-Ear Earphone (No Wa ...10.06.731.154",
+    "url": "https://www.ryans.com/jbl-c100si-black-wired-in-ear-earphone",
+    "slug": "jbl-c100si-black-wired-in-ear-earphone",
+    "product_code": "10.06.731.154",
+    "price": 1050,
+    "price_text": "Tk 1,050",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/jbl-c100si-black-wired-in-ear-11634041389.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Mi Dual Driver Blue In-Ear Magnetic Earphone ...10.06.714.47",
+    "url": "https://www.ryans.com/mi-dual-driver-blue-in-ear-magnetic-earphone",
+    "slug": "mi-dual-driver-blue-in-ear-magnetic-earphone",
+    "product_code": "10.06.714.47",
+    "price": 1050,
+    "price_text": "Tk 1,050",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Color": "Blue"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/mi-dual-driver-blue-in-ear-magnetic-earphone-11726734398.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "UGREEN EP103 (30637) Black Wired 3.5mm Jack I ...10.06.741.75",
+    "url": "https://www.ryans.com/ugreen-ep103-black-wired-3.5mm-jack-in-ear-earphone",
+    "slug": "ugreen-ep103-black-wired-3.5mm-jack-in-ear-earphone",
+    "product_code": "10.06.741.75",
+    "price": 1200,
+    "price_text": "Tk 1,200",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/ugreen-ep103-black-wired-in-ear-earphone-11659429536.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Ugreen EP106 (35756) Black Wired Type-C In-Ea ...10.06.741.103",
+    "url": "https://www.ryans.com/ugreen-ep106-earphone",
+    "slug": "ugreen-ep106-earphone",
+    "product_code": "10.06.741.103",
+    "price": 1250,
+    "price_text": "Tk 1,250",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/ugreen-ep106-35756-black-wired-type-c-in-ear-11780312488.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "JBL C200si Black Wired In-Ear Earphone #JBLC2 ...10.06.731.150",
+    "url": "https://www.ryans.com/jbl-c200si-black-wired-in-ear-earphone",
+    "slug": "jbl-c200si-black-wired-in-ear-earphone",
+    "product_code": "10.06.731.150",
+    "price": 1250,
+    "price_text": "Tk 1,250",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/jbl-c200si-black-wired-in-ear-earphone-11683440222.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "Edifier GM260 Plus Hi-Res Black Wired Gaming ...10.06.516.273",
+    "url": "https://www.ryans.com/edifier-gm260-plus-hi-res-black-wired-gaming-earphone",
+    "slug": "edifier-gm260-plus-hi-res-black-wired-gaming-earphone",
+    "product_code": "10.06.516.273",
+    "price": 1700,
+    "price_text": "Tk 1,700",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/edifier-gm260-plus-hi-res-black-wired-gaming-11696680001.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "JBL Tune 305C USB Type-C Wired In-Ear Black E ...10.06.731.446",
+    "url": "https://www.ryans.com/jbl-tune-305c-usb-type-c-wired-in-ear-earphone",
+    "slug": "jbl-tune-305c-usb-type-c-wired-in-ear-earphone",
+    "product_code": "10.06.731.446",
+    "price": 1850,
+    "price_text": "Tk 1,850",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/jbl-tune-305c-usb-type-c-wired-in-ear-black-11758109706.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "JBL Tune 310C Wired Type-C In-Ear Black Earph ...10.06.731.364",
+    "url": "https://www.ryans.com/jbl-tune-310c-wired-type-c-in-ear-earphone",
+    "slug": "jbl-tune-310c-wired-type-c-in-ear-earphone",
+    "product_code": "10.06.731.364",
+    "price": 1950,
+    "price_text": "Tk 1,950",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/jbl-tune-310c-wired-type-c-in-ear-black-earphone-11730350826.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "UGREEN EP103 (30638) Black Wired Type-C Jack ...10.06.741.76",
+    "url": "https://www.ryans.com/ugreen-ep103-black-wired-type-c-jack-in-ear-earphone",
+    "slug": "ugreen-ep103-black-wired-type-c-jack-in-ear-earphone",
+    "product_code": "10.06.741.76",
+    "price": 2100,
+    "price_text": "Tk 2,100",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/ugreen-ep103-black-wired-in-ear-earphone-11659429627.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "JBL Tune 310C Wired Type-C In-Ear Black Earph ...10.06.731.572",
+    "url": "https://www.ryans.com/jbl-tune-310c-wired-type-c-in-ear-black-earphone",
+    "slug": "jbl-tune-310c-wired-type-c-in-ear-black-earphone",
+    "product_code": "10.06.731.572",
+    "price": 2150,
+    "price_text": "Tk 2,150",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/jbl-tune-310c-wired-type-c-in-ear-black-11781009971.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "JBL Tune 310C Wired Type-C In-Ear Blue Earpho ...10.06.731.383",
+    "url": "https://www.ryans.com/jbl-tune-310c-type-c-earphone",
+    "slug": "jbl-tune-310c-type-c-earphone",
+    "product_code": "10.06.731.383",
+    "price": 2500,
+    "price_text": "Tk 2,500",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "USB Type-C",
+      "Color": "Blue"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/jbl-tune-310c-wired-type-c-in-ear-blue-earphone-11739365373.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "META Quest Pro VR In-Ear Earphones10.06.850.01",
+    "url": "https://www.ryans.com/meta-quest-pro-ear-earphones",
+    "slug": "meta-quest-pro-ear-earphones",
+    "product_code": "10.06.850.01",
+    "price": 5000,
+    "price_text": "Tk 5,000",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "Unmentioned",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/meta-quest-pro-vr-in-ear-11762502362.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "SteelSeries Tusq Wired Black In-Ear Mobile Ga ...10.06.763.11",
+    "url": "https://www.ryans.com/steelseries-tusq-wired-black-gaming-earphone",
+    "slug": "steelseries-tusq-wired-black-gaming-earphone",
+    "product_code": "10.06.763.11",
+    "price": 6600,
+    "price_text": "Tk 6,600",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "2.1-4 ft.",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/steelseries-tusq-wired-black-in-ear-mobile-gaming-11735643466.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "ASUS ROG Cetra II Core Wired In-ear Gaming Mo ...10.06.006.26",
+    "url": "https://www.ryans.com/asus-rog-cetra-ii-core-wired-in-ear-gaming-earphone",
+    "slug": "asus-rog-cetra-ii-core-wired-in-ear-gaming-earphone",
+    "product_code": "10.06.006.26",
+    "price": 7800,
+    "price_text": "Tk 7,800",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Cable Length Range": "4.1-6 ft.",
+      "Color": "Moonlight White"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/asus-rog-cetra-ii-core-wired-in-ear-gaming-11724927189.webp"
+  },
+  {
+    "source": "ryans.com",
+    "category": "earphone",
+    "name": "ASUS ROG Cetra II Core Wired In-ear Black Gam ...10.06.006.16",
+    "url": "https://www.ryans.com/asus-rog-cetra-ii-core-black-gaming-earphone",
+    "slug": "asus-rog-cetra-ii-core-black-gaming-earphone",
+    "product_code": "10.06.006.16",
+    "price": 7900,
+    "price_text": "Tk 7,900",
+    "specifications": {
+      "Type": "Earphone",
+      "Connection Type": "Wired",
+      "Microphone": "Yes",
+      "Plug Type": "3.5mm",
+      "Color": "Black"
+    },
+    "image_url": "https://www.ryans.com/storage/products/small/asus-rog-cetra-ii-core-wired-in-ear-black-gaming-11650260301.webp"
+  }
+]

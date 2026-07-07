@@ -1,0 +1,4466 @@
+[
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool CK-11509 CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ck-11509-cpu-cooler",
+    "slug": "deepcool-ck-11509-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ck-11509/ck-11509-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Radial aluminum heatsink for excellent cooling performance.",
+      "Fan Dimension": "92X25mm",
+      "Rated Voltage": "12VDC",
+      "Started Voltage": "7VDC"
+    },
+    "price": 400,
+    "price_text": "400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool ALTA 9 Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-alta-9-air-cpu-cooler",
+    "slug": "deepcool-alta-9-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/alta-9/alta-9-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "Ф92X25mm",
+      "Fan Speed": "2200±10%RPM",
+      "Max. Air Flow": "42.35CFM",
+      "Bearing Type": "Hydro Bearing"
+    },
+    "price": 700,
+    "price_text": "700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Value-Top GLACIO X100 RGB Air CPU Cooler",
+    "url": "https://www.startech.com.bd/value-top-glacio-x100-rgb-cpu-cooler",
+    "slug": "value-top-glacio-x100-rgb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/value-top/glacio-x100-rgb/glacio-x100-rgb-01-228x228.webp",
+    "specifications": {
+      "Fan speed": "800-2600 RPM ± 10%",
+      "Max Air Flow": "43 CFM ± 10%",
+      "Max Noise Level": "31.5 dBA ± 10%",
+      "Supports Intel and AMD CPU, Max TDP": "100W"
+    },
+    "price": 800,
+    "price_text": "800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool ICE EDGE MINI FS V2.0 CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ice-edge-mini-fs-v2-0-cpu-cooler",
+    "slug": "deepcool-ice-edge-mini-fs-v2-0-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ice-edge-mini-fs-v2-0/ice-edge-mini-fs-v2-0-228x228.jpg",
+    "specifications": {
+      "Fan Speed": "2200 RPMÂ±10%",
+      "Fan Connector": "3-pin",
+      "spec_2": "Hydro Bearing",
+      "spec_3": "Supports Intel and AMD"
+    },
+    "price": 1150,
+    "price_text": "1,150৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Alpine 23 CO Compact AMD CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-alpine-23-co-cpu-cooler",
+    "slug": "arctic-alpine-23-co-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/alpine-23-co/alpine-23-co-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200-2700 rpm",
+      "Fan Size": "90 mm",
+      "Fan Bearing": "Dual Ball Bearing",
+      "Compatibility": "AMD AM5, AM4 Socket"
+    },
+    "price": 8501250,
+    "price_text": "850৳1,250৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Alpine 17 CO Low Profile Intel CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-alpine-17-co-cpu-cooler",
+    "slug": "arctic-alpine-17-co-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/alpine-17-co/alpine-17-co-02-228x228.webp",
+    "specifications": {
+      "Fan Speed": "250-2700 rpm",
+      "Fan Size": "92 mm",
+      "Fan Bearing": "Dual Ball Bearing",
+      "Compatibility": "Intel 1851, 1700 Socket"
+    },
+    "price": 11001300,
+    "price_text": "1,100৳1,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool GAMMAXX AG200 Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-gammaxx-ag200-cpu-cooler",
+    "slug": "deepcool-gammaxx-ag200-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag200/ag200-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "92×92×25 mm",
+      "Fan Speed": "500~3050 RPM±10%",
+      "Fan Connector": "4-pin PWM",
+      "Supported Sockets": "Intel & AMD"
+    },
+    "price": 1350,
+    "price_text": "1,350৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xtreme XJOGOS XJC100A 90W CPU Cooler",
+    "url": "https://www.startech.com.bd/xtreme-xjogos-xjc100a-90w-cpu-cooler",
+    "slug": "xtreme-xjogos-xjc100a-90w-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xtreme/xjogos-xjc100a/xjogos-xjc100a-228x228.webp",
+    "specifications": {
+      "Fan Speed": "1900RPM",
+      "Support": "AMD",
+      "spec_2": "Universal Multisocket with AMD",
+      "spec_3": "TDP 90W"
+    },
+    "price": 13001400,
+    "price_text": "1,300৳1,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool AG300 Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag300-air-cpu-cooler",
+    "slug": "deepcool-ag300-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag300/ag300-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "92 x 92 x 25mm",
+      "Fan Speed": "3050 RPM",
+      "Max. Air Flow": "36.75 CFM",
+      "Fan Connector": "4-pin PWM"
+    },
+    "price": 16501800,
+    "price_text": "1,650৳1,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 8A AMD Air CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-8a-cpu-cooler",
+    "slug": "arctic-freezer-8a-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-8a/freezer-8a-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200–2300 rpm, PWM Controlled",
+      "Heat Pipe": "2x Ø 6 mm Copper, Direct Touch",
+      "spec_2": "Pre-Applied MX-6 Thermal Paste",
+      "spec_3": "Compatible with AMD AM5, AM4"
+    },
+    "price": 18001950,
+    "price_text": "1,800৳1,950৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake UX400 Air CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-ux400-cpu-cooler",
+    "slug": "thermaltake-ux400-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/ux400/ux400-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 700~1800 RPM, Heat Pipe: Φ6mm x 4 pcs",
+      "Max. Air Flow": "62.72 CFM, Max. Pressure: 1.47 mm-H2O",
+      "Noise Level": "25.0 dBA, Lifespan: 30,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 1950,
+    "price_text": "1,950৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 8i Air CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-8i-air-cpu-cooler",
+    "slug": "arctic-freezer-8i-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-8i/freezer-8i-04-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200–2300 rpm",
+      "Fan Size": "100 mm",
+      "Fan Bearing": "Fluid Dynamic Bearing",
+      "Compatibility": "LGA 1851,1700"
+    },
+    "price": 17001999,
+    "price_text": "1,700৳1,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG400 LED 120mm CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-led-120mm-cpu-cooler",
+    "slug": "deepcool-ag400-led-120mm-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-led/ag400-led-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Balanced Bidirectional Heat Pipe Technology",
+      "Fan Speed": "500~2000 RPM±10%",
+      "Fan Airflow": "75.89 CFM",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 21002290,
+    "price_text": "2,100৳2,290৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 8i CO Intel Air CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-8i-co-cpu-cooler",
+    "slug": "arctic-freezer-8i-co-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-8i-co/freezer-8i-co-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200–2300 rpm, PWM Controlled",
+      "Heat Pipe": "2x Ø 6 mm Copper, Direct Touch",
+      "spec_2": "Dual Ball Bearing, Pre-Applied MX-6 Thermal Paste",
+      "spec_3": "Compatible with Intel LGA1851, LGA1700"
+    },
+    "price": 21002299,
+    "price_text": "2,100৳2,299৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG400 Single Tower 120mm CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-single-tower-120mm-cpu-cooler",
+    "slug": "deepcool-ag400-single-tower-120mm-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400/ag400-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000 RPM±10%",
+      "Fan Airflow": "75.89 CFM",
+      "Fan Air Pressure": "2.53 mmAq",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 20502300,
+    "price_text": "2,050৳2,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Gamma A40 BK Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/ocypus-gamma-a40-bk-cpu-cooler",
+    "slug": "ocypus-gamma-a40-bk-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/gamma-a40-bk/gamma-a40-bk-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400RPM ±10%, 4 Heat Pipes",
+      "spec_1": "Glyph Display with Unique Dot-Matrix Design",
+      "Fan Air Flow (MAX)": "41CFM, Air Pressure (MAX): 2.2mmH2O",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 19002300,
+    "price_text": "1,900৳2,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "1STPLAYER CRYO CY12 White Air CPU Cooler",
+    "url": "https://www.startech.com.bd/1stplayer-cryo-cy12-white-cpu-cooler",
+    "slug": "1stplayer-cryo-cy12-white-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/1stplayer/cryo-cy12-white/cryo-cy12-white-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "750-1900 ± 10% RPM",
+      "Fan Max Airflow": "57.56 CFM",
+      "Fan Bearing": "Hydraulic Bearing",
+      "Fan Life Span": "30,000/hrs @ 25℃"
+    },
+    "price": 2350,
+    "price_text": "2,350৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Gamdias ST-BOREAS E1-411 SE CPU Air Cooler",
+    "url": "https://www.startech.com.bd/gamdias-st-boreas-e1-411-se-cpu-air-cooler",
+    "slug": "gamdias-st-boreas-e1-411-se-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/st-boreas-e1-410-se/st-boreas-e1-410-se-228x228.webp",
+    "specifications": {
+      "spec_0": "4 Copper Heat Pipes with Direct Contact Technology",
+      "spec_1": "High Airflow 120mm PWM Fan & High Cooling Performance",
+      "spec_2": "High Cooling Performance Thick Base Plate",
+      "spec_3": "Universal Mounting Kits, Support LGA 1851/1700 / AM5"
+    },
+    "price": 23002400,
+    "price_text": "2,300৳2,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake UX400 ARGB Sync AIR CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-ux400-argb-sync-cpu-cooler",
+    "slug": "thermaltake-ux400-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/ux400-argb-sync/ux400-argb-sync-02-228x228.jpg",
+    "specifications": {
+      "FAN Speed": "PWM 700~1800 RPM",
+      "Max. Air Flow": "62.72 CFM, Max. Pressure: 1.47 mm-H2O",
+      "Noise Level": "25.0 dBA, Lifespan: 30,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 22002400,
+    "price_text": "2,200৳2,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG400 G2 Single Tower 120mm CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-g2-cpu-cooler",
+    "slug": "deepcool-ag400-g2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-g2/ag400-g2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2200±10% RPM",
+      "Fan Airflow": "70.09 CFM",
+      "Fan Air Pressure": "2.49 mmAq",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 2400,
+    "price_text": "2,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP1K4 120mm Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up1k4-air-cpu-cooler",
+    "slug": "uphere-up1k4-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up1k4/up1k4-10-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 rpm ± 10%",
+      "Air Flow": "68 CFM Max",
+      "Fan Size": "130 x 120 x 25 mm",
+      "spec_3": "Compatible with Intel LGA 1851, 1700, and AMD AM5, AM4"
+    },
+    "price": 22002500,
+    "price_text": "2,200৳2,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP1T4 120mm Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up1t4-air-cpu-cooler",
+    "slug": "uphere-up1t4-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up1t4/up1t4-00-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 rpm ± 10%",
+      "Air Flow": "68 CFM Max",
+      "Fan Size": "130 x 120 x 25 mm",
+      "spec_3": "Compatible with Intel LGA 1851, 1700, and AMD AM5, AM4"
+    },
+    "price": 22002500,
+    "price_text": "2,200৳2,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Gamma A40 BK ARGB Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/ocypus-gamma-a40-bk-argb-cpu-cooler",
+    "slug": "ocypus-gamma-a40-bk-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/gamma-a40-bk-argb/gamma-a40-bk-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400RPM ±10%, 4 Heat Pipes",
+      "spec_1": "Glyph Display with Unique Dot-Matrix Design",
+      "Fan Air Flow (MAX)": "41CFM, Air Pressure (MAX): 2.2mmH2O",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 20002500,
+    "price_text": "2,000৳2,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 7 X Multi-Compatible Air CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-7-x-air-cpu-cooler",
+    "slug": "arctic-freezer-7-x-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-7-x/freezer-7-x-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "300—2000 RPM",
+      "Fan Size": "100mm",
+      "Thermal Paste": "MX-4 pre-applied",
+      "Fan Bearing": "Fluid Dynamic Bearing"
+    },
+    "price": 2550,
+    "price_text": "2,550৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG400 PLUS CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-plus-cpu-cooler",
+    "slug": "deepcool-ag400-plus-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-plus/ag400-plus-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~2000 RPM±10%",
+      "Fan Airflow": "75.89 CFM",
+      "Bearing Type": "Hydro Bearing"
+    },
+    "price": 2600,
+    "price_text": "2,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake UX400 ARGB Sync AIR CPU Cooler White",
+    "url": "https://www.startech.com.bd/thermaltake-ux400-argb-sync-cpu-cooler-white",
+    "slug": "thermaltake-ux400-argb-sync-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/ux400-argb-sync-white/ux400-argb-sync-white-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 700~1800 RPM",
+      "Max. Air Flow": "62.72 CFM, Max. Pressure: 1.47 mm-H2O",
+      "Noise Level": "25.0 dBA, Lifespan: 30,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 24002600,
+    "price_text": "2,400৳2,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Gamma A40 WH ARGB Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/ocypus-gamma-a40-wh-argb-cpu-cooler",
+    "slug": "ocypus-gamma-a40-wh-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/gamma-a40-wh-argb/gamma-a40-wh-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400RPM ±10%, 4 Heat Pipes",
+      "spec_1": "Glyph Display with Unique Dot-Matrix Design",
+      "Fan Air Flow (MAX)": "41CFM, Air Pressure (MAX): 2.2mmH2O",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 21502600,
+    "price_text": "2,150৳2,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Gamma A40 BK ARGB Digital Single Tower Air CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/ocypus-gamma-a40-bk-argb-digital-cpu-cooler",
+    "slug": "ocypus-gamma-a40-bk-argb-digital-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/gamma-a40-bk-argb-digital/gamma-a40-bk-argb-digital-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400RPM ±10%, 4 Heat Pipes",
+      "spec_1": "Glyph Display with Unique Dot-Matrix Design",
+      "Fan Air Flow (MAX)": "41CFM, Air Pressure(MAX): 2.2mmH2O",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 21002700,
+    "price_text": "2,100৳2,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere H45K6 Low Profile Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-h45k6-cpu-cooler",
+    "slug": "uphere-h45k6-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/h45k6/h45k6-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800-2800 rpm ± 10%",
+      "Heatpipes Quantity": "Φ6mm*6",
+      "spec_2": "45mm Ultra-Slim Profile, 90mm PWM Fan",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 2700,
+    "price_text": "2,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG400 ARGB CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-argb-cpu-cooler",
+    "slug": "deepcool-ag400-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-argb/ag400-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~2000 RPM±10%",
+      "Fan Airflow": "75.89 CFM",
+      "LED Type": "Addressable RGB LED"
+    },
+    "price": 27002800,
+    "price_text": "2,700৳2,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cooler Master Hyper 212 Spectrum V3 ARGB Air CPU Cooler",
+    "url": "https://www.startech.com.bd/cooler-master-hyper-212-spectrum-v3-argb-cpu-cooler",
+    "slug": "cooler-master-hyper-212-spectrum-v3-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cooler-master/hyper-212-spectrum-v3/hyper-212-spectrum-v3-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "650-1750 RPM ± 10%",
+      "Fan Airflow": "71.93 CFM (Max)",
+      "Fan Noise Level": "27.2 dBA",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 2800,
+    "price_text": "2,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "MSI MAG COREFROZR AA13 ARGB Air CPU Cooler",
+    "url": "https://www.startech.com.bd/msi-mag-corefrozr-aa13-cpu-cooler",
+    "slug": "msi-mag-corefrozr-aa13-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/msi/mag-corefrozr-aa13/mag-corefrozr-aa13-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "510~2070 RPM ± 200 RPM (10%)",
+      "spec_1": "4x 6mm Copper Heat Pipes, Pre-Applied Thermal Compound",
+      "Radiator Base Material": "CPU Direct Contact [C.D.C.]",
+      "Compatibility": "LGA 1700 / 1851 and AM4 / AM5 sockets"
+    },
+    "price": 25002849,
+    "price_text": "2,500৳2,849৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "MSI MAG COREFROZR AA13 WHITE ARGB Air CPU Cooler",
+    "url": "https://www.startech.com.bd/msi-mag-corefrozr-aa13-white-cpu-cooler",
+    "slug": "msi-mag-corefrozr-aa13-white-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/msi/mag-corefrozr-aa13-white/mag-corefrozr-aa13-white-02-228x228.webp",
+    "specifications": {
+      "Fan Speed": "510~2070 RPM ± 200 RPM (10%)",
+      "spec_1": "4x 6mm Copper Heat Pipes, Pre-Applied Thermal Compound",
+      "Radiator Base Material": "CPU Direct Contact [C.D.C.]",
+      "Compatibility": "LGA 1700 / 1851 and AM4 / AM5 sockets"
+    },
+    "price": 25002850,
+    "price_text": "2,500৳2,850৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK400 Performance CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-cpu-air-cooler",
+    "slug": "deepcool-ak400-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400/ak400-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Airflow": "66.47 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 2899,
+    "price_text": "2,899৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Delta A40 BK ARGB Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/ocypus-delta-a40-bk-argb-cpu-cooler",
+    "slug": "ocypus-delta-a40-bk-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/delta-a40-bk-argb/delta-a40-bk-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM",
+      "Heat Pipes": "Φ6mm*4 Heatpipe",
+      "spec_2": "Customizable ARGB Lighting",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 23002900,
+    "price_text": "2,300৳2,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG400 G2 Plus Single Tower 120mm CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-g2-plus-cpu-cooler",
+    "slug": "deepcool-ag400-g2-plus-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-g2-plus/ag400-g2-plus-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2200±10% RPM Max",
+      "Fan Airflow": "70.09 CFM Max",
+      "Fan Air Pressure": "2.49 mmAq Max",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 2900,
+    "price_text": "2,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG500 120mm Single Tower CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag500-cpu-cooler",
+    "slug": "deepcool-ag500-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag500/ag500-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "300~1850 RPM±10%",
+      "Fan Airflow": "67.88 CFM",
+      "Fan Air Pressure": "2.04 mmAq",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 27003000,
+    "price_text": "2,700৳3,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Delta A40 WH ARGB Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/ocypus-delta-a40-wh-argb-cpu-cooler",
+    "slug": "ocypus-delta-a40-wh-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/delta-a40-wh-argb/delta-a40-wh-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM",
+      "Heat Pipes": "Φ6mm*4 Heatpipe",
+      "spec_2": "Customizable ARGB Lighting",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 27503000,
+    "price_text": "2,750৳3,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool GAMMAXX AG400 WH ARGB 120mm CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-gammaxx-ag400-wh-argb-cpu-cooler",
+    "slug": "deepcool-gammaxx-ag400-wh-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-wh-argb/ag400-wh-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Airflow": "75.89 CFM",
+      "Bearing Type": "Hydro Bearing"
+    },
+    "price": 30003100,
+    "price_text": "3,000৳3,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP1 Elite KC4C ARGB Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up1-elite-kc4c-cpu-cooler",
+    "slug": "uphere-up1-elite-kc4c-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up1-elite-kc4c/up1-elite-kc4c-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6 mm*4",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 3100,
+    "price_text": "3,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP1 Elite TC4C ARGB Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up1-elite-tc4c-cpu-cooler",
+    "slug": "uphere-up1-elite-tc4c-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up1-elite-tc4c/up1-elite-tc4c-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6 mm*4",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 3100,
+    "price_text": "3,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK400 WH Performance CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-wh-performance-cpu-air-cooler",
+    "slug": "deepcool-ak400-wh-performance-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400-wh/ak400-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Airflow": "66.47 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 3150,
+    "price_text": "3,150৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool AG400 DIGITAL CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-digital-cpu-cooler",
+    "slug": "deepcool-ag400-digital-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-digital/ag400-digital-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~2100 RPM±10%",
+      "Fan Airflow": "75.89 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 30003200,
+    "price_text": "3,000৳3,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP1TC4C ARGB 120mm Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up1tc4c-argb-air-cpu-cooler",
+    "slug": "uphere-up1tc4c-argb-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up1tc4c/up1tc4c-10-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 rpm ± 10%",
+      "Air Flow": "68 CFM Max",
+      "Fan Size": "130 x 120 x 25 mm",
+      "spec_3": "Compatible with Intel LGA 1851, 1700, and AMD AM5, AM4"
+    },
+    "price": 30003200,
+    "price_text": "3,000৳3,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG400 BK ARGB V2 120mm CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-bk-argb-v2-cpu-cooler",
+    "slug": "deepcool-ag400-bk-argb-v2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-bk-argb-v2/ag400-bk-argb-v2-001-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2100 RPM±10%",
+      "Fan Airflow": "75.89 CFM",
+      "Fan Air Pressure": "2.53 mmAq",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 30003300,
+    "price_text": "3,000৳3,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG400 WH ARGB V2 120mm CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag400-wh-argb-v2-cpu-cooler",
+    "slug": "deepcool-ag400-wh-argb-v2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag400-wh-argb-v2/ag400-wh-argb-v2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2100 RPM±10%",
+      "Fan Airflow": "75.89 CFM",
+      "Fan Air Pressure": "2.53 mmAq",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 3350,
+    "price_text": "3,350৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere H85KC6 ARGB 120mm Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-h85kc6-argb-air-cpu-cooler",
+    "slug": "uphere-h85kc6-argb-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/h85kc6/h85kc6-10-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 rpm ± 10%",
+      "Air Flow": "68 CFM Max",
+      "spec_2": "120mm PWM Fan",
+      "spec_3": "Compatible with Intel LGA 1851, 1700, and AMD AM5, AM4"
+    },
+    "price": 31503500,
+    "price_text": "3,150৳3,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool AG600 Single Tower 120mm CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag600-cpu-cooler",
+    "slug": "deepcool-ag600-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag600/ag600-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500-2200±10% RPM",
+      "Fan Airflow": "70.09 CFM",
+      "Fan Air Pressure": "2.49 mmAq",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 3500,
+    "price_text": "3,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek AIR-KILLER PRO ARGB CPU Air Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-air-killer-pro-argb-cpu-air-cooler",
+    "slug": "xigmatek-air-killer-pro-argb-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/air-killer-pro/air-killer-pro-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "High-Performance Heat Dissipation & Air Flow",
+      "spec_1": "Reinforced Plastic Steel Backplate",
+      "spec_2": "Silent Operation at 25.3 dBA",
+      "spec_3": "Supports Intel and AMD"
+    },
+    "price": 33003600,
+    "price_text": "3,300৳3,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek AIR-KILLER PRO ARCTIC ARGB CPU Air Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-air-killer-pro-arctic-argb-cpu-air-cooler",
+    "slug": "xigmatek-air-killer-pro-arctic-argb-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/air-killer-pro-arctic/air-killer-pro-arctic-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "High-Performance Heat Dissipation & Air Flow",
+      "spec_1": "Reinforced Plastic Steel Backplate",
+      "spec_2": "Silent Operation at â‰¤25.3 dBA",
+      "spec_3": "Supports Intel and AMD"
+    },
+    "price": 34003600,
+    "price_text": "3,400৳3,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Iota A40 BK Single Tower Air CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/ocypus-iota-a40-bk-cpu-cooler",
+    "slug": "ocypus-iota-a40-bk-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/iota-a40-bk/iota-a40-bk-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM, 4 Heat Pipes",
+      "spec_1": "Digital Display with Circular Matrix Design",
+      "spec_2": "Silent Fans with Anti-Vibration Pads",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 32003600,
+    "price_text": "3,200৳3,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK400 ZERO DARK CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-zero-dark-cpu-cooler",
+    "slug": "deepcool-ak400-zero-dark-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400-zero-dark/ak400-zero-dark-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Airflow": "66.47 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 3700,
+    "price_text": "3,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere D6SEC ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-d6sec-argb-cpu-cooler",
+    "slug": "uphere-d6sec-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/d6sec/d6sec-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1600 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6mm*6",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 34003700,
+    "price_text": "3,400৳3,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake UX200 SE ARGB Lighting AIR CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-ux200-se-argb-cpu-cooler",
+    "slug": "thermaltake-ux200-se-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/ux200-se-argb/ux200-se-argb-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 800~1800 RPM",
+      "Max. Air Flow": "62.72 CFM, Max. Pressure: 1.47 mm-H2O",
+      "Noise Level": "25.0 dBA, Lifespan: 30,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 3700,
+    "price_text": "3,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Iota A40 WH Single Tower Air CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/ocypus-iota-a40-wh-cpu-cooler",
+    "slug": "ocypus-iota-a40-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/iota-a40-wh/iota-a40-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM, 4 Heat Pipes",
+      "spec_1": "Digital Display with Circular Matrix Design",
+      "spec_2": "Silent Fans with Anti-Vibration Pads",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 33003700,
+    "price_text": "3,300৳3,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek AK4 Digital CPU Air Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-ak4-digital-cpu-air-cooler",
+    "slug": "xigmatek-ak4-digital-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/ak4/ak4-1-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800-1800±10% RPM",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Long Life Hydraulic Bearing",
+      "Compatibility": "Intel LGA 1700/1200/115x, AMD AM5/AM4"
+    },
+    "price": 3800,
+    "price_text": "3,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP2T6 Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up2t6-cpu-cooler",
+    "slug": "uphere-up2t6-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up2t6/up2t6-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6mm*6",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 3800,
+    "price_text": "3,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK400 ZERO DARK PLUS CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-zero-dark-plus-cpu-cooler",
+    "slug": "deepcool-ak400-zero-dark-plus-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400-zero-dark-plus/ak400-zero-dark-plus-04-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1650 RPM±10%",
+      "Fan Airflow": "59.46 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 3900,
+    "price_text": "3,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake UX200 SE ARGB Lighting AIR CPU Cooler White",
+    "url": "https://www.startech.com.bd/thermaltake-ux200-se-argb-cpu-cooler-white",
+    "slug": "thermaltake-ux200-se-argb-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/ux200-se-argb-white/ux200-se-argb-white-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 800~1800 RPM",
+      "Max. Air Flow": "62.72 CFM, Max. Pressure: 1.47 mm-H2O",
+      "Noise Level": "25.0 dBA, Lifespan: 30,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 35003900,
+    "price_text": "3,500৳3,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 36 Multi Compatible Tower CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-36-cpu-cooler",
+    "slug": "arctic-freezer-36-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-36/freezer-36-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200 - 1800 rpm, PWM Controlled",
+      "Heat Pipe": "4x 6 mm Ø, Copper",
+      "Fin Stack": "59x 0.4 mm, Aluminium",
+      "spec_3": "Compatible with LGA1851, LGA1700, AM5, AM4"
+    },
+    "price": 35003900,
+    "price_text": "3,500৳3,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 36 Black Multi Compatible Tower CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-36-black-cpu-cooler",
+    "slug": "arctic-freezer-36-black-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-36-black/freezer-36-black-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200 - 1800 rpm, PWM Controlled",
+      "Heat Pipe": "4x 6 mm Ø, Copper",
+      "Fin Stack": "59x 0.4 mm, Aluminium",
+      "spec_3": "Compatible with LGA1851, LGA1700, AM5, AM4"
+    },
+    "price": 3999,
+    "price_text": "3,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP2K6 Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up2k6-cpu-cooler",
+    "slug": "uphere-up2k6-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up2k6/up2k6-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6mm*6",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 35004000,
+    "price_text": "3,500৳4,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool GAMMAXX L120 V2 RGB Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-gammaxx-l120-v2-cpu-cooler",
+    "slug": "deepcool-gammaxx-l120-v2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/gammaxx-l120-v2/gammaxx-l120-v2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "1800 RPM",
+      "Fan Connector": "4-pin PWM",
+      "Fan Dimensions": "120 x 120 x 25mm",
+      "Radiator Dimension": "159 x 120 x 27mm"
+    },
+    "price": 4100,
+    "price_text": "4,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 36 CO Air CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-36-co-air-cpu-cooler",
+    "slug": "arctic-freezer-36-co-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-36-co/freezer-36-co-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200 -1800 rpm",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Dual Ball Bearing",
+      "Compatibility": "Intel 1851, Intel 1700, AMD AM5 and AMD AM4 Socket"
+    },
+    "price": 39004100,
+    "price_text": "3,900৳4,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK400 G2 Wood Grain Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-g2-wood-grain-cpu-cooler",
+    "slug": "deepcool-ak400-g2-wood-grain-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400-g2-wood-grain/ak400-g2-wood-grain-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2200±10% RPM(max)",
+      "Heat Pipes": "Ø6 mm×4 pcs",
+      "spec_2": "4-pin PWM FAN Connector",
+      "spec_3": "Compatible with Intel & AMD Latest CPUs"
+    },
+    "price": 40004100,
+    "price_text": "4,000৳4,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Gamdias BOREAS M2-51D Digital Display Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/gamdias-boreas-m2-51d-air-cpu-cooler",
+    "slug": "gamdias-boreas-m2-51d-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/boreas-m2-51d/boreas-m2-51d-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Crystal-Clear Digital Screen to See Cooling Performance",
+      "spec_1": "5 Copper Heat Pipes with Direct Contact Technology",
+      "Fan Type": "120mm Hydraulic Bearing PWM Fan",
+      "Socket Compatibility": "LGA 1700 / AM5"
+    },
+    "price": 36264200,
+    "price_text": "3,626৳4,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek AK4 Digital Arctic CPU Air Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-ak4-digital-arctic-cpu-air-cooler",
+    "slug": "xigmatek-ak4-digital-arctic-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/ak4-digital-arctic/ak4-digital-arctic-1-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800-1800±10% RPM",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Long Life Hydraulic Bearing",
+      "Compatibility": "Intel LGA 1700/1200/115x, AMD AM5/AM4"
+    },
+    "price": 38004200,
+    "price_text": "3,800৳4,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK400 G2 WH Wood Grain Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-g2-wh-wood-grain-air-cpu-cooler",
+    "slug": "deepcool-ak400-g2-wh-wood-grain-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400-g2-wh-wood-grain/ak400-g2-wh-wood-grain-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2200±10% RPM(max)",
+      "Heat Pipes": "Ø6 mm×4 pcs",
+      "spec_2": "4-pin PWM FAN Connector",
+      "spec_3": "Compatible with Intel & AMD Latest CPUs"
+    },
+    "price": 40004250,
+    "price_text": "4,000৳4,250৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Gamdias BOREAS M2-51D ARGB Digital Display Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/gamdias-boreas-m2-51d-argb-air-cpu-cooler",
+    "slug": "gamdias-boreas-m2-51d-argb-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/boreas-m2-51d-argb/boreas-m2-51d-argb-03-228x228.webp",
+    "specifications": {
+      "spec_0": "Crystal-Clear Digital Screen to See Cooling Performance",
+      "spec_1": "5 Copper Heat Pipes with Direct Contact Technology",
+      "Fan Type": "120mm Hydraulic Bearing PWM Fan",
+      "Socket Compatibility": "Supports Latest LGA 1851 / AM5 Socket"
+    },
+    "price": 36004300,
+    "price_text": "3,600৳4,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 36 ARGB Air CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-36-argb-cpu-cooler",
+    "slug": "arctic-freezer-36-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-36-argb/freezer-36-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200 -2000 rpm",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Fluid Dynamic Bearing",
+      "Compatibility": "LGA 1851,1700, AMD AM5, AM4 Socket"
+    },
+    "price": 41504400,
+    "price_text": "4,150৳4,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK400 DIGITAL SE WH ARGB Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-digital-se-wh-cpu-cooler",
+    "slug": "deepcool-ak400-digital-se-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400-digital-se-wh/ak400-digital-se-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1850 RPM±10%",
+      "Heatpipe": "Ø6 mm×4 pcs, ARGB LED Strips",
+      "Bearing Type": "Fluid Dynamic Bearing",
+      "spec_3": "Real-Time Status Digital Screen"
+    },
+    "price": 42004400,
+    "price_text": "4,200৳4,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 G2 Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-g2-cpu-cooler",
+    "slug": "deepcool-ag620-g2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620-g2/ag620-g2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2000±10% RPM(max)",
+      "Fan Airflow": "57.76 CFM, Air Pressure: 2.78 mmAq",
+      "Fan Noise": "≤28.87 dB(A)",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 4400,
+    "price_text": "4,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool AK400 DIGITAL WH CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-digital-wh-cpu-cooler",
+    "slug": "deepcool-ak400-digital-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400-digital-wh/ak400-digital-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1850 RPM±10%",
+      "spec_1": "Five advanced heat pipes",
+      "spec_2": "120mm FDB fan",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 4500,
+    "price_text": "4,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 36 ARGB White Air CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-36-argb-white-cpu-cooler",
+    "slug": "arctic-freezer-36-argb-white-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-36-argb-white/freezer-36-argb-white-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200 - 2000 rpm, 2x P12 PWM PST ARGB Fan",
+      "Heatpipes": "4x Ø6 mm, Copper",
+      "Fin Stack": "59x 0.4 mm, Aluminium",
+      "spec_3": "Compatibility With Intel LGA1851, LGA1700, AMD AM5, AM4"
+    },
+    "price": 44004600,
+    "price_text": "4,400৳4,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 Dual-Tower 120mm CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-dual-tower-cpu-cooler",
+    "slug": "deepcool-ag620-dual-tower-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620/ag620-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "300~1850 RPM±10%",
+      "Fan Air Pressure": "2.04 mmAq",
+      "Fan Connector": "4-pin PWM"
+    },
+    "price": 42004700,
+    "price_text": "4,200৳4,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake ASTRIA 200 ARGB Lighting AIR CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-astria-200-argb-lighting-cpu-cooler",
+    "slug": "thermaltake-astria-200-argb-lighting-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/astria-200-argb-lighting/astria-200-argb-lighting-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500 ~ 1800 RPM",
+      "Max. Air Flow": "65.0 CFM, Max. Pressure: 2.56 mm-H2O",
+      "Noise Level": "26.8 dBA, Lifespan: 40,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 45004700,
+    "price_text": "4,500৳4,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT T120 120mm Air CPU Cooler White",
+    "url": "https://www.startech.com.bd/nzxt-t120-air-cpu-cooler-white",
+    "slug": "nzxt-t120-air-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/t120-white/t120-white-01-228x228.webp",
+    "specifications": {
+      "spec_0": "120mm Direct-Mounted Cooler",
+      "spec_1": "Four Conductive Copper Heat Pipes",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM"
+    },
+    "price": 47004800,
+    "price_text": "4,700৳4,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool AN600 Low Profile CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-an600-cpu-cooler",
+    "slug": "deepcool-an600-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/an600/an600-01-228x228.webp",
+    "specifications": {
+      "Airflow": "68.99 m³/h",
+      "Diameter": "120 mm",
+      "Number of Fans": "2 x",
+      "Power Connector": "4-pin"
+    },
+    "price": 40004800,
+    "price_text": "4,000৳4,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "1STPLAYER CRYO CY12LD Black ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/1stplayer-cryo-cy12ld-black-cpu-cooler",
+    "slug": "1stplayer-cryo-cy12ld-black-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/1stplayer/cryo-cy12ld/cryo-cy12ld-black-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "750-1900 ± 10% RPM",
+      "Fan Max Airflow": "57.56 CFM",
+      "Fan Bearing": "Hydraulic bearing",
+      "Fan Life Span": "30,000/hrs @ 25℃"
+    },
+    "price": 46004800,
+    "price_text": "4,600৳4,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 ARGB Dual Tower CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-argb-cpu-cooler",
+    "slug": "deepcool-ag620-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620-argb-dual-tower/ag620-argb-02-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "300~1850 RPM±10%",
+      "Fan Airflow": "67.88 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 4800,
+    "price_text": "4,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK400 G2 DIGITAL NYX Digital Display Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak400-g2-digital-nyx-cpu-cooler",
+    "slug": "deepcool-ak400-g2-digital-nyx-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak400-g2-digital-nyx/ak400-g2-digital-nyx-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2200±10% RPM(max)",
+      "Heat Pipes": "Ø6 mm×4 pcs",
+      "spec_2": "4-pin PWM FAN Connector",
+      "spec_3": "Compatible with Intel & AMD Latest CPUs"
+    },
+    "price": 47004800,
+    "price_text": "4,700৳4,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK500S DIGITAL SE WH ARGB Single Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak500s-digital-se-wh-cpu-cooler",
+    "slug": "deepcool-ak500s-digital-se-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500s-digital-se-wh/ak500s-digital-se-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1850 RPM±10%",
+      "Heatpipe": "Ø6 mm×4 pcs, ARGB LED Strips",
+      "Bearing Type": "Fluid Dynamic Bearing",
+      "spec_3": "Real-Time Status Digital Screen"
+    },
+    "price": 48004900,
+    "price_text": "4,800৳4,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT T120 120mm Air CPU Cooler",
+    "url": "https://www.startech.com.bd/nzxt-t120-air-cpu-cooler",
+    "slug": "nzxt-t120-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/t120/t120-01-228x228.webp",
+    "specifications": {
+      "spec_0": "120mm Direct-Mounted Cooler",
+      "spec_1": "Four Conductive Copper Heat Pipes",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM"
+    },
+    "price": 47004999,
+    "price_text": "4,700৳4,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP2KC8C ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up2kc8c-argb-cpu-cooler",
+    "slug": "uphere-up2kc8c-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up2kc8c/up2kc8c-001-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6mm*8",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 46005000,
+    "price_text": "4,600৳5,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UP2TC8C ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-up2tc8c-argb-cpu-cooler",
+    "slug": "uphere-up2tc8c-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/up2tc8c/up2tc8c-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6mm*8",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 47005000,
+    "price_text": "4,700৳5,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake ASTRIA 200 ARGB Lighting AIR CPU Cooler White",
+    "url": "https://www.startech.com.bd/thermaltake-astria-200-argb-cpu-cooler-white",
+    "slug": "thermaltake-astria-200-argb-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/astria-200-argb-cpu-cooler-white/astria-200-argb-cpu-cooler-white-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500 ~ 1800 RPM",
+      "Max. Air Flow": "65.0 CFM, Max. Pressure: 2.56 mm-H2O",
+      "Noise Level": "26.8 dBA, Lifespan: 40,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 47005000,
+    "price_text": "4,700৳5,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "1STPLAYER CRYO CY12LD White ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/1stplayer-cryo-cy12ld-white-cpu-cooler",
+    "slug": "1stplayer-cryo-cy12ld-white-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/1stplayer/cryo-cy12ld/cryo-cy12ld-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "750-1900 ± 10% RPM",
+      "Fan Max Airflow": "57.56 CFM",
+      "Fan Bearing": "Hydraulic bearing",
+      "Fan Life Span": "30,000/hrs @ 25℃"
+    },
+    "price": 48005000,
+    "price_text": "4,800৳5,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK500 High-Performance Single Tower CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak500-single-tower-cpu-cooler",
+    "slug": "deepcool-ak500-single-tower-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500/ak500-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1850 RPM±10%",
+      "spec_1": "Five advanced heat pipes",
+      "spec_2": "120mm FDB fan",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 5200,
+    "price_text": "5,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LS520 SE WH 240mm ARGB Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ls520-se-wh-argb-liquid-cpu-cooler",
+    "slug": "deepcool-ls520-se-wh-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ls520-se/ls520-se-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2250 RPM",
+      "Radiator Size": "240mm",
+      "Fan Connector": "4-pin PWM, 2x 120mm ARGB Fan",
+      "Compatibility": "LGA1851/1700/1200/1151/1150/1155, AM5/AM4"
+    },
+    "price": 5200,
+    "price_text": "5,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Delta A62 BK ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/ocypus-delta-a62-bk-argb-cpu-cooler",
+    "slug": "ocypus-delta-a62-bk-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/delta-a62-bk-argb/delta-a62-bk-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM",
+      "Heat Pipes": "Φ6mm*6 Heatpipe",
+      "spec_2": "Customizable ARGB Lighting",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 47005200,
+    "price_text": "4,700৳5,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LT520 WH 240mm RGB High-Performance Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-lt520-wh-rgb-liquid-cpu-cooler",
+    "slug": "deepcool-lt520-wh-rgb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lt520-wh/lt520-wh-01-228x228.webp",
+    "specifications": {
+      "Radiator Dimensions": "282×120×27 mm",
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Connector": "4-pin PWM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 5300,
+    "price_text": "5,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK500 WH High-Performance Single Tower CPU Cooler",
+    "url": "https://www.startech.com.bd/eepcool-ak500-wh-single-tower-cpu-cooler",
+    "slug": "eepcool-ak500-wh-single-tower-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500-wh/ak500-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1850 RPM±10%",
+      "spec_1": "Five advanced heat pipes",
+      "spec_2": "120mm FDB fan",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 5300,
+    "price_text": "5,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UE2KC6 ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-ue2kc6-argb-cpu-cooler",
+    "slug": "uphere-ue2kc6-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/ue2kc6/ue2kc6-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1650 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6mm*6",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 49505300,
+    "price_text": "4,950৳5,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere UE2TC6 ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-ue2tc6-argb-cpu-cooler",
+    "slug": "uphere-ue2tc6-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/ue2tc6/ue2tc6-01-228x228.png",
+    "specifications": {
+      "Fan Speed": "600-1650 RPM +/- 10%",
+      "Heatpipes Quantity": "Φ6mm*6",
+      "Bearing Type": "Hydraulic Bearing",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 48005300,
+    "price_text": "4,800৳5,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Delta A62 WH ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/ocypus-delta-a62-wh-argb-cpu-cooler",
+    "slug": "ocypus-delta-a62-wh-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/delta-a62-wh-argb/delta-a62-wh-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM",
+      "Heat Pipes": "Φ6mm*6 Heatpipe",
+      "spec_2": "Customizable ARGB Lighting",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 48005300,
+    "price_text": "4,800৳5,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LS520 240mm Liquid CPU Cooler with 12th Gen Bracket",
+    "url": "https://www.startech.com.bd/deepcool-ls520-240mm-liquid-cpu-cooler",
+    "slug": "deepcool-ls520-240mm-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ls720-240mm/ls720-240mm-01-228x228.webp",
+    "specifications": {
+      "Radiator Dimensions": "402×120×27 mm",
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Connector": "4-pin PWM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 5400,
+    "price_text": "5,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 34 eSports DUO Air CPU Cooler Grey",
+    "url": "https://www.startech.com.bd/arctic-freezer-34-esports-duo-air-cpu-cooler-grey",
+    "slug": "arctic-freezer-34-esports-duo-air-cpu-cooler-grey",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-34-esports-duo-grey/freezer-34-esports-duo-grey-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "300—2000 RPM",
+      "Fan Size": "100mm",
+      "Thermal Paste": "MX-4 pre-applied",
+      "Fan Bearing": "Fluid Dynamic Bearing"
+    },
+    "price": 49505400,
+    "price_text": "4,950৳5,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek AK6 Dual Digital CPU Air Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-ak6-dual-digital-cpu-air-cooler",
+    "slug": "xigmatek-ak6-dual-digital-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/ak6-dual-digital/ak6-dual-digital-1-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800-1800±10% RPM",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Long Life Hydraulic Bearing",
+      "Compatibility": "Intel LGA 1700/1200/115x, AMD AM5/AM4"
+    },
+    "price": 5500,
+    "price_text": "5,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek AK6 Dual Digital Arctic CPU Air Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-ak6-dual-digital-arctic-cpu-air-cooler",
+    "slug": "xigmatek-ak6-dual-digital-arctic-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/ak6-dual-digital-arctic/ak6-dual-digital-arctic-1-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800-1800±10% RPM",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Long Life Hydraulic Bearing",
+      "Compatibility": "Intel LGA 1700/1200/115x, AMD AM5/AM4"
+    },
+    "price": 53005500,
+    "price_text": "5,300৳5,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT T120 RGB 120mm Air CPU Cooler",
+    "url": "https://www.startech.com.bd/nzxt-t120-rgb-120mm-air-cpu-cooler",
+    "slug": "nzxt-t120-rgb-120mm-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/t120-rgb/t120-rgb-01-228x228.webp",
+    "specifications": {
+      "spec_0": "120mm Direct-Mounted Cooler",
+      "spec_1": "Customizable RGB Lighting",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM"
+    },
+    "price": 55005600,
+    "price_text": "5,500৳5,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT T120 RGB 120mm Air CPU Cooler White",
+    "url": "https://www.startech.com.bd/nzxt-t120-rgb-120mm-air-cpu-cooler-white",
+    "slug": "nzxt-t120-rgb-120mm-air-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/t120-rgb-white/t120-rgb-white-01-228x228.webp",
+    "specifications": {
+      "spec_0": "120mm Direct-Mounted Cooler",
+      "spec_1": "Customizable RGB Lighting",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM"
+    },
+    "price": 55005600,
+    "price_text": "5,500৳5,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake ASTRIA 400 ARGB Lighting AIR CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-astria-400-argb-cpu-cooler",
+    "slug": "thermaltake-astria-400-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/astria-400-argb/astria-400-argb-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500 ~ 1800 RPM",
+      "Max. Air Flow": "65.0 CFM, Max. Pressure: 2.56 mm-H2O",
+      "Noise Level": "26.8 dBA, Lifespan: 40,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 55005700,
+    "price_text": "5,500৳5,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TOUGHAIR 510 180W TDP CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-toughair-510-cpu-cooler",
+    "slug": "thermaltake-toughair-510-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/toughair-510/toughair-510-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Single Tower Dual Fan Design",
+      "spec_1": "Enhanced 120 mm high static pressure Fan",
+      "spec_2": "Asymmetric Fin Structure",
+      "spec_3": "High-Performance U-shape copper heat pipes"
+    },
+    "price": 55005800,
+    "price_text": "5,500৳5,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 BK ARGB CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-bk-argb-cpu-cooler",
+    "slug": "deepcool-ag620-bk-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620-bk-argb/ag620-bk-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "300~1850 RPM±10%",
+      "Fan Airflow": "67.88 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 49005800,
+    "price_text": "4,900৳5,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TOUGHAIR 710 Dual-Tower CPU Air Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-toughair-710-dual-tower-cpu-air-cooler",
+    "slug": "thermaltake-toughair-710-dual-tower-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/toughair-710/toughair-710-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500 ~ 1400 RPM",
+      "Max. Air Flow": "81.96 CFM (one fan)",
+      "Noise Level": "23.9 dB-A",
+      "Max. Pressure": "1.81 mm-H2O (one fan)"
+    },
+    "price": 55005800,
+    "price_text": "5,500৳5,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Value-Top TYDAL 240D ARGB 240mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/value-top-tydal-240d-cpu-cooler",
+    "slug": "value-top-tydal-240d-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/value-top/tydal-240d/tydal-240d-228x228.webp",
+    "specifications": {
+      "Fan speed": "800~2300, PWM",
+      "Pump speed": "2800RPM ± 10%",
+      "Radiator Material": "Aluminum",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 5800,
+    "price_text": "5,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK500 G2 Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak500-g2-cpu-cooler",
+    "slug": "deepcool-ak500-g2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500-g2/ak500-g2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2200±10% RPM(max)",
+      "Fan Airflow": "63.4 CFM, Air Pressure: 3.33 mmAq",
+      "Fan Noise": "≤31.45 dB(A)",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 5800,
+    "price_text": "5,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK500 G2 WH Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak500-g2-wh-cpu-cooler",
+    "slug": "deepcool-ak500-g2-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500-g2-wh/ak500-g2-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2200±10% RPM(max)",
+      "Fan Airflow": "63.4 CFM, Air Pressure: 3.33 mmAq",
+      "Fan Noise": "≤31.45 dB(A)",
+      "spec_3": "Compatible with Intel & AMD CPU"
+    },
+    "price": 59006000,
+    "price_text": "5,900৳6,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK500 Digital CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak500-digital-cpu-cooler",
+    "slug": "deepcool-ak500-digital-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500-digital/ak500-digital-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1850 RPM±10%",
+      "spec_1": "Five advanced heat pipes",
+      "spec_2": "120mm FDB fan",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 6100,
+    "price_text": "6,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake ASTRIA 400 ARGB Lighting AIR CPU Cooler White",
+    "url": "https://www.startech.com.bd/thermaltake-astria-400-argb-cpu-cooler-white",
+    "slug": "thermaltake-astria-400-argb-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/astria-400-argb-white/astria-400-argb-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500 ~ 1800 RPM",
+      "Max. Air Flow": "65.0 CFM, Max. Pressure: 2.56 mm-H2O",
+      "Noise Level": "26.8 dBA, Lifespan: 40,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 57006100,
+    "price_text": "5,700৳6,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 WH ARGB Dual-Tower 120mm CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-wh-argb-dual-tower-cpu-cooler",
+    "slug": "deepcool-ag620-wh-argb-dual-tower-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620-wh-argb/ag620-wh-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "300~1850 RPM±10%",
+      "Fan Air Pressure": "2.04 mmAq",
+      "Fan Connector": "4-pin PWM"
+    },
+    "price": 6200,
+    "price_text": "6,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere E240TC ARGB 240mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-e240tc-argb-cpu-cooler",
+    "slug": "uphere-e240tc-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/e240tc/e240tc-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1800 rpm ± 10%",
+      "Pump Speed": "800-2500 RPM±10%",
+      "spec_2": "Dynamic ARGB Lighting, Magnetic Pump Cover",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 6200,
+    "price_text": "6,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK620 DIGITAL SE WH ARGB Dual Tower Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak620-digital-se-wh-cpu-cooler",
+    "slug": "deepcool-ak620-digital-se-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak620-digital-se-wh/ak620-digital-se-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1850 RPM±10%",
+      "Heatpipe": "Ø6 mm×6 pcs, ARGB LED Strips",
+      "Bearing Type": "Fluid Dynamic Bearing",
+      "spec_3": "Magnetic Real-Time Status Digital Screen"
+    },
+    "price": 6200,
+    "price_text": "6,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Iota A62 BK Dual Tower Air CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/ocypus-iota-a62-bk-cpu-cooler",
+    "slug": "ocypus-iota-a62-bk-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/iota-a62-bk/iota-a62-bk-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM, 6 Heat Pipes",
+      "spec_1": "Glyph Display with Unique Dot-Matrix Design",
+      "spec_2": "Two Silent Fans with Anti-Vibration Pads",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 6200,
+    "price_text": "6,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Iota A62 WH Dual Tower Air CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/ocypus-iota-a62-wh-cpu-cooler",
+    "slug": "ocypus-iota-a62-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/iota-a62-wh/iota-a62-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM, 6 Heat Pipes",
+      "spec_1": "Glyph Display with Unique Dot-Matrix Design",
+      "spec_2": "Two Silent Fans with Anti-Vibration Pads",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 58006200,
+    "price_text": "5,800৳6,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 DIGITAL WH CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-digital-wh-cpu-air-cooler",
+    "slug": "deepcool-ag620-digital-wh-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620-digital-wh/ag620-digital-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "300~1950 RPM±10%",
+      "Fan Airflow": "67.88 CFM",
+      "Bearing Type": "Hydro Bearing"
+    },
+    "price": 6300,
+    "price_text": "6,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK500 G2 DIGITAL NYX Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak500-g2-digital-nyx-cpu-cooler",
+    "slug": "deepcool-ak500-g2-digital-nyx-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500-g2-digital-nyx/ak500-g2-digital-nyx-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2200±10% RPM(max)",
+      "Fan Airflow": "63.4 CFM, Air Pressure: 3.33 mmAq",
+      "Fan Noise": "≤31.45 dB(A)",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 6300,
+    "price_text": "6,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LS520 WH 240mm Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ls520-wh-240mm-liquid-cpu-cooler",
+    "slug": "deepcool-ls520-wh-240mm-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ls520-wh/ls520-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2250 RPM±10%",
+      "Fan Airflow": "85.85 CFM",
+      "Fan Connector": "4-pin PWM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 6400,
+    "price_text": "6,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TOUGHAIR 510 Turquoise Air CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-toughair-510-turquoise-cpu-cooler",
+    "slug": "thermaltake-toughair-510-turquoise-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/toughair-510-turquoise/toughair-510-turquoise-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500 ~ 2000 RPM",
+      "Max. Air Flow": "58.35 CFM, Max. Pressure: 2.41 mm-H2O",
+      "Noise Level": "23.6 dBA, Lifespan: 40,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 63506400,
+    "price_text": "6,350৳6,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Value-Top TYDAL 240DW ARGB 240mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/value-top-tydal-240dw-cpu-cooler",
+    "slug": "value-top-tydal-240dw-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/value-top/tydal-240dw/tydal-240dw-01-228x228.webp",
+    "specifications": {
+      "Fan speed": "800~2300, PWM",
+      "Pump speed": "2800RPM ± 10%",
+      "Radiator Material": "Aluminum",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 63006400,
+    "price_text": "6,300৳6,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LE240 V2 ZERO DARK 240mm All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-le240-v2-zero-dark-cooler",
+    "slug": "deepcool-le240-v2-zero-dark-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/le240-v2-zero-dark/le240-v2-zero-dark-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1600 RPM±10%",
+      "Pump Speed": "2500~3400 RPM±10%",
+      "spec_2": "Hydro Bearing Fans, Anti-Leak Technology",
+      "spec_3": "Silent operation Design, Compatible with Intel and AMD"
+    },
+    "price": 6400,
+    "price_text": "6,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere E240KC ARGB 240mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-e240kc-argb-cpu-cooler",
+    "slug": "uphere-e240kc-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/e240kc/e240kc-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1800 rpm ± 10%",
+      "Pump Speed": "800-2500 RPM±10%",
+      "spec_2": "Dynamic ARGB Lighting, Magnetic Pump Cover",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 63006500,
+    "price_text": "6,300৳6,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK620 WH High-Performance Dual Tower CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak620-wh-cpu-cooler",
+    "slug": "deepcool-ak620-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak620-wh/ak620-wh-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Two 120 PWM fans with Fluid Dynamic Bearing",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Noise": "≤28 dB(A)",
+      "spec_3": "Support Intel and AMD platforms"
+    },
+    "price": 61006600,
+    "price_text": "6,100৳6,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK500 Digital WH CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak500-digital-wh-cpu-cooler",
+    "slug": "deepcool-ak500-digital-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500-digital-wh/ak500-digital-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1850 RPM±10%",
+      "spec_1": "Five advanced heat pipes",
+      "spec_2": "120mm FDB fan",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 6700,
+    "price_text": "6,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 DIGITAL CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-digital-cpu-air-cooler",
+    "slug": "deepcool-ag620-digital-cpu-air-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620-digital/ag620-digital-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "300~1950 RPM±10%",
+      "Fan Airflow": "67.88 CFM",
+      "Bearing Type": "Hydro Bearing"
+    },
+    "price": 6800,
+    "price_text": "6,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LE240 V2 240mm ARGB All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-le240-v2-argb-cpu-cooler",
+    "slug": "deepcool-le240-v2-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/le240-v2/le240-v2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2100 RPM±10%",
+      "Pump Speed": "2500~3400 RPM±10%",
+      "spec_2": "Hydro Bearing ARGB Fans, Anti-Leak Technology",
+      "spec_3": "Frosted Pump Head Design, Compatible with Intel and AMD"
+    },
+    "price": 6800,
+    "price_text": "6,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Value-Top TYDAL 360D ARGB 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/value-top-tydal-360d-cpu-cooler",
+    "slug": "value-top-tydal-360d-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/value-top/tydal-360d/tydal-360d-228x228.webp",
+    "specifications": {
+      "Fan speed": "800~2300, PWM",
+      "Pump speed": "2800RPM ± 10%",
+      "Radiator Material": "Aluminum",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 6800,
+    "price_text": "6,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Ocypus Delta L36 BK ARGB V2 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/ocypus-delta-l36-bk-argb-v2-cpu-cooler",
+    "slug": "ocypus-delta-l36-bk-argb-v2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/ocypus/delta-l36-bk-argb-v2/delta-l36-bk-argb-v2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2000±10%RPM",
+      "Pump Speed": "2650±10%RPM",
+      "spec_2": "Layered Lighting Effect Aesthetics",
+      "spec_3": "Compatible with Intel LGA 1700/1851 & AMD AM4/AM5"
+    },
+    "price": 66006800,
+    "price_text": "6,600৳6,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 BK ARGB V2 CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-bk-argb-v2-cpu-cooler",
+    "slug": "deepcool-ag620-bk-argb-v2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620-bk-argb-v2/ag620-bk-argb-v2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "300~1950 RPM±10%",
+      "Fan Airflow": "67.88 CFM",
+      "Bearing Type": "Hydro Bearing",
+      "spec_3": "Bidirectional Heat Pipe Technology"
+    },
+    "price": 68006899,
+    "price_text": "6,800৳6,899৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool AK500 ZERO DARK CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak500-zero-dark-cpu-cooler",
+    "slug": "deepcool-ak500-zero-dark-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak500-zero-dark/ak500-zero-dark-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Airflow": "68.99 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 7000,
+    "price_text": "7,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AG620 WH ARGB V2 CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ag620-wh-argb-v2-cpu-cooler",
+    "slug": "deepcool-ag620-wh-argb-v2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ag620-wh-argb-v2/ag620-wh-argb-v2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "300~1950 RPM±10%",
+      "Fan Airflow": "67.88 CFM",
+      "Bearing Type": "Hydro Bearing",
+      "spec_3": "Bidirectional Heat Pipe Technology"
+    },
+    "price": 69007000,
+    "price_text": "6,900৳7,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LE240 V2 240mm ARGB All-in-One Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/deepcool-le240-v2-cpu-cooler-white",
+    "slug": "deepcool-le240-v2-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/le240-v2-white/le240-v2-white-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2100 RPM±10%",
+      "Pump Speed": "2500~3400 RPM±10%",
+      "spec_2": "Hydro Bearing ARGB Fans, Anti-Leak Technology",
+      "spec_3": "Frosted Pump Head Design, Compatible with Intel and AMD"
+    },
+    "price": 7100,
+    "price_text": "7,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK620 Dual-Tower CPU Air Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak620-dual-tower-cpu-cooler",
+    "slug": "deepcool-ak620-dual-tower-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak620-dual-tower/ak620-dual-tower-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Air Pressure": "2.19 mmAq",
+      "Fan Connector": "4-pin PWM"
+    },
+    "price": 7200,
+    "price_text": "7,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LS520S ZERO DARK 240mm Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ls520s-zero-dark-cpu-cooler",
+    "slug": "deepcool-ls520s-zero-dark-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ls520s-zero-dark/ls520s-zero-dark-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm(L×W×H)",
+      "Fan Speed": "500~2250 RPM±10%",
+      "Fan Airflow": "85.85 CFM",
+      "Bearing Type": "Hydro Bearing"
+    },
+    "price": 7300,
+    "price_text": "7,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK700 DIGITAL NYX Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak700-digital-nyx-cpu-cooler",
+    "slug": "deepcool-ak700-digital-nyx-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak700-digital-nyx/ak700-digital-nyx-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2700±10% RPM(max)",
+      "Fan Airflow": "77.23 CFM, Air Pressure: 5.13 mmAq",
+      "Fan Noise": "21.0/28.8/36.0 dB(A)",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 7300,
+    "price_text": "7,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK620 G2 WH Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak620-g2-wh-cpu-cooler",
+    "slug": "deepcool-ak620-g2-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak620-g2-wh/ak620-g2-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "2000±10% RPM(max)",
+      "Fan Airflow": "57.76 CFM, Air Pressure: 2.78 mmAq",
+      "Fan Noise": "≤28.87 dB(A)",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 7300,
+    "price_text": "7,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK620 Zero Dark Zoria CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak620-zero-dark-zoria-cpu-cooler",
+    "slug": "deepcool-ak620-zero-dark-zoria-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak620-zero-dark-zoria/ak620-zero-dark-zoria-01-228x228.webp",
+    "specifications": {
+      "Airflow": "68.99 m³/h",
+      "Diameter": "120 mm",
+      "Number of Fans": "2 x",
+      "Power Connector": "4-pin"
+    },
+    "price": 71007400,
+    "price_text": "7,100৳7,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Value-Top TYDAL 360DW 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/value-top-tydal-360dw-cpu-cooler",
+    "slug": "value-top-tydal-360dw-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/value-top/tydal-360dw/tydal-360dw-01-228x228.webp",
+    "specifications": {
+      "Fan speed": "800~2300, PWM",
+      "Pump speed": "2800RPM ± 10%",
+      "Radiator Material": "Aluminum",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 73007400,
+    "price_text": "7,300৳7,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Freezer 4U-M Air CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-freezer-4u-m-air-cpu-cooler",
+    "slug": "arctic-freezer-4u-m-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/freezer-4u-m/freezer-4u-m-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "400—2300 RPM",
+      "Fan Size": "120 mm PWM Fans x2",
+      "Connector": "4-Pin Plug",
+      "Fan Bearing": "Double Ball Bearing"
+    },
+    "price": 7500,
+    "price_text": "7,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cougar Poseidon Elite ARGB 240 240mm ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/cougar-poseidon-elite-argb-240-aio-cpu-cooler",
+    "slug": "cougar-poseidon-elite-argb-240-aio-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cougar/poseidon-elite-argb-240/poseidon-elite-argb-240-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Rotatable Pump Head",
+      "spec_1": "Support Latest AMD AM5 and Intel LGA1851 CPU sockets",
+      "Fan Speed": "500-2200 RPM ±10%",
+      "Air Flow": "62.53 CFM"
+    },
+    "price": 71007500,
+    "price_text": "7,100৳7,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek LK Pro 240 Digital 240mm ARGB Liquid CPU Cooler with Digital LCD Display",
+    "url": "https://www.startech.com.bd/xigmatek-lk-pro-240-digital-cpu-cooler",
+    "slug": "xigmatek-lk-pro-240-digital-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/lk-pro-240-digital/lk-pro-240-digital-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800~2500 RPM ±10%, Fan Noise: 29.8dBA",
+      "Air Flow": "85.82 CFM, Air Pressure: 2.23mm-H2O",
+      "Fan Bearing": "Hydro Bearing, Pump Bearing: Metallurgical Bearing",
+      "Display": "2.7” Smart Digital LCD"
+    },
+    "price": 74007800,
+    "price_text": "7,400৳7,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake ASTRIA 600 ARGB Lighting Air CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-astria-600-argb-lighting-cpu-cooler",
+    "slug": "thermaltake-astria-600-argb-lighting-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/astria-600-argb-lighting/astria-600-argb-lighting-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500 ~ 1800 RPM, Heat Pipe: Φ6mm x 6 pcs",
+      "Max. Air Flow": "65.0 CFM, Max. Pressure: 2.56 mm-H2O",
+      "Noise Level": "26.8 dBA, Lifespan: 40,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 8000,
+    "price_text": "8,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "1STPLAYER CC 240 ARGB Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/1stplayer-cc-240-argb-liquid-cpu-cooler",
+    "slug": "1stplayer-cc-240-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/1stplayer/cc-240/cc-240-01-228x228.webp",
+    "specifications": {
+      "spec_0": "40,000hrs Long Life Bearing Water Pump",
+      "spec_1": "High Density Sigmoidal Pins Radiator",
+      "spec_2": "CPU core temperature display",
+      "spec_3": "Support 5v RGB Sync with Motherboard (ARGB)"
+    },
+    "price": 8300,
+    "price_text": "8,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK620 ZERO DARK High Performance Dual Tower CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak620-zero-dark-cpu-cooler",
+    "slug": "deepcool-ak620-zero-dark-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak620-zero-dark/ak620-zero-dark-02-228x228.webp",
+    "specifications": {
+      "spec_0": "Two 120 PWM fans with Fluid Dynamic Bearing",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Noise": "28 dB(A)",
+      "spec_3": "Support Intel and AMD platforms"
+    },
+    "price": 8500,
+    "price_text": "8,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "1STPLAYER CC 240 ARGB Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/1stplayer-cc-240-argb-liquid-cpu-cooler-white",
+    "slug": "1stplayer-cc-240-argb-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/1stplayer/cc-240-white/cc-240-white-01-228x228.webp",
+    "specifications": {
+      "spec_0": "40,000hrs Long Life Bearing Water Pump",
+      "spec_1": "High Density Sigmoidal Pins Radiator",
+      "spec_2": "CPU core temperature display",
+      "spec_3": "Support 5v RGB Sync with Motherboard (ARGB)"
+    },
+    "price": 8500,
+    "price_text": "8,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LS720S ZERO DARK 360mm Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ls720s-zero-dark-liquid-cpu-cooler",
+    "slug": "deepcool-ls720s-zero-dark-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ls720s-zero-dark/ls720s-zero-dark-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm(L×W×H)",
+      "Fan Speed": "500~2250 RPM±10%",
+      "Fan Airflow": "85.85 CFM",
+      "Bearing Type": "Hydro Bearing"
+    },
+    "price": 8500,
+    "price_text": "8,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere E360KC ARGB 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-e360kc-argb-cpu-cooler",
+    "slug": "uphere-e360kc-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/e360kc/e360kc-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1800 rpm ± 10%",
+      "Pump Speed": "800-2500 RPM±10%",
+      "spec_2": "Dynamic ARGB Lighting, Magnetic Pump Cover",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 82008500,
+    "price_text": "8,200৳8,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "upHere E360TC ARGB 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/uphere-e360tc-argb-cpu-cooler",
+    "slug": "uphere-e360tc-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/uphere/e360tc/e360tc-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-1800 rpm ± 10%",
+      "Pump Speed": "800-2500 RPM±10%",
+      "spec_2": "Dynamic ARGB Lighting, Magnetic Pump Cover",
+      "spec_3": "Universal Compatibility with Intel and AMD"
+    },
+    "price": 82008500,
+    "price_text": "8,200৳8,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake ASTRIA 600 ARGB Lighting AIR CPU Cooler White",
+    "url": "https://www.startech.com.bd/thermaltake-astria-600-argb-cpu-cooler",
+    "slug": "thermaltake-astria-600-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/astria-600-argb/astria-600-argb-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500 ~ 1800 RPM",
+      "Max. Air Flow": "65.0 CFM, Max. Pressure: 2.56 mm-H2O",
+      "Noise Level": "26.8 dBA, Lifespan: 40,000 hours",
+      "Compatibility": "Intel 1851/1700/1200, AMD AM5/AM4"
+    },
+    "price": 82008500,
+    "price_text": "8,200৳8,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Yeston Zeaginal ZC-360 ARGB Bling Bling 395mm Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/yeston-zeaginal-zc-360-argb-bling-bling-cpu-cooler",
+    "slug": "yeston-zeaginal-zc-360-argb-bling-bling-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/yeston/zeaginal-zc-360-argb-bling-bling/zeaginal-zc-360-argb-bling-bling-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 900~1800RPM±10%",
+      "Fan Air Flow": "59.4CFM",
+      "Pump Speed": "250ORPM±10%",
+      "spec_3": "Compatibility with Intel & AMD Socket"
+    },
+    "price": 65008500,
+    "price_text": "6,500৳8,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake LB360-S ARGB Sync 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-lb360-s-argb-sync-cpu-cooler",
+    "slug": "thermaltake-lb360-s-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/lb360-s-argb-sync/lb360-s-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 700~1900 RPM",
+      "Motor Speed": "PWM 2000~2900 RPM",
+      "spec_2": "Segment LCD Display, Wood-Grain Decorated Water Block",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 8500,
+    "price_text": "8,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek LIQUID-KILLER X 240 ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-liquid-killer-x-240-argb-cpu-cooler",
+    "slug": "xigmatek-liquid-killer-x-240-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/liquid-killer-x-240/liquid-killer-x-240-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "2x120mm ARGB Fan",
+      "Fan Speed": "1800RPM (-10%)",
+      "spec_2": "Plastic Steel Backpanel",
+      "spec_3": "Supports Intel and AMD"
+    },
+    "price": 67008700,
+    "price_text": "6,700৳8,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake LA240 ARGB Sync 240mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-la240-argb-sync-cpu-cooler",
+    "slug": "thermaltake-la240-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/la240-argb-sync/la240-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 600~2500 R.P.M",
+      "Motor Speed": "PWM 1500~2500 RPM",
+      "spec_2": "Magnetic Top Cover Design, Daisy-Chain Design",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 87008900,
+    "price_text": "8,700৳8,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek LIQUID-KILLER X 360 ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-liquid-killer-x-360-argb-cpu-cooler",
+    "slug": "xigmatek-liquid-killer-x-360-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/liquid-killer-x-360/liquid-killer-x-360-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "3x120mm ARGB Fan",
+      "Fan Speed": "1800 Â± 10% RPM",
+      "spec_2": "Plastic Steel Backpanel",
+      "spec_3": "Supports Intel and AMD"
+    },
+    "price": 86009000,
+    "price_text": "8,600৳9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek LIQUID-KILLER X Arctic 360mm ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-liquid-killer-x-arctic-liquid-cpu-cooler",
+    "slug": "xigmatek-liquid-killer-x-arctic-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/liquid-killer-x-arctic/liquid-killer-x-arctic-02-228x228.webp",
+    "specifications": {
+      "Fan Speed": "1800 RPM ± 10% R.P.M",
+      "Air Flow": "82.2 CFM",
+      "Air Pressure": "2.55 mm-H2O",
+      "LED Color": "Addressable RGB Support M/B SYNC"
+    },
+    "price": 86009000,
+    "price_text": "8,600৳9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK620 DIGITAL CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak620-digital-cpu-cooler",
+    "slug": "deepcool-ak620-digital-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak620-digital/ak620-digital-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Airflow": "68.99 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 9000,
+    "price_text": "9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool AK620 DIGITAL WH RGB CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-ak620-digital-wh-cpu-cooler",
+    "slug": "deepcool-ak620-digital-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ak620-digital-wh/ak620-digital-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Speed": "500~1850 RPM±10%",
+      "Fan Airflow": "68.99 CFM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 85009000,
+    "price_text": "8,500৳9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Liquid Freezer III 280MM ARGB Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/arctic-liquid-freezer-iii-280mm-argb-liquid-cpu-cooler-white",
+    "slug": "arctic-liquid-freezer-iii-280mm-argb-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/liquid-freezer-iii-280mm-argb/liquid-freezer-iii-280mm-argb-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200-1900 rpm, 2x P12 PWM",
+      "VRM Fan": "400-2500 rpm (PWM controlled)",
+      "Pump": "800-2800 rpm (PWM controlled)",
+      "Cold Plate": "Copper, Micro-Skived-Fins"
+    },
+    "price": 75009000,
+    "price_text": "7,500৳9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Corsair NAUTILUS 240 RS ARGB 240mm Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/corsair-nautilus-240-rs-argb-240mm-cpu-cooler",
+    "slug": "corsair-nautilus-240-rs-argb-240mm-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/nautilus-240-rs-argb/nautilus-240-rs-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "up to 2100 RPM",
+      "Tudbing Length": "400mm",
+      "spec_2": "RS120 ARGB fans for high airflow",
+      "spec_3": "Compatible with Intel LGA 1851, LGA 1700, and AMD AM5, AM4"
+    },
+    "price": 85009000,
+    "price_text": "8,500৳9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Corsair NAUTILUS 240 RS ARGB 240mm Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/corsair-nautilus-240-rs-argb-cpu-cooler-white",
+    "slug": "corsair-nautilus-240-rs-argb-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/nautilus-240-rs-argb-white/nautilus-240-rs-argb-white-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "up to 2100 RPM",
+      "Tudbing Length": "400mm",
+      "spec_2": "RS120 ARGB fans for high airflow",
+      "spec_3": "Compatible with Intel LGA 1851, LGA 1700, and AMD AM5, AM4"
+    },
+    "price": 85009000,
+    "price_text": "8,500৳9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LE360 V2 360mm ARGB All-in-One Liquid CPU Cooler Black",
+    "url": "https://www.startech.com.bd/deepcool-le360-v2-cpu-cooler-black",
+    "slug": "deepcool-le360-v2-cpu-cooler-black",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/le360-v2-black/le360-v2-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2100 RPM±10%",
+      "Pump Speed": "2500~3400 RPM±10%",
+      "spec_2": "Hydro Bearing ARGB Fans, Anti-Leak Technology",
+      "spec_3": "Frosted Pump Head Design, Compatible with Intel and AMD"
+    },
+    "price": 9000,
+    "price_text": "9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LM240 240mm ARGB Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lm240-cpu-cooler",
+    "slug": "deepcool-lm240-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/casing-cooler/deepcool/lm240/lm240-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "400~2400 RPM±10%",
+      "Fan Airflow": "66.23 CFM; Noise: ≤36.7 dB(A)",
+      "Fan Connector": "4-pin PWM",
+      "LED Type": "Addressable RGB LED"
+    },
+    "price": 85009000,
+    "price_text": "8,500৳9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake LB360-S ARGB Sync Snow Edition 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-lb360-s-argb-sync-cpu-cooler-snow",
+    "slug": "thermaltake-lb360-s-argb-sync-cpu-cooler-snow",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/lb360-s-argb-sync-snow/lb360-s-argb-sync-snow-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 700~1900 RPM",
+      "Motor Speed": "PWM 2000~2900 RPM",
+      "spec_2": "Segment LCD Display, Wood-Grain Decorated Water Block",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 9000,
+    "price_text": "9,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LE360 V2 360mm ARGB All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-le360-v2-cpu-cooler",
+    "slug": "deepcool-le360-v2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/le360-v2/le360-v2-001-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2100 RPM±10%",
+      "Pump Speed": "2500~3400 RPM±10%",
+      "spec_2": "Hydro Bearing ARGB Fans, Anti-Leak Technology",
+      "spec_3": "Frosted Pump Head Design, Compatible with Intel and AMD"
+    },
+    "price": 92009300,
+    "price_text": "9,200৳9,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cougar Poseidon Elite ARGB 360 360mm ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/cougar-poseidon-elite-argb-360-aio-cpu-cooler",
+    "slug": "cougar-poseidon-elite-argb-360-aio-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cougar/poseidon-elite-argb-360/poseidon-elite-argb-360-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Rotatable Pump Head",
+      "spec_1": "Support Latest AMD AM5 and Intel LGA1851 CPU sockets",
+      "Fan Speed": "500-2200 RPM ±10%",
+      "Air Flow": "62.53 CFM"
+    },
+    "price": 91009500,
+    "price_text": "9,100৳9,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek LK Pro 360 Digital 360mm ARGB Liquid CPU Cooler with Digital LCD Display",
+    "url": "https://www.startech.com.bd/xigmatek-lk-pro-360-digital-cpu-cooler",
+    "slug": "xigmatek-lk-pro-360-digital-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/lk-pro-360-digital/lk-pro-360-digital-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2000 RPM ±10%, Fan Noise: 29.8 dBA",
+      "Air Flow": "85.82 CFM, Air Pressure: 2.23mm-H2O",
+      "Fan Bearing": "Hydro Bearing, Pump Bearing: Metallurgical Bearing",
+      "Display": "2.7” Smart Digital LCD"
+    },
+    "price": 91009500,
+    "price_text": "9,100৳9,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LE360 V2 ZERO DARK 360mm All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-le360-v2-zero-dark-360mm-cpu-cooler",
+    "slug": "deepcool-le360-v2-zero-dark-360mm-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/le360-v2-zero-dark/le360-v2-zero-dark-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1600 RPM±10%",
+      "Pump Speed": "2500~3400 RPM±10%",
+      "Fan Airflow": "48.34 CFM, Fan Air Pressure: 1.34 mmAq",
+      "Fan Noise": "≤24.96 dB(A), Compatible CPU: Intel, AMD"
+    },
+    "price": 93009500,
+    "price_text": "9,300৳9,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LM240 WH 240mm ARGB Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lm240-wh-cpu-cooler",
+    "slug": "deepcool-lm240-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/casing-cooler/deepcool/lm240-wh/lm240-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "400~2400 RPM±10%",
+      "Fan Airflow": "66.23 CFM; Noise: ≤36.7 dB(A)",
+      "Fan Connector": "4-pin PWM",
+      "LED Type": "Addressable RGB LED"
+    },
+    "price": 90009600,
+    "price_text": "9,000৳9,600৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cooler Master Hyper 612 Apex Air CPU Cooler",
+    "url": "https://www.startech.com.bd/cooler-master-hyper-612-apex-air-cpu-cooler",
+    "slug": "cooler-master-hyper-612-apex-air-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cooler-master/hyper-612-apex/hyper-612-apex-black-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "0-2400 RPM ± 10%",
+      "Fan Airflow": "75.2 CFM (Max)",
+      "Fan Noise Level": "30 dBA (Max)",
+      "spec_3": "Compatible with Intel & AMD"
+    },
+    "price": 9800,
+    "price_text": "9,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake LA240-S ARGB Sync 240mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-la240-s-argb-sync-cpu-cooler",
+    "slug": "thermaltake-la240-s-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/la240-s-argb-sync/la240-s-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 600~2500 R.P.M",
+      "Motor Speed": "PWM 1500~2500 RPM",
+      "spec_2": "2.4” Segment LCD Display, Magnetic Top Cover Design",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 98009900,
+    "price_text": "9,800৳9,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Corsair iCUE ELITE CPU Cooler LCD Display Upgrade Kit White",
+    "url": "https://www.startech.com.bd/corsair-icue-elite-cpu-cooler-lcd-display-upgrade-kit",
+    "slug": "corsair-icue-elite-cpu-cooler-lcd-display-upgrade-kit",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/icue-elite-cpu-cooler-display-kit/icue-elite-cpu-cooler-display-kit-01-228x228.webp",
+    "specifications": {
+      "Display": "2.1\" IPS LCD, 480x480 Resolution, 600cd/m2 Brightness",
+      "spec_1": "Screen Color Depth 24-Bit True Color; 16.7M+ Colors",
+      "spec_2": "RGB LED Quantity 24 Individually Addressable RGB LEDs",
+      "spec_3": "Compatibility All ELITE CAPELLIX AIO CPU Coolers"
+    },
+    "price": 96009975,
+    "price_text": "9,600৳9,975৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LT520 240mm RGB High-Performance Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-lt520-rgb-liquid-cpu-cooler",
+    "slug": "deepcool-lt520-rgb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lt520/lt520-01-228x228.webp",
+    "specifications": {
+      "Radiator Dimensions": "282×120×27 mm",
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Connector": "4-pin PWM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 1020010500,
+    "price_text": "10,200৳10,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LD240 240mm ARGB Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-ld240-240mm-argb-liquid-cpu-cooler",
+    "slug": "deepcool-ld240-240mm-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ld240/ld240-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM±10%",
+      "Display Type": "LED Digital Display",
+      "spec_2": "Real-Time CPU Status Screen With ARGB HALOS",
+      "spec_3": "5th Generation Pump, Fine Tuned FD12 ARGB Fans"
+    },
+    "price": 10500,
+    "price_text": "10,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TH360 V3 ARGB Sync 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-th360-v3-argb-sync-cpu-cooler",
+    "slug": "thermaltake-th360-v3-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/th360-v3-argb-sync/th360-v3-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2500 RPM",
+      "Motor Speed": "PWM 800~2500 RPM",
+      "spec_2": "Detachable Top Cover, Infinity Mirror Effects",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 10500,
+    "price_text": "10,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TH360 V3 ARGB Sync Snow Edition 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-th360-v3-argb-sync-cpu-cooler-snow",
+    "slug": "thermaltake-th360-v3-argb-sync-cpu-cooler-snow",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/th360-v3-argb-sync-snow/th360-v3-argb-sync-snow-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2500 RPM",
+      "Motor Speed": "PWM 800~2500 RPM",
+      "spec_2": "Detachable Top Cover, Infinity Mirror Effects",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 10800,
+    "price_text": "10,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cooler Master MasterLiquid Core Nex ARGB 360mm Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/cooler-master-masterliquid-core-nex-argb-360mm-cpu-cooler",
+    "slug": "cooler-master-masterliquid-core-nex-argb-360mm-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cooler-master/masterliquid-core-nex/masterliquid-core-nex-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "650 ~ 1750 RPM ±10%",
+      "Motor Speed": "2800 ±10% RPM, Dual Chamber Pump​​",
+      "spec_2": "Pre-Applied CryoFuze Thermal Paste, Innovative Design​",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 10800,
+    "price_text": "10,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake LA360 ARGB Sync 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-la360-argb-sync-cpu-cooler",
+    "slug": "thermaltake-la360-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/la360-argb-sync/la360-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 600~2500 R.P.M",
+      "Motor Speed": "PWM 1500~2500 RPM",
+      "spec_2": "Magnetic Top Cover Design, Daisy-Chain Design",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 1070010900,
+    "price_text": "10,700৳10,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TOUGHLIQUID 240 ARGB Sync AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-toughliquid-240-argb-liquid-cpu-cooler",
+    "slug": "thermaltake-toughliquid-240-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/toughliquid-240-argb/toughliquid-240-argb-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "2000 RPM",
+      "Max. Air Flow": "58.35 CFM",
+      "Noise Level": "22.3 DB-A",
+      "Max. Pressure": "2.41 Mm-H2O"
+    },
+    "price": 11000,
+    "price_text": "11,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "1STPLAYER X-240 ARGB Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/1stplayer-x-240-cpu-cooler",
+    "slug": "1stplayer-x-240-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/1stplayer/x-240-black/x-240-black-01-228x228.webp",
+    "specifications": {
+      "spec_0": "2.4-inch, 320 x 240 resolution IPS display",
+      "Fan Speed": "600 - 2000 RPM ± 10%",
+      "Air Flow": "56.8 CFM, Noise: ≤ 33.12 dB(A)",
+      "Support Socket": "AMD AM5, AM4 ,Intel LGA1851 1700"
+    },
+    "price": 1080011000,
+    "price_text": "10,800৳11,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LD240 WH 240mm ARGB Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-ld240-wh-cpu-cooler",
+    "slug": "deepcool-ld240-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ld240-wh/ld240-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM±10%",
+      "Display Type": "LED Digital Display",
+      "spec_2": "Real-Time CPU Status Screen With ARGB HALOS",
+      "spec_3": "5th Generation Pump, Fine Tuned FD12 ARGB Fans"
+    },
+    "price": 11000,
+    "price_text": "11,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LT240 ARGB 240mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-lt240-argb-cpu-cooler",
+    "slug": "deepcool-lt240-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lt240-argb/lt240-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM±10%",
+      "Pump Speed": "3400 RPM±10%",
+      "spec_2": "Anti-Leak Technology, ARGB Synchronization",
+      "spec_3": "5th Generation Pump, Fine-Tuned FD12 ARGB Fans"
+    },
+    "price": 11000,
+    "price_text": "11,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Corsair NAUTILUS 360 RS ARGB 360mm Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/corsair-nautilus-360-rs-argb-360mm-cpu-cooler",
+    "slug": "corsair-nautilus-360-rs-argb-360mm-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/nautilus-360-rs-argb/nautilus-360-rs-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "up to 1700 RPM",
+      "Tudbing Length": "450mm",
+      "spec_2": "3x RS120 ARGB fans for high airflow",
+      "spec_3": "Compatible with Intel LGA 1851, 1700, and AMD AM5, AM4"
+    },
+    "price": 980011200,
+    "price_text": "9,800৳11,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "1STPLAYER X-240 ARGB Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/1stplayer-x-240-cpu-cooler-white",
+    "slug": "1stplayer-x-240-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/1stplayer/x-240-white/x-240-white-01-228x228.webp",
+    "specifications": {
+      "spec_0": "2.4-inch, 320 x 240 resolution IPS display",
+      "Fan Speed": "600 - 2000 RPM ± 10%",
+      "Air Flow": "56.8 CFM, Noise: ≤ 33.12 dB(A)",
+      "Support Socket": "AMD AM5, AM4 ,Intel LGA1851 1700"
+    },
+    "price": 11200,
+    "price_text": "11,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Corsair NAUTILUS 360 RS ARGB 360mm Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/corsair-nautilus-360-rs-argb-cpu-cooler-white",
+    "slug": "corsair-nautilus-360-rs-argb-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/nautilus-360-rs-argb-white/nautilus-360-rs-argb-white-1-228x228.webp",
+    "specifications": {
+      "Fan Speed": "up to 1700 RPM",
+      "Tudbing Length": "450mm",
+      "spec_2": "3x RS120 ARGB fans for high airflow",
+      "spec_3": "Compatible with Intel LGA 1851, 1700, and AMD AM5, AM4"
+    },
+    "price": 1000011200,
+    "price_text": "10,000৳11,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TOUGHLIQUID 280 ARGB Sync AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-toughliquid-280-argb-liquid-cpu-cooler",
+    "slug": "thermaltake-toughliquid-280-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/toughliquid-240-argb/toughliquid-240-argb-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "2000 RPM",
+      "Max. Air Flow": "119.1 CFM",
+      "Noise Level": "33.2 dB-A",
+      "Max. Pressure": "3.54 mm-H2O"
+    },
+    "price": 11500,
+    "price_text": "11,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LT240 WH ARGB 240mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-lt240-wh-argb-cpu-cooler",
+    "slug": "deepcool-lt240-wh-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lt240-wh-argb/lt240-wh-argb-001-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM±10%",
+      "Pump Speed": "3400 RPM±10%",
+      "spec_2": "Anti-Leak Technology, ARGB Synchronization",
+      "spec_3": "5th Generation Pump, Fine-Tuned FD12 ARGB Fans"
+    },
+    "price": 11500,
+    "price_text": "11,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "1STPLAYER CC 360 ARGB Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/1stplayer-cc-360-argb-liquid-cpu-cooler-white",
+    "slug": "1stplayer-cc-360-argb-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/1stplayer/cc-360-white/cc-360-white-01-228x228.webp",
+    "specifications": {
+      "spec_0": "40,000hrs Long Life Bearing Water Pump",
+      "spec_1": "High Density Sigmoidal Pins Radiator",
+      "spec_2": "CPU core temperature display",
+      "spec_3": "Support 5v RGB Sync with Motherboard (ARGB)"
+    },
+    "price": 1150012000,
+    "price_text": "11,500৳12,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool LP240 240mm ARGB All-in-One Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lp240-cpu-cooler",
+    "slug": "deepcool-lp240-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lp240/lp240-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM ± 10%",
+      "Pump Speed": "3400 RPM±10%",
+      "spec_2": "Real-Time CPU Status Screen With Halo ARGB",
+      "spec_3": "Custom Pixelated LED Display, Hydro Bearing"
+    },
+    "price": 1120012000,
+    "price_text": "11,200৳12,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TH360-S V3 ARGB Sync 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-th360-s-v3-argb-sync-cpu-cooler",
+    "slug": "thermaltake-th360-s-v3-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/th360-s-v3-argb-sync/th360-s-v3-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2500 RPM",
+      "Motor Speed": "PWM 800~2500 RPM",
+      "spec_2": "Detachable Top Cover, Segment LCD Display",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 12000,
+    "price_text": "12,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TH360-S V3 ARGB Sync Snow Edition 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-th360-s-v3-argb-sync-cpu-cooler-snow",
+    "slug": "thermaltake-th360-s-v3-argb-sync-cpu-cooler-snow",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/th360-s-v3-argb-sync-snow/th360-s-v3-argb-sync-snow-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2500 RPM",
+      "Motor Speed": "PWM 800~2500 RPM",
+      "spec_2": "Detachable Top Cover, Segment LCD Display",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 12400,
+    "price_text": "12,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus Prime LC 360 ARGB All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-prime-lc-360-argb-aio-liquid-cpu-cooler",
+    "slug": "asus-prime-lc-360-argb-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/prime-lc-360-argb/prime-lc-360-argb-01-228x228.webp",
+    "specifications": {
+      "spec_0": "360mm Aluminum Radiator",
+      "Air Flow": "75.7 CFM",
+      "spec_2": "AURA Sync Support",
+      "Compatible": "LGA 1851, 1700, 1200, 115x, AM4, AM5"
+    },
+    "price": 1220012500,
+    "price_text": "12,200৳12,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool ASSASSIN VC ELITE 140mm Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-assassin-vc-elite-cpu-cooler",
+    "slug": "deepcool-assassin-vc-elite-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/assassin-vc-elite/assassin-vc-elite-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~1800 RPM±10% / 500~1700 RPM±10% (Performance Mode)",
+      "Fan Airflow": "61.25 CFM / 58.06 CFM (Performance Mode)",
+      "Supported CPU Socket": "LGA1851/1700/1200/115X/20XX/AM5/AM4",
+      "spec_3": "Fluid Dynamic Bearing, 4-pin PWM Fan Connector"
+    },
+    "price": 12500,
+    "price_text": "12,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool ASSASSIN IV VC VISION Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-assassin-iv-vc-vision-cpu-cooler",
+    "slug": "deepcool-assassin-iv-vc-vision-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/assassin-iv-vc-vision/assassin-iv-vc-vision-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "140×140×25 mm/ 120×120×25 mm",
+      "Fan Speed": "500~1800 RPM±10% / 500~1700 RPM±10% (Performance Mode)",
+      "Fan Airflow": "61.25 CFM / 58.06 CFM (Performance Mode)",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 12800,
+    "price_text": "12,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Liquid Freezer III Pro 240 ARGB CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-liquid-freezer-iii-pro-240-argb-cpu-cooler",
+    "slug": "arctic-liquid-freezer-iii-pro-240-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/liquid-freezer-iii-pro/liquid-freezer-iii-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600-3000 rpm, 2x P12 Pro ARGB",
+      "VRM Fan": "400-2500 rpm (PWM controlled)",
+      "Pump": "800-2800 rpm (PWM controlled)",
+      "LED": "12x ARGB Gen2 LEDs"
+    },
+    "price": 1270012999,
+    "price_text": "12,700৳12,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool LM360 ARGB 360mm Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lm360-argb-liquid-cpu-cooler",
+    "slug": "deepcool-lm360-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lm360/lm360-argb-228x228.webp",
+    "specifications": {
+      "Fan Speed": "400~2400 RPM±10%",
+      "Display": "2.4\" IPS Sharp Screen",
+      "Fan Connector": "4-pin PWM",
+      "spec_3": "6th Generation High-Performance Water Pump"
+    },
+    "price": 13000,
+    "price_text": "13,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool LQ240 ULTRA ARGB 240mm Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lq240-ultra-liquid-cpu-cooler",
+    "slug": "deepcool-lq240-ultra-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lq240/lq240-ultra-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2500 RPM±10%",
+      "spec_1": "LED Digital Display",
+      "Fan Connector": "4-pin PWM",
+      "spec_3": "Supports Intel and AMD"
+    },
+    "price": 13000,
+    "price_text": "13,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool ASSASSIN VC ELITE WH 140mm Air CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-assassin-vc-elite-wh-cpu-cooler",
+    "slug": "deepcool-assassin-vc-elite-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/assassin-vc-elite-wh/assassin-vc-elite-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Dimensions": "140×140×25 mm/ 120×120×25 mm",
+      "Fan Speed": "500~1800 RPM±10% / 500~1700 RPM±10% (Performance Mode)",
+      "Fan Airflow": "61.25 CFM / 58.06 CFM (Performance Mode)",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 13000,
+    "price_text": "13,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cooler Master MASTERLIQUID 360L CORE ARGB CPU Liquid Cooler",
+    "url": "https://www.startech.com.bd/cooler-master-masterliquid-360l-core-argb-cpu-liquid-cooler",
+    "slug": "cooler-master-masterliquid-360l-core-argb-cpu-liquid-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cooler-master/master-masterliquid-360l-core-argb/master-masterliquid-360l-core-argb-01-228x228.webp",
+    "specifications": {
+      "spec_0": "New Gen S Dual Chamber Pump",
+      "spec_1": "Expanded Radiator Surface",
+      "spec_2": "120mm ARGB Fans",
+      "spec_3": "Clean Classic Design"
+    },
+    "price": 1260013200,
+    "price_text": "12,600৳13,200৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TOUGHLIQUID 360 ARGB Sync AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-toughliquid-360-argb-liquid-cpu-cooler",
+    "slug": "thermaltake-toughliquid-360-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/toughliquid-360/toughliquid-360-argb-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "2000 RPM",
+      "Max. Air Flow": "58.35 CFM",
+      "Noise Level": "22.3 dB-A",
+      "Max. Pressure": "2.41 mm-H2O"
+    },
+    "price": 1300013500,
+    "price_text": "13,000৳13,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cooler Master MASTERLIQUID 360L CORE ARGB WHITE CPU Liquid Cooler",
+    "url": "https://www.startech.com.bd/cooler-master-masterliquid-360l-core-argb-white-cpu-liquid-cooler",
+    "slug": "cooler-master-masterliquid-360l-core-argb-white-cpu-liquid-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cooler-master/masterliquid-360l-core-argb-white/masterliquid-360l-core-argb-white-01-228x228.webp",
+    "specifications": {
+      "spec_0": "New Gen S Dual Chamber Pump",
+      "spec_1": "Expanded Radiator Surface",
+      "spec_2": "120mm ARGB Fans",
+      "spec_3": "Clean Classic Design"
+    },
+    "price": 1300013500,
+    "price_text": "13,000৳13,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Liquid Freezer II 420 A-RGB All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-liquid-freezer-ii-420-a-rgb-liquid-cpu-cooler",
+    "slug": "arctic-liquid-freezer-ii-420-a-rgb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/liquid-freezer-ii-420-a-rgb/liquid-freezer-ii-420-a-rgb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200–1900 rpm PWM Controlled",
+      "VRM Fan": "40 mm, 1000–3000 rpm (PWM controlled)",
+      "Pump": "800-2000 rpm (PWM controlled)",
+      "Cold Plate": "Copper, Micro-Skived-Fins"
+    },
+    "price": 1340013500,
+    "price_text": "13,400৳13,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool LM360 WH ARGB 360mm Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lm360-wh-argb-liquid-cpu-cooler",
+    "slug": "deepcool-lm360-wh-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lm360-wh/lm360-wh-228x228.webp",
+    "specifications": {
+      "Fan Speed": "400~2400 RPM±10%",
+      "Display": "2.4\" IPS Sharp Screen",
+      "Fan Connector": "4-pin PWM",
+      "spec_3": "6th Generation High-Performance Water Pump"
+    },
+    "price": 13500,
+    "price_text": "13,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool MYSTIQUE 240 ARGB 240mm Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-mystique-240-argb-cpu-cooler",
+    "slug": "deepcool-mystique-240-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/mystique-240-argb/mystique-240-argb-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2150 RPM±10%",
+      "Display": "2.8\" TFT Sharp Screen",
+      "Fans": "2x FD12 ARGB Fan, Fan Connector: 4-pin PWM",
+      "spec_3": "5th Generation High-Performance Water Pump"
+    },
+    "price": 13700,
+    "price_text": "13,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LD360 360mm ARGB Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-ld360-360mm-argb-liquid-cpu-cooler",
+    "slug": "deepcool-ld360-360mm-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/ld360/ld360-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM±10%",
+      "Display Type": "LED Digital Display",
+      "spec_2": "Real-Time CPU Status Screen With ARGB HALOS",
+      "spec_3": "5th Generation Pump, Fine Tuned FD12 ARGB Fans"
+    },
+    "price": 1340013800,
+    "price_text": "13,400৳13,800৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek Frozr-O II 240 ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-frozr-o-ii-240-aio-liquid-cpu-cooler",
+    "slug": "xigmatek-frozr-o-ii-240-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/frozr-o-ii-240/frozr-o-ii-240-01-228x228.webp",
+    "specifications": {
+      "spec_0": "2.4\" Deigital LCD Pump Head",
+      "Fan Speed": "800-1800RPM ±10%",
+      "spec_2": "Low Noise PWM Fan",
+      "spec_3": "Efficient Heat Dissipation"
+    },
+    "price": 1380014000,
+    "price_text": "13,800৳14,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool MYSTIQUE 240 240mm Liquid CPU Cooler with TFT LCD Screen",
+    "url": "https://www.startech.com.bd/deepcool-mystique-240-240mm-liquid-cpu-cooler",
+    "slug": "deepcool-mystique-240-240mm-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/mystique-240/mystique-240-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2150 RPM±10%",
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Connector": "4-pin PWM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 1220014500,
+    "price_text": "12,200৳14,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek Frozr-O II Arctic 240 ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-frozr-o-ii-arctic-240-aio-liquid-cpu-cooler",
+    "slug": "xigmatek-frozr-o-ii-arctic-240-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/frozr-o-ii-arctic-240/frozr-o-ii-arctic-240-01-228x228.webp",
+    "specifications": {
+      "spec_0": "2.4\" Deigital LCD Pump Head",
+      "Fan Speed": "800-1800RPM ±10%",
+      "spec_2": "Low Noise PWM Fan",
+      "spec_3": "Efficient Heat Dissipation"
+    },
+    "price": 1380014500,
+    "price_text": "13,800৳14,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool MYSTIQUE 240 WH ARGB 240mm Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-mystique-240-wh-argb-cpu-cooler",
+    "slug": "deepcool-mystique-240-wh-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/mystique-240-argb-wh/mystique-240-argb-wh-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM±10%",
+      "Display": "2.8\" TFT Sharp Screen",
+      "Fans": "2x FD12 ARGB Fan, Fan Connector: 4-pin PWM",
+      "spec_3": "5th Generation High-Performance Water Pump"
+    },
+    "price": 14700,
+    "price_text": "14,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Liquid Freezer III Pro 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-liquid-freezer-iii-pro-360-cpu-cooler",
+    "slug": "arctic-liquid-freezer-iii-pro-360-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/liquid-freezer-iii-pro-360/liquid-freezer-iii-pro-360-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600–3000 rpm",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Fluid Dynamic Bearing",
+      "Compatibility": "LGA 1851,1700, AMD AM5, AM4 Socket"
+    },
+    "price": 1410014700,
+    "price_text": "14,100৳14,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus TUF Gaming LC 240 ARGB All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-tuf-gaming-lc-240-argb-liquid-cpu-cooler",
+    "slug": "asus-tuf-gaming-lc-240-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/tuf-gaming-lc-240-argb/tuf-gaming-lc-240-argb-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "2 x TUF GAMING FAN MODEL 12 ARGB",
+      "Speed": "800 - 2000 RPM +/- 10%",
+      "spec_2": "AURA Sync Support",
+      "spec_3": "Compatible with Intel and AMD"
+    },
+    "price": 1470015000,
+    "price_text": "14,700৳15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus TUF GAMING LC II 240 ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-tuf-gaming-lc-ii-240-argb-liquid-cpu-cooler",
+    "slug": "asus-tuf-gaming-lc-ii-240-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/tuf-gaming-lc-ii-240-argb/tuf-gaming-lc-ii-240-argb-01-228x228.webp",
+    "specifications": {
+      "Fans": "2 x TUF GAMING FAN MODEL 12 ARGB",
+      "Fan Speed": "800 - 2000 RPM +/- 10%",
+      "spec_2": "AURA Sync Support",
+      "spec_3": "Compatible with Intel and AMD"
+    },
+    "price": 1470015000,
+    "price_text": "14,700৳15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Liquid Freezer III 420MM ARGB Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-liquid-freezer-iii-420mm-argb-liquid-cooler",
+    "slug": "arctic-liquid-freezer-iii-420mm-argb-liquid-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/liquid-freezer-iii-420mm-argb/liquid-freezer-iii-420mm-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200-1700 rpm, 3x P14 PWM",
+      "VRM Fan": "400-2500 rpm (PWM controlled)",
+      "Pump": "800-2800 rpm (PWM controlled)",
+      "Cold Plate": "Copper, Micro-Skived-Fins"
+    },
+    "price": 1230015000,
+    "price_text": "12,300৳15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Liquid Freezer III 420MM ARGB Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/arctic-liquid-freezer-iii-420mm-argb-liquid-cooler-white",
+    "slug": "arctic-liquid-freezer-iii-420mm-argb-liquid-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/liquid-freezer-iii-420mm-argb/liquid-freezer-iii-420mm-argb-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "200-1700 rpm, 3x P14 PWM",
+      "VRM Fan": "400-2500 rpm (PWM controlled)",
+      "Pump": "800-2800 rpm (PWM controlled)",
+      "Cold Plate": "Copper, Micro-Skived-Fins"
+    },
+    "price": 1150015000,
+    "price_text": "11,500৳15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool LT360 ARGB 360mm AIO Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/deepcool-lt360-argb-liquid-cpu-cooler-white",
+    "slug": "deepcool-lt360-argb-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lt360/lt360-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600 - 2400 RPM +-10%",
+      "Fans": "3x FD12 ARGB Fan, Fan Connector: 4-pin PWM",
+      "Fan Dimensions": "120 x 120 x 25mm",
+      "spec_3": "5th Generation High-Performance Water Pump"
+    },
+    "price": 15000,
+    "price_text": "15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek Connect 360 360mm ARGB Liquid CPU Cooler with Digital Display",
+    "url": "https://www.startech.com.bd/xigmatek-connect-360-cpu-cooler",
+    "slug": "xigmatek-connect-360-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/connect-360/connect-360-002-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800-2100±10% RPM, Fan Noise: 29dBA",
+      "Air Flow": "80CFM x3, Air Pressure: 3.14mm-H2O",
+      "Fan Bearing": "Hydro Bearing, Pump Bearing: Ceramic Bearing",
+      "Display": "3.4” LCD Pump Head"
+    },
+    "price": 1380015000,
+    "price_text": "13,800৳15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek Connect 360 Arctic 360mm ARGB Liquid CPU Cooler White with Digital Display",
+    "url": "https://www.startech.com.bd/xigmatek-connect-360-arctic-cpu-cooler",
+    "slug": "xigmatek-connect-360-arctic-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/connect-360-arctic/connect-360-arctic-002-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800-2100±10% RPM, Fan Noise: 29dBA",
+      "Air Flow": "80CFM x3, Air Pressure: 3.14mm-H2O",
+      "Fan Bearing": "Hydro Bearing, Pump Bearing: Ceramic Bearing",
+      "Display": "3.4” LCD Pump Head"
+    },
+    "price": 1420015000,
+    "price_text": "14,200৳15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TH360 V3 Ultra ARGB Sync 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-th360-v3-ultra-argb-sync-cpu-cooler",
+    "slug": "thermaltake-th360-v3-ultra-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/th360-v3-ultra-argb-sync/th360-v3-ultra-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2500 RPM",
+      "Motor Speed": "PWM 800~2500 RPM",
+      "spec_2": "Detachable Top Cover, 3.95” LCD Display",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 15000,
+    "price_text": "15,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cooler Master MasterLiquid 240 Atmos CPU Liquid Cooler",
+    "url": "https://www.startech.com.bd/cooler-master-masterliquid-240-atmos-cpu-liquid-cooler",
+    "slug": "cooler-master-masterliquid-240-atmos-cpu-liquid-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cooler-master/masterliquid-240-atmos/masterliquid-240-atmos-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Exceptional silence",
+      "spec_1": "Optimized user experience",
+      "spec_2": "Fully customizable",
+      "spec_3": "Refined dual chamber design"
+    },
+    "price": 1510015300,
+    "price_text": "15,100৳15,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cooler Master MasterLiquid 240 Atmos ARGB 240mm Liquid Cooler",
+    "url": "https://www.startech.com.bd/cooler-master-masterliquid-240-atmos-liquid-cooler",
+    "slug": "cooler-master-masterliquid-240-atmos-liquid-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cooler-master/master-masterliquid-240/master-masterliquid-240-02-228x228.webp",
+    "specifications": {
+      "Fan Speed": "690-2500 RPM ± 10%",
+      "Fan Bearing Type": "Loop Dynamic Bearing",
+      "Pump MTTF": ">210,000 Hours",
+      "Fan Power Connector": "4-Pin (PWM)"
+    },
+    "price": 1510015300,
+    "price_text": "15,100৳15,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LP360 360mm ARGB Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lp360-argb-liquid-cpu-cooler",
+    "slug": "deepcool-lp360-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lp360/lp360-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM ± 10%",
+      "spec_1": "Real-Time CPU Status Screen With Halo ARGB",
+      "spec_2": "Custom Pixelated Display, Create a 3-Frame Animation",
+      "spec_3": "Anti-Leak Technology, 5 Pro Generation Pump"
+    },
+    "price": 1500015300,
+    "price_text": "15,000৳15,300৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TH360 V3 Ultra ARGB Sync Snow Edition 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-th360-v3-ultra-argb-sync-cpu-cooler-snow",
+    "slug": "thermaltake-th360-v3-ultra-argb-sync-cpu-cooler-snow",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/th360-v3-ultra-argb-sync-snow/th360-v3-ultra-argb-sync-snow-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2500 RPM",
+      "Motor Speed": "PWM 800~2500 RPM",
+      "spec_2": "Detachable Top Cover, 3.95” LCD Display",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 15400,
+    "price_text": "15,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TH420 ARGB Sync All-In-One Liquid Cooler Snow Edition",
+    "url": "https://www.startech.com.bd/thermaltake-th420-argb-sync-aio-liquid-cooler-snow-edition",
+    "slug": "thermaltake-th420-argb-sync-aio-liquid-cooler-snow-edition",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/th420-argb-sync/th420-argb-sync-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500~1800 R.P.M (2510-4PIN)",
+      "Max. Air Flow": "84.32 CFM",
+      "Max. Pressure": "3.02 mm-H2O",
+      "Connector": "2510 – 4 Pin, 5V ARGB header – 4 Pin"
+    },
+    "price": 1450015500,
+    "price_text": "14,500৳15,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken 240 240mm AIO Liquid CPU Cooler with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-240-aio-liquid-cpu-cooler",
+    "slug": "nzxt-kraken-240-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-240/kraken-240-01-228x228.webp",
+    "specifications": {
+      "Speed": "500-1,800 ± 180 RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Display Panel Type": "Transmissive TFT, 262K color",
+      "Connector": "4-pin PWM"
+    },
+    "price": 15500,
+    "price_text": "15,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TOUGHLIQUID 360 EX Pro ARGB Sync 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-toughliquid-360-ex-pro-argb-sync-cpu-cooler",
+    "slug": "thermaltake-toughliquid-360-ex-pro-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/toughliquid-360-ex-pro-argb-sync/toughliquid-360-ex-pro-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2000 R.P.M",
+      "PUMP Speed": "PWM 1500~3300 R.P.M, MagForce 2.0",
+      "spec_2": "360-degree Rotational Cap, Infinity Mirror Lighting",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 1460015500,
+    "price_text": "14,600৳15,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LQ360 ULTRA 360mm ARGB Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lq360-ultra-liquid-cpu-cooler",
+    "slug": "deepcool-lq360-ultra-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lq360-ultra/lq360-ultra-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2500 RPM ± 10%",
+      "Fan Size": "120×120×25 mm(L×W×H)",
+      "Bearing Type": "Fluid Dynamic Bearing",
+      "Supported Sockets": "Intel / AMD"
+    },
+    "price": 15500,
+    "price_text": "15,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cougar Poseidon Vistek Pro ARGB 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/cougar-poseidon-vistek-pro-argb-360mm-cpu-cooler",
+    "slug": "cougar-poseidon-vistek-pro-argb-360mm-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cougar/poseidon-vistek-pro-argb-360/poseidon-vistek-pro-argb-360-black-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Rotatable Pump Head",
+      "spec_1": "Support Latest AMD AM5 and Intel LGA1851 CPU sockets",
+      "Fan Speed": "500-2200 RPM ±10%",
+      "Air Flow": "62.53 CFM"
+    },
+    "price": 15500,
+    "price_text": "15,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cougar Poseidon Vistek Pro ARGB 360mm AIO Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/cougar-poseidon-vistek-pro-argb-360mm-cpu-cooler-white",
+    "slug": "cougar-poseidon-vistek-pro-argb-360mm-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cougar/poseidon-vistek-pro-argb-360/poseidon-vistek-pro-argb-360-white-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Rotatable Pump Head",
+      "spec_1": "Support Latest AMD AM5 and Intel LGA1851 CPU sockets",
+      "Fan Speed": "500-2200 RPM ±10%",
+      "Air Flow": "62.53 CFM"
+    },
+    "price": 15500,
+    "price_text": "15,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Liquid Freezer III Pro 360 ARGB CPU Cooler",
+    "url": "https://www.startech.com.bd/arctic-liquid-freezer-iii-pro-360-argb-cpu-cooler",
+    "slug": "arctic-liquid-freezer-iii-pro-360-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/liquid-freezer-iii-pro-360-argb/liquid-freezer-iii-pro-360-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600–3000 rpm",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Fluid Dynamic Bearing",
+      "Compatibility": "LGA 1851,1700, AMD AM5, AM4 Socket"
+    },
+    "price": 1510015700,
+    "price_text": "15,100৳15,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TH240 V2 Ultra ARGB Sync All-In-One Liquid Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-th240-v2-ultra-argb-sync-aio-liquid-cooler",
+    "slug": "thermaltake-th240-v2-ultra-argb-sync-aio-liquid-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/th240-v2-ultra-argb-sync/th240-v2-ultra-argb-sync-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "PWM 500~2000 R.P.M",
+      "Max. Air Flow": "57.05 CFM (one fan)",
+      "Noise Level.": "25.8dB-A",
+      "Max. Pressure": "2.23mm-H2O (one fan)"
+    },
+    "price": 1500016000,
+    "price_text": "15,000৳16,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Gamdias CHIONE P3-240U ARGB 240mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/gamdias-chione-p3-240u-argb-liquid-cpu-cooler",
+    "slug": "gamdias-chione-p3-240u-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gamdias/chione-p3-240u/chione-p3-240u-02-228x228.webp",
+    "specifications": {
+      "spec_0": "PS LCD Screen",
+      "spec_1": "Customize LCD Background",
+      "spec_2": "Motherboard sync ARGB",
+      "spec_3": "Support LGA 1700 / AM5 / TR4"
+    },
+    "price": 16000,
+    "price_text": "16,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool LQ360 WH ARGB 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-lg360-wh-cpu-cooler",
+    "slug": "deepcool-lg360-wh-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lg360-wh/lg360-wh-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM ± 10%",
+      "spec_1": "Real-Time CPU Status Screen With Halo ARGB",
+      "spec_2": "Anti-Leak Technology, 5 Pro Generation Pump",
+      "spec_3": "Magnetic Pump Cover with 360° Rotation"
+    },
+    "price": 1550016000,
+    "price_text": "15,500৳16,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken Core 360 RGB 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/nzxt-kraken-core-360-rgb-cpu-cooler",
+    "slug": "nzxt-kraken-core-360-rgb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-core-360-rgb/kraken-core-360-rgb-01-228x228.webp",
+    "specifications": {
+      "Speed": "500–2,400 ± 250 RPM",
+      "Airflow": "75.05 CFM",
+      "Noise Level": "31.9 dBA",
+      "spec_3": "Fluid Dynamic Bearing, Up to 60,000 hours Lifespan"
+    },
+    "price": 16500,
+    "price_text": "16,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Arctic Liquid Freezer III Pro 360 ARGB AIO CPU Cooler White",
+    "url": "https://www.startech.com.bd/arctic-liquid-freezer-iii-pro-360-argb-cpu-cooler-white",
+    "slug": "arctic-liquid-freezer-iii-pro-360-argb-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/arctic/liquid-freezer-iii-pro-360-argb-wh/liquid-freezer-iii-pro-360-argb-03-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600–3000 rpm",
+      "Fan Size": "120 mm",
+      "Fan Bearing": "Fluid Dynamic Bearing",
+      "Compatibility": "LGA 1851,1700, AMD AM5, AM4 Socket"
+    },
+    "price": 16700,
+    "price_text": "16,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Deepcool LT360 Vision ARGB 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/deepcool-lt360-vision-cpu-cooler",
+    "slug": "deepcool-lt360-vision-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/lt360-vision-argb/lt360-vision-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2500 RPM±10%",
+      "Pump Speed": "3400±10% RPM (MAX)",
+      "Bearing Type": "Hydro Bearing, Anti-Leak Technology",
+      "spec_3": "6th Generation Pump, Compatible with Intel and AMD"
+    },
+    "price": 1699917000,
+    "price_text": "16,999৳17,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "ASUS ROG Strix LC 240 RGB White Edition All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-rog-strix-lc-240-rgb-white-edition-cpu-cooler",
+    "slug": "asus-rog-strix-lc-240-rgb-white-edition-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/rog-strix-lc-240-rgb/white-edition/rog-strix-lc-240-rgb-white-edition-228x228.jpg",
+    "specifications": {
+      "spec_0": "Compatible with Intel and AMD",
+      "spec_1": "Optimized Fan Design",
+      "spec_2": "Precise 4-pin PWM pump control",
+      "Fan Speed": "800 - 2500 RPM"
+    },
+    "price": 17400,
+    "price_text": "17,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken 240 RGB 240mm AIO Liquid CPU Cooler with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-240-rgb-240mm-aio-liquid-cpu-cooler",
+    "slug": "nzxt-kraken-240-rgb-240mm-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-240-rgb/kraken-240-rgb-01-228x228.webp",
+    "specifications": {
+      "Speed": "500-1,800 ± 180 RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Display Panel Type": "Transmissive TFT, 262K color",
+      "Connector": "4-pin PWM"
+    },
+    "price": 1700017500,
+    "price_text": "17,000৳17,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken 240 RGB 240mm AIO Liquid CPU Cooler White with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-240-rgb-240mm-aio-liquid-cpu-cooler-white",
+    "slug": "nzxt-kraken-240-rgb-240mm-aio-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-240-rgb/kraken-240-rgb-white-01-228x228.webp",
+    "specifications": {
+      "Speed": "500-1,800 ± 180 RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Display Panel Type": "Transmissive TFT, 262K color",
+      "Connector": "4-pin PWM"
+    },
+    "price": 1700017500,
+    "price_text": "17,000৳17,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken 280 280mm AIO Liquid CPU Cooler with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-280-aio-liquid-cpu-cooler",
+    "slug": "nzxt-kraken-280-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-280/kraken-280-01-228x228.webp",
+    "specifications": {
+      "Speed": "500-1,800 ± 180 RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Display Panel Type": "Transmissive TFT, 262K color",
+      "Connector": "4-pin PWM"
+    },
+    "price": 1680017500,
+    "price_text": "16,800৳17,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek Frozr-O II 360 ARGB Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-frozr-o-ii-360-liquid-cpu-cooler",
+    "slug": "xigmatek-frozr-o-ii-360-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/frozr-o-ii-360/frozr-o-ii-360-01-228x228.webp",
+    "specifications": {
+      "spec_0": "2.4\" Deigital LCD Pump Head",
+      "Fan Speed": "800-1800RPM ±10%",
+      "spec_2": "Low Noise PWM Fan",
+      "spec_3": "Efficient Heat Dissipation"
+    },
+    "price": 17500,
+    "price_text": "17,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek Frozr-O II Arctic 360 ARGB Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/xigmatek-frozr-o-ii-arctic-360-liquid-cpu-cooler",
+    "slug": "xigmatek-frozr-o-ii-arctic-360-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/frozr-o-ii-arctic-360/frozr-o-ii-arctic-360-01-228x228.webp",
+    "specifications": {
+      "spec_0": "2.4\" Deigital LCD Pump Head",
+      "Fan Speed": "800-1800RPM ±10%",
+      "spec_2": "Low Noise PWM Fan",
+      "spec_3": "Efficient Heat Dissipation"
+    },
+    "price": 1750017900,
+    "price_text": "17,500৳17,900৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake TOUGHLIQUID Ultra 240 ARGB Sync AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/thermaltake-toughliquid-ultra-240-argb-cpu-cooler",
+    "slug": "thermaltake-toughliquid-ultra-240-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/toughliquid-ultra-240-ultra/ultra-240-ultra-01-228x228.webp",
+    "specifications": {
+      "FAN Speed": "2500 RPM",
+      "Max. Air Flow": "72.69 CFM (one fan)",
+      "Noise Level": "28.1 dB-A",
+      "Max. Pressure": "3.78 mm-H2O (one fan)"
+    },
+    "price": 18000,
+    "price_text": "18,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool SPARTACUS 360 AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-spartacus-360-cpu-cooler",
+    "slug": "deepcool-spartacus-360-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/spartacus-360/spartacus-360-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2500 RPM±10%",
+      "Pump Speed": "2500~3400 RPM±10%",
+      "Display": "3.4 inch 480×480 TFT LCD",
+      "spec_3": "6th-Generation pump, Anti-Leak Technology"
+    },
+    "price": 18500,
+    "price_text": "18,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool MYSTIQUE 360 360mm Liquid CPU Cooler with TFT LCD Screen",
+    "url": "https://www.startech.com.bd/deepcool-mystique-360-360mm-liquid-cpu-cooler",
+    "slug": "deepcool-mystique-360-360mm-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/mystique-360/mystique-360-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2150 RPM±10%",
+      "Fan Dimensions": "120×120×25 mm",
+      "Fan Connector": "4-pin PWM",
+      "Bearing Type": "Fluid Dynamic Bearing"
+    },
+    "price": 18999,
+    "price_text": "18,999৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Cooler Master MasterLiquid 360 Atmos CPU Liquid Cooler",
+    "url": "https://www.startech.com.bd/cooler-master-masterliquid-360-atmos-cpu-liquid-cooler",
+    "slug": "cooler-master-masterliquid-360-atmos-cpu-liquid-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/cooler-master/masterliquid-360-atmos/masterliquid-360-atmos-01-228x228.webp",
+    "specifications": {
+      "spec_0": "Exceptional silence",
+      "spec_1": "Optimized user experience",
+      "spec_2": "Fully customizable",
+      "spec_3": "Refined dual chamber design"
+    },
+    "price": 19000,
+    "price_text": "19,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek Connect Pro 360 ARGB AIO Liquid CPU Cooler with Digital Display",
+    "url": "https://www.startech.com.bd/xigmatek-connect-pro-360-cpu-cooler",
+    "slug": "xigmatek-connect-pro-360-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/connect-pro-360/connect-pro-360-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2000RPM ±10%, Fan Noise: 29.8dBA",
+      "Air Flow": "82.8CFM, Air Pressure: 2.78mm-H2O",
+      "Fan Bearing": "Hydro Bearing, Pump Bearing: Metallurgical Bearing",
+      "Display": "Digital Segment LCD"
+    },
+    "price": 19400,
+    "price_text": "19,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Xigmatek Connect Pro 360 Arctic ARGB Liquid CPU Cooler with 7″ Multi Display",
+    "url": "https://www.startech.com.bd/xigmatek-connect-pro-360-arctic-cpu-cooler",
+    "slug": "xigmatek-connect-pro-360-arctic-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/xigmatek/connect-pro-360-arctic/connect-pro-360-arctic-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2000RPM ±10%, Fan Noise: 29.8dBA",
+      "Air Flow": "82.8CFM, Air Pressure: 2.78mm-H2O",
+      "Fan Bearing": "Hydro Bearing, Pump Bearing: Metallurgical",
+      "Display": "7″ Multi-Display LCD Panel"
+    },
+    "price": 19400,
+    "price_text": "19,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus TUF GAMING LC II 360 ARGB AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-tuf-gaming-lc-ii-360-argb-liquid-cpu-cooler",
+    "slug": "asus-tuf-gaming-lc-ii-360-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/tuf-gaming-lc-ii-360-argb/tuf-gaming-lc-ii-360-argb-01-228x228.webp",
+    "specifications": {
+      "Fans": "3 x TUF GAMING FAN MODEL 12 ARGB",
+      "Fan Speed": "800 - 2000 RPM +/- 10%",
+      "spec_2": "AURA Sync Support",
+      "spec_3": "Compatible with Intel and AMD"
+    },
+    "price": 1840019500,
+    "price_text": "18,400৳19,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus Prime LC 360 ARGB LCD All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-prime-lc-360-argb-lcd-cpu-cooler",
+    "slug": "asus-prime-lc-360-argb-lcd-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/prime-lc-360-argb-lcd/prime-lc-360-argb-lcd-01-228x228.webp",
+    "specifications": {
+      "Radiator Size": "360mm Aluminum Radiator",
+      "Air Flow": "77.22 CFM, AURA Sync Support",
+      "Tube Length": "400 mm, Display: :2.3\" LCD",
+      "Compatible": "LGA 1851, 1700, 1200, 115x, AM4, AM5"
+    },
+    "price": 19500,
+    "price_text": "19,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool MYSTIQUE 360 ARGB 360mm Liquid CPU Cooler with LCD Screen",
+    "url": "https://www.startech.com.bd/deepcool-mystique-360-argb-liquid-cpu-cooler",
+    "slug": "deepcool-mystique-360-argb-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/mystique-360-argb/mystique-360-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "600~2400 RPM±10%",
+      "Fan Airflow": "72.04 CFM; Noise: ≤38.71 dB(A)",
+      "Fan Connector": "4-pin PWM",
+      "LED Type": "Addressable RGB LED"
+    },
+    "price": 19500,
+    "price_text": "19,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "ASUS ROG STRIX LC II 240 ARGB White Edition Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-rog-strix-lc-ii-240-argb-white-edition-liquid-cpu-cooler",
+    "slug": "asus-rog-strix-lc-ii-240-argb-white-edition-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/rog-strix-lc-ii-240-argb-white-edition/rog-strix-lc-ii-240-argb-white-edition-01-228x228.jpg",
+    "specifications": {
+      "spec_0": "Compatible with Intel and AMD",
+      "spec_1": "7th gen Asetek pump",
+      "Fan Speed": "800 - 2500 RPM",
+      "spec_3": "AURA Sync Support"
+    },
+    "price": 2010020700,
+    "price_text": "20,100৳20,700৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "GIGABYTE AORUS WATERFORCE X II 360 All-in-one Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/gigabyte-aorus-waterforce-x-ii-360-liquid-cpu-cooler",
+    "slug": "gigabyte-aorus-waterforce-x-ii-360-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/gigabyte/aorus-waterforce-x-ii-360/aorus-waterforce-x-ii-360-01-228x228.webp",
+    "specifications": {
+      "Speed": "800~2400 RPM +/-10%",
+      "Fan Bearing Type": "HDB",
+      "Fan Dimensions": "3 x 120mm ARGB Fan",
+      "Air Flow": "72 CFM, Air Pressure: 3.15mmH20"
+    },
+    "price": 2100021500,
+    "price_text": "21,000৳21,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Corsair iCUE LINK H100i RGB 240mm ALL-IN-ONE Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/corsair-icue-link-h100i-rgb-aio-liquid-cpu-cooler",
+    "slug": "corsair-icue-link-h100i-rgb-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/icue-link-h100i-rgb/icue-link-h100i-rgb-01-228x228.webp",
+    "specifications": {
+      "spec_0": "240mm Radiator with QX120 RGB fans spinning up to 2,400 RPM",
+      "spec_1": "Copper cold plate compatible with latest Intel 1700 & AMD AM5 sockets",
+      "spec_2": "iCUE LINK System Hub included to connect up to 14 devices",
+      "Tubing Material": "Black Sleeved Low-Permeation Rubber"
+    },
+    "price": 2180022000,
+    "price_text": "21,800৳22,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken Plus 360 V2 360mm AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/nzxt-kraken-plus-360-v2-360mm-cpu-cooler",
+    "slug": "nzxt-kraken-plus-360-v2-360mm-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-plus-360-v2/kraken-plus-360-v2-01-228x228.webp",
+    "specifications": {
+      "Speed": "500 - 2,000 ± 200 RPM",
+      "Airflow": "73.47 CFM",
+      "Noise Level": "30.0 dBA",
+      "Display": "1.54\" Transmissive TFT, 262K color"
+    },
+    "price": 22000,
+    "price_text": "22,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Corsair iCUE LINK TITAN 240 RX LCD 240mm RGB Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/corsair-icue-link-titan-240-rx-lcd-cpu-cooler-white",
+    "slug": "corsair-icue-link-titan-240-rx-lcd-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/icue-link-titan-240-rx-lcd-white/icue-link-titan-240-rx-lcd-white-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "up to 2100 RPM",
+      "Fan Dimension": "120mm x 25mm",
+      "Fan Airflow": "10.4 - 73.5 CFM",
+      "Socket Support": "Intel 1851, 1700, AMD AM5, AM4"
+    },
+    "price": 22500,
+    "price_text": "22,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "DeepCool SPARTACUS 420 AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/deepcool-spartacus-420-cooler",
+    "slug": "deepcool-spartacus-420-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/deepcool/spartacus-360/spartacus-360-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2500 RPM±10%",
+      "Pump Speed": "2500~3400 RPM±10%",
+      "Display": "3.4 inch 480×480 TFT LCD",
+      "spec_3": "6th-Generation pump, Anti-Leak Technology"
+    },
+    "price": 23500,
+    "price_text": "23,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "ASUS AYW Gaming LC 360 ARGB LCD 360mm Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/asus-ayw-gaming-lc-360-argb-lcd-cpu-cooler",
+    "slug": "asus-ayw-gaming-lc-360-argb-lcd-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/ayw-gaming-lc-360-argb-lcd/ayw-gaming-lc-360-argb-lcd-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "0 - 2500 RPM +/- 10% RPM",
+      "Motor Speed": "2600 - 3400 +/- 10％ RPM",
+      "spec_2": "2.4” IPS LCD for GIFs or Real-Time System Stats",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 23500,
+    "price_text": "23,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Corsair iCUE LINK H100i RGB 240mm ALL-IN-ONE Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/corsair-icue-link-h100i-rgb-240mm-aio-liquid-cpu-cooler-white",
+    "slug": "corsair-icue-link-h100i-rgb-240mm-aio-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/icue-link-h100i-rgb-white/icue-link-h100i-rgb-white-01-228x228.webp",
+    "specifications": {
+      "spec_0": "240mm Radiator with QX120 RGB fans spinning up to 2,400 RPM",
+      "spec_1": "Copper cold plate compatible with latest Intel 1700 & AMD AM5 sockets",
+      "spec_2": "iCUE LINK System Hub included to connect up to 14 devices",
+      "Tubing Material": "Black Sleeved Low-Permeation Rubber"
+    },
+    "price": 2380024000,
+    "price_text": "23,800৳24,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "ASUS MAX Gaming LC 360 ARGB LCD 360mm Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/asus-max-gaming-lc-360-argb-lcd-cpu-cooler",
+    "slug": "asus-max-gaming-lc-360-argb-lcd-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/max-gaming-lc-360-argb-lcd/max-gaming-lc-360-argb-lcd-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "0 - 2500 RPM +/- 10% RPM",
+      "Motor Speed": "2600 - 3400 +/- 10％ RPM",
+      "spec_2": "2.4” IPS LCD for GIFs or Real-Time System Stats",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 24000,
+    "price_text": "24,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken 360 RGB 360mm AIO Liquid CPU Cooler with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-360-rgb-aio-liquid-cpu-cooler",
+    "slug": "nzxt-kraken-360-rgb-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-360-rgb/kraken-360-rgb-01-228x228.webp",
+    "specifications": {
+      "Speed": "500-1,800 ± 180 RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM",
+      "Display": "1.54\" Transmissive TFT, 262K color"
+    },
+    "price": 2450025000,
+    "price_text": "24,500৳25,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken 360 RGB 360mm AIO Liquid CPU Cooler White with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-360-rgb-aio-liquid-cpu-cooler-white",
+    "slug": "nzxt-kraken-360-rgb-aio-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-360-rgb-white/kraken-360-rgb-white-01-228x228.webp",
+    "specifications": {
+      "Speed": "500-1,800 ± 180 RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM",
+      "Display": "1.54\" Transmissive TFT, 262K color"
+    },
+    "price": 2450025000,
+    "price_text": "24,500৳25,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake MAGFloe 360 Ultra ARGB Sync 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-magfloe-360-ultra-argb-sync-cpu-cooler",
+    "slug": "thermaltake-magfloe-360-ultra-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/magfloe-360-ultra-argb-sync/magfloe-360-ultra-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2000 RPM, AI Forge",
+      "Motor Speed": "PWM 1500~3300 RPM",
+      "spec_2": "3.95” Square LCD Display, MagForce 2.0 Connector",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 25000,
+    "price_text": "25,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake MAGFloe 360 Ultra ARGB Sync Snow Edition 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-magfloe-360-ultra-argb-sync-snow-cpu-cooler",
+    "slug": "thermaltake-magfloe-360-ultra-argb-sync-snow-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/magfloe-360-ultra-argb-sync-snow/magfloe-360-ultra-argb-sync-snow-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2000 RPM, AI Forge",
+      "Motor Speed": "PWM 1500~3300 RPM",
+      "spec_2": "3.95” Square LCD Display, MagForce 2.0 Connector",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 25400,
+    "price_text": "25,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "MSI MPG CORELIQUID P13 360 AIO ARGB Liquid CPU Cooler With 2.1\" IPS Display",
+    "url": "https://www.startech.com.bd/msi-mpg-coreliquid-p13-360-cpu-cooler",
+    "slug": "msi-mpg-coreliquid-p13-360-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/msi/mpg-coreliquid-p13-360/mpg-coreliquid-p13-360-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "500~2050 ± 150 RPM",
+      "Pump Speed": "3400 RPM ± 340 RPM",
+      "spec_2": "2.1-inch IPS Display, New Generation Full-Plane Copper Base",
+      "Compatibility": "LGA 1700 / 1851 and AM4 / AM5 sockets"
+    },
+    "price": 2390025500,
+    "price_text": "23,900৳25,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "ASUS TUF Gaming LC III 360 ARGB LCD 360mm Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/asus-tuf-gaming-lc-iii-360-argb-lcd-cpu-cooler",
+    "slug": "asus-tuf-gaming-lc-iii-360-argb-lcd-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/tuf-gaming-lc-iii-360-argb-lcd/tuf-gaming-lc-iii-360-argb-lcd-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "650 - 2600 ± 10% RPM",
+      "spec_1": "Pre-Installed & Integrated Triple ARGB Fans",
+      "spec_2": "2.8\" IPS LCD for GIFs or Real-Time System Stats",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 27000,
+    "price_text": "27,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken Elite 240 RGB 240mm AIO Liquid CPU Cooler with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-elite-240-rgb-aio-liquid-cpu-cooler",
+    "slug": "nzxt-kraken-elite-240-rgb-aio-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-elite-240-rgb/kraken-elite-240-rgb-01-228x228.webp",
+    "specifications": {
+      "Speed": "500 - 1,800 ± 180RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM",
+      "Display Panel Type": "TFT-LCD (Wide Viewing Angle)"
+    },
+    "price": 2800028500,
+    "price_text": "28,000৳28,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken Elite 240 RGB 240mm AIO Liquid CPU Cooler White with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-elite-240-rgb-aio-liquid-cpu-cooler-white",
+    "slug": "nzxt-kraken-elite-240-rgb-aio-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-elite-240-rgb-white/kraken-elite-240-rgb-white-01-228x228.webp",
+    "specifications": {
+      "Speed": "500 - 1,800 ± 180RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM",
+      "Display Panel Type": "TFT-LCD (Wide Viewing Angle)"
+    },
+    "price": 2780028500,
+    "price_text": "27,800৳28,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "ASUS ROG RYUO III 240 ARGB All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-rog-ryuo-iii-240-argb-all-in-one-liquid-cpu-cooler",
+    "slug": "asus-rog-ryuo-iii-240-argb-all-in-one-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/rog-ryuo-iii-240-argb/rog-ryuo-iii-240-argb-01-228x228.webp",
+    "specifications": {
+      "Connector": "4 PIN PWM",
+      "Noise Level": "36.45 dB(A)",
+      "Air Flow": "70.07 CFM (MAX)",
+      "Fan Speed": "2200 +/- 300 RPM"
+    },
+    "price": 35100,
+    "price_text": "35,100৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake MAGCurve 360 Ultra ARGB Sync 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-magcurve-360-ultra-argb-sync-cpu-cooler",
+    "slug": "thermaltake-magcurve-360-ultra-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/magcurve-360-ultra-argb-sync/magcurve-360-ultra-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2500 RPM, AI Forge",
+      "Motor Speed": "PWM 1500~3300 RPM",
+      "spec_2": "6.67\" Curved AMOLED Display, MagForce 2.0 Connector",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 35400,
+    "price_text": "35,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken Elite 360 RGB 360mm AIO Liquid CPU Cooler White with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-elite-360-rgb-360mm-aio-liquid-cpu-cooler-white",
+    "slug": "nzxt-kraken-elite-360-rgb-360mm-aio-liquid-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-elite-360-rgb-white/kraken-elite-360-rgb-white-01-228x228.webp",
+    "specifications": {
+      "Speed": "500-1,800 ± 180 RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "4-pin PWM",
+      "Display": "2.36\" Transmissive TFT, 262K color"
+    },
+    "price": 3530035500,
+    "price_text": "35,300৳35,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake MAGCurve 360 Ultra ARGB Sync Snow Edition 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-magcurve-360-ultra-argb-sync-snow-cpu-cooler",
+    "slug": "thermaltake-magcurve-360-ultra-argb-sync-snow-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/magcurve-360-ultra-argb-sync-snow/magcurve-360-ultra-argb-sync-snow-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2500 RPM, AI Forge",
+      "Motor Speed": "PWM 1500~3300 RPM",
+      "spec_2": "6.67\" Curved AMOLED Display, MagForce 2.0 Connector",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 36400,
+    "price_text": "36,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "NZXT Kraken Elite 360 RGB V2 360mm AIO Liquid CPU Cooler with LCD Display",
+    "url": "https://www.startech.com.bd/nzxt-kraken-elite-360-rgb-v2-cpu-cooler",
+    "slug": "nzxt-kraken-elite-360-rgb-v2-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/nzxt/kraken-elite-360-rgb-v2/kraken-elite-360-rgb-v2-01-228x228.webp",
+    "specifications": {
+      "Motor Speed": "1,200 - 2,800 ± 300 RPM",
+      "Bearing": "Fluid Dynamic Bearing",
+      "Connector": "8-pin for PWM & RGB",
+      "Display": "2.72\" IPS, 16.7m color"
+    },
+    "price": 36500,
+    "price_text": "36,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus ROG STRIX LC III 360 ARGB LCD All-in-One Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-rog-strix-lc-iii-360-argb-lcd-aio-cpu-cooler",
+    "slug": "asus-rog-strix-lc-iii-360-argb-lcd-aio-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/rog-strix-lc-iii-360-argb-lcd/rog-strix-lc-iii-360-argb-lcd-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800 - 2200 RPM ± 10% (0 RPM Support)",
+      "Motor Speed": "800 - 2,800 +/- 10% RPM, 7th V2 gen Asetek pump",
+      "Fan": "ROG STRIX AF-12S ARGB FAN, Air Flow: 70.38 CFM",
+      "Display": "2.1\" Full Color IPS LCD"
+    },
+    "price": 3890039000,
+    "price_text": "38,900৳39,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "ASUS ProArt LC 420 420mm All-In-One CPU Liquid Cooler",
+    "url": "https://www.startech.com.bd/asus-proart-lc-420-420mm-all-in-one-cpu-liquid-cooler",
+    "slug": "asus-proart-lc-420-420mm-all-in-one-cpu-liquid-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/proart-lc-420/proart-lc-420-01-228x228.webp",
+    "specifications": {
+      "Number of Fans": "3",
+      "Fan Size (Height)": "140mm",
+      "spec_2": "Noctua NF-A14 IndustrialPPC 2000 PWM Fan",
+      "Supported Socket": "LGA 1700, 1200, 115x, AM5, AM4"
+    },
+    "price": 4010040500,
+    "price_text": "40,100৳40,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake MINECUBE 360 Ultra ARGB Sync 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-minecube-360-ultra-argb-sync-cpu-cooler",
+    "slug": "thermaltake-minecube-360-ultra-argb-sync-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/minecube-360-ultra-argb-sync/minecube-360-ultra-argb-sync-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2000 RPM, AI Forge",
+      "Motor Speed": "PWM 1500~3300 RPM",
+      "spec_2": "4x 3.95” TFT-LCD Display, MagForce 2.0 Connector",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 41000,
+    "price_text": "41,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Thermaltake MINECUBE 360 Ultra ARGB Sync Snow Edition 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/thermaltake-minecube-360-ultra-argb-sync-snow-cpu-cooler",
+    "slug": "thermaltake-minecube-360-ultra-argb-sync-snow-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/thermaltake/minecube-360-ultra-argb-sync-snow/minecube-360-ultra-argb-sync-snow-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "PWM 500~2000 RPM, AI Forge",
+      "Motor Speed": "PWM 1500~3300 RPM",
+      "spec_2": "4x 3.95” TFT-LCD Display, MagForce 2.0 Connector",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 41400,
+    "price_text": "41,400৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus ROG Ryuo IV SLC 360 ARGB 360mm AIO Liquid CPU Cooler With Display",
+    "url": "https://www.startech.com.bd/asus-rog-ryuo-iv-slc-360-argb-cpu-cooler",
+    "slug": "asus-rog-ryuo-iv-slc-360-argb-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/rog-ryuo-iv-slc-360-argb/rog-ryuo-iv-slc-360-argb-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "800-2650 +/- 10% RPM, Aura Fan Edge",
+      "spec_1": "Daisy-Chained ARGB Fan, Sliding LCD Panel",
+      "Display": "6.67\" Curved 2K AMOLED Display",
+      "spec_3": "Pre-Applied Thermal Paste, AURA Sync Support"
+    },
+    "price": 4600046500,
+    "price_text": "46,000৳46,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus ROG RYUJIN III 360 AIO 3.5\" LCD Display Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-rog-ryujin-iii-360-liquid-cpu-cooler",
+    "slug": "asus-rog-ryujin-iii-360-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/rog-ryujin-iii-360/rog-ryujin-iii-360-01-228x228.webp",
+    "specifications": {
+      "Number of Fans": "3",
+      "Fan Size (Height)": "120mm",
+      "Display": "3.5\" Full-Color LCD",
+      "Supported Socket": "LGA1700, LGA1200, LGA115x, AM5, AM4"
+    },
+    "price": 4770048500,
+    "price_text": "47,700৳48,500৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus ROG RYUJIN III 360 ARGB AIO 3.5\" LCD Display Liquid CPU Cooler White",
+    "url": "https://www.startech.com.bd/asus-rog-ryujin-iii-360-argb-cpu-cooler-white",
+    "slug": "asus-rog-ryujin-iii-360-argb-cpu-cooler-white",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/rog-ryujin-iii-360-white/rog-ryujin-iii-360-white-01-228x228.webp",
+    "specifications": {
+      "Number of Fans": "3",
+      "Fan Size (Height)": "120mm",
+      "Fan Speed": "2200 RPM",
+      "Supported Socket": "Intel: LGA1700, LGA1200, LGA115x; AMD: AM5, AM4"
+    },
+    "price": 53000,
+    "price_text": "53,000৳"
+  },
+  {
+    "source": "startech.com.bd",
+    "category": "component_cooler",
+    "name": "Asus ROG RYUJIN III 360 ARGB Extreme AIO Liquid CPU Cooler",
+    "url": "https://www.startech.com.bd/asus-rog-ryujin-iii-360-argb-extreme-liquid-cpu-cooler",
+    "slug": "asus-rog-ryujin-iii-360-argb-extreme-liquid-cpu-cooler",
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/asus/rog-ryujin-iii-360-argb-extreme/rog-ryujin-iii-360-argb-extreme-01-228x228.webp",
+    "specifications": {
+      "Fan Speed": "5100 RPM +/- 10%",
+      "Air Pressure": "5.53 mmH2O; Air Flow: 21.08 CFM",
+      "Display": "3.5\" Full Color LCD; AURA Sync Support",
+      "Compatibility": "Intel LGA 1851/1700, AMD AM5/AM4"
+    },
+    "price": 5850060000,
+    "price_text": "58,500৳60,000৳"
+  }
+]
