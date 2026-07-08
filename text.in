@@ -1,0 +1,18 @@
+# Application Secrets
+APP_ID="dev-app-id"
+APP_SECRET="dev-app-secret"
+
+# Kimi OAuth URLs (Fallback to localhost for dev)
+KIMI_AUTH_URL="http://localhost:3000"
+KIMI_OPEN_URL="http://localhost:3000"
+
+# Vite equivalents for the frontend
+VITE_APP_ID="dev-app-id"
+VITE_KIMI_AUTH_URL="http://localhost:3000"
+
+# The Union ID of the user that should automatically be granted the "admin" role
+OWNER_UNION_ID="dev-owner-id"
+
+# Database Connection String
+# Please update this to point to your actual MySQL database!
+DATABASE_URL="mysql://root:CdKxphcDhnJzfanEiSFqAonYbjOGsrTl@hayabusa.proxy.rlwy.net:53564/railway"
