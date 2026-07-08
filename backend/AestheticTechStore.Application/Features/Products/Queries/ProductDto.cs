@@ -7,6 +7,7 @@ public record ProductDto(
     string Sku,
     string Slug,
     string Name,
+    string ImageUrl,
     string ShortDescription,
     string FullDescription,
     Guid CategoryId,

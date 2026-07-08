@@ -18,14 +18,14 @@ public class UserProfile
 {
     public Guid Id { get; set; }
     public Guid UserId { get; set; }
-    public string Avatar { get; set; }
-    public string Division { get; set; }
-    public string District { get; set; }
-    public string Thana { get; set; }
-    public string Address { get; set; }
+    public string? Avatar { get; set; }
+    public string? Division { get; set; }
+    public string? District { get; set; }
+    public string? Thana { get; set; }
+    public string? Address { get; set; }
     
     // For DeliveryMan
-    public string EmergencyContact { get; set; }
+    public string? EmergencyContact { get; set; }
 
     // Navigation property
     public User User { get; set; }

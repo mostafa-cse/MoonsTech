@@ -31,7 +31,15 @@ public class AuthService : IAuthService
             PhoneNumber = phoneNumber,
             Role = role,
             IsVerified = false,
-            Profile = new UserProfile()
+            Profile = new UserProfile 
+            {
+                Avatar = "",
+                Division = "",
+                District = "",
+                Thana = "",
+                Address = "",
+                EmergencyContact = ""
+            }
         };
 
         var result = await _userManager.CreateAsync(user, password);

@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label";
 import { EmptyState } from "@/components/ui/empty-state";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 import { CURRENCY } from "@/const";
 import {
   User, Package, MapPin, Coins, Heart, ChevronRight,

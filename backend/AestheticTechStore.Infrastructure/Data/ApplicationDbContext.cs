@@ -29,12 +29,13 @@ public class ApplicationDbContext : IdentityDbContext<User, IdentityRole<Guid>, 
     public DbSet<Order> Orders { get; set; }
     public DbSet<OrderItem> OrderItems { get; set; }
     public DbSet<DeliveryVerification> DeliveryVerifications { get; set; }
-    public DbSet<MegaCoinLedger> MegaCoinLedgers { get; set; }
-    public DbSet<Coupon> Coupons { get; set; }
     public DbSet<PcBuild> PcBuilds { get; set; }
     public DbSet<PcBuildComponent> PcBuildComponents { get; set; }
     
     public DbSet<Address> Addresses { get; set; }
+    public DbSet<Coupon> Coupons => Set<Coupon>();
+    public DbSet<MegaCoinLedger> MegaCoinLedgers => Set<MegaCoinLedger>();
+    public DbSet<Banner> Banners => Set<Banner>();
     public DbSet<Wishlist> Wishlists { get; set; }
     public DbSet<Review> Reviews { get; set; }
 

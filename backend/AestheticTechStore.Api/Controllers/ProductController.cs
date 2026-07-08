@@ -18,9 +18,17 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetProducts([FromQuery] string? searchTerm, [FromQuery] Guid? categoryId, [FromQuery] Guid? brandId, [FromQuery] bool? featured, [FromQuery] bool? bestSeller, [FromQuery] bool? newArrival)
+    public async Task<IActionResult> GetProducts(
+        [FromQuery] string? searchTerm, 
+        [FromQuery] Guid? categoryId, 
+        [FromQuery] Guid? brandId, 
+        [FromQuery] decimal? minPrice, 
+        [FromQuery] decimal? maxPrice, 
+        [FromQuery] string? sortBy, 
+        [FromQuery] int page = 1, 
+        [FromQuery] int limit = 24)
     {
-        var result = await _mediator.Send(new GetProductsQuery(searchTerm, categoryId, brandId));
+        var result = await _mediator.Send(new GetProductsQuery(searchTerm, categoryId, brandId, minPrice, maxPrice, sortBy, page, limit));
         return Ok(result);
     }
 

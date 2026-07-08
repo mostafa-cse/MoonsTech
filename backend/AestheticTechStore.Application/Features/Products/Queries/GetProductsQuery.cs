@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using AestheticTechStore.Application.Common.Models;
 using AestheticTechStore.Application.Interfaces;
 using AestheticTechStore.Domain.Entities;
 using MediatR;
@@ -10,9 +11,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AestheticTechStore.Application.Features.Products.Queries;
 
-public record GetProductsQuery(string? SearchTerm = null, Guid? CategoryId = null, Guid? BrandId = null) : IRequest<List<ProductDto>>;
+public record GetProductsQuery(
+    string? SearchTerm = null, 
+    Guid? CategoryId = null, 
+    Guid? BrandId = null,
+    decimal? MinPrice = null,
+    decimal? MaxPrice = null,
+    string? SortBy = null,
+    int Page = 1,
+    int Limit = 24
+) : IRequest<PaginatedResult<ProductDto>>;
 
-public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<ProductDto>>
+public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, PaginatedResult<ProductDto>>
 {
     private readonly IApplicationDbContext _context;
 
@@ -21,7 +31,7 @@ public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<Pr
         _context = context;
     }
 
-    public async Task<List<ProductDto>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
+    public async Task<PaginatedResult<ProductDto>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
     {
         var query = _context.Products
             .Include(p => p.Category)
@@ -30,7 +40,7 @@ public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<Pr
 
         if (!string.IsNullOrEmpty(request.SearchTerm))
         {
-            query = query.Where(p => p.Name.Contains(request.SearchTerm) || p.Sku.Contains(request.SearchTerm));
+            query = query.Where(p => p.Name.ToLower().Contains(request.SearchTerm.ToLower()) || p.Sku.ToLower().Contains(request.SearchTerm.ToLower()));
         }
 
         if (request.CategoryId.HasValue)
@@ -43,13 +53,39 @@ public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<Pr
             query = query.Where(p => p.BrandId == request.BrandId.Value);
         }
 
-        var products = await query.ToListAsync(cancellationToken);
+        if (request.MinPrice.HasValue)
+        {
+            query = query.Where(p => (p.DiscountPrice != null ? p.DiscountPrice : p.RegularPrice) >= request.MinPrice.Value);
+        }
 
-        return products.Select(p => new ProductDto(
+        if (request.MaxPrice.HasValue)
+        {
+            query = query.Where(p => (p.DiscountPrice != null ? p.DiscountPrice : p.RegularPrice) <= request.MaxPrice.Value);
+        }
+
+        // Sorting
+        query = request.SortBy switch
+        {
+            "price_asc" => query.OrderBy(p => p.DiscountPrice != null ? p.DiscountPrice : p.RegularPrice),
+            "price_desc" => query.OrderByDescending(p => p.DiscountPrice != null ? p.DiscountPrice : p.RegularPrice),
+            "popular" => query.OrderByDescending(p => p.StockQuantity), // Mock for popular
+            "discount" => query.Where(p => p.DiscountPrice != null).OrderByDescending(p => p.RegularPrice - p.DiscountPrice),
+            _ => query.OrderByDescending(p => p.Id) // "newest" or default
+        };
+
+        var totalCount = await query.CountAsync(cancellationToken);
+
+        var products = await query
+            .Skip((request.Page - 1) * request.Limit)
+            .Take(request.Limit)
+            .ToListAsync(cancellationToken);
+
+        var dtos = products.Select(p => new ProductDto(
             p.Id,
             p.Sku,
             p.Slug,
             p.Name,
+            p.ImageUrl,
             p.ShortDescription,
             p.FullDescription,
             p.CategoryId,
@@ -63,5 +99,7 @@ public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<Pr
             p.MegaCoinReward,
             p.Status.ToString()
         )).ToList();
+
+        return new PaginatedResult<ProductDto>(dtos, totalCount, request.Page, request.Limit);
     }
 }

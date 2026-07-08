@@ -53,9 +53,9 @@ export default function Signup() {
 
   const onSubmit = (values: SignupFormValues) => {
     register.mutate({
-      name: values.name,
+      fullName: values.name,
       email: values.email,
-      phone: values.phone,
+      phoneNumber: values.phone,
       password: values.password
     });
   };

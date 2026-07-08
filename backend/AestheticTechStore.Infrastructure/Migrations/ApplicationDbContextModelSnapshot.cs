@@ -362,6 +362,10 @@ namespace AestheticTechStore.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("MegaCoinReward")
                         .HasColumnType("INTEGER");
 
@@ -375,7 +379,6 @@ namespace AestheticTechStore.Infrastructure.Migrations
                     b.Property<byte[]>("RowVersion")
                         .IsConcurrencyToken()
                         .IsRequired()
-                        .ValueGeneratedOnAddOrUpdate()
                         .HasColumnType("BLOB");
 
                     b.Property<string>("ShortDescription")

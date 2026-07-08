@@ -34,6 +34,7 @@ public class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, P
             p.Sku,
             p.Slug,
             p.Name,
+            p.ImageUrl,
             p.ShortDescription,
             p.FullDescription,
             p.CategoryId,

@@ -14,14 +14,15 @@ import { Search, Star, ShoppingCart, Heart, SlidersHorizontal, Grid3X3, LayoutLi
 import { toast } from "sonner";
 import { useAuth } from "@/hooks/useAuth";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { motion, AnimatePresence } from "framer-motion";
 import apiClient from "@/lib/api-client";
 
 export default function Products() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [filtersOpen, setFiltersOpen] = useState(false);
 
-  const categoryId = searchParams.get("category") ? Number(searchParams.get("category")) : undefined;
-  const brandId = searchParams.get("brand") ? Number(searchParams.get("brand")) : undefined;
+  const categoryId = searchParams.get("category") || undefined;
+  const brandId = searchParams.get("brand") || undefined;
   const searchQuery = searchParams.get("search") || "";
   const featured = searchParams.get("featured") === "true" || undefined;
   const bestSeller = searchParams.get("bestSeller") === "true" || undefined;
@@ -58,9 +59,7 @@ export default function Products() {
       const res = await apiClient.get("/product", {
         params: { page, limit: 24, categoryId, brandId, searchTerm: searchQuery, sortBy, minPrice: priceRange[0], maxPrice: priceRange[1] }
       });
-      // Mock pagination wrapper for .NET endpoint that currently returns flat list
-      const items = res.data;
-      return { items, pagination: { total: items.length, totalPages: 1 } };
+      return res.data;
     }
   });
 
@@ -83,20 +82,20 @@ export default function Products() {
   const { data: brands } = useQuery({
     queryKey: ["brands"],
     queryFn: async () => {
-      // Stub until BrandController is added
-      return [];
+      const res = await apiClient.get("/brand");
+      return res.data;
     }
   });
   const { data: categoryTree } = useQuery({
     queryKey: ["categories"],
     queryFn: async () => {
-      // Stub until CategoryController is added
-      return [];
+      const res = await apiClient.get("/category");
+      return res.data;
     }
   });
 
   // Find current category name
-  const findCategory = (id: number, cats: any[]): any => {
+  const findCategory = (id: string, cats: any[]): any => {
     for (const cat of cats || []) {
       if (cat.id === id) return cat;
       if (cat.children) {
@@ -185,76 +184,86 @@ export default function Products() {
 
         <div className="flex gap-6">
           {/* Sidebar Filters */}
-          <aside className={`w-64 shrink-0 ${filtersOpen ? "block" : "hidden lg:block"}`}>
-            <div className="bg-white rounded-xl border p-4 space-y-6 sticky top-24">
-              <div className="flex items-center justify-between">
-                <h3 className="font-semibold flex items-center gap-2">
-                  <SlidersHorizontal className="w-4 h-4" /> Filters
-                </h3>
-                {activeFiltersCount > 0 && (
-                  <Button variant="ghost" size="sm" onClick={clearFilters} className="text-red-500 h-auto p-0">
-                    <X className="w-3 h-3 mr-1" /> Clear
-                  </Button>
-                )}
-              </div>
+          <AnimatePresence>
+            {filtersOpen || (typeof window !== "undefined" && window.innerWidth >= 1024) ? (
+              <motion.aside 
+                initial={{ width: 0, opacity: 0 }}
+                animate={{ width: 256, opacity: 1 }}
+                exit={{ width: 0, opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className={`w-64 shrink-0 overflow-hidden ${filtersOpen ? "block" : "hidden lg:block"}`}
+              >
+                <div className="bg-white rounded-xl border p-4 space-y-6 sticky top-24">
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-semibold flex items-center gap-2">
+                      <SlidersHorizontal className="w-4 h-4" /> Filters
+                    </h3>
+                    {activeFiltersCount > 0 && (
+                      <Button variant="ghost" size="sm" onClick={clearFilters} className="text-red-500 h-auto p-0">
+                        <X className="w-3 h-3 mr-1" /> Clear
+                      </Button>
+                    )}
+                  </div>
 
-              {/* Categories */}
-              <div>
-                <h4 className="text-sm font-medium mb-2">Categories</h4>
-                <div className="space-y-1 max-h-48 overflow-y-auto">
-                  {(categoryTree || []).map((cat: any) => (
-                    <button
-                      key={cat.id}
-                      onClick={() => setSearchParams(prev => {
-                        const next = new URLSearchParams(prev);
-                        next.set("category", String(cat.id));
-                        return next;
-                      })}
-                      className={`block w-full text-left text-sm px-2 py-1 rounded ${categoryId === cat.id ? "bg-indigo-50 text-indigo-600 font-medium" : "text-gray-600 hover:bg-gray-50"}`}
-                    >
-                      {cat.name}
-                    </button>
-                  ))}
-                </div>
-              </div>
+                  {/* Categories */}
+                  <div>
+                    <h4 className="text-sm font-medium mb-2">Categories</h4>
+                    <div className="space-y-1 max-h-48 overflow-y-auto">
+                      {(categoryTree || []).map((cat: any) => (
+                        <button
+                          key={cat.id}
+                          onClick={() => setSearchParams(prev => {
+                            const next = new URLSearchParams(prev);
+                            next.set("category", String(cat.id));
+                            return next;
+                          })}
+                          className={`block w-full text-left text-sm px-2 py-1 rounded ${categoryId === cat.id ? "bg-indigo-50 text-indigo-600 font-medium" : "text-gray-600 hover:bg-gray-50"}`}
+                        >
+                          {cat.name}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
 
-              {/* Price Range */}
-              <div>
-                <h4 className="text-sm font-medium mb-2">Price Range</h4>
-                <Slider
-                  value={priceRange}
-                  onValueChange={setPriceRange}
-                  max={500000}
-                  step={1000}
-                  className="my-4"
-                />
-                <div className="flex items-center justify-between text-sm text-gray-600">
-                  <span>{CURRENCY}{priceRange[0].toLocaleString()}</span>
-                  <span>{CURRENCY}{priceRange[1].toLocaleString()}</span>
-                </div>
-              </div>
+                  {/* Price Range */}
+                  <div>
+                    <h4 className="text-sm font-medium mb-2">Price Range</h4>
+                    <Slider
+                      value={priceRange}
+                      onValueChange={setPriceRange}
+                      max={500000}
+                      step={1000}
+                      className="my-4"
+                    />
+                    <div className="flex items-center justify-between text-sm text-gray-600">
+                      <span>{CURRENCY}{priceRange[0].toLocaleString()}</span>
+                      <span>{CURRENCY}{priceRange[1].toLocaleString()}</span>
+                    </div>
+                  </div>
 
-              {/* Brands */}
-              <div>
-                <h4 className="text-sm font-medium mb-2">Brands</h4>
-                <div className="space-y-1 max-h-48 overflow-y-auto">
-                  {(brands || []).map((brand: any) => (
-                    <button
-                      key={brand.id}
-                      onClick={() => setSearchParams(prev => {
-                        const next = new URLSearchParams(prev);
-                        next.set("brand", String(brand.id));
-                        return next;
-                      })}
-                      className={`block w-full text-left text-sm px-2 py-1 rounded ${brandId === brand.id ? "bg-indigo-50 text-indigo-600 font-medium" : "text-gray-600 hover:bg-gray-50"}`}
-                    >
-                      {brand.name}
-                    </button>
-                  ))}
+                  {/* Brands */}
+                  <div>
+                    <h4 className="text-sm font-medium mb-2">Brands</h4>
+                    <div className="space-y-1 max-h-48 overflow-y-auto">
+                      {(brands || []).map((brand: any) => (
+                        <button
+                          key={brand.id}
+                          onClick={() => setSearchParams(prev => {
+                            const next = new URLSearchParams(prev);
+                            next.set("brand", String(brand.id));
+                            return next;
+                          })}
+                          className={`block w-full text-left text-sm px-2 py-1 rounded ${brandId === brand.id ? "bg-indigo-50 text-indigo-600 font-medium" : "text-gray-600 hover:bg-gray-50"}`}
+                        >
+                          {brand.name}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </aside>
+              </motion.aside>
+            ) : null}
+          </AnimatePresence>
 
           {/* Product Grid */}
           <div className="flex-1">
@@ -291,7 +300,7 @@ export default function Products() {
               <>
                 {viewMode === "grid" ? (
                   <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
-                    {data?.items.map((product: any) => (
+                    {(data?.items || []).map((product: any) => (
                       <Card key={product.id} className="group hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden border-gray-100 bg-white/80 backdrop-blur-sm rounded-2xl flex flex-col h-full">
                         <Link to={`/product/${product.slug}`}>
                           <div className="relative aspect-square bg-gray-50 overflow-hidden">
@@ -356,7 +365,7 @@ export default function Products() {
                         </CardContent>
                       </Card>
                     ))}
-                    {data?.items.length === 0 && (
+                    {(data?.items || []).length === 0 && (
                       <div className="col-span-2 md:col-span-3 xl:col-span-4 py-20 flex flex-col items-center justify-center text-gray-500 bg-white/50 backdrop-blur-sm rounded-3xl border border-dashed border-gray-200">
                         <div className="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center mb-4">
                           <PackageOpen className="w-10 h-10 text-gray-400" />
@@ -368,7 +377,7 @@ export default function Products() {
                   </div>
                 ) : (
                   <div className="space-y-4">
-                    {data?.items.map((product: any) => (
+                    {(data?.items || []).map((product: any) => (
                       <Card key={product.id} className="group hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden border-gray-100 bg-white/80 backdrop-blur-sm rounded-2xl">
                         <CardContent className="p-4 sm:p-6 flex flex-col sm:flex-row gap-6 items-start sm:items-center">
                           <Link to={`/product/${product.slug}`} className="w-full sm:w-32 h-40 sm:h-32 shrink-0 bg-gray-50 rounded-xl overflow-hidden relative block">
@@ -436,7 +445,7 @@ export default function Products() {
                         </CardContent>
                       </Card>
                     ))}
-                    {data?.items.length === 0 && (
+                    {(data?.items || []).length === 0 && (
                       <div className="py-20 flex flex-col items-center justify-center text-gray-500 bg-white/50 backdrop-blur-sm rounded-3xl border border-dashed border-gray-200">
                         <div className="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center mb-4">
                           <PackageOpen className="w-10 h-10 text-gray-400" />
