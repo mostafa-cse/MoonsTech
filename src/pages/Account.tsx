@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { Link, Routes, Route, useLocation, Navigate } from "react-router";
 import { useAuth } from "@/hooks/useAuth";
-import { trpc } from "@/providers/trpc";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { EmptyState } from "@/components/ui/empty-state";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { CURRENCY } from "@/const";
@@ -55,13 +57,25 @@ function AccountSidebar() {
 
 function Dashboard() {
   const { user } = useAuth();
-  const { data: orders } = trpc.order.myOrders.useQuery();
-  const { data: megaCoinData } = trpc.megacoin.myCoins.useQuery();
+  const { data: ordersData } = useQuery({
+    queryKey: ["orders", "my"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/order/my-orders");
+      return data;
+    }
+  });
+  const { data: megaCoinData } = useQuery({
+    queryKey: ["megacoins", "my"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/megacoin");
+      return data;
+    }
+  });
 
-  const recentOrders = orders?.slice(0, 5) || [];
+  const recentOrders = ordersData?.items?.slice(0, 5) || [];
 
   const stats = [
-    { label: "Total Orders", value: orders?.length || 0, icon: <ShoppingBag className="w-5 h-5 text-indigo-600" />, color: "bg-indigo-50" },
+    { label: "Total Orders", value: ordersData?.totalCount || 0, icon: <ShoppingBag className="w-5 h-5 text-indigo-600" />, color: "bg-indigo-50" },
     { label: "MegaCoin Balance", value: megaCoinData?.balance || 0, icon: <Coins className="w-5 h-5 text-yellow-600" />, color: "bg-yellow-50" },
     { label: "Wishlist Items", value: 0, icon: <Heart className="w-5 h-5 text-red-600" />, color: "bg-red-50" },
   ];
@@ -122,10 +136,13 @@ function Dashboard() {
               ))}
             </div>
           ) : (
-            <div className="p-12 text-center">
-              <Package className="w-12 h-12 text-gray-200 mx-auto mb-4" />
-              <p className="text-gray-500 font-medium">No orders yet</p>
-            </div>
+            <EmptyState
+              icon={<Package className="w-12 h-12" />}
+              title="No orders yet"
+              description="When you place orders, they will appear here."
+              actionText="Start Shopping"
+              actionHref="/products"
+            />
           )}
         </CardContent>
       </Card>
@@ -134,7 +151,13 @@ function Dashboard() {
 }
 
 function Orders() {
-  const { data: orders, isLoading } = trpc.order.myOrders.useQuery();
+  const { data: ordersData, isLoading } = useQuery({
+    queryKey: ["orders", "my"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/order/my-orders");
+      return data;
+    }
+  });
 
   const getStatusIcon = (status: string) => {
     switch (status) {
@@ -152,9 +175,9 @@ function Orders() {
         <div className="space-y-4">
           {[1, 2, 3].map((i) => <div key={i} className="h-32 bg-gray-100 rounded-3xl animate-pulse" />)}
         </div>
-      ) : orders && orders.length > 0 ? (
+      ) : ordersData?.items && ordersData.items.length > 0 ? (
         <div className="space-y-4">
-          {orders.map((order: any) => (
+          {ordersData.items.map((order: any) => (
             <Card key={order.id} className="border-gray-100 rounded-3xl overflow-hidden hover:shadow-md transition-shadow bg-white/80 backdrop-blur-sm">
               <CardContent className="p-0">
                 <div className="p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-gray-50">
@@ -184,25 +207,32 @@ function Orders() {
           ))}
         </div>
       ) : (
-        <div className="bg-white/80 backdrop-blur-md border border-gray-100 rounded-3xl p-16 text-center shadow-sm">
-          <div className="w-20 h-20 bg-gray-50 text-gray-300 rounded-full flex items-center justify-center mx-auto mb-4">
-            <Package className="w-10 h-10" />
-          </div>
-          <p className="text-lg font-bold text-gray-900">No orders found</p>
-          <p className="text-gray-500 mt-2">When you place an order, it will appear here.</p>
-        </div>
+        <EmptyState
+          icon={<Package className="w-12 h-12" />}
+          title="No orders found"
+          description="When you place an order, it will appear here."
+          actionText="Start Shopping"
+          actionHref="/products"
+        />
       )}
     </div>
   );
 }
 
 function Addresses() {
-  const { data: addresses, isLoading } = trpc.address.list.useQuery();
-  const utils = trpc.useUtils();
+  const queryClient = useQueryClient();
+  const { data: addresses, isLoading } = useQuery({
+    queryKey: ["addresses"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/address");
+      return data;
+    }
+  });
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({ fullName: "", phone: "", division: "", district: "", thana: "", fullAddress: "", landmark: "" });
-  const createAddress = trpc.address.create.useMutation({
-    onSuccess: () => { utils.address.list.invalidate(); setShowForm(false); toast.success("Address added"); },
+  const createAddress = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/address", data),
+    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ["addresses"] }); setShowForm(false); toast.success("Address added"); },
   });
 
   return (
@@ -300,7 +330,13 @@ function Addresses() {
 }
 
 function MegaCoin() {
-  const { data, isLoading } = trpc.megacoin.myCoins.useQuery();
+  const { data, isLoading } = useQuery({
+    queryKey: ["megacoins", "my"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/megacoin");
+      return data;
+    }
+  });
 
   return (
     <div className="space-y-8">
@@ -366,7 +402,13 @@ function MegaCoin() {
 }
 
 function Wishlist() {
-  const { data: items, isLoading } = trpc.wishlist.get.useQuery();
+  const { data: items, isLoading } = useQuery({
+    queryKey: ["wishlist"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/wishlist");
+      return data;
+    }
+  });
 
   return (
     <div className="space-y-6">
@@ -383,7 +425,7 @@ function Wishlist() {
                 <CardContent className="p-5 flex flex-col h-full">
                   <div className="aspect-square bg-gray-50 rounded-2xl overflow-hidden mb-4 relative">
                     {item.image ? (
-                      <img src={item.image} alt="" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                      <ImageWithFallback src={item.image} alt={item.productName || item.name || "Product image"} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                     ) : (
                       <div className="w-full h-full flex items-center justify-center text-gray-300"><PackageOpen className="w-10 h-10" /></div>
                     )}
@@ -408,16 +450,13 @@ function Wishlist() {
           ))}
         </div>
       ) : (
-        <div className="bg-white/80 backdrop-blur-md border border-gray-100 rounded-3xl p-16 text-center shadow-sm">
-          <div className="w-20 h-20 bg-rose-50 text-rose-300 rounded-full flex items-center justify-center mx-auto mb-4">
-            <Heart className="w-10 h-10" />
-          </div>
-          <p className="text-lg font-bold text-gray-900">Your wishlist is empty</p>
-          <p className="text-gray-500 mt-2">Save items you love to review them later.</p>
-          <Link to="/products" className="inline-block mt-6">
-            <Button className="bg-indigo-600 hover:bg-indigo-700 h-11 px-8 rounded-xl shadow-md shadow-indigo-200">Explore Products</Button>
-          </Link>
-        </div>
+        <EmptyState
+          icon={<Heart className="w-12 h-12" />}
+          title="Your wishlist is empty"
+          description="Save items you love to review them later."
+          actionText="Explore Products"
+          actionHref="/products"
+        />
       )}
     </div>
   );

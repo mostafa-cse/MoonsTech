@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "dgSpecHash": "CDbSuSt5Of0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Mostafa\\MoonsTech\\backend\\AestheticTechStore.Application\\AestheticTechStore.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\azure.ai.openai\\2.0.0-beta.4\\azure.ai.openai.2.0.0-beta.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.42.0\\azure.core.1.42.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.8\\microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.8\\microsoft.aspnetcore.cryptography.keyderivation.8.0.8.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.8\\microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.9\\microsoft.extensions.configuration.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.8\\microsoft.extensions.identity.core.8.0.8.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.8\\microsoft.extensions.identity.stores.8.0.8.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.9\\microsoft.extensions.primitives.10.0.9.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.semantickernel\\1.18.2\\microsoft.semantickernel.1.18.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.18.2\\microsoft.semantickernel.abstractions.1.18.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.semantickernel.connectors.azureopenai\\1.18.2\\microsoft.semantickernel.connectors.azureopenai.1.18.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.18.2\\microsoft.semantickernel.connectors.openai.1.18.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.semantickernel.core\\1.18.2\\microsoft.semantickernel.core.1.18.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\openai\\2.0.0-beta.10\\openai.2.0.0-beta.10.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.clientmodel\\1.1.0-beta.7\\system.clientmodel.1.1.0-beta.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "AestheticTechStore.Application depends on Microsoft.SemanticKernel (>= 1.18.0) but Microsoft.SemanticKernel 1.18.0 was not found. An approximate best match of Microsoft.SemanticKernel 1.18.2 was resolved.",
+      "libraryId": "Microsoft.SemanticKernel",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

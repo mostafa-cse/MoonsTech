@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLocation, useNavigate, Navigate } from "react-router";
-import { trpc } from "@/providers/trpc";
+
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -9,18 +9,28 @@ import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { CURRENCY } from "@/const";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 import { CreditCard, Truck, Wallet, MapPin, ChevronLeft, CheckCircle2, Zap, Smartphone, PackageOpen } from "lucide-react";
 import { toast } from "sonner";
 import { useAuth } from "@/hooks/useAuth";
+import { useQuery, useMutation } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 
 const DIVISIONS = ["Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Khulna", "Barisal", "Rangpur", "Mymensingh"];
 
 export default function Checkout() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { isAuthenticated } = useAuth();
-  const { data: user } = trpc.auth.me.useQuery();
-  const { data: cartData, isLoading: isCartLoading } = trpc.cart.get.useQuery();
+  const { isAuthenticated, user } = useAuth();
+  
+  const { data: cartData, isLoading: isCartLoading } = useQuery({
+    queryKey: ["cart"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/cart");
+      return data;
+    },
+    enabled: isAuthenticated
+  });
   
   const stateData = location.state || {};
   const couponCode = stateData.couponCode;
@@ -31,13 +41,24 @@ export default function Checkout() {
   const finalTotal = stateData.finalTotal !== undefined ? stateData.finalTotal : (Number(cart?.subtotal || 0) + shippingCost - discount);
 
   const isGuest = !user;
-  const { data: addresses } = trpc.address.list.useQuery(undefined, { enabled: isAuthenticated });
-  const createOrder = trpc.order.create.useMutation({
+  const { data: addresses } = useQuery({
+    queryKey: ["addresses"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/address");
+      return data;
+    },
+    enabled: isAuthenticated
+  });
+  const createOrder = useMutation({
+    mutationFn: async (data: any) => {
+      const res = await apiClient.post("/order", data);
+      return res.data;
+    },
     onSuccess: (data) => {
       toast.success(`Order placed! Order #${data.orderNumber}`);
       navigate("/account/orders");
     },
-    onError: (e) => toast.error(e.message),
+    onError: (e: any) => toast.error(e.response?.data?.message || "Failed to place order"),
     onSettled: () => setIsProcessing(false),
   });
 
@@ -116,8 +137,13 @@ export default function Checkout() {
 
     if (!isGuest && actualAddressId) {
       payload.addressId = actualAddressId;
+      const addr = addresses?.find((a: any) => a.id === actualAddressId);
+      if (addr) {
+        payload.deliveryAddress = JSON.stringify(addr);
+      }
     } else {
       payload.guestAddress = newAddress;
+      payload.deliveryAddress = JSON.stringify(newAddress);
     }
 
     createOrder.mutate(payload);
@@ -305,7 +331,7 @@ export default function Checkout() {
                       {cart.items.map((item: any) => (
                         <div key={item.id} className="flex items-center gap-4 p-5 hover:bg-gray-50/50 transition-colors">
                           <div className="w-16 h-16 bg-gray-100 rounded-xl overflow-hidden flex-shrink-0 border border-gray-200/50">
-                            {item.image ? <img src={item.image} alt="" className="w-full h-full object-cover" /> : <div className="w-full h-full flex items-center justify-center text-xs text-gray-400"><PackageOpen className="w-6 h-6" /></div>}
+                            {item.image ? <ImageWithFallback src={item.image} alt={item.productName || item.name || "Product image"} className="w-full h-full object-cover" /> : <div className="w-full h-full flex items-center justify-center text-xs text-gray-400"><PackageOpen className="w-6 h-6" /></div>}
                           </div>
                           <div className="flex-1 min-w-0">
                             <p className="text-base font-bold text-gray-900 truncate mb-1">{item.name}</p>

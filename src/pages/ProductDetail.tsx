@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useParams, Link, useNavigate } from "react-router";
-import { trpc } from "@/providers/trpc";
+import { Helmet } from "react-helmet-async";
+
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -10,40 +11,53 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Separator } from "@/components/ui/separator";
 import { Skeleton } from "@/components/ui/skeleton";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 import { CURRENCY } from "@/const";
 import { Star, ShoppingCart, Heart, Share2, Truck, ShieldCheck, RotateCcw, ChevronRight, Check, Plus, Minus, PackageOpen } from "lucide-react";
 import { toast } from "sonner";
 import { useAuth } from "@/hooks/useAuth";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 
 export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const { isAuthenticated } = useAuth();
-  const utils = trpc.useUtils();
-  const { data: product, isLoading } = trpc.product.getBySlug.useQuery({ slug: slug! }, { enabled: !!slug });
+  const queryClient = useQueryClient();
+  const { data: product, isLoading } = useQuery({
+    queryKey: ["product", slug],
+    queryFn: async () => {
+      const { data } = await apiClient.get(`/product/slug/${slug}`);
+      return data;
+    },
+    enabled: !!slug
+  });
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
   const [isReviewOpen, setIsReviewOpen] = useState(false);
   const [reviewRating, setReviewRating] = useState(5);
   const [reviewComment, setReviewComment] = useState("");
 
-  const submitReview = trpc.review.create.useMutation({
+  const submitReview = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/review", data),
     onSuccess: () => {
       toast.success("Review submitted successfully!");
       setIsReviewOpen(false);
-      utils.product.getBySlug.invalidate({ slug: slug! });
+      queryClient.invalidateQueries({ queryKey: ["product", slug] });
       setReviewComment("");
       setReviewRating(5);
     },
-    onError: (e) => toast.error(e.message),
+    onError: (e: any) => toast.error("Failed to submit review"),
   });
-  const addToCart = trpc.cart.add.useMutation({
-    onSuccess: () => { utils.cart.get.invalidate(); toast.success("Added to cart"); },
-    onError: (e) => toast.error(e.message),
+  const addToCart = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/cart/add", data),
+    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ["cart"] }); toast.success("Added to cart"); },
+    onError: (e: any) => toast.error("Failed to add to cart"),
   });
-  const addToWishlist = trpc.wishlist.add.useMutation({
+  const addToWishlist = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/wishlist", data),
     onSuccess: () => toast.success("Added to wishlist!"),
-    onError: (e) => toast.error(e.message),
+    onError: (e: any) => toast.error("Failed to add to wishlist"),
   });
 
   if (isLoading) {
@@ -87,6 +101,10 @@ export default function ProductDetail() {
 
   return (
     <Layout>
+      <Helmet>
+        <title>{product.name} - Aesthetic Tech</title>
+        <meta name="description" content={product.shortDescription || "View product details and specifications."} />
+      </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
@@ -102,11 +120,13 @@ export default function ProductDetail() {
           <div className="space-y-4">
             <div className="aspect-square bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 flex items-center justify-center p-8 relative group">
               {product.images && product.images.length > 0 ? (
-                <img
-                  src={product.images[selectedImage]?.imageUrl || product.images[0]?.imageUrl}
-                  alt={product.name}
-                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
-                />
+                <div className="relative aspect-square w-full">
+                  <ImageWithFallback
+                    src={product.images[selectedImage]?.imageUrl || product.images[0]?.imageUrl}
+                    alt={product.name}
+                    className="w-full h-full object-contain mix-blend-multiply"
+                  />
+                </div>
               ) : (
                 <div className="flex flex-col items-center justify-center text-gray-300">
                   <PackageOpen className="w-16 h-16 mb-2" />
@@ -119,13 +139,13 @@ export default function ProductDetail() {
             </div>
             {product.images && product.images.length > 1 && (
               <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
-                {product.images.map((img, i) => (
+                {product.images.map((img: any, i: number) => (
                   <button
                     key={i}
                     onClick={() => setSelectedImage(i)}
                     className={`w-24 h-24 rounded-2xl overflow-hidden border-2 flex-shrink-0 transition-all duration-200 ${selectedImage === i ? "border-indigo-600 shadow-md ring-4 ring-indigo-50" : "border-gray-100 hover:border-gray-300 bg-white"}`}
                   >
-                    <img src={img.imageUrl} alt="" className="w-full h-full object-contain p-2" />
+                    <ImageWithFallback src={img.imageUrl} alt={`${product.name} thumbnail`} className="w-full h-full object-contain p-2" />
                   </button>
                 ))}
               </div>
@@ -155,7 +175,7 @@ export default function ProductDetail() {
               </div>
               <div className="flex gap-2 shrink-0">
                 <Button 
-                  variant="outline" size="icon" className="rounded-full w-10 h-10 border-gray-200 hover:border-rose-200 hover:bg-rose-50 hover:text-rose-500 transition-colors"
+                  variant="outline" size="icon" aria-label="Add to Wishlist" className="rounded-full w-10 h-10 border-gray-200 hover:border-rose-200 hover:bg-rose-50 hover:text-rose-500 transition-colors"
                   disabled={addToWishlist.isPending}
                   onClick={() => {
                     if (!isAuthenticated) { toast.error('Please log in first'); return; }
@@ -163,7 +183,7 @@ export default function ProductDetail() {
                   }}
                 ><Heart className="w-4 h-4" /></Button>
                 <Button 
-                  variant="outline" size="icon" className="rounded-full w-10 h-10 border-gray-200 hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                  variant="outline" size="icon" aria-label="Share" className="rounded-full w-10 h-10 border-gray-200 hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
                   onClick={() => {
                     navigator.clipboard.writeText(window.location.href);
                     toast.success('Link copied to clipboard!');
@@ -224,7 +244,15 @@ export default function ProductDetail() {
                 disabled={product.stockStatus !== "in_stock" || addToCart.isPending}
                 onClick={() => {
                   if (!isAuthenticated) { toast.error('Please log in to add items to cart'); return; }
-                  addToCart.mutate({ productId: product.id, quantity });
+                  addToCart.mutate({ 
+                    productId: product.id, 
+                    quantity,
+                    name: product.name,
+                    slug: product.slug,
+                    image: product.images?.[0]?.imageUrl || "",
+                    sku: product.sku,
+                    unitPrice: product.salePrice || product.regularPrice
+                  });
                 }}
               >
                 <ShoppingCart className="w-5 h-5 mr-2" />
@@ -237,7 +265,15 @@ export default function ProductDetail() {
                 disabled={product.stockStatus !== "in_stock"}
                 onClick={() => {
                   if (!isAuthenticated) { toast.error('Please log in first'); return; }
-                  addToCart.mutate({ productId: product.id, quantity }, {
+                  addToCart.mutate({ 
+                    productId: product.id, 
+                    quantity,
+                    name: product.name,
+                    slug: product.slug,
+                    image: product.images?.[0]?.imageUrl || "",
+                    sku: product.sku,
+                    unitPrice: product.salePrice || product.regularPrice
+                  }, {
                     onSuccess: () => navigate('/checkout'),
                   });
                 }}
@@ -401,7 +437,7 @@ export default function ProductDetail() {
                   <div className="bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
                     <div className="aspect-square bg-gray-50 flex items-center justify-center p-4 relative">
                       {p.image ? (
-                        <img src={p.image} alt={p.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <ImageWithFallback src={p.image} alt={p.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                       ) : (
                         <PackageOpen className="w-8 h-8 text-gray-300" />
                       )}

@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\AestheticTechStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\AestheticTechStore.Domain.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\AestheticTechStore.Domain.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\AestheticTechStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\AestheticTechStore.Domain.sourcelink.json
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\bin\Debug\net8.0\AestheticTechStore.Domain.deps.json
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\bin\Debug\net8.0\AestheticTechStore.Domain.dll
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\bin\Debug\net8.0\AestheticTechStore.Domain.pdb
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\AestheticTechStore.Domain.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\AestheticTechStore.Domain.dll
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\refint\AestheticTechStore.Domain.dll
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\AestheticTechStore.Domain.pdb
+C:\Users\Administrator\Desktop\Mostafa\MoonsTech\backend\AestheticTechStore.Domain\obj\Debug\net8.0\ref\AestheticTechStore.Domain.dll

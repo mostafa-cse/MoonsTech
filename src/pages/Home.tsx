@@ -1,11 +1,13 @@
 import { Link } from "react-router";
-import { trpc } from "@/providers/trpc";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { CURRENCY } from "@/const";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 import {
   Cpu, Monitor, Smartphone, Gamepad2, Wifi, Printer,
   Keyboard, ArrowRight, Star, TrendingUp, Zap, Clock, ChevronRight, ShoppingCart, Heart,
@@ -25,15 +27,17 @@ const CATEGORY_ICONS: Record<string, React.ReactNode> = {
 };
 
 function ProductCard({ product }: { product: any }) {
-  const utils = trpc.useUtils();
+  const queryClient = useQueryClient();
   const { isAuthenticated } = useAuth();
-  const addToCart = trpc.cart.add.useMutation({
-    onSuccess: () => { utils.cart.get.invalidate(); toast.success('Added to cart!'); },
-    onError: (err) => toast.error(err.message),
+  const addToCart = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/cart", data),
+    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ["cart"] }); toast.success('Added to cart!'); },
+    onError: (err: any) => toast.error(err.message || "Failed to add to cart"),
   });
-  const addToWishlist = trpc.wishlist.add.useMutation({
+  const addToWishlist = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/wishlist", data),
     onSuccess: () => toast.success('Added to wishlist!'),
-    onError: (err) => toast.error(err.message),
+    onError: (err: any) => toast.error(err.message || "Failed to add to wishlist"),
   });
 
   return (
@@ -41,7 +45,7 @@ function ProductCard({ product }: { product: any }) {
       <Link to={`/product/${product.slug}`}>
         <div className="relative aspect-square bg-gray-50 overflow-hidden">
           {product.image ? (
-            <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" />
+            <ImageWithFallback src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" />
           ) : (
             <div className="w-full h-full flex items-center justify-center text-gray-300 bg-gradient-to-br from-gray-50 to-gray-100">
               <Monitor className="w-12 h-12" />
@@ -120,10 +124,31 @@ function SectionHeader({ title, link, icon }: { title: string; link?: string; ic
 }
 
 export default function Home() {
-  const { data: featured, isLoading: featuredLoading, isError: featuredError } = trpc.product.featured.useQuery();
-  const { data: bestSellers, isLoading: bestLoading, isError: bestError } = trpc.product.bestSellers.useQuery();
-  const { data: newArrivals, isLoading: newLoading, isError: newError } = trpc.product.newArrivals.useQuery();
-  const { data: categoryTree } = trpc.category.tree.useQuery();
+  const { data: featured, isLoading: featuredLoading, isError: featuredError } = useQuery({
+    queryKey: ["products", "featured"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/product?featured=true");
+      return data;
+    }
+  });
+  const { data: bestSellers, isLoading: bestLoading, isError: bestError } = useQuery({
+    queryKey: ["products", "bestSellers"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/product?bestSeller=true");
+      return data;
+    }
+  });
+  const { data: newArrivals, isLoading: newLoading, isError: newError } = useQuery({
+    queryKey: ["products", "newArrivals"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/product?newArrival=true");
+      return data;
+    }
+  });
+  const { data: categoryTree } = useQuery({
+    queryKey: ["categories"],
+    queryFn: async () => []
+  });
 
   const mainCategories = categoryTree?.slice(0, 7) || [];
 

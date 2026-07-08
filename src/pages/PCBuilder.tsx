@@ -1,16 +1,18 @@
 import { useState, useMemo } from "react";
-import { trpc } from "@/providers/trpc";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 import { CURRENCY } from "@/const";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 import {
   Cpu, Fan, CircuitBoard, HardDrive, Monitor, Keyboard, Mouse,
   BatteryCharging, Check, ChevronDown,
   ShoppingCart, RotateCcw, Save,
-  Zap, Info, Share2, Printer
+  Zap, Info, Share2, Printer, Sparkles, Send
 } from "lucide-react";
 import { toast } from "sonner";
 import { useNavigate } from "react-router";
@@ -37,20 +39,40 @@ export default function PCBuilder() {
   
   const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
-  const utils = trpc.useUtils();
+  const queryClient = useQueryClient();
 
-  const saveBuildMutation = trpc.pcbuilder.saveBuild.useMutation({
+  const [aiPrompt, setAiPrompt] = useState("");
+  const [aiResponse, setAiResponse] = useState<string | null>(null);
+  const [isAiLoading, setIsAiLoading] = useState(false);
+
+  const askAi = async () => {
+    if (!aiPrompt.trim()) return;
+    setIsAiLoading(true);
+    setAiResponse(null);
+    try {
+      const { data } = await apiClient.post("/aiadvisor/recommend", { prompt: aiPrompt });
+      setAiResponse(data.recommendation);
+    } catch (err) {
+      toast.error("Failed to get AI recommendation");
+    } finally {
+      setIsAiLoading(false);
+    }
+  };
+
+  const saveBuildMutation = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/pcbuilder/save", data),
     onSuccess: () => toast.success("Build saved successfully!"),
-    onError: (e) => toast.error(e.message),
+    onError: (e: any) => toast.error(e.message || "Failed to save build"),
   });
 
-  const addToCartMutation = trpc.cart.bulkAdd.useMutation({
+  const addToCartMutation = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/cart/bulk", data),
     onSuccess: () => {
-      utils.cart.get.invalidate();
+      queryClient.invalidateQueries({ queryKey: ["cart"] });
       toast.success("Build added to cart!");
       navigate("/cart");
     },
-    onError: (e) => toast.error(e.message),
+    onError: (e: any) => toast.error(e.message || "Failed to add to cart"),
   });
 
   const addToBuild = (type: string, product: any) => {
@@ -93,10 +115,14 @@ export default function PCBuilder() {
 
   const selectedComponentIds = Object.values(selectedComponents).map((item: any) => item.product.id);
 
-  const { data: availableComponents, isLoading } = trpc.pcbuilder.getComponents.useQuery(
-    { type: expandedType as any, selectedComponentIds },
-    { enabled: !!expandedType }
-  );
+  const { data: availableComponents, isLoading } = useQuery({
+    queryKey: ["components", expandedType, selectedComponentIds],
+    queryFn: async () => {
+      const { data } = await apiClient.post("/pcbuilder/components", { type: expandedType, selectedComponentIds });
+      return data;
+    },
+    enabled: !!expandedType
+  });
 
   return (
     <Layout>
@@ -111,25 +137,45 @@ export default function PCBuilder() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div className="max-w-2xl">
               <Badge variant="outline" className="border-indigo-400 text-indigo-300 mb-4 bg-indigo-400/10 backdrop-blur-md">
-                Smart Compatibility Engine
+                Smart Compatibility Engine & AI Advisor
               </Badge>
-              <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
-                Build Your Dream PC
+              <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4 flex items-center gap-3">
+                Build Your Dream PC <Sparkles className="w-8 h-8 text-amber-400" />
               </h1>
               <p className="text-slate-300 text-lg">
-                Select your components below. Our smart engine automatically filters for compatible parts so you can build with confidence.
+                Select components manually or ask our Agentic AI Advisor to build the perfect rig for you.
               </p>
             </div>
             
-            <div className="flex items-center gap-3">
-              <Button variant="outline" className="bg-white/10 border-white/20 hover:bg-white/20 text-white backdrop-blur-md">
-                <Share2 className="w-4 h-4 mr-2" /> Share
-              </Button>
-              <Button variant="outline" className="bg-white/10 border-white/20 hover:bg-white/20 text-white backdrop-blur-md">
-                <Printer className="w-4 h-4 mr-2" /> Print
-              </Button>
+            <div className="flex flex-col gap-3 w-full md:w-auto">
+              <div className="flex items-center gap-2 bg-white/10 p-1.5 rounded-xl border border-white/20 backdrop-blur-md">
+                <input 
+                  type="text" 
+                  value={aiPrompt}
+                  onChange={(e) => setAiPrompt(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && askAi()}
+                  placeholder="e.g. Budget gaming PC for $1000..."
+                  className="bg-transparent border-none text-white placeholder:text-gray-400 focus:outline-none px-3 py-2 w-full md:w-64 text-sm"
+                />
+                <Button onClick={askAi} disabled={isAiLoading} size="sm" className="bg-indigo-600 hover:bg-indigo-700 text-white shrink-0 h-9 rounded-lg">
+                  {isAiLoading ? <span className="animate-spin mr-1">⌛</span> : <Send className="w-4 h-4" />}
+                </Button>
+              </div>
             </div>
           </div>
+
+          {/* AI Response Box */}
+          {aiResponse && (
+            <div className="mt-6 p-5 rounded-2xl bg-indigo-950/50 border border-indigo-400/30 backdrop-blur-md relative">
+              <button onClick={() => setAiResponse(null)} className="absolute top-3 right-3 text-gray-400 hover:text-white">✕</button>
+              <h3 className="flex items-center gap-2 text-indigo-300 font-semibold mb-3">
+                <Sparkles className="w-5 h-5 text-indigo-400" /> AI Advisor Recommendation
+              </h3>
+              <div className="text-gray-200 text-sm whitespace-pre-wrap leading-relaxed">
+                {aiResponse}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
@@ -243,7 +289,7 @@ export default function PCBuilder() {
                                   )}
                                   <div className="w-16 h-16 shrink-0 bg-white border border-gray-100 rounded-lg overflow-hidden flex items-center justify-center p-1">
                                     {product.image ? (
-                                      <img src={product.image} alt={product.name} className="w-full h-full object-contain" />
+                                      <ImageWithFallback src={product.image} alt={product.name} className="w-full h-full object-contain" />
                                     ) : (
                                       <Monitor className="w-8 h-8 text-gray-200" />
                                     )}
@@ -316,7 +362,7 @@ export default function PCBuilder() {
                           <div key={type} className="px-6 py-3 flex gap-3 hover:bg-gray-50 transition-colors">
                             <div className="w-10 h-10 shrink-0 bg-white border border-gray-100 rounded flex items-center justify-center p-1">
                               {item.product.image ? (
-                                <img src={item.product.image} alt="" className="w-full h-full object-contain" />
+                                <ImageWithFallback src={item.product.image} alt={item.product.name || "Component"} className="w-full h-full object-contain" />
                               ) : (
                                 compInfo?.icon
                               )}

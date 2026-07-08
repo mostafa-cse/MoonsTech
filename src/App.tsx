@@ -1,14 +1,16 @@
+import { lazy, Suspense } from "react";
 import { Routes, Route, Navigate } from "react-router";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { useAuth } from "@/hooks/useAuth";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
-import Account from "./pages/Account";
-import Admin from "./pages/Admin";
+const Account = lazy(() => import("./pages/Account"));
+const Admin = lazy(() => import("./pages/Admin"));
 import PCBuilder from "./pages/PCBuilder";
-import Delivery from "./pages/Delivery";
+const Delivery = lazy(() => import("./pages/Delivery"));
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import NotFound from "./pages/NotFound";
@@ -44,41 +46,45 @@ function ProtectedRoute({ children, requiredRole }: { children: React.ReactNode;
 export default function App() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/product/:slug" element={<ProductDetail />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/pc-builder" element={<PCBuilder />} />
-        <Route path="/track" element={<OrderTracking />} />
-        <Route path="/cart" element={
-          <ProtectedRoute>
-            <Cart />
-          </ProtectedRoute>
-        } />
-        <Route path="/checkout" element={
-          <ProtectedRoute>
-            <Checkout />
-          </ProtectedRoute>
-        } />
-        <Route path="/account/*" element={
-          <ProtectedRoute>
-            <Account />
-          </ProtectedRoute>
-        } />
-        <Route path="/admin/*" element={
-          <ProtectedRoute requiredRole="admin">
-            <Admin />
-          </ProtectedRoute>
-        } />
-        <Route path="/delivery/*" element={
-          <ProtectedRoute requiredRole="delivery">
-            <Delivery />
-          </ProtectedRoute>
-        } />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <ErrorBoundary>
+        <Suspense fallback={<div className="min-h-screen flex items-center justify-center"><div className="w-8 h-8 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin" /></div>}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/product/:slug" element={<ProductDetail />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/pc-builder" element={<PCBuilder />} />
+          <Route path="/track" element={<OrderTracking />} />
+          <Route path="/cart" element={
+            <ProtectedRoute>
+              <Cart />
+            </ProtectedRoute>
+          } />
+          <Route path="/checkout" element={
+            <ProtectedRoute>
+              <Checkout />
+            </ProtectedRoute>
+          } />
+          <Route path="/account/*" element={
+            <ProtectedRoute>
+              <Account />
+            </ProtectedRoute>
+          } />
+          <Route path="/admin/*" element={
+            <ProtectedRoute requiredRole="admin">
+              <Admin />
+            </ProtectedRoute>
+          } />
+          <Route path="/delivery/*" element={
+            <ProtectedRoute requiredRole="delivery">
+              <Delivery />
+            </ProtectedRoute>
+          } />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        </Suspense>
+      </ErrorBoundary>
       <Toaster position="top-right" richColors />
     </>
   );

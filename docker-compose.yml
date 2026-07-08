@@ -1,17 +1,18 @@
 version: '3.8'
 
 services:
-  mysql:
-    image: mysql:8.0
-    container_name: app_mysql
+  postgres:
+    image: postgres:15
+    container_name: app_postgres
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: app_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: AestheticTechStoreDb
     ports:
-      - "3306:3306"
+      - "5432:5432"
     volumes:
-      - mysql_data:/var/lib/mysql
+      - postgres_data:/var/lib/postgresql/data
     restart: unless-stopped
 
 volumes:
-  mysql_data:
+  postgres_data:

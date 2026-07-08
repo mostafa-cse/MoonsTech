@@ -2,42 +2,62 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { trpc } from "@/providers/trpc";
 import { toast } from "sonner";
 import Layout from "@/components/Layout";
 import { Eye, EyeOff, UserPlus } from "lucide-react";
+import { useMutation } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
+import { z } from "zod";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+
+const signupSchema = z.object({
+  name: z.string().min(2, "Name must be at least 2 characters"),
+  email: z.string().email("Invalid email address"),
+  phone: z.string().min(1, "Phone number is required"),
+  password: z.string().min(6, "Password must be at least 6 characters"),
+  confirmPassword: z.string()
+}).refine((data) => data.password === data.confirmPassword, {
+  message: "Passwords do not match",
+  path: ["confirmPassword"],
+});
+
+type SignupFormValues = z.infer<typeof signupSchema>;
 
 export default function Signup() {
   const navigate = useNavigate();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    password: "",
-  });
-  const [confirmPassword, setConfirmPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
-  const register = trpc.auth.register.useMutation({
-    onSuccess: () => {
-      toast.success("Account created successfully!");
-      navigate("/");
-      setTimeout(() => window.location.reload(), 100);
+  const {
+    register: formRegister,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<SignupFormValues>({
+    resolver: zodResolver(signupSchema),
+    defaultValues: { name: "", email: "", phone: "", password: "", confirmPassword: "" },
+  });
+
+  const register = useMutation({
+    mutationFn: async (userData: any) => {
+      const { data } = await apiClient.post("/auth/register", userData);
+      return data;
     },
-    onError: (err) => {
-      toast.error(err.message);
+    onSuccess: () => {
+      toast.success("Account created successfully! Please log in.");
+      navigate("/login");
+    },
+    onError: (err: any) => {
+      toast.error(err.response?.data?.message || err.message || "Signup failed");
     }
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (formData.password.length < 6) {
-      return toast.error("Password must be at least 6 characters");
-    }
-    if (formData.password !== confirmPassword) {
-      return toast.error("Passwords do not match");
-    }
-    register.mutate(formData);
+  const onSubmit = (values: SignupFormValues) => {
+    register.mutate({
+      name: values.name,
+      email: values.email,
+      phone: values.phone,
+      password: values.password
+    });
   };
 
   const inputClass = "flex h-12 w-full rounded-xl border border-gray-200/80 bg-white/60 backdrop-blur-sm px-4 py-2 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 hover:bg-white/80";
@@ -62,7 +82,7 @@ export default function Signup() {
             </p>
           </CardHeader>
           <CardContent className="pb-10 px-8 sm:px-10 relative z-20">
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
               <div className="space-y-2">
                 <label htmlFor="name" className="text-sm font-semibold text-gray-700">
                   Full Name
@@ -71,11 +91,12 @@ export default function Signup() {
                   id="name"
                   type="text"
                   placeholder="Your full name"
-                  required
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className={inputClass}
+                  {...formRegister("name")}
+                  className={`flex h-12 w-full rounded-xl border ${errors.name ? 'border-red-500 focus:ring-red-500/20 focus:border-red-500' : 'border-gray-200/80 focus:ring-indigo-500/20 focus:border-indigo-400'} bg-white/60 backdrop-blur-sm px-4 py-2 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 hover:bg-white/80`}
                 />
+                {errors.name && (
+                  <p className="text-sm text-red-500 font-medium">{errors.name.message}</p>
+                )}
               </div>
               <div className="space-y-2">
                 <label htmlFor="email" className="text-sm font-semibold text-gray-700">
@@ -85,11 +106,12 @@ export default function Signup() {
                   id="email"
                   type="email"
                   placeholder="you@example.com"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className={inputClass}
+                  {...formRegister("email")}
+                  className={`flex h-12 w-full rounded-xl border ${errors.email ? 'border-red-500 focus:ring-red-500/20 focus:border-red-500' : 'border-gray-200/80 focus:ring-indigo-500/20 focus:border-indigo-400'} bg-white/60 backdrop-blur-sm px-4 py-2 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 hover:bg-white/80`}
                 />
+                {errors.email && (
+                  <p className="text-sm text-red-500 font-medium">{errors.email.message}</p>
+                )}
               </div>
               <div className="space-y-2">
                 <label htmlFor="phone" className="text-sm font-semibold text-gray-700">
@@ -99,11 +121,12 @@ export default function Signup() {
                   id="phone"
                   type="tel"
                   placeholder="+8801..."
-                  required
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  className={inputClass}
+                  {...formRegister("phone")}
+                  className={`flex h-12 w-full rounded-xl border ${errors.phone ? 'border-red-500 focus:ring-red-500/20 focus:border-red-500' : 'border-gray-200/80 focus:ring-indigo-500/20 focus:border-indigo-400'} bg-white/60 backdrop-blur-sm px-4 py-2 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 hover:bg-white/80`}
                 />
+                {errors.phone && (
+                  <p className="text-sm text-red-500 font-medium">{errors.phone.message}</p>
+                )}
               </div>
               <div className="space-y-2">
                 <label htmlFor="password" className="text-sm font-semibold text-gray-700">
@@ -114,10 +137,8 @@ export default function Signup() {
                     id="password"
                     type={showPassword ? "text" : "password"}
                     placeholder="Minimum 6 characters"
-                    required
-                    value={formData.password}
-                    onChange={(e) => setFormData({ ...formData, password: e.target.value })}
-                    className={inputClass + " pr-11"}
+                    {...formRegister("password")}
+                    className={`flex h-12 w-full rounded-xl border ${errors.password ? 'border-red-500 focus:ring-red-500/20 focus:border-red-500' : 'border-gray-200/80 focus:ring-indigo-500/20 focus:border-indigo-400'} bg-white/60 backdrop-blur-sm px-4 py-2 pr-11 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 hover:bg-white/80`}
                   />
                   <button
                     type="button"
@@ -127,8 +148,8 @@ export default function Signup() {
                     {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                   </button>
                 </div>
-                {formData.password && formData.password.length < 6 && (
-                  <p className="text-xs text-amber-600">Password must be at least 6 characters</p>
+                {errors.password && (
+                  <p className="text-sm text-red-500 font-medium">{errors.password.message}</p>
                 )}
               </div>
               <div className="space-y-2">
@@ -139,13 +160,11 @@ export default function Signup() {
                   id="confirmPassword"
                   type={showPassword ? "text" : "password"}
                   placeholder="Re-enter your password"
-                  required
-                  value={confirmPassword}
-                  onChange={(e) => setConfirmPassword(e.target.value)}
-                  className={inputClass}
+                  {...formRegister("confirmPassword")}
+                  className={`flex h-12 w-full rounded-xl border ${errors.confirmPassword ? 'border-red-500 focus:ring-red-500/20 focus:border-red-500' : 'border-gray-200/80 focus:ring-indigo-500/20 focus:border-indigo-400'} bg-white/60 backdrop-blur-sm px-4 py-2 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 hover:bg-white/80`}
                 />
-                {confirmPassword && confirmPassword !== formData.password && (
-                  <p className="text-xs text-red-600">Passwords do not match</p>
+                {errors.confirmPassword && (
+                  <p className="text-sm text-red-500 font-medium">{errors.confirmPassword.message}</p>
                 )}
               </div>
               <Button 

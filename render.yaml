@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: aesthetic-tech-store-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: JwtSettings__Secret
+        sync: false
+      - key: ConnectionStrings__DefaultConnection
+        fromDatabase:
+          name: aesthetic-tech-store-db
+          property: connectionString
+
+  - type: psql
+    name: aesthetic-tech-store-db
+    plan: free
+    postgresMajorVersion: 15

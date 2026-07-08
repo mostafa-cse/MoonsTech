@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { trpc } from "@/providers/trpc";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -9,38 +10,48 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/u
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Plus, Edit, Trash2 } from "lucide-react";
 import { toast } from "sonner";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 
 export default function BannersManagement() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [editingBanner, setEditingBanner] = useState<any>(null);
   
-  const utils = trpc.useUtils();
-  const { data: bannersList, isLoading } = trpc.admin.banners.useQuery();
+  const queryClient = useQueryClient();
+  const { data: bannersList, isLoading } = useQuery({
+    queryKey: ["admin", "banners"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/admin/banners").catch(() => ({ data: [] }));
+      return data;
+    }
+  });
 
-  const createMutation = trpc.admin.createBanner.useMutation({
+  const createMutation = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/admin/banners", data),
     onSuccess: () => {
       toast.success("Banner created successfully");
       setIsDialogOpen(false);
-      utils.admin.banners.invalidate();
+      queryClient.invalidateQueries({ queryKey: ["admin", "banners"] });
     },
-    onError: (err) => toast.error(err.message),
+    onError: (err: any) => toast.error(err.message || "Failed to create banner"),
   });
 
-  const updateMutation = trpc.admin.updateBanner.useMutation({
+  const updateMutation = useMutation({
+    mutationFn: async (data: any) => await apiClient.put(`/admin/banners/${data.id}`, data),
     onSuccess: () => {
       toast.success("Banner updated successfully");
       setIsDialogOpen(false);
-      utils.admin.banners.invalidate();
+      queryClient.invalidateQueries({ queryKey: ["admin", "banners"] });
     },
-    onError: (err) => toast.error(err.message),
+    onError: (err: any) => toast.error(err.message || "Failed to update banner"),
   });
 
-  const deleteMutation = trpc.admin.deleteBanner.useMutation({
+  const deleteMutation = useMutation({
+    mutationFn: async (data: any) => await apiClient.delete(`/admin/banners/${data.id}`),
     onSuccess: () => {
       toast.success("Banner deleted successfully");
-      utils.admin.banners.invalidate();
+      queryClient.invalidateQueries({ queryKey: ["admin", "banners"] });
     },
-    onError: (err) => toast.error(err.message),
+    onError: (err: any) => toast.error(err.message || "Failed to delete banner"),
   });
 
   const [formData, setFormData] = useState({
@@ -98,57 +109,66 @@ export default function BannersManagement() {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-xl font-bold">Banners</h2>
-        <Button onClick={handleOpenNew} className="flex items-center gap-2">
+        <div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Banners</h2>
+          <p className="text-sm text-slate-500 mt-1">Manage promotional banners across the store.</p>
+        </div>
+        <Button onClick={handleOpenNew} className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl shadow-sm shadow-indigo-200">
           <Plus className="w-4 h-4" /> Add Banner
         </Button>
       </div>
 
-      <Card>
+      <Card className="bg-white border border-slate-200 shadow-sm rounded-2xl overflow-hidden">
         <CardContent className="p-0">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b bg-gray-50">
-                  <th className="text-left py-3 px-4">Image</th>
-                  <th className="text-left py-3 px-4">Title</th>
-                  <th className="text-left py-3 px-4">Position</th>
-                  <th className="text-left py-3 px-4">Order</th>
-                  <th className="text-left py-3 px-4">Status</th>
-                  <th className="text-right py-3 px-4">Actions</th>
+              <thead className="bg-slate-50/50 border-b border-slate-100">
+                <tr>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Image</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Title</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Position</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Order</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Status</th>
+                  <th className="text-right py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Actions</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="divide-y divide-slate-50">
                 {isLoading ? (
-                  <tr><td colSpan={6} className="text-center py-8">Loading...</td></tr>
+                  <tr><td colSpan={6} className="text-center py-12 text-slate-500 font-medium">Loading banners...</td></tr>
                 ) : bannersList?.length ? (
                   bannersList.map((b: any) => (
-                    <tr key={b.id} className="border-b hover:bg-gray-50">
-                      <td className="py-2 px-4">
-                        <img src={b.image} alt={b.title} className="h-10 w-20 object-cover rounded" />
+                    <tr key={b.id} className="hover:bg-slate-50/80 transition-colors group">
+                      <td className="py-4 px-6">
+                        <div className="h-12 w-24 bg-slate-100 rounded-lg overflow-hidden border border-slate-200/60 shadow-sm">
+                          <ImageWithFallback src={b.image} alt={b.title} className="h-full w-full object-cover" />
+                        </div>
                       </td>
-                      <td className="py-2 px-4 font-bold">{b.title}</td>
-                      <td className="py-2 px-4 uppercase text-xs text-gray-500">{b.position?.replace('_', ' ') || ''}</td>
-                      <td className="py-2 px-4">{b.sortOrder}</td>
-                      <td className="py-2 px-4">
-                        <Badge variant={b.isActive ? 'default' : 'secondary'}>
+                      <td className="py-4 px-6 font-semibold text-slate-900">{b.title}</td>
+                      <td className="py-4 px-6 uppercase text-[11px] font-bold text-slate-500 tracking-wider">
+                        {b.position?.replace('_', ' ') || ''}
+                      </td>
+                      <td className="py-4 px-6 font-medium text-slate-700">{b.sortOrder}</td>
+                      <td className="py-4 px-6">
+                        <Badge variant="outline" className={`font-medium rounded-md border-0 px-2.5 py-0.5 ${b.isActive ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-100 text-slate-600'}`}>
                           {b.isActive ? 'Active' : 'Inactive'}
                         </Badge>
                       </td>
-                      <td className="py-2 px-4 text-right">
-                        <Button variant="ghost" size="sm" onClick={() => handleOpenEdit(b)}>
-                          <Edit className="w-4 h-4" />
-                        </Button>
-                        <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-700" onClick={() => handleDelete(b.id)}>
-                          <Trash2 className="w-4 h-4" />
-                        </Button>
+                      <td className="py-4 px-6 text-right">
+                        <div className="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                          <Button variant="ghost" size="icon" aria-label="Edit Banner" className="h-8 w-8 text-slate-500 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg" onClick={() => handleOpenEdit(b)}>
+                            <Edit className="w-4 h-4" />
+                          </Button>
+                          <Button variant="ghost" size="icon" aria-label="Delete Banner" className="h-8 w-8 text-slate-500 hover:text-rose-600 hover:bg-rose-50 rounded-lg" onClick={() => handleDelete(b.id)}>
+                            <Trash2 className="w-4 h-4" />
+                          </Button>
+                        </div>
                       </td>
                     </tr>
                   ))
                 ) : (
-                  <tr><td colSpan={6} className="text-center py-8 text-gray-500">No banners found</td></tr>
+                  <tr><td colSpan={6} className="text-center py-12 text-slate-500 font-medium bg-slate-50/50">No banners found.</td></tr>
                 )}
               </tbody>
             </table>
@@ -157,9 +177,9 @@ export default function BannersManagement() {
       </Card>
 
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent className="sm:max-w-[500px]">
+        <DialogContent className="sm:max-w-[550px] rounded-[2rem] p-6 border-0 shadow-2xl">
           <DialogHeader>
-            <DialogTitle>{editingBanner ? "Edit Banner" : "New Banner"}</DialogTitle>
+            <DialogTitle className="text-xl font-bold text-slate-900">{editingBanner ? "Edit Banner" : "New Banner"}</DialogTitle>
           </DialogHeader>
           <form onSubmit={handleSubmit} className="space-y-4 pt-4">
             <div className="grid gap-4">
@@ -218,10 +238,9 @@ export default function BannersManagement() {
                 </Select>
               </div>
             </div>
-            
-            <div className="flex justify-end gap-2 pt-4">
-              <Button type="button" variant="outline" onClick={() => setIsDialogOpen(false)}>Cancel</Button>
-              <Button type="submit" disabled={createMutation.isPending || updateMutation.isPending}>
+            <div className="flex justify-end gap-3 pt-6 border-t mt-4 border-slate-100">
+              <Button type="button" variant="outline" className="rounded-xl" onClick={() => setIsDialogOpen(false)}>Cancel</Button>
+              <Button type="submit" className="rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white" disabled={createMutation.isPending || updateMutation.isPending}>
                 {editingBanner ? "Save Changes" : "Create Banner"}
               </Button>
             </div>

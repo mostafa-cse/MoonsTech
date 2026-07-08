@@ -2,47 +2,71 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { trpc } from "@/providers/trpc";
 import { toast } from "sonner";
 import Layout from "@/components/Layout";
 import { Eye, EyeOff, LogIn, ShieldCheck } from "lucide-react";
+import { useMutation } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
+import { z } from "zod";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+
+const loginSchema = z.object({
+  email: z.string().email("Invalid email address"),
+  password: z.string().min(6, "Password must be at least 6 characters"),
+});
+
+type LoginFormValues = z.infer<typeof loginSchema>;
 
 export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
-  const login = trpc.auth.login.useMutation({
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<LoginFormValues>({
+    resolver: zodResolver(loginSchema),
+    defaultValues: { email: "", password: "" },
+  });
+
+  const login = useMutation({
+    mutationFn: async (credentials: any) => {
+      const { data } = await apiClient.post("/auth/login", credentials);
+      return data;
+    },
     onSuccess: (data) => {
+      localStorage.setItem("isLoggedIn", "true");
       toast.success("Logged in successfully!");
-      if (data.role === "admin" || data.role === "super_admin") {
-        navigate("/admin");
+      if (data.role === "Admin" || data.role === "SuperAdmin") {
+        window.location.href = "/admin";
       } else {
-        navigate("/");
+        window.location.href = "/";
       }
-      // Force a full refetch of user data
-      setTimeout(() => window.location.reload(), 100);
     },
-    onError: (err) => {
-      toast.error(err.message);
+    onError: (err: any) => {
+      toast.error(err.response?.data?.message || err.message || "Login failed");
     }
   });
 
-  const devLogin = trpc.auth.devLogin.useMutation({
-    onSuccess: () => {
+  const devLogin = useMutation({
+    mutationFn: async () => {
+      const { data } = await apiClient.post("/auth/login", { email: "admin@moons.tech", password: "AdminPassword123!" });
+      return data;
+    },
+    onSuccess: (data) => {
+      localStorage.setItem("isLoggedIn", "true");
       toast.success("Logged in as Dev Admin!");
-      navigate("/admin");
-      setTimeout(() => window.location.reload(), 100);
+      window.location.href = "/admin";
     },
-    onError: (err) => {
-      toast.error(err.message);
+    onError: (err: any) => {
+      toast.error(err.response?.data?.message || "Dev login failed");
     }
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    login.mutate({ email, password });
+  const onSubmit = (values: LoginFormValues) => {
+    login.mutate(values);
   };
 
   return (
@@ -65,7 +89,7 @@ export default function Login() {
             </p>
           </CardHeader>
           <CardContent className="pb-10 px-8 sm:px-10 relative z-20">
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="space-y-2.5">
                 <label htmlFor="email" className="text-sm font-semibold text-gray-700">
                   Email Address
@@ -74,11 +98,12 @@ export default function Login() {
                   id="email"
                   type="email"
                   placeholder="you@example.com"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="flex h-12 w-full rounded-xl border border-gray-200/80 bg-white/60 backdrop-blur-sm px-4 py-2 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 hover:bg-white/80"
+                  {...register("email")}
+                  className={`flex h-12 w-full rounded-xl border ${errors.email ? 'border-red-500 focus:ring-red-500/20 focus:border-red-500' : 'border-gray-200/80 focus:ring-indigo-500/20 focus:border-indigo-400'} bg-white/60 backdrop-blur-sm px-4 py-2 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 hover:bg-white/80`}
                 />
+                {errors.email && (
+                  <p className="text-sm text-red-500 font-medium">{errors.email.message}</p>
+                )}
               </div>
               <div className="space-y-2.5">
                 <div className="flex items-center justify-between">
@@ -94,10 +119,8 @@ export default function Login() {
                     id="password"
                     type={showPassword ? "text" : "password"}
                     placeholder="Enter your password"
-                    required
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    className="flex h-12 w-full rounded-xl border border-gray-200/80 bg-white/60 backdrop-blur-sm px-4 py-2 pr-11 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-400 hover:bg-white/80"
+                    {...register("password")}
+                    className={`flex h-12 w-full rounded-xl border ${errors.password ? 'border-red-500 focus:ring-red-500/20 focus:border-red-500' : 'border-gray-200/80 focus:ring-indigo-500/20 focus:border-indigo-400'} bg-white/60 backdrop-blur-sm px-4 py-2 pr-11 text-sm transition-all duration-200 placeholder:text-gray-400 focus:outline-none focus:ring-2 hover:bg-white/80`}
                   />
                   <button
                     type="button"
@@ -107,6 +130,9 @@ export default function Login() {
                     {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                   </button>
                 </div>
+                {errors.password && (
+                  <p className="text-sm text-red-500 font-medium">{errors.password.message}</p>
+                )}
               </div>
               <Button 
                 type="submit" 

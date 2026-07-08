@@ -1,23 +1,46 @@
-import { trpc } from "@/providers/trpc";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useMemo } from "react";
+import apiClient from "@/lib/api-client";
+
+type User = {
+  id: string;
+  email: string;
+  name?: string;
+  role: string;
+};
 
 export function useAuth() {
-  const utils = trpc.useUtils();
+  const queryClient = useQueryClient();
 
   const {
     data: user,
     isLoading,
     error,
     refetch,
-  } = trpc.auth.me.useQuery(undefined, {
+  } = useQuery({
+    queryKey: ['auth', 'me'],
+    queryFn: async () => {
+      if (localStorage.getItem('isLoggedIn') !== 'true') return null;
+      try {
+        const { data } = await apiClient.get<User>('/auth/me');
+        return data;
+      } catch (err) {
+        return null;
+      }
+    },
     staleTime: 1000 * 60 * 5,
     retry: false,
   });
 
-  const logoutMutation = trpc.auth.logout.useMutation({
+  const logoutMutation = useMutation({
+    mutationFn: async () => {
+      await apiClient.post('/auth/logout');
+      localStorage.removeItem('isLoggedIn');
+      return true;
+    },
     onSuccess: async () => {
-      await utils.invalidate();
-      window.location.reload();
+      await queryClient.invalidateQueries({ queryKey: ['auth', 'me'] });
+      window.location.href = '/login';
     },
   });
 
@@ -27,9 +50,9 @@ export function useAuth() {
     () => ({
       user: user ?? null,
       isAuthenticated: !!user,
-      isAdmin: user?.role === "admin" || user?.role === "super_admin",
-      isBuyer: user?.role === "buyer" || user?.role === "admin" || user?.role === "super_admin",
-      isDeliveryMan: user?.role === "delivery_man",
+      isAdmin: user?.role === "Admin" || user?.role === "SuperAdmin",
+      isBuyer: user?.role === "Buyer" || user?.role === "Admin" || user?.role === "SuperAdmin",
+      isDeliveryMan: user?.role === "DeliveryMan",
       isLoading: isLoading || logoutMutation.isPending,
       error,
       logout,

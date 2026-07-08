@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router";
-import { trpc } from "@/providers/trpc";
 import Layout from "@/components/Layout";
 import { useAuth } from "@/hooks/useAuth";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -10,35 +10,45 @@ import { CURRENCY } from "@/const";
 import { ShoppingCart, Trash2, Plus, Minus, ArrowRight, Tag, PackageOpen, ShieldCheck } from "lucide-react";
 import { toast } from "sonner";
 import { useState } from "react";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 
 export default function Cart() {
   const navigate = useNavigate();
-  const utils = trpc.useUtils();
+  const queryClient = useQueryClient();
   const { isAuthenticated } = useAuth();
-  const { data: cart, isLoading } = trpc.cart.get.useQuery(undefined, {
+  const { data: cart, isLoading } = useQuery({
+    queryKey: ["cart"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/cart");
+      return data;
+    },
     enabled: isAuthenticated,
   });
   const [couponCode, setCouponCode] = useState("");
   const [appliedCoupon, setAppliedCoupon] = useState<any>(null);
   const [discount, setDiscount] = useState(0);
 
-  const updateQuantity = trpc.cart.updateQuantity.useMutation({
-    onSuccess: () => utils.cart.get.invalidate(),
-    onError: (e) => toast.error(e.message),
+  const updateQuantity = useMutation({
+    mutationFn: async (data: any) => await apiClient.put("/cart/update-quantity", data),
+    onSuccess: () => queryClient.invalidateQueries({ queryKey: ["cart"] }),
+    onError: (e: any) => toast.error("Failed to update quantity"),
   });
-  const removeItem = trpc.cart.remove.useMutation({
-    onSuccess: () => { utils.cart.get.invalidate(); toast.success("Item removed"); },
-    onError: (e) => toast.error(e.message),
+  const removeItem = useMutation({
+    mutationFn: async ({ itemId }: { itemId: string }) => await apiClient.delete(`/cart/remove/${itemId}`),
+    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ["cart"] }); toast.success("Item removed"); },
+    onError: (e: any) => toast.error("Failed to remove item"),
   });
-  const clearCart = trpc.cart.clear.useMutation({
-    onSuccess: () => { utils.cart.get.invalidate(); toast.success("Cart cleared"); },
-    onError: (e) => toast.error(e.message),
+  const clearCart = useMutation({
+    mutationFn: async () => await apiClient.post("/cart/clear"),
+    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ["cart"] }); toast.success("Cart cleared"); },
+    onError: (e: any) => toast.error("Failed to clear cart"),
   });
 
   const handleApplyCoupon = async () => {
     if (!couponCode.trim()) return;
     try {
-      const result = await utils.coupon.validate.fetch({ code: couponCode, orderAmount: Number(cart?.subtotal || 0) });
+      const { data: result } = await apiClient.post("/coupon/validate", { code: couponCode, orderAmount: Number(cart?.subtotal || 0) });
       if (result.valid && result.coupon) {
         const coupon = result.coupon;
         setAppliedCoupon(coupon);
@@ -131,7 +141,7 @@ export default function Cart() {
                   <div className="flex flex-col sm:flex-row gap-5">
                     <Link to={`/product/${item.slug}`} className="w-full sm:w-28 h-32 sm:h-28 shrink-0 bg-gray-50 rounded-xl overflow-hidden relative group block">
                       {item.image ? (
-                        <img src={item.image} alt={item.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <ImageWithFallback src={item.image} alt={item.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                       ) : (
                         <div className="w-full h-full flex items-center justify-center text-gray-300 bg-gray-50/50">
                           <PackageOpen className="w-8 h-8" />
@@ -149,6 +159,7 @@ export default function Cart() {
                         <Button
                           variant="ghost"
                           size="icon"
+                          aria-label="Remove item"
                           className="text-gray-400 hover:text-rose-600 hover:bg-rose-50 shrink-0 h-8 w-8 transition-colors -mt-1 -mr-1"
                           onClick={() => removeItem.mutate({ itemId: item.id })}
                         >

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { useAuth } from "@/hooks/useAuth";
-import { trpc } from "@/providers/trpc";
+import { useQuery } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
@@ -30,8 +31,21 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const { data: categoryTree } = trpc.category.tree.useQuery();
-  const { data: cartData } = trpc.cart.get.useQuery(undefined, { enabled: isAuthenticated });
+  const { data: categoryTree } = useQuery({
+    queryKey: ["categories"],
+    queryFn: async () => {
+      // Mock categories for now until CategoryController is implemented on .NET side
+      return [];
+    }
+  });
+  const { data: cartData } = useQuery({
+    queryKey: ["cart"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/cart");
+      return data;
+    },
+    enabled: isAuthenticated
+  });
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -90,14 +104,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
               {/* Wishlist */}
               <Link to="/account/wishlist">
-                <Button variant="ghost" size="icon" className="relative hidden sm:flex">
+                <Button variant="ghost" size="icon" aria-label="Wishlist" className="relative hidden sm:flex">
                   <Heart className="w-5 h-5 text-gray-600" />
                 </Button>
               </Link>
 
               {/* Cart */}
               <Link to="/cart">
-                <Button variant="ghost" size="icon" className="relative">
+                <Button variant="ghost" size="icon" aria-label="Cart" className="relative">
                   <ShoppingCart className="w-5 h-5 text-gray-600" />
                   {cartItemCount > 0 && (
                     <span className="absolute -top-1 -right-1 w-5 h-5 bg-red-500 text-white text-xs rounded-full flex items-center justify-center font-medium">
@@ -163,7 +177,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               {/* Mobile Menu */}
               <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
                 <SheetTrigger asChild>
-                  <Button variant="ghost" size="icon" className="md:hidden">
+                  <Button variant="ghost" size="icon" aria-label="Toggle Menu" className="md:hidden">
                     <Menu className="w-5 h-5" />
                   </Button>
                 </SheetTrigger>
@@ -174,7 +188,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   <div className="mt-6 space-y-4">
                     <form onSubmit={handleSearch} className="flex gap-2">
                       <Input placeholder="Search..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
-                      <Button type="submit" size="icon"><Search className="w-4 h-4" /></Button>
+                      <Button type="submit" size="icon" aria-label="Search"><Search className="w-4 h-4" /></Button>
                     </form>
                     <nav className="space-y-2">
                       <Link to="/pc-builder" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-100">

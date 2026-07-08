@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useSearchParams } from "react-router";
-import { trpc } from "@/providers/trpc";
+
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -9,9 +9,12 @@ import { Input } from "@/components/ui/input";
 import { Slider } from "@/components/ui/slider";
 import { Skeleton } from "@/components/ui/skeleton";
 import { CURRENCY } from "@/const";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 import { Search, Star, ShoppingCart, Heart, SlidersHorizontal, Grid3X3, LayoutList, X, ChevronRight, PackageOpen } from "lucide-react";
 import { toast } from "sonner";
 import { useAuth } from "@/hooks/useAuth";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 
 export default function Products() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -31,15 +34,17 @@ export default function Products() {
 
   const [page, setPage] = useState(1);
   const { isAuthenticated } = useAuth();
-  const utils = trpc.useUtils();
+  const queryClient = useQueryClient();
 
-  const addToCart = trpc.cart.add.useMutation({
-    onSuccess: () => { utils.cart.get.invalidate(); toast.success("Added to cart"); },
-    onError: (e) => toast.error(e.message),
+  const addToCart = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/cart/add", data),
+    onSuccess: () => { queryClient.invalidateQueries({ queryKey: ["cart"] }); toast.success("Added to cart"); },
+    onError: (e: any) => toast.error(e.response?.data?.message || "Failed to add to cart"),
   });
-  const addToWishlist = trpc.wishlist.add.useMutation({
+  const addToWishlist = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/wishlist", data),
     onSuccess: () => toast.success("Added to wishlist!"),
-    onError: (e) => toast.error(e.message),
+    onError: (e: any) => toast.error("Failed to add to wishlist"),
   });
 
   // Reset page when filters change
@@ -47,18 +52,16 @@ export default function Products() {
     setPage(1);
   }, [categoryId, brandId, searchQuery, sortBy, priceRange[0], priceRange[1], featured, bestSeller, newArrival]);
 
-  const { data, isLoading } = trpc.product.list.useQuery({
-    page,
-    limit: 24,
-    categoryId,
-    brandId,
-    search: searchQuery || undefined,
-    sortBy: sortBy as any,
-    minPrice: priceRange[0],
-    maxPrice: priceRange[1],
-    featured,
-    bestSeller,
-    newArrival,
+  const { data, isLoading } = useQuery({
+    queryKey: ["products", { page, categoryId, brandId, searchQuery, sortBy, minPrice: priceRange[0], maxPrice: priceRange[1], featured, bestSeller, newArrival }],
+    queryFn: async () => {
+      const res = await apiClient.get("/product", {
+        params: { page, limit: 24, categoryId, brandId, searchTerm: searchQuery, sortBy, minPrice: priceRange[0], maxPrice: priceRange[1] }
+      });
+      // Mock pagination wrapper for .NET endpoint that currently returns flat list
+      const items = res.data;
+      return { items, pagination: { total: items.length, totalPages: 1 } };
+    }
   });
 
   // Debounce price updates to URL
@@ -77,8 +80,20 @@ export default function Products() {
     return () => clearTimeout(timer);
   }, [priceRange, setSearchParams]);
 
-  const { data: brands } = trpc.brand.list.useQuery();
-  const { data: categoryTree } = trpc.category.tree.useQuery();
+  const { data: brands } = useQuery({
+    queryKey: ["brands"],
+    queryFn: async () => {
+      // Stub until BrandController is added
+      return [];
+    }
+  });
+  const { data: categoryTree } = useQuery({
+    queryKey: ["categories"],
+    queryFn: async () => {
+      // Stub until CategoryController is added
+      return [];
+    }
+  });
 
   // Find current category name
   const findCategory = (id: number, cats: any[]): any => {
@@ -162,7 +177,7 @@ export default function Products() {
               />
             </form>
 
-            <Button variant="outline" size="icon" onClick={() => setViewMode(viewMode === "grid" ? "list" : "grid")}>
+            <Button variant="outline" size="icon" aria-label="Toggle View Mode" onClick={() => setViewMode(viewMode === "grid" ? "list" : "grid")}>
               {viewMode === "grid" ? <LayoutList className="w-4 h-4" /> : <Grid3X3 className="w-4 h-4" />}
             </Button>
           </div>
@@ -281,7 +296,7 @@ export default function Products() {
                         <Link to={`/product/${product.slug}`}>
                           <div className="relative aspect-square bg-gray-50 overflow-hidden">
                             {product.image ? (
-                              <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" />
+                              <ImageWithFallback src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" />
                             ) : (
                               <div className="w-full h-full flex items-center justify-center text-gray-300 bg-gradient-to-br from-gray-50 to-gray-100">
                                 <PackageOpen className="w-10 h-10" />
@@ -317,7 +332,15 @@ export default function Products() {
                                 disabled={addToCart.isPending || product.stockStatus !== 'in_stock'}
                                 onClick={() => {
                                   if (!isAuthenticated) { toast.error('Please log in to add items to cart'); return; }
-                                  addToCart.mutate({ productId: product.id, quantity: 1 });
+                                  addToCart.mutate({ 
+                                    productId: product.id, 
+                                    quantity: 1,
+                                    name: product.name,
+                                    slug: product.slug,
+                                    image: product.image,
+                                    sku: product.sku,
+                                    unitPrice: product.salePrice || product.regularPrice
+                                  });
                                 }}
                               ><ShoppingCart className="w-4 h-4 mr-1.5" /> Add</Button>
                               <Button 
@@ -350,7 +373,7 @@ export default function Products() {
                         <CardContent className="p-4 sm:p-6 flex flex-col sm:flex-row gap-6 items-start sm:items-center">
                           <Link to={`/product/${product.slug}`} className="w-full sm:w-32 h-40 sm:h-32 shrink-0 bg-gray-50 rounded-xl overflow-hidden relative block">
                             {product.image ? (
-                              <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                              <ImageWithFallback src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                             ) : (
                               <div className="w-full h-full flex items-center justify-center text-gray-300 bg-gradient-to-br from-gray-50 to-gray-100">
                                 <PackageOpen className="w-8 h-8" />
@@ -389,7 +412,15 @@ export default function Products() {
                                 disabled={addToCart.isPending || product.stockStatus !== 'in_stock'}
                                 onClick={() => {
                                   if (!isAuthenticated) { toast.error('Please log in to add items to cart'); return; }
-                                  addToCart.mutate({ productId: product.id, quantity: 1 });
+                                  addToCart.mutate({ 
+                                    productId: product.id, 
+                                    quantity: 1,
+                                    name: product.name,
+                                    slug: product.slug,
+                                    image: product.image,
+                                    sku: product.sku,
+                                    unitPrice: product.salePrice || product.regularPrice
+                                  });
                                 }}
                               ><ShoppingCart className="w-4 h-4 mr-2" /> Add to Cart</Button>
                               <Button 

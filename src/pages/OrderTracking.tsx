@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { trpc } from "@/providers/trpc";
+import { useQuery } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 import Layout from "@/components/Layout";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -7,16 +8,22 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Package, Truck, CheckCircle2, Search, Clock, Box } from "lucide-react";
 import { CURRENCY } from "@/const";
+import { ImageWithFallback } from "@/components/ui/image-with-fallback";
 
 export default function OrderTracking() {
   const [orderNumber, setOrderNumber] = useState("");
   const [phone, setPhone] = useState("");
   const [hasSearched, setHasSearched] = useState(false);
 
-  const { data: order, isLoading, isError, error, refetch } = trpc.order.track.useQuery(
-    { orderNumber, phone },
-    { enabled: false, retry: false }
-  );
+  const { data: order, isLoading, isError, error, refetch } = useQuery({
+    queryKey: ["order", "track", orderNumber, phone],
+    queryFn: async () => {
+      const { data } = await apiClient.post("/order/track", { orderNumber, phone });
+      return data;
+    },
+    enabled: false,
+    retry: false
+  });
 
   const handleTrack = (e: React.FormEvent) => {
     e.preventDefault();
@@ -189,7 +196,7 @@ export default function OrderTracking() {
                           {order.items?.map((item: any) => (
                             <div key={item.id} className="flex gap-4 p-3 rounded-xl hover:bg-gray-50 border border-gray-100/50">
                               <div className="w-16 h-16 rounded-lg bg-white border border-gray-100 overflow-hidden shrink-0">
-                                <img src={item.productImage || 'https://placehold.co/100x100?text=No+Image'} alt={item.productName} className="w-full h-full object-contain p-1" />
+                                <ImageWithFallback src={item.productImage || 'https://placehold.co/100x100?text=No+Image'} alt={item.productName} className="w-full h-full object-contain p-1" />
                               </div>
                               <div className="flex-1">
                                 <p className="text-sm font-semibold text-gray-900 line-clamp-2">{item.productName}</p>

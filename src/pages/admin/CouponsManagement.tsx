@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { trpc } from "@/providers/trpc";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -15,33 +16,42 @@ export default function CouponsManagement() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [editingCoupon, setEditingCoupon] = useState<any>(null);
   
-  const utils = trpc.useUtils();
-  const { data: couponsList, isLoading } = trpc.coupon.listAll.useQuery();
+  const queryClient = useQueryClient();
+  const { data: couponsList, isLoading } = useQuery({
+    queryKey: ["admin", "coupons"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/coupon/all").catch(() => ({ data: [] }));
+      return data;
+    }
+  });
 
-  const createMutation = trpc.coupon.create.useMutation({
+  const createMutation = useMutation({
+    mutationFn: async (data: any) => await apiClient.post("/coupon", data),
     onSuccess: () => {
       toast.success("Coupon created successfully");
       setIsDialogOpen(false);
-      utils.coupon.listAll.invalidate();
+      queryClient.invalidateQueries({ queryKey: ["admin", "coupons"] });
     },
-    onError: (err) => toast.error(err.message),
+    onError: (err: any) => toast.error(err.message || "Failed to create coupon"),
   });
 
-  const updateMutation = trpc.coupon.update.useMutation({
+  const updateMutation = useMutation({
+    mutationFn: async (data: any) => await apiClient.put(`/coupon/${data.id}`, data),
     onSuccess: () => {
       toast.success("Coupon updated successfully");
       setIsDialogOpen(false);
-      utils.coupon.listAll.invalidate();
+      queryClient.invalidateQueries({ queryKey: ["admin", "coupons"] });
     },
-    onError: (err) => toast.error(err.message),
+    onError: (err: any) => toast.error(err.message || "Failed to update coupon"),
   });
 
-  const deleteMutation = trpc.coupon.delete.useMutation({
+  const deleteMutation = useMutation({
+    mutationFn: async (data: any) => await apiClient.delete(`/coupon/${data.id}`),
     onSuccess: () => {
       toast.success("Coupon deleted successfully");
-      utils.coupon.listAll.invalidate();
+      queryClient.invalidateQueries({ queryKey: ["admin", "coupons"] });
     },
-    onError: (err) => toast.error(err.message),
+    onError: (err: any) => toast.error(err.message || "Failed to delete coupon"),
   });
 
   const [formData, setFormData] = useState({
@@ -113,63 +123,72 @@ export default function CouponsManagement() {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-xl font-bold">Coupons</h2>
-        <Button onClick={handleOpenNew} className="flex items-center gap-2">
+        <div>
+          <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Coupons</h2>
+          <p className="text-sm text-slate-500 mt-1">Create and manage discount codes for your customers.</p>
+        </div>
+        <Button onClick={handleOpenNew} className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl shadow-sm shadow-indigo-200">
           <Plus className="w-4 h-4" /> Add Coupon
         </Button>
       </div>
 
-      <Card>
+      <Card className="bg-white border border-slate-200 shadow-sm rounded-2xl overflow-hidden">
         <CardContent className="p-0">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b bg-gray-50">
-                  <th className="text-left py-3 px-4">Code</th>
-                  <th className="text-left py-3 px-4">Discount</th>
-                  <th className="text-left py-3 px-4">Valid Until</th>
-                  <th className="text-left py-3 px-4">Usage</th>
-                  <th className="text-left py-3 px-4">Status</th>
-                  <th className="text-right py-3 px-4">Actions</th>
+              <thead className="bg-slate-50/50 border-b border-slate-100">
+                <tr>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Code</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Discount</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Valid Until</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Usage</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Status</th>
+                  <th className="text-right py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Actions</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="divide-y divide-slate-50">
                 {isLoading ? (
-                  <tr><td colSpan={6} className="text-center py-8">Loading...</td></tr>
+                  <tr><td colSpan={6} className="text-center py-12 text-slate-500 font-medium">Loading coupons...</td></tr>
                 ) : couponsList?.length ? (
                   couponsList.map((c: any) => (
-                    <tr key={c.id} className="border-b hover:bg-gray-50">
-                      <td className="py-2 px-4 font-bold">{c.code}</td>
-                      <td className="py-2 px-4">
-                        {c.discountType === 'percentage' ? `${c.discountValue}%` : 
-                         c.discountType === 'free_shipping' ? 'Free Shipping' : 
-                         `${CURRENCY}${c.discountValue}`}
+                    <tr key={c.id} className="hover:bg-slate-50/80 transition-colors group">
+                      <td className="py-4 px-6">
+                        <span className="font-bold text-slate-900 bg-slate-100 px-2.5 py-1 rounded-md tracking-wider border border-slate-200/60">{c.code}</span>
                       </td>
-                      <td className="py-2 px-4 text-gray-500">
+                      <td className="py-4 px-6 font-medium text-indigo-700">
+                        {c.discountType === 'percentage' ? `${c.discountValue}% Off` : 
+                         c.discountType === 'free_shipping' ? 'Free Shipping' : 
+                         `${CURRENCY}${c.discountValue} Off`}
+                      </td>
+                      <td className="py-4 px-6 text-slate-500">
                         {new Date(c.endDate).toLocaleDateString()}
                       </td>
-                      <td className="py-2 px-4">
-                        {c.usageCount || 0} / {c.usageLimit || '∞'}
+                      <td className="py-4 px-6">
+                        <span className="text-slate-600 font-medium">
+                          <span className="text-slate-900">{c.usageCount || 0}</span> / {c.usageLimit || '∞'}
+                        </span>
                       </td>
-                      <td className="py-2 px-4">
-                        <Badge variant={c.isActive ? 'default' : 'secondary'}>
+                      <td className="py-4 px-6">
+                        <Badge variant="outline" className={`font-medium rounded-md border-0 px-2.5 py-0.5 ${c.isActive ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-100 text-slate-600'}`}>
                           {c.isActive ? 'Active' : 'Inactive'}
                         </Badge>
                       </td>
-                      <td className="py-2 px-4 text-right">
-                        <Button variant="ghost" size="sm" onClick={() => handleOpenEdit(c)}>
-                          <Edit className="w-4 h-4" />
-                        </Button>
-                        <Button variant="ghost" size="sm" className="text-red-500 hover:text-red-700" onClick={() => handleDelete(c.id)}>
-                          <Trash2 className="w-4 h-4" />
-                        </Button>
+                      <td className="py-4 px-6 text-right">
+                        <div className="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                          <Button variant="ghost" size="icon" aria-label="Edit Coupon" className="h-8 w-8 text-slate-500 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg" onClick={() => handleOpenEdit(c)}>
+                            <Edit className="w-4 h-4" />
+                          </Button>
+                          <Button variant="ghost" size="icon" aria-label="Delete Coupon" className="h-8 w-8 text-slate-500 hover:text-rose-600 hover:bg-rose-50 rounded-lg" onClick={() => handleDelete(c.id)}>
+                            <Trash2 className="w-4 h-4" />
+                          </Button>
+                        </div>
                       </td>
                     </tr>
                   ))
                 ) : (
-                  <tr><td colSpan={6} className="text-center py-8 text-gray-500">No coupons found</td></tr>
+                  <tr><td colSpan={6} className="text-center py-12 text-slate-500 font-medium bg-slate-50/50">No coupons found.</td></tr>
                 )}
               </tbody>
             </table>
@@ -178,9 +197,9 @@ export default function CouponsManagement() {
       </Card>
 
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent className="sm:max-w-[500px]">
+        <DialogContent className="sm:max-w-[550px] rounded-[2rem] p-6 border-0 shadow-2xl">
           <DialogHeader>
-            <DialogTitle>{editingCoupon ? "Edit Coupon" : "New Coupon"}</DialogTitle>
+            <DialogTitle className="text-xl font-bold text-slate-900">{editingCoupon ? "Edit Coupon" : "New Coupon"}</DialogTitle>
           </DialogHeader>
           <form onSubmit={handleSubmit} className="space-y-4 pt-4">
             <div className="grid grid-cols-2 gap-4">
@@ -246,9 +265,9 @@ export default function CouponsManagement() {
                 </Select>
               </div>
             </div>
-            <div className="flex justify-end gap-2 pt-4">
-              <Button type="button" variant="outline" onClick={() => setIsDialogOpen(false)}>Cancel</Button>
-              <Button type="submit" disabled={createMutation.isPending || updateMutation.isPending}>
+            <div className="flex justify-end gap-3 pt-6 border-t mt-4 border-slate-100">
+              <Button type="button" variant="outline" className="rounded-xl" onClick={() => setIsDialogOpen(false)}>Cancel</Button>
+              <Button type="submit" className="rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white" disabled={createMutation.isPending || updateMutation.isPending}>
                 {editingCoupon ? "Save Changes" : "Create Coupon"}
               </Button>
             </div>

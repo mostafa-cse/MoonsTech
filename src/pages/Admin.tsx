@@ -1,5 +1,6 @@
 import { Link, Routes, Route, useLocation } from "react-router";
-import { trpc } from "@/providers/trpc";
+import { useQuery } from "@tanstack/react-query";
+import apiClient from "@/lib/api-client";
 import Layout from "@/components/Layout";
 import ProductsManagement from "./admin/ProductsManagement";
 import OrdersManagement from "./admin/OrdersManagement";
@@ -19,30 +20,30 @@ import {
 function AdminSidebar() {
   const location = useLocation();
   const menuItems = [
-    { path: "/admin", label: "Dashboard", icon: <LayoutDashboard className="w-4 h-4" /> },
-    { path: "/admin/products", label: "Products", icon: <Package className="w-4 h-4" /> },
-    { path: "/admin/orders", label: "Orders", icon: <ShoppingCart className="w-4 h-4" /> },
-    { path: "/admin/users", label: "Users", icon: <Users className="w-4 h-4" /> },
-    { path: "/admin/sales", label: "Sales Analytics", icon: <BarChart3 className="w-4 h-4" /> },
-    { path: "/admin/coupons", label: "Coupons", icon: <Tag className="w-4 h-4" /> },
-    { path: "/admin/banners", label: "Banners", icon: <Megaphone className="w-4 h-4" /> },
+    { path: "/admin", label: "Dashboard", icon: <LayoutDashboard className="w-5 h-5" /> },
+    { path: "/admin/products", label: "Products", icon: <Package className="w-5 h-5" /> },
+    { path: "/admin/orders", label: "Orders", icon: <ShoppingCart className="w-5 h-5" /> },
+    { path: "/admin/users", label: "Users", icon: <Users className="w-5 h-5" /> },
+    { path: "/admin/sales", label: "Sales Analytics", icon: <BarChart3 className="w-5 h-5" /> },
+    { path: "/admin/coupons", label: "Coupons", icon: <Tag className="w-5 h-5" /> },
+    { path: "/admin/banners", label: "Banners", icon: <Megaphone className="w-5 h-5" /> },
   ];
 
   return (
     <div className="w-full md:w-64 shrink-0">
-      <div className="glass rounded-[1.5rem] p-3 md:p-5 md:space-y-1 sticky top-24 flex md:flex-col overflow-x-auto gap-2 md:gap-0 whitespace-nowrap">
-        <div className="px-3 py-2 mb-3 hidden md:block">
-          <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Admin Panel</p>
+      <div className="bg-white border border-slate-200 rounded-2xl p-4 md:space-y-1 sticky top-24 flex md:flex-col overflow-x-auto gap-2 md:gap-1 whitespace-nowrap shadow-sm">
+        <div className="px-4 py-3 mb-2 hidden md:block">
+          <p className="text-[11px] font-extrabold text-slate-400 uppercase tracking-widest">Admin Panel</p>
         </div>
         {menuItems.map((item) => (
           <Link
             key={item.path}
             to={item.path}
-            className={`flex items-center gap-2 md:gap-3 px-4 py-2.5 md:py-3 rounded-xl text-sm transition-all duration-200 font-medium ${location.pathname === item.path ? "bg-indigo-50/80 text-indigo-700 shadow-sm shadow-indigo-100" : "text-gray-600 hover:bg-gray-50/80 hover:text-gray-900"}`}
+            className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm transition-all duration-200 font-semibold ${location.pathname === item.path ? "bg-indigo-600 text-white shadow-md shadow-indigo-200" : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"}`}
           >
-            {item.icon}
+            <div className={`${location.pathname === item.path ? "text-white" : "text-slate-400"}`}>{item.icon}</div>
             <span className="md:inline">{item.label}</span>
-            {location.pathname === item.path && <ChevronRight className="w-3 h-3 ml-auto hidden md:block text-indigo-400" />}
+            {location.pathname === item.path && <ChevronRight className="w-4 h-4 ml-auto hidden md:block text-white/70" />}
           </Link>
         ))}
       </div>
@@ -51,7 +52,13 @@ function AdminSidebar() {
 }
 
 function AdminDashboard() {
-  const { data: dashboard, isLoading } = trpc.admin.dashboard.useQuery();
+  const { data: dashboard, isLoading } = useQuery({
+    queryKey: ["admin", "dashboard"],
+    queryFn: async () => {
+      const { data } = await apiClient.get("/admin/dashboard");
+      return data;
+    }
+  });
 
   if (isLoading) {
     return (
@@ -65,88 +72,89 @@ function AdminDashboard() {
   }
 
   const stats = [
-    { label: "Total Users", value: dashboard?.stats.totalUsers || 0, icon: <Users className="w-5 h-5 text-blue-600" />, color: "bg-blue-50" },
-    { label: "Total Products", value: dashboard?.stats.totalProducts || 0, icon: <Package className="w-5 h-5 text-green-600" />, color: "bg-green-50" },
-    { label: "Total Orders", value: dashboard?.stats.totalOrders || 0, icon: <ShoppingCart className="w-5 h-5 text-purple-600" />, color: "bg-purple-50" },
-    { label: "Revenue", value: `${CURRENCY}${(dashboard?.stats.totalRevenue || 0).toLocaleString()}`, icon: <DollarSign className="w-5 h-5 text-yellow-600" />, color: "bg-yellow-50" },
+    { label: "Total Users", value: dashboard?.stats.totalUsers || 0, icon: <Users className="w-6 h-6 text-blue-600" />, color: "bg-blue-50 text-blue-600", borderColor: "bg-blue-500" },
+    { label: "Total Products", value: dashboard?.stats.totalProducts || 0, icon: <Package className="w-6 h-6 text-emerald-600" />, color: "bg-emerald-50 text-emerald-600", borderColor: "bg-emerald-500" },
+    { label: "Total Orders", value: dashboard?.stats.totalOrders || 0, icon: <ShoppingCart className="w-6 h-6 text-purple-600" />, color: "bg-purple-50 text-purple-600", borderColor: "bg-purple-500" },
+    { label: "Revenue", value: `${CURRENCY}${(dashboard?.stats.totalRevenue || 0).toLocaleString()}`, icon: <DollarSign className="w-6 h-6 text-indigo-600" />, color: "bg-indigo-50 text-indigo-600", borderColor: "bg-indigo-500" },
   ];
 
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
         {stats.map((stat) => (
-          <Card key={stat.label} className="glass border-0 shadow-sm hover:shadow-md transition-shadow rounded-[1.5rem]">
-            <CardContent className="p-5 flex items-center gap-4">
-              <div className={`w-14 h-14 rounded-2xl ${stat.color} flex items-center justify-center shadow-inner`}>{stat.icon}</div>
+          <Card key={stat.label} className="bg-white border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 rounded-2xl overflow-hidden group">
+            <CardContent className="p-6 flex items-center gap-5 relative h-full">
+              <div className={`absolute top-0 left-0 w-1.5 h-full ${stat.borderColor}`} />
+              <div className={`w-14 h-14 rounded-2xl ${stat.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>{stat.icon}</div>
               <div>
-                <p className="text-2xl font-black text-gray-900 tracking-tight">{stat.value}</p>
-                <p className="text-sm font-medium text-gray-500">{stat.label}</p>
+                <p className="text-3xl font-black text-slate-900 tracking-tight">{stat.value}</p>
+                <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mt-1">{stat.label}</p>
               </div>
             </CardContent>
           </Card>
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <Card className="glass border-0 shadow-sm rounded-[1.5rem]">
-          <CardHeader className="pb-2">
-            <CardTitle className="text-lg flex items-center gap-2 font-bold text-gray-800"><TrendingUp className="w-5 h-5 text-indigo-500" /> Top Products</CardTitle>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+        <Card className="bg-white border border-slate-200 shadow-sm rounded-2xl">
+          <CardHeader className="pb-4 border-b border-slate-100">
+            <CardTitle className="text-base flex items-center gap-2 font-bold text-slate-800"><TrendingUp className="w-5 h-5 text-indigo-500" /> Top Products</CardTitle>
           </CardHeader>
-          <CardContent>
-            <div className="space-y-3">
+          <CardContent className="pt-4">
+            <div className="space-y-4">
               {dashboard?.topProducts?.length ? dashboard.topProducts.slice(0, 5).map((p: any) => (
-                <div key={p.id} className="flex items-center justify-between p-3 bg-white/50 border border-white rounded-xl shadow-sm hover:shadow-md transition-all">
-                  <p className="text-sm font-semibold text-gray-800 truncate flex-1">{p.name}</p>
-                  <span className="text-xs font-bold bg-indigo-50 text-indigo-700 px-2 py-1 rounded-md ml-3">{p.totalSales} sold</span>
+                <div key={p.id} className="flex items-center justify-between group">
+                  <p className="text-sm font-medium text-slate-700 truncate flex-1 group-hover:text-indigo-600 transition-colors cursor-default">{p.name}</p>
+                  <span className="text-xs font-bold bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full ml-3">{p.totalSales} sold</span>
                 </div>
-              )) : <p className="text-gray-500 text-center py-6 text-sm">No data</p>}
+              )) : <p className="text-slate-500 text-center py-6 text-sm">No data</p>}
             </div>
           </CardContent>
         </Card>
 
-        <Card className="glass border-0 shadow-sm rounded-[1.5rem]">
-          <CardHeader className="pb-2">
-            <CardTitle className="text-lg flex items-center gap-2 font-bold text-gray-800"><AlertTriangle className="w-5 h-5 text-rose-500" /> Low Stock</CardTitle>
+        <Card className="bg-white border border-slate-200 shadow-sm rounded-2xl">
+          <CardHeader className="pb-4 border-b border-slate-100">
+            <CardTitle className="text-base flex items-center gap-2 font-bold text-slate-800"><AlertTriangle className="w-5 h-5 text-rose-500" /> Low Stock</CardTitle>
           </CardHeader>
-          <CardContent>
-            <div className="space-y-3">
+          <CardContent className="pt-4">
+            <div className="space-y-4">
               {dashboard?.lowStock?.length ? dashboard.lowStock.slice(0, 5).map((p: any) => (
-                <div key={p.id} className="flex items-center justify-between p-3 bg-rose-50/50 border border-rose-100 rounded-xl shadow-sm hover:shadow-md transition-all">
-                  <p className="text-sm font-semibold text-gray-800 truncate flex-1">{p.name}</p>
-                  <Badge variant="destructive" className="text-xs shadow-sm bg-rose-500">{p.stockQuantity} left</Badge>
+                <div key={p.id} className="flex items-center justify-between group">
+                  <p className="text-sm font-medium text-slate-700 truncate flex-1 group-hover:text-rose-600 transition-colors cursor-default">{p.name}</p>
+                  <Badge variant="destructive" className="text-xs shadow-sm bg-rose-50 text-rose-700 border border-rose-200 hover:bg-rose-100 px-3 py-0.5 rounded-full">{p.stockQuantity} left</Badge>
                 </div>
-              )) : <p className="text-gray-500 text-center py-6 text-sm">All stocked</p>}
+              )) : <p className="text-slate-500 text-center py-6 text-sm">All stocked</p>}
             </div>
           </CardContent>
         </Card>
       </div>
 
-      <Card className="glass border-0 shadow-sm rounded-[1.5rem] overflow-hidden">
-        <CardHeader className="bg-white/40 border-b border-gray-100/50">
-          <CardTitle className="text-lg font-bold text-gray-800">Recent Orders</CardTitle>
+      <Card className="bg-white border border-slate-200 shadow-sm rounded-2xl overflow-hidden mt-6">
+        <CardHeader className="bg-slate-50/50 border-b border-slate-100 py-5">
+          <CardTitle className="text-base font-bold text-slate-800">Recent Orders</CardTitle>
         </CardHeader>
         <CardContent className="p-0">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-gray-50/50">
+              <thead className="bg-white border-b border-slate-100">
                 <tr>
-                  <th className="text-left py-4 px-6 font-semibold text-gray-600 uppercase tracking-wider text-xs">Order #</th>
-                  <th className="text-left py-4 px-6 font-semibold text-gray-600 uppercase tracking-wider text-xs">Status</th>
-                  <th className="text-left py-4 px-6 font-semibold text-gray-600 uppercase tracking-wider text-xs">Payment</th>
-                  <th className="text-left py-4 px-6 font-semibold text-gray-600 uppercase tracking-wider text-xs">Total</th>
-                  <th className="text-left py-4 px-6 font-semibold text-gray-600 uppercase tracking-wider text-xs">Date</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Order #</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Status</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Payment</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Total</th>
+                  <th className="text-left py-4 px-6 font-bold text-slate-500 uppercase tracking-wider text-[11px]">Date</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-100">
+              <tbody className="divide-y divide-slate-50">
                 {dashboard?.recentOrders?.length ? dashboard.recentOrders.slice(0, 10).map((order: any) => (
-                  <tr key={order.id} className="hover:bg-indigo-50/30 transition-colors">
-                    <td className="py-4 px-6 font-bold text-gray-900">{order.orderNumber}</td>
-                    <td className="py-4 px-6"><Badge variant="secondary" className="bg-white shadow-sm border border-gray-200 text-gray-700">{order.status}</Badge></td>
-                    <td className="py-4 px-6 uppercase font-medium text-gray-600">{order.paymentMethod}</td>
-                    <td className="py-4 px-6 font-bold text-indigo-700">{CURRENCY}{Number(order.total).toLocaleString()}</td>
-                    <td className="py-4 px-6 text-gray-500">{new Date(order.createdAt).toLocaleDateString()}</td>
+                  <tr key={order.id} className="hover:bg-slate-50/80 transition-colors group">
+                    <td className="py-4 px-6 font-semibold text-slate-900">{order.orderNumber}</td>
+                    <td className="py-4 px-6"><Badge variant="outline" className="bg-slate-50 text-slate-700 border-slate-200 capitalize font-medium rounded-md">{order.status}</Badge></td>
+                    <td className="py-4 px-6 font-medium text-slate-600 capitalize">{order.paymentMethod}</td>
+                    <td className="py-4 px-6 font-bold text-slate-900">{CURRENCY}{Number(order.total).toLocaleString()}</td>
+                    <td className="py-4 px-6 text-slate-500">{new Date(order.createdAt).toLocaleDateString()}</td>
                   </tr>
-                )) : <tr><td colSpan={5} className="text-center py-8 text-gray-500">No orders</td></tr>}
+                )) : <tr><td colSpan={5} className="text-center py-12 text-slate-500 font-medium bg-slate-50/50">No recent orders found.</td></tr>}
               </tbody>
             </table>
           </div>
