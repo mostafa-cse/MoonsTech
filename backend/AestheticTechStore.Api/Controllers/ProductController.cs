@@ -32,6 +32,13 @@ public class ProductController : ControllerBase
         return Ok(result);
     }
 
+    [HttpGet("products")]
+    public async Task<IActionResult> GetAdminProducts([FromQuery] int limit = 50)
+    {
+        var result = await _mediator.Send(new GetProductsQuery(null, null, null, null, null, null, 1, limit));
+        return Ok(result);
+    }
+
     [HttpGet("{id:guid}")]
     public async Task<IActionResult> GetProductById(Guid id)
     {

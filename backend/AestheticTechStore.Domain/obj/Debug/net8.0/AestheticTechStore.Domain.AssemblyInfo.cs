@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AestheticTechStore.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aeecb1f5f3e873f0f0103bca3716a45c54cbd60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25adec2a01914edb6977d5a09ed3ed80828e3b9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AestheticTechStore.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AestheticTechStore.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -80,4 +80,35 @@ public class AdminController : ControllerBase
         var result = await _mediator.Send(query);
         return Ok(result);
     }
+
+    [HttpGet("banners")]
+    public async Task<ActionResult> GetBanners()
+    {
+        var result = await _mediator.Send(new AestheticTechStore.Application.Features.Admin.Queries.GetAdminBannersQuery());
+        return Ok(result);
+    }
+
+    [HttpPost("banners")]
+    public async Task<ActionResult> CreateBanner([FromBody] AestheticTechStore.Application.Features.Admin.Commands.CreateBannerCommand command)
+    {
+        var result = await _mediator.Send(command);
+        return Ok(new { id = result });
+    }
+
+    [HttpPut("banners/{id}")]
+    public async Task<ActionResult> UpdateBanner(Guid id, [FromBody] AestheticTechStore.Application.Features.Admin.Commands.UpdateBannerCommand command)
+    {
+        command.Id = id;
+        var result = await _mediator.Send(command);
+        if (!result) return NotFound();
+        return Ok();
+    }
+
+    [HttpDelete("banners/{id}")]
+    public async Task<ActionResult> DeleteBanner(Guid id)
+    {
+        var result = await _mediator.Send(new AestheticTechStore.Application.Features.Admin.Commands.DeleteBannerCommand { Id = id });
+        if (!result) return NotFound();
+        return Ok();
+    }
 }

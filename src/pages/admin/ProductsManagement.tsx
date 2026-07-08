@@ -89,7 +89,7 @@ export default function ProductsManagement() {
       sku: p.sku || "",
       slug: p.slug,
       regularPrice: p.regularPrice.toString(),
-      salePrice: p.salePrice ? p.salePrice.toString() : "",
+      salePrice: p.discountPrice ? p.discountPrice.toString() : "",
       stockQuantity: p.stockQuantity || 0,
       categoryId: p.categoryId ? p.categoryId.toString() : "",
       brandId: p.brandId ? p.brandId.toString() : "",
@@ -109,7 +109,7 @@ export default function ProductsManagement() {
     const payload = {
       ...formData,
       regularPrice: formData.regularPrice,
-      salePrice: formData.salePrice ? formData.salePrice : undefined,
+      discountPrice: formData.salePrice ? formData.salePrice : undefined,
       stockQuantity: Number(formData.stockQuantity),
       categoryId: formData.categoryId ? Number(formData.categoryId) : undefined,
       brandId: formData.brandId ? Number(formData.brandId) : undefined,
@@ -153,10 +153,10 @@ export default function ProductsManagement() {
                   productsList.items.map((p: any) => (
                     <tr key={p.id} className="hover:bg-slate-50/80 transition-colors group">
                       <td className="py-4 px-6 font-semibold text-slate-900">{p.name}</td>
-                      <td className="py-4 px-6 font-medium text-slate-700">{CURRENCY}{Number(p.salePrice || p.regularPrice).toLocaleString()}</td>
+                      <td className="py-4 px-6 font-medium text-slate-700">{CURRENCY}{Number(p.discountPrice || p.regularPrice).toLocaleString()}</td>
                       <td className="py-4 px-6">
-                        <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${p.stockStatus === 'in_stock' ? 'bg-emerald-50 text-emerald-700' : p.stockStatus === 'pre_order' ? 'bg-blue-50 text-blue-700' : 'bg-rose-50 text-rose-700'}`}>
-                          {p.stockStatus === 'in_stock' ? `${p.stockQuantity} in stock` : p.stockStatus.replace('_', ' ')}
+                        <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${(p.stockStatus || (p.stockQuantity > 0 ? 'in_stock' : 'out_of_stock')) === 'in_stock' ? 'bg-emerald-50 text-emerald-700' : (p.stockStatus || (p.stockQuantity > 0 ? 'in_stock' : 'out_of_stock')) === 'pre_order' ? 'bg-blue-50 text-blue-700' : 'bg-rose-50 text-rose-700'}`}>
+                          {(p.stockStatus || (p.stockQuantity > 0 ? 'in_stock' : 'out_of_stock')) === 'in_stock' ? `${p.stockQuantity} in stock` : (p.stockStatus || (p.stockQuantity > 0 ? 'in_stock' : 'out_of_stock')).replace('_', ' ')}
                         </span>
                       </td>
                       <td className="py-4 px-6">

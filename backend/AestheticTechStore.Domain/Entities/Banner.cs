@@ -2,8 +2,9 @@ using System;
 
 namespace AestheticTechStore.Domain.Entities;
 
-public class Banner : BaseEntity
+public class Banner
 {
+    public Guid Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public string Subtitle { get; set; } = string.Empty;
     public string Image { get; set; } = string.Empty;

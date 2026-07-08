@@ -60,6 +60,43 @@ namespace AestheticTechStore.Infrastructure.Migrations
                     b.ToTable("Addresses");
                 });
 
+            modelBuilder.Entity("AestheticTechStore.Domain.Entities.Banner", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Link")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Position")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("SortOrder")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Subtitle")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Banners");
+                });
+
             modelBuilder.Entity("AestheticTechStore.Domain.Entities.Brand", b =>
                 {
                     b.Property<Guid>("Id")
@@ -548,27 +585,21 @@ namespace AestheticTechStore.Infrastructure.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Avatar")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("District")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Division")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("EmergencyContact")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Thana")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("UserId")
