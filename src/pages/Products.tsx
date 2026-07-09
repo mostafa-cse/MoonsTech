@@ -304,15 +304,15 @@ export default function Products() {
                       <Card key={product.id} className="group hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden border-gray-100 bg-white/80 backdrop-blur-sm rounded-2xl flex flex-col h-full">
                         <Link to={`/product/${product.slug}`}>
                           <div className="relative aspect-square bg-gray-50 overflow-hidden">
-                            {product.image ? (
-                              <ImageWithFallback src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" />
+                            {product.imageUrl ? (
+                              <ImageWithFallback src={product.imageUrl} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" />
                             ) : (
                               <div className="w-full h-full flex items-center justify-center text-gray-300 bg-gradient-to-br from-gray-50 to-gray-100">
                                 <PackageOpen className="w-10 h-10" />
                               </div>
                             )}
-                            {product.discount > 0 && (
-                              <Badge className="absolute top-3 left-3 bg-rose-500 hover:bg-rose-600 shadow-sm">-{product.discount}%</Badge>
+                            {product.discountPrice && (
+                              <Badge className="absolute top-3 left-3 bg-rose-500 hover:bg-rose-600 shadow-sm">-{Math.round((1 - product.discountPrice / product.regularPrice) * 100)}%</Badge>
                             )}
                             {product.isNewArrival && (
                               <Badge className="absolute top-3 right-3 bg-emerald-500 hover:bg-emerald-600 shadow-sm">New</Badge>
@@ -325,12 +325,13 @@ export default function Products() {
                           </Link>
                           <div className="flex items-center gap-1 mt-1 mb-2">
                             <Star className="w-3 h-3 fill-yellow-400 text-yellow-400" />
-                            <span className="text-xs text-gray-500">{product.avgRating} ({product.reviewCount})</span>
+                            <span className="text-xs text-gray-500">{product.avgRating || '0.0'} ({product.reviewCount || 0})</span>
                           </div>
+                          <p className="text-xs text-gray-500 line-clamp-2 mb-2">{product.shortDescription || "No description available."}</p>
                           <div className="mt-auto pt-2">
                             <div className="flex items-end gap-2 mb-3">
-                              <span className="text-lg font-bold text-indigo-600 leading-none">{CURRENCY}{Number(product.salePrice || product.regularPrice).toLocaleString()}</span>
-                              {product.salePrice && Number(product.salePrice) !== Number(product.regularPrice) && (
+                              <span className="text-lg font-bold text-indigo-600 leading-none">{CURRENCY}{Number(product.discountPrice || product.regularPrice).toLocaleString()}</span>
+                              {product.discountPrice && Number(product.discountPrice) !== Number(product.regularPrice) && (
                                 <span className="text-xs text-gray-400 line-through leading-none pb-0.5">{CURRENCY}{Number(product.regularPrice).toLocaleString()}</span>
                               )}
                             </div>
@@ -338,7 +339,7 @@ export default function Products() {
                               <Button 
                                 size="sm" 
                                 className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-medium h-9 shadow-sm shadow-indigo-200"
-                                disabled={addToCart.isPending || product.stockStatus !== 'in_stock'}
+                                disabled={addToCart.isPending || product.stockQuantity <= 0}
                                 onClick={() => {
                                   if (!isAuthenticated) { toast.error('Please log in to add items to cart'); return; }
                                   addToCart.mutate({ 
@@ -346,9 +347,9 @@ export default function Products() {
                                     quantity: 1,
                                     name: product.name,
                                     slug: product.slug,
-                                    image: product.image,
+                                    image: product.imageUrl,
                                     sku: product.sku,
-                                    unitPrice: product.salePrice || product.regularPrice
+                                    unitPrice: product.discountPrice || product.regularPrice
                                   });
                                 }}
                               ><ShoppingCart className="w-4 h-4 mr-1.5" /> Add</Button>
@@ -381,15 +382,15 @@ export default function Products() {
                       <Card key={product.id} className="group hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden border-gray-100 bg-white/80 backdrop-blur-sm rounded-2xl">
                         <CardContent className="p-4 sm:p-6 flex flex-col sm:flex-row gap-6 items-start sm:items-center">
                           <Link to={`/product/${product.slug}`} className="w-full sm:w-32 h-40 sm:h-32 shrink-0 bg-gray-50 rounded-xl overflow-hidden relative block">
-                            {product.image ? (
-                              <ImageWithFallback src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                            {product.imageUrl ? (
+                              <ImageWithFallback src={product.imageUrl} alt={product.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                             ) : (
                               <div className="w-full h-full flex items-center justify-center text-gray-300 bg-gradient-to-br from-gray-50 to-gray-100">
                                 <PackageOpen className="w-8 h-8" />
                               </div>
                             )}
-                            {product.discount > 0 && (
-                              <Badge className="absolute top-2 left-2 bg-rose-500 shadow-sm">-{product.discount}%</Badge>
+                            {product.discountPrice && (
+                              <Badge className="absolute top-2 left-2 bg-rose-500 shadow-sm">-{Math.round((1 - product.discountPrice / product.regularPrice) * 100)}%</Badge>
                             )}
                           </Link>
                           <div className="flex-1 min-w-0">
@@ -399,26 +400,26 @@ export default function Products() {
                             <div className="flex items-center gap-2 mt-2">
                               <div className="flex items-center gap-1">
                                 <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                                <span className="text-sm font-medium text-gray-700">{product.avgRating}</span>
+                                <span className="text-sm font-medium text-gray-700">{product.avgRating || '0.0'}</span>
                               </div>
                               <span className="text-gray-300">•</span>
-                              <span className="text-sm text-gray-500">{product.reviewCount} reviews</span>
+                              <span className="text-sm text-gray-500">{product.reviewCount || 0} reviews</span>
                               <span className="text-gray-300">•</span>
-                              <span className={`text-sm font-medium ${product.stockStatus === "in_stock" ? "text-emerald-600" : "text-rose-500"}`}>
-                                {product.stockStatus === "in_stock" ? "In Stock" : "Out of Stock"}
+                              <span className={`text-sm font-medium ${product.stockQuantity > 0 ? "text-emerald-600" : "text-rose-500"}`}>
+                                {product.stockQuantity > 0 ? "In Stock" : "Out of Stock"}
                               </span>
                             </div>
                             <p className="text-sm text-gray-500 mt-2 line-clamp-2">{product.shortDescription || "No description available."}</p>
                           </div>
                           <div className="flex flex-col items-start sm:items-end shrink-0 w-full sm:w-auto mt-4 sm:mt-0 pt-4 sm:pt-0 border-t sm:border-0 border-gray-100">
-                            <p className="text-2xl font-extrabold text-indigo-600">{CURRENCY}{Number(product.salePrice || product.regularPrice).toLocaleString()}</p>
-                            {product.salePrice && Number(product.salePrice) !== Number(product.regularPrice) && (
+                            <p className="text-2xl font-extrabold text-indigo-600">{CURRENCY}{Number(product.discountPrice || product.regularPrice).toLocaleString()}</p>
+                            {product.discountPrice && Number(product.discountPrice) !== Number(product.regularPrice) && (
                               <p className="text-sm text-gray-400 line-through mt-0.5">{CURRENCY}{Number(product.regularPrice).toLocaleString()}</p>
                             )}
                             <div className="flex gap-2 mt-4 w-full">
                               <Button 
                                 className="flex-1 sm:flex-none bg-indigo-600 hover:bg-indigo-700 text-white font-medium h-10 px-6 shadow-sm shadow-indigo-200"
-                                disabled={addToCart.isPending || product.stockStatus !== 'in_stock'}
+                                disabled={addToCart.isPending || product.stockQuantity <= 0}
                                 onClick={() => {
                                   if (!isAuthenticated) { toast.error('Please log in to add items to cart'); return; }
                                   addToCart.mutate({ 
@@ -426,9 +427,9 @@ export default function Products() {
                                     quantity: 1,
                                     name: product.name,
                                     slug: product.slug,
-                                    image: product.image,
+                                    image: product.imageUrl,
                                     sku: product.sku,
-                                    unitPrice: product.salePrice || product.regularPrice
+                                    unitPrice: product.discountPrice || product.regularPrice
                                   });
                                 }}
                               ><ShoppingCart className="w-4 h-4 mr-2" /> Add to Cart</Button>
